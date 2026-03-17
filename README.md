@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-17T19:54:52.083Z`
+Last updated: `2026-03-17T20:18:38.699Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **734**
-- Categories in use: **18**
-- Newly detected this run: **0**
+- Total starred repositories: **735**
+- Categories in use: **24**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **111**
 
 ## How It Works
 
@@ -103,6 +103,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [sametcn99/my-stars-atlas](https://github.com/sametcn99/my-stars-atlas) - A generated catalog of starred GitHub repositories, grouped into stable categories.
 - [karpathy/jobs](https://github.com/karpathy/jobs) - A research tool for visually exploring Bureau of Labor Statistics Occupational Outlook Handbook data. This is not a report, a paper, or a serious economic publication — it is a development tool for exploring BLS data visually.
 - [k-eren-k/GemBot-AI-Automation-Free](https://github.com/k-eren-k/GemBot-AI-Automation-Free) - Playwright based Gemini AI assistant REST API
 - [npmx-dev/vscode-npmx](https://github.com/npmx-dev/vscode-npmx) - A better browser for the npm registry
@@ -114,4 +115,3 @@ changes, UX adjustments, or sync behavior updates.
 - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
 - [f/agentlytics](https://github.com/f/agentlytics) - Comprehensive analytics dashboard for AI coding agents — Cursor, Windsurf, Claude Code, VS Code Copilot, Zed, Antigravity, OpenCode, Command Code
 - [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
-- [themesberg/flowbite-blazor](https://github.com/themesberg/flowbite-blazor) - Blazor components built for Flowbite and Tailwind CSS

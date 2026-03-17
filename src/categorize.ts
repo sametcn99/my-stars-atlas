@@ -36,6 +36,37 @@ function categoryMap(config: CategoryConfig): Map<string, CategoryDefinition> {
 	return new Map(config.categories.map((category) => [category.id, category]));
 }
 
+function getDefaultCategoryDefinition(
+	categoryConfig: CategoryConfig,
+	categoriesById: Map<string, CategoryDefinition>,
+): CategoryDefinition {
+	const defaultCategory = categoriesById.get(categoryConfig.defaultCategory);
+	if (!defaultCategory) {
+		throw new Error(
+			`Unknown default category '${categoryConfig.defaultCategory}'.`,
+		);
+	}
+
+	return defaultCategory;
+}
+
+function resolveConfiguredClassification(
+	classification: DeterministicClassification,
+	defaultCategory: CategoryDefinition,
+	categoriesById: Map<string, CategoryDefinition>,
+): DeterministicClassification {
+	if (categoriesById.has(classification.category)) {
+		return classification;
+	}
+
+	return {
+		category: defaultCategory.id,
+		confidence: 0.2,
+		reason: `Unknown category '${classification.category}' resolved to default '${defaultCategory.id}'.`,
+		source: "default",
+	};
+}
+
 function normalizeRuleValue(value: string): string {
 	return value.trim().toLowerCase();
 }
@@ -361,6 +392,10 @@ export function categorizeRepositories(
 	overrides: OverridesConfig,
 ): ClassifiedStarRecord[] {
 	const categoriesById = categoryMap(categoryConfig);
+	const defaultCategory = getDefaultCategoryDefinition(
+		categoryConfig,
+		categoriesById,
+	);
 	const classified: ClassifiedStarRecord[] = [];
 
 	for (const repo of repos) {
@@ -373,11 +408,16 @@ export function categorizeRepositories(
 			categoryConfig,
 			overrides,
 		);
-		const category = deterministic.category;
-		const confidence = deterministic.confidence;
-		const reason = deterministic.reason;
+		const resolved = resolveConfiguredClassification(
+			deterministic,
+			defaultCategory,
+			categoriesById,
+		);
+		const category = resolved.category;
+		const confidence = resolved.confidence;
+		const reason = resolved.reason;
 		const source: ClassifiedStarRecord["classificationSource"] =
-			deterministic.source;
+			resolved.source;
 
 		const categoryDefinition = categoriesById.get(category);
 		if (!categoryDefinition) {

@@ -98,8 +98,15 @@ function buildCatalogManifest(payload: {
 	categoryConfig: CategoryConfig;
 }): CatalogManifest {
 	const counts = new Map<string, number>();
+	const configuredCategoryIds = new Set(
+		payload.categoryConfig.categories.map((category) => category.id),
+	);
 
 	for (const item of payload.snapshot.items) {
+		if (!configuredCategoryIds.has(item.category)) {
+			continue;
+		}
+
 		counts.set(item.category, (counts.get(item.category) ?? 0) + 1);
 	}
 
