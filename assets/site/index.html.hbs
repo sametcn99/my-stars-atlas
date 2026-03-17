@@ -3,33 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Stars Atlas | @sametcn99</title>
-    <meta
-      name="description"
-      content="Browse sametcn99's starred GitHub repositories with progressive loading, category sections, search, filters, and sorting."
-    />
+    <title>{{site.fullTitle}}</title>
+    <meta name="description" content="{{site.seo.description}}" />
     <meta name="theme-color" content="#0a0a0a" />
     <meta name="color-scheme" content="dark" />
     <meta name="robots" content="index,follow" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="My Stars Atlas | @sametcn99" />
-    <meta
-      property="og:description"
-      content="A searchable, installable catalog of starred repositories with progressive chunk loading and category-first browsing."
-    />
-    <meta property="og:image" content="https://github.com/sametcn99.png?size=512" />
+    <meta property="og:type" content="{{site.seo.ogType}}" />
+    <meta property="og:title" content="{{site.seo.ogTitle}}" />
+    <meta property="og:description" content="{{site.seo.ogDescription}}" />
+    <meta property="og:image" content="{{{site.seo.imageUrl}}}" />
     <meta property="og:url" content="./" />
-    <meta property="og:site_name" content="My Stars Atlas | @sametcn99" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="My Stars Atlas | @sametcn99" />
-    <meta
-      name="twitter:description"
-      content="Explore starred repositories by category, language, popularity, and recency without loading the whole dataset upfront."
-    />
-    <meta name="twitter:image" content="https://github.com/sametcn99.png?size=512" />
+    <meta property="og:site_name" content="{{site.seo.siteName}}" />
+    <meta name="twitter:card" content="{{site.seo.twitterCard}}" />
+    <meta name="twitter:title" content="{{site.seo.twitterTitle}}" />
+    <meta name="twitter:description" content="{{site.seo.twitterDescription}}" />
+    <meta name="twitter:image" content="{{{site.seo.imageUrl}}}" />
     <link rel="canonical" href="./" />
-    <link rel="icon" type="image/png" sizes="192x192" href="https://github.com/sametcn99.png?size=192" />
-    <link rel="apple-touch-icon" href="https://github.com/sametcn99.png?size=192" />
+    <link rel="icon" type="image/png" sizes="192x192" href="{{{site.manifest.icons.[0].src}}}" />
+    <link rel="apple-touch-icon" href="{{{site.manifest.icons.[0].src}}}" />
     <link rel="manifest" href="./manifest.json" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -52,11 +43,8 @@
         <div class="container-xxl hero-grid">
           <div class="hero-copy surface-panel surface-panel-lg">
             <p class="eyebrow">Static GitHub Pages catalog</p>
-            <h1 id="page-title">My Stars Atlas</h1>
-            <p id="page-description" class="hero-description">
-              Explore starred repositories with progressive chunk loading, category-first browsing, debounced search,
-              and a tailored dark interface.
-            </p>
+            <h1 id="page-title">{{site.heroTitle}}</h1>
+            <p id="page-description" class="hero-description">{{site.heroDescription}}</p>
 
             <div class="hero-meta" aria-label="Catalog metrics">
               <div class="metric-tile">
@@ -74,8 +62,8 @@
             </div>
 
             <div class="hero-actions">
-              <a class="btn atlas-btn-primary" href="https://github.com/sametcn99" target="_blank" rel="noreferrer noopener">
-                GitHub Profile
+              <a class="btn atlas-btn-primary" href="{{{github.profileUrl}}}" target="_blank" rel="noreferrer noopener">
+                {{site.profileLinkLabel}}
               </a>
             </div>
           </div>

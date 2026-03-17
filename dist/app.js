@@ -431,27 +431,9 @@ function setupEnhancedSelects() {
 }
 
 function updateSeo(manifest) {
-	document.title = `${manifest.title} Atlas`;
-
-	const description = `${manifest.description} Explore ${formatNumber(manifest.total)} repositories across ${manifest.categories.length} categories.`;
-	document
-		.querySelector('meta[name="description"]')
-		.setAttribute("content", description);
-	document
-		.querySelector('meta[property="og:title"]')
-		.setAttribute("content", `${manifest.title} Atlas`);
-	document
-		.querySelector('meta[property="og:description"]')
-		.setAttribute("content", description);
-	document
-		.querySelector('meta[name="twitter:title"]')
-		.setAttribute("content", `${manifest.title} Atlas`);
-	document
-		.querySelector('meta[name="twitter:description"]')
-		.setAttribute("content", description);
-	document
-		.querySelector('meta[property="og:url"]')
-		.setAttribute("content", window.location.href);
+	if (!document.title && manifest?.title) {
+		document.title = manifest.title;
+	}
 }
 
 function setStatus(message, tone = "idle") {
@@ -478,11 +460,11 @@ function updateHeaderStats() {
 	}
 
 	if (elements.pageTitle) {
-		elements.pageTitle.textContent = `${manifest.title} Atlas`;
+		elements.pageTitle.textContent ||= manifest.title;
 	}
 
 	if (elements.pageDescription) {
-		elements.pageDescription.textContent = manifest.description;
+		elements.pageDescription.textContent ||= manifest.description;
 	}
 
 	if (elements.loadedCount) {

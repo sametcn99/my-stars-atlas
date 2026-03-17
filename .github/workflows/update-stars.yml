@@ -3,10 +3,6 @@ name: Update Stars
 on:
   workflow_dispatch:
     inputs:
-      username:
-        description: GitHub username to fetch public stars from
-        required: false
-        type: string
       force:
         description: Skip count pre-check and force a full refresh from the GitHub API
         required: false
@@ -22,19 +18,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      GITHUB_USERNAME: ${{ inputs.username || vars.STARS_USERNAME }}
-      README_TITLE: ${{ vars.README_TITLE || 'My Stars' }}
-      README_DESCRIPTION: ${{ vars.README_DESCRIPTION || 'A generated catalog of starred GitHub repositories, grouped into stable categories.' }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       FORCE_REFRESH: ${{ inputs.force == true && 'true' || 'false' }}
     steps:
-      - name: Fail if username is not configured
-        run: |
-          test -n "$GITHUB_USERNAME" || {
-            echo "Set repository variable STARS_USERNAME or pass workflow_dispatch input 'username'."
-            exit 1
-          }
-
       - uses: actions/checkout@v4
 
       - uses: oven-sh/setup-bun@v2

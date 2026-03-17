@@ -17,6 +17,87 @@ export type CategoryConfig = {
 	categories: CategoryDefinition[];
 };
 
+export type AppConfigFile = {
+	github: {
+		username: string;
+	};
+	readme?: {
+		title?: string;
+		description?: string;
+	};
+	site?: {
+		title?: string;
+		heroTitle?: string;
+		heroDescription?: string;
+		profileLinkLabel?: string;
+		seo?: {
+			description?: string;
+			ogDescription?: string;
+			twitterDescription?: string;
+			twitterCard?: string;
+			socialImageUrl?: string;
+			iconUrl?: string;
+		};
+		manifest?: {
+			shortName?: string;
+			description?: string;
+		};
+	};
+};
+
+export type SiteManifestIconConfig = {
+	src: string;
+	sizes: string;
+	type: string;
+};
+
+export type SiteManifestConfig = {
+	name: string;
+	shortName: string;
+	description: string;
+	startUrl: string;
+	scope: string;
+	display: string;
+	themeColor: string;
+	lang: string;
+	icons: SiteManifestIconConfig[];
+};
+
+export type SiteSeoConfig = {
+	description: string;
+	ogType: string;
+	ogTitle: string;
+	ogDescription: string;
+	imageUrl: string;
+	siteName: string;
+	twitterCard: string;
+	twitterTitle: string;
+	twitterDescription: string;
+};
+
+export type SiteConfig = {
+	title: string;
+	fullTitle: string;
+	heroTitle: string;
+	heroDescription: string;
+	profileLinkLabel: string;
+	seo: SiteSeoConfig;
+	manifest: SiteManifestConfig;
+};
+
+export type AppConfig = {
+	github: {
+		username: string;
+		profileUrl: string;
+		avatarUrl: string;
+	};
+	readme: {
+		title: string;
+		description: string;
+	};
+	site: SiteConfig;
+};
+
 export type RepoMatchRule = {
 	fullName?: string;
 	name?: string;
@@ -149,6 +230,7 @@ export type DiffSummary = {
 };
 
 export type RuntimeConfig = {
+	app: AppConfig;
 	username: string;
 	dryRun: boolean;
 	stdout: boolean;

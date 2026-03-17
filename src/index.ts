@@ -13,6 +13,7 @@ import {
 	fetchStarredRepositoryCount,
 } from "./github.ts";
 import { renderReadme } from "./render.ts";
+import { syncStaticSiteShell } from "./site-shell.ts";
 import type {
 	CatalogManifest,
 	CategoryConfig,
@@ -22,14 +23,6 @@ import type {
 } from "./types.ts";
 
 const STAR_CHUNK_SIZE = 100;
-const STATIC_SITE_FILES = [
-	"index.html",
-	"styles.css",
-	"app.js",
-	"manifest.json",
-	"robots.txt",
-];
-
 function getChunkFileName(index: number): string {
 	return `stars-${String(index + 1).padStart(3, "0")}.json`;
 }
@@ -134,30 +127,15 @@ function buildCatalogManifest(payload: {
 			.filter((category) => category.count > 0),
 	};
 }
-
-async function syncStaticSiteShell(): Promise<void> {
-	await mkdir(paths.publishRoot, { recursive: true });
-
-	await Promise.all(
-		STATIC_SITE_FILES.map((fileName) =>
-			Bun.write(
-				new URL(fileName, paths.publishRoot),
-				Bun.file(new URL(fileName, paths.siteShell)),
-			),
-		),
-	);
-
-	await Bun.write(new URL(".nojekyll", paths.publishRoot), "");
-}
-
 async function writeOutputs(payload: {
 	readme: string;
 	snapshot: StarsSnapshot;
 	catalog: CatalogManifest;
+	appConfig: Awaited<ReturnType<typeof loadRuntimeConfig>>["app"];
 }): Promise<void> {
 	await mkdir(paths.publishRoot, { recursive: true });
 	await mkdir(paths.data, { recursive: true });
-	await syncStaticSiteShell();
+	await syncStaticSiteShell(payload.appConfig);
 
 	const chunks = chunkSnapshot(payload.snapshot);
 	const existingChunkFiles = await listChunkFiles(paths.data);
@@ -187,7 +165,7 @@ async function writeOutputs(payload: {
 }
 
 async function main(): Promise<void> {
-	const runtimeConfig = loadRuntimeConfig();
+	const runtimeConfig = await loadRuntimeConfig();
 	const [categoryConfig, overrides, previousSnapshot] = await Promise.all([
 		loadCategoryConfig(),
 		loadOverridesConfig(),
@@ -243,6 +221,7 @@ async function main(): Promise<void> {
 			readme,
 			snapshot,
 			catalog,
+			appConfig: runtimeConfig.app,
 		});
 	}
 

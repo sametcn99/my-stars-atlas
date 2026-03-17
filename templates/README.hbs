@@ -32,7 +32,8 @@ The project is useful if you want to:
 The generator fetches starred repositories for `@{{username}}`, classifies each repository with stable rule-based
 categories, writes the results into chunked files under `dist/data/`, and rebuilds this README together with the static site
 assets. The frontend then reads the generated catalog and chunk files to provide filtering, search, sorting, and
-progressive loading in the browser.
+progressive loading in the browser. The main project-level settings now live in `config/config.json`, while
+classification behavior stays in `config/categories.json` and `config/overrides.json`.
 
 ## Use This Project
 
@@ -41,8 +42,8 @@ You can use this project in three common ways:
 ### 1. Fork It
 
 Fork the repository if you want to keep the existing setup and adapt it for your own GitHub account. After forking,
-update the repository secrets or environment variables for your own username and token, then run the generator on your
-fork.
+edit `config/config.json` for your own username, README copy, and site SEO settings, then add a GitHub token before
+running the generator on your fork.
 
 ### 2. Clone It
 
@@ -51,22 +52,33 @@ UI, or deployment flow.
 
 ```bash
 git clone <your-fork-or-copy-url>
-cd my-stars
+cd my-stars-atlas
 bun install
 ```
 
-You can then generate the data with either environment variables or CLI arguments:
+The easiest setup flow is:
 
 ```bash
-bun run src/index.ts --username <your-github-handle>
+bun run update
 ```
+
+Before your first run, update `config/config.json`:
+
+- `github.username`: the GitHub account whose stars will be indexed.
+- `readme.title` and `readme.description`: the generated README heading and intro text.
+- `site.title`, `site.heroDescription`, and `site.profileLinkLabel`: the visible site branding.
+- `site.seo.description`, `site.seo.ogDescription`, `site.seo.twitterDescription`: editable share text.
+- `site.manifest.shortName`, `site.manifest.description`: editable PWA labels.
+
+Additional config files:
+
+- `config/categories.json`: deterministic category definitions and priorities.
+- `config/overrides.json`: exclusions and manual category overrides.
 
 Optional environment variables:
 
-- `GITHUB_USERNAME` or `STARS_USERNAME`: the GitHub account whose stars will be indexed.
 - `GITHUB_TOKEN` or `GH_TOKEN`: recommended to avoid low unauthenticated API limits.
-- `README_TITLE`: custom README title.
-- `README_DESCRIPTION`: custom README description.
+- `FORCE_REFRESH=true`: forces a full refetch even if the cached count has not changed.
 
 If you want to preview the generated site locally after a run, use `bun run preview` and open `http://localhost:4173`.
 

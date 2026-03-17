@@ -1,0 +1,23 @@
+{
+	"github": {
+		"username": "sametcn99"
+	},
+	"readme": {
+		"title": "My Stars",
+		"description": "A generated catalog of starred GitHub repositories, grouped into stable categories."
+	},
+	"site": {
+		"title": "My Stars Atlas",
+		"heroDescription": "Explore starred repositories with progressive chunk loading, category-first browsing, debounced search, and a tailored dark interface.",
+		"profileLinkLabel": "GitHub Profile",
+		"seo": {
+			"description": "Browse starred GitHub repositories with progressive loading, category sections, search, filters, and sorting.",
+			"ogDescription": "A searchable, installable catalog of starred repositories with progressive chunk loading and category-first browsing.",
+			"twitterDescription": "Explore starred repositories by category, language, popularity, and recency without loading the whole dataset upfront."
+		},
+		"manifest": {
+			"shortName": "Stars Atlas",
+			"description": "A searchable, installable catalog of starred GitHub repositories with progressive chunk loading."
+		}
+	}
+}

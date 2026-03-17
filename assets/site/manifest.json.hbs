@@ -1,0 +1,20 @@
+{
+	"name": {{{json site.manifest.name}}},
+	"short_name": {{{json site.manifest.shortName}}},
+	"description": {{{json site.manifest.description}}},
+	"start_url": "./",
+	"scope": "./",
+	"display": "standalone",
+	"background_color": "#0a0c10",
+	"theme_color": "#0f1115",
+	"lang": "en",
+	"icons": [
+		{{#each site.manifest.icons}}
+		{
+			"src": {{{json src}}},
+			"sizes": {{{json sizes}}},
+			"type": {{{json type}}}
+		}{{#unless @last}},{{/unless}}
+		{{/each}}
+	]
+}
