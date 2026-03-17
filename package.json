@@ -4,6 +4,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"build": "bun run src/build-site.ts",
 		"update": "bun run src/index.ts",
 		"preview": "bunx serve dist --listen 4173",
 		"typecheck": "bunx tsc --noEmit",

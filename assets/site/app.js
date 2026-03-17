@@ -185,6 +185,33 @@ function buildCountedOptions(records, getValue, getLabel, allValue, allLabel) {
 	return [{ value: allValue, label: allLabel }, ...options];
 }
 
+function preserveSelectedOption(options, currentValue, allValue, getLabel) {
+	if (
+		currentValue === allValue ||
+		options.some((option) => option.value === currentValue)
+	) {
+		return options;
+	}
+
+	return [
+		...options,
+		{
+			value: currentValue,
+			label: `${getLabel(currentValue)} (${formatNumber(0)})`,
+		},
+	].sort((left, right) => {
+		if (left.value === allValue) {
+			return -1;
+		}
+
+		if (right.value === allValue) {
+			return 1;
+		}
+
+		return left.value.localeCompare(right.value);
+	});
+}
+
 function updateSelectOptions(select, options, currentValue) {
 	select.replaceChildren(
 		...options.map((option) => {
@@ -471,27 +498,41 @@ function updateHeaderStats() {
 	}
 }
 
-function getBaseFilteredRecords() {
-	return state.records.filter((record) => matchesRecordFilters(record));
+function getFilteredRecords(excludedFilters = []) {
+	return state.records.filter((record) =>
+		matchesRecordFilters(record, excludedFilters),
+	);
 }
 
 function renderDynamicFilters() {
-	const languageOptions = buildCountedOptions(
-		state.records.filter((record) =>
-			matchesRecordFilters(record, ["language"]),
+	const languageOptions = preserveSelectedOption(
+		buildCountedOptions(
+			state.records.filter((record) =>
+				matchesRecordFilters(record, ["language"]),
+			),
+			(record) => getFilterValue(record.language, NO_LANGUAGE),
+			(value) => (value === NO_LANGUAGE ? "No language" : value),
+			ALL_LANGUAGE,
+			"All languages",
 		),
-		(record) => getFilterValue(record.language, NO_LANGUAGE),
-		(value) => (value === NO_LANGUAGE ? "No language" : value),
+		state.filters.language,
 		ALL_LANGUAGE,
-		"All languages",
+		(value) => (value === NO_LANGUAGE ? "No language" : value),
 	);
 
-	const licenseOptions = buildCountedOptions(
-		state.records.filter((record) => matchesRecordFilters(record, ["license"])),
-		(record) => getFilterValue(record.license, NO_LICENSE),
-		(value) => (value === NO_LICENSE ? "No license" : value),
+	const licenseOptions = preserveSelectedOption(
+		buildCountedOptions(
+			state.records.filter((record) =>
+				matchesRecordFilters(record, ["license"]),
+			),
+			(record) => getFilterValue(record.license, NO_LICENSE),
+			(value) => (value === NO_LICENSE ? "No license" : value),
+			ALL_LICENSE,
+			"All licenses",
+		),
+		state.filters.license,
 		ALL_LICENSE,
-		"All licenses",
+		(value) => (value === NO_LICENSE ? "No license" : value),
 	);
 
 	state.filters.language = updateSelectOptions(
@@ -584,7 +625,6 @@ function renderCategoryPills(baseRecords) {
 	];
 
 	elements.categoryPills.innerHTML = pills
-		.filter((category) => category.id === ALL_CATEGORY || category.count > 0)
 		.map(
 			(category) => `
         <button
@@ -647,8 +687,9 @@ function renderSections() {
 	}
 
 	renderDynamicFilters();
-	const baseRecords = getBaseFilteredRecords();
-	renderCategoryPills(baseRecords);
+	const baseRecords = getFilteredRecords();
+	const categoryRecords = getFilteredRecords(["category"]);
+	renderCategoryPills(categoryRecords);
 
 	const displayRecords = sortRecords(baseRecords);
 
