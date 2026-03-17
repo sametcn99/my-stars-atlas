@@ -932,21 +932,6 @@ function attachEvents() {
 
 	sentinelObserver.observe(elements.loadSentinel);
 }
-
-async function registerServiceWorker() {
-	if (!("serviceWorker" in navigator)) {
-		return;
-	}
-
-	try {
-		await navigator.serviceWorker.register("./sw.js");
-	} catch {
-		setStatus(
-			"Catalog loaded, but the offline worker could not be registered.",
-		);
-	}
-}
-
 async function init() {
 	try {
 		setStatus("Loading catalog manifest.", "busy");
@@ -965,7 +950,6 @@ async function init() {
 			"Initial chunks are loaded. Remaining chunks will continue loading in the background.",
 		);
 		scheduleBackgroundChunkLoading();
-		await registerServiceWorker();
 	} catch (error) {
 		state.error =
 			error instanceof Error ? error.message : "Unknown startup error.";

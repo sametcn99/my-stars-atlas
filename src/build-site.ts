@@ -6,7 +6,6 @@ const STATIC_SITE_FILES = [
 	"styles.css",
 	"app.js",
 	"manifest.json",
-	"sw.js",
 	"robots.txt",
 ];
 
