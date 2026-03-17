@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-03-17T18:02:27.373Z",
+	"generatedAt": "2026-03-17T18:58:36.941Z",
 	"chunkIndex": 3,
 	"chunkCount": 8,
 	"items": [
@@ -46,8 +46,8 @@
 			"license": "Apache-2.0",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:analytics, topic:data-science, keyword:data, keyword:analytics, keyword:sql, keyword:visualization",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:data, description:data, topic:analytics, topic:sql, topic:data-science, topic:visualization, description:visualization, topic:business-intelligence",
 			"classificationSource": "rules"
 		},
 		{
@@ -88,8 +88,8 @@
 			"license": "NOASSERTION",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:html, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "tokens:web-components, tokens:web components, topic:html, tokens:component-library, topic:responsive, description:responsive, description:web, topic:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -112,10 +112,10 @@
 			"starredAt": "2025-05-27T12:51:16Z",
 			"stargazersCount": 3330,
 			"license": "OFL-1.1",
-			"category": "cloud",
-			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:vercel",
+			"category": "design",
+			"categoryTitle": "Design & Themes",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:font, name:font, homepage:font, repo:font",
 			"classificationSource": "rules"
 		},
 		{
@@ -140,8 +140,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, name:react, description:react, homepage:react, repo:react, topic:ui, description:ui, homepage:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -172,8 +172,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, keyword:ui, keyword:web app, keyword:design system",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, tokens:web-components, tokens:web components, description:design-systems, description:web, name:ui, description:ui, homepage:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -205,8 +205,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:formatter, keyword:visual studio code, keyword:editor, keyword:formatter",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:visual-studio-code, topic:formatter, tokens:code-editor, description:visual studio code, topic:editor, description:editor",
 			"classificationSource": "rules"
 		},
 		{
@@ -250,8 +250,8 @@
 			"license": "CC0-1.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:ai, topic:llm, topic:machine-learning, topic:claude, topic:gpt, topic:prompt-engineering, keyword:ai, keyword:llm, keyword:gpt, keyword:prompt, keyword:claude",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:ai, topic:llm, topic:machine-learning, topic:claude, topic:gpt, topic:prompt-engineering, topic:artificial intelligence, topic:machine learning",
 			"classificationSource": "rules"
 		},
 		{
@@ -284,7 +284,7 @@
 			"license": "MIT",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.65,
+			"classificationConfidence": 0.63,
 			"classificationReason": "language:Go",
 			"classificationSource": "rules"
 		},
@@ -308,10 +308,10 @@
 			"starredAt": "2025-05-19T01:20:10Z",
 			"stargazersCount": 69,
 			"license": null,
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:service",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:react, description:react, repo:react",
 			"classificationSource": "rules"
 		},
 		{
@@ -345,10 +345,10 @@
 			"starredAt": "2025-05-16T11:46:42Z",
 			"stargazersCount": 42990,
 			"license": "NOASSERTION",
-			"category": "devops",
-			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:monitoring, keyword:monitoring",
+			"category": "cli",
+			"categoryTitle": "CLI & Terminal",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:command-line, topic:command line",
 			"classificationSource": "rules"
 		},
 		{
@@ -386,8 +386,8 @@
 			"license": "GPL-3.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:agent, keyword:agent",
+			"classificationConfidence": 0.7,
+			"classificationReason": "topic:agent",
 			"classificationSource": "rules"
 		},
 		{
@@ -412,8 +412,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:ai",
+			"classificationConfidence": 0.72,
+			"classificationReason": "description:ai, language:JavaScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -438,8 +438,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:vscode",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:vscode",
 			"classificationSource": "rules"
 		},
 		{
@@ -462,10 +462,10 @@
 			"starredAt": "2025-05-04T17:09:28Z",
 			"stargazersCount": 59,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:prompt",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.86,
+			"classificationReason": "name:vscode, repo:vscode",
 			"classificationSource": "rules"
 		},
 		{
@@ -496,8 +496,8 @@
 			"license": null,
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ui, keyword:dashboard",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:tailwind, topic:css, topic:ui, description:ui, name:dashboard, description:dashboard, homepage:dashboard, repo:dashboard",
 			"classificationSource": "rules"
 		},
 		{
@@ -522,8 +522,8 @@
 			"license": "MIT",
 			"category": "cli",
 			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:cli, keyword:cli, keyword:command line",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:cli, name:cli, repo:cli, description:command-line, description:command line",
 			"classificationSource": "rules"
 		},
 		{
@@ -556,8 +556,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:extension",
+			"classificationConfidence": 0.84,
+			"classificationReason": "topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -588,8 +588,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:ai",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -614,8 +614,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:ai",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -644,10 +644,10 @@
 			"starredAt": "2025-04-16T06:41:00Z",
 			"stargazersCount": 48,
 			"license": "GPL-3.0",
-			"category": "cloud",
-			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vercel, keyword:render",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vitepress, name:vitepress, description:vitepress, homepage:vitepress, repo:vitepress",
 			"classificationSource": "rules"
 		},
 		{
@@ -672,8 +672,8 @@
 			"license": "Apache-2.0",
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:android, keyword:android",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:android",
 			"classificationSource": "rules"
 		},
 		{
@@ -717,10 +717,10 @@
 			"starredAt": "2025-04-12T21:25:24Z",
 			"stargazersCount": 23,
 			"license": "GPL-3.0",
-			"category": "automation",
-			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:monitor",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.87,
+			"classificationReason": "topic:web, description:web",
 			"classificationSource": "rules"
 		},
 		{
@@ -757,8 +757,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:reactjs, topic:vue, topic:svelte, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, description:react, topic:reactjs, topic:vue, description:vue, topic:svelte, description:svelte, topic:solidjs",
 			"classificationSource": "rules"
 		},
 		{
@@ -795,10 +795,10 @@
 			"starredAt": "2025-04-12T11:58:58Z",
 			"stargazersCount": 5,
 			"license": "MIT",
-			"category": "devops",
-			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:devops, keyword:devops",
+			"category": "cloud",
+			"categoryTitle": "Cloud & BaaS",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:cloud, topic:aws",
 			"classificationSource": "rules"
 		},
 		{
@@ -833,8 +833,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, keyword:ui, keyword:website, keyword:blog",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:react, description:react, topic:blog",
 			"classificationSource": "rules"
 		},
 		{
@@ -865,8 +865,8 @@
 			"license": "AGPL-3.0",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:nestjs, keyword:backend, keyword:server",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:backend, topic:nestjs, topic:server, name:server, description:server, repo:server",
 			"classificationSource": "rules"
 		},
 		{
@@ -900,7 +900,7 @@
 			"license": "MIT",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.8,
+			"classificationConfidence": 0.86,
 			"classificationReason": "topic:documentation",
 			"classificationSource": "rules"
 		},
@@ -935,8 +935,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension, keyword:snippet",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -959,11 +959,11 @@
 			"starredAt": "2025-03-24T08:30:26Z",
 			"stargazersCount": 331,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 658928958,
@@ -1003,8 +1003,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:llm, topic:llms, keyword:llm, keyword:gpt, keyword:model",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:llm, topic:llms, topic:gpt, description:gpt",
 			"classificationSource": "rules"
 		},
 		{
@@ -1027,10 +1027,10 @@
 			"starredAt": "2025-03-20T13:52:52Z",
 			"stargazersCount": 1924,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.7,
+			"classificationReason": "name:vscode, repo:vscode",
 			"classificationSource": "rules"
 		},
 		{
@@ -1070,8 +1070,8 @@
 			"license": "AGPL-3.0",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:docker, topic:monitoring, topic:self-hosted, keyword:docker, keyword:monitoring, keyword:self-hosted",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:docker, topic:monitoring, topic:homelab, topic:self-hosted, description:self-hosted",
 			"classificationSource": "rules"
 		},
 		{
@@ -1094,10 +1094,10 @@
 			"starredAt": "2025-03-15T10:40:37Z",
 			"stargazersCount": 172,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:vitepress, description:vitepress, repo:vitepress",
 			"classificationSource": "rules"
 		},
 		{
@@ -1136,10 +1136,10 @@
 			"starredAt": "2025-03-10T08:40:36Z",
 			"stargazersCount": 438403,
 			"license": "BSD-3-Clause",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.75,
-			"classificationReason": "topic:react",
+			"category": "learning",
+			"categoryTitle": "Learning & Reference",
+			"classificationConfidence": 0.8,
+			"classificationReason": "topic:education",
 			"classificationSource": "rules"
 		},
 		{
@@ -1177,10 +1177,10 @@
 			"starredAt": "2025-03-10T08:36:45Z",
 			"stargazersCount": 62493,
 			"license": "NOASSERTION",
-			"category": "data",
-			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:postgresql, keyword:data, keyword:database, keyword:sql",
+			"category": "backend",
+			"categoryTitle": "Backend & APIs",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:api, topic:rest-api, topic:swagger, topic:rest, topic:rest api",
 			"classificationSource": "rules"
 		},
 		{
@@ -1213,10 +1213,10 @@
 			"starredAt": "2025-03-08T17:13:40Z",
 			"stargazersCount": 93852,
 			"license": "Apache-2.0",
-			"category": "automation",
-			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:automation, keyword:automation",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.83,
+			"classificationReason": "topic:developer-tools",
 			"classificationSource": "rules"
 		},
 		{
@@ -1262,8 +1262,8 @@
 			"license": "Apache-2.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:ai, topic:llm, topic:llms, topic:machine-learning, topic:deep-learning, topic:genai, topic:gpt, keyword:ai, keyword:llm, keyword:gpt, keyword:model",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:ai, topic:llm, description:llm, topic:llms, topic:machine-learning, topic:deep-learning, topic:genai, description:evaluation",
 			"classificationSource": "rules"
 		},
 		{
@@ -1320,10 +1320,10 @@
 			"starredAt": "2025-02-28T13:30:49Z",
 			"stargazersCount": 12308,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:react",
+			"category": "design",
+			"categoryTitle": "Design & Themes",
+			"classificationConfidence": 0.9,
+			"classificationReason": "topic:color, name:color, description:color, homepage:color, repo:color",
 			"classificationSource": "rules"
 		},
 		{
@@ -1348,8 +1348,8 @@
 			"license": null,
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ai, keyword:agent, keyword:claude",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:claude, description:claude, homepage:claude, repo:claude, tokens:agentic-workflows",
 			"classificationSource": "rules"
 		},
 		{
@@ -1372,10 +1372,10 @@
 			"starredAt": "2025-02-26T09:07:54Z",
 			"stargazersCount": 261,
 			"license": "MIT",
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:cli",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -1400,8 +1400,8 @@
 			"license": "NOASSERTION",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:vscode",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:vscode, description:vscode, repo:vscode",
 			"classificationSource": "rules"
 		},
 		{
@@ -1424,10 +1424,10 @@
 			"starredAt": "2025-02-20T12:43:30Z",
 			"stargazersCount": 1629,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ui",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:electron, owner:electron, repo:electron, name:windows, description:windows, repo:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -1460,8 +1460,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:reactjs, keyword:ux",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:react, description:react, topic:reactjs",
 			"classificationSource": "rules"
 		},
 		{
@@ -1484,11 +1484,11 @@
 			"starredAt": "2025-02-19T08:18:17Z",
 			"stargazersCount": 74,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 262369966,
@@ -1512,8 +1512,8 @@
 			"license": "GPL-3.0",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -1550,8 +1550,8 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:streaming",
+			"classificationConfidence": 0.79,
+			"classificationReason": "topic:streaming",
 			"classificationSource": "rules"
 		},
 		{
@@ -1585,8 +1585,8 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:image",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:image, name:image, description:image, repo:image",
 			"classificationSource": "rules"
 		},
 		{
@@ -1619,8 +1619,8 @@
 			"license": "AGPL-3.0",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:nextjs, topic:tailwindcss, topic:shadcn-ui, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, topic:nextjs, topic:tailwindcss, topic:shadcn-ui, topic:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -1653,8 +1653,8 @@
 			"license": "NOASSERTION",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:frontend, keyword:frontend",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:frontend, name:frontend, description:frontend, repo:frontend",
 			"classificationSource": "rules"
 		},
 		{
@@ -1691,8 +1691,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:svelte, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, description:react, topic:svelte, description:svelte, topic:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -1728,10 +1728,10 @@
 			"starredAt": "2025-02-01T09:54:17Z",
 			"stargazersCount": 249,
 			"license": "AGPL-3.0",
-			"category": "devops",
-			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ci, keyword:cd",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:json-schema, description:json-schema",
 			"classificationSource": "rules"
 		},
 		{
@@ -1762,10 +1762,10 @@
 			"starredAt": "2025-02-01T09:54:00Z",
 			"stargazersCount": 48,
 			"license": "AGPL-3.0",
-			"category": "learning",
-			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:reference, keyword:examples",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:json-schema, description:json-schema",
 			"classificationSource": "rules"
 		},
 		{
@@ -1796,10 +1796,10 @@
 			"starredAt": "2025-01-31T15:41:28Z",
 			"stargazersCount": 66866,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:css",
+			"category": "design",
+			"categoryTitle": "Design & Themes",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:animation, description:animation",
 			"classificationSource": "rules"
 		},
 		{
@@ -1831,8 +1831,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vue, keyword:static site",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vue, description:vue, name:vitepress, homepage:vitepress, repo:vitepress, description:static site",
 			"classificationSource": "rules"
 		},
 		{
@@ -1866,8 +1866,8 @@
 			"license": "MIT",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:visualization, keyword:data, keyword:visualization",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:data, topic:visualization, description:visualization",
 			"classificationSource": "rules"
 		},
 		{
@@ -1892,8 +1892,8 @@
 			"license": null,
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:docker, keyword:docker, keyword:container",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:docker, name:docker, description:docker, repo:docker, description:containers",
 			"classificationSource": "rules"
 		},
 		{
@@ -1916,10 +1916,10 @@
 			"starredAt": "2025-01-30T07:19:43Z",
 			"stargazersCount": 769,
 			"license": null,
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:ai",
+			"category": "learning",
+			"categoryTitle": "Learning & Reference",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:awesome, repo:awesome, tokens:awesome-list, tokens:awesome list",
 			"classificationSource": "rules"
 		},
 		{
@@ -1944,8 +1944,8 @@
 			"license": "CC0-1.0",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:awesome",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:awesome, name:awesome, repo:awesome",
 			"classificationSource": "rules"
 		},
 		{
@@ -1968,10 +1968,10 @@
 			"starredAt": "2025-01-27T13:53:03Z",
 			"stargazersCount": 131,
 			"license": null,
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ui",
+			"category": "devops",
+			"categoryTitle": "DevOps & Infra",
+			"classificationConfidence": 0.85,
+			"classificationReason": "description:docker, owner:docker, repo:docker",
 			"classificationSource": "rules"
 		},
 		{
@@ -1994,10 +1994,10 @@
 			"starredAt": "2025-01-27T13:52:36Z",
 			"stargazersCount": 37,
 			"license": null,
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ui",
+			"category": "learning",
+			"categoryTitle": "Learning & Reference",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:sample, repo:sample, description:documentation, description:guide",
 			"classificationSource": "rules"
 		},
 		{
@@ -2020,10 +2020,10 @@
 			"starredAt": "2025-01-27T13:51:43Z",
 			"stargazersCount": 44414,
 			"license": "CC0-1.0",
-			"category": "learning",
-			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:awesome, topic:awesome-list",
+			"category": "devops",
+			"categoryTitle": "DevOps & Infra",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:docker, description:docker, homepage:docker, owner:docker, repo:docker, topic:docker-compose, description:docker-compose, topic:compose",
 			"classificationSource": "rules"
 		},
 		{
@@ -2056,8 +2056,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ui",
+			"classificationConfidence": 0.61,
+			"classificationReason": "topic:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -2101,8 +2101,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:reactjs, keyword:ui",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:react, description:react, topic:reactjs",
 			"classificationSource": "rules"
 		},
 		{
@@ -2134,10 +2134,10 @@
 			"starredAt": "2025-01-21T13:23:55Z",
 			"stargazersCount": 1715,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, keyword:ui, keyword:ux",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:electron, name:electron, description:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -2171,8 +2171,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:nextjs, topic:tailwindcss, topic:shadcn-ui, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, description:react, topic:nextjs, topic:tailwindcss, description:tailwind, topic:shadcn-ui, description:shadcn-ui, topic:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -2218,8 +2218,8 @@
 			"license": "NOASSERTION",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:automation, topic:workflow-automation, keyword:automation, keyword:workflow",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:automation, description:automation, topic:workflow-automation, description:workflow-automation, topic:n8n, name:n8n, homepage:n8n, repo:n8n",
 			"classificationSource": "rules"
 		},
 		{
@@ -2249,8 +2249,8 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:image",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:image, description:image",
 			"classificationSource": "rules"
 		},
 		{
@@ -2281,8 +2281,8 @@
 			"license": null,
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:animation",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:animation, description:animation",
 			"classificationSource": "rules"
 		},
 		{
@@ -2317,8 +2317,8 @@
 			"license": "Apache-2.0",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:visualization, keyword:data, keyword:visualization",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:data, description:data, topic:visualization, description:visualization",
 			"classificationSource": "rules"
 		},
 		{
@@ -2343,8 +2343,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:vscode",
+			"classificationConfidence": 0.86,
+			"classificationReason": "name:vscode, repo:vscode",
 			"classificationSource": "rules"
 		},
 		{
@@ -2383,8 +2383,8 @@
 			"license": "MIT",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:docker, topic:self-hosted, keyword:docker, keyword:ci, keyword:self-hosted",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:docker, topic:self-hosted, description:self-hosted",
 			"classificationSource": "rules"
 		},
 		{
@@ -2419,8 +2419,8 @@
 			"license": "AGPL-3.0",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:docker, keyword:docker, keyword:ci, keyword:self-hosted",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:docker, description:self-hosted",
 			"classificationSource": "rules"
 		},
 		{
@@ -2452,8 +2452,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:frontend, topic:react, keyword:frontend, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:frontend, topic:react, name:react, homepage:react, repo:react, description:web, topic:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -2485,8 +2485,8 @@
 			"license": "Apache-2.0",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:design-systems, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, name:react, homepage:react, repo:react, topic:design-systems, topic:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -2520,8 +2520,8 @@
 			"license": null,
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:reactjs, topic:nextjs, topic:component-library, keyword:component library",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, description:react, topic:reactjs, topic:nextjs, topic:component-library, description:component-library, topic:component library, description:component library",
 			"classificationSource": "rules"
 		},
 		{
@@ -2544,11 +2544,11 @@
 			"starredAt": "2024-12-19T19:32:01Z",
 			"stargazersCount": 1090,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 1424470,
@@ -2570,11 +2570,11 @@
 			"starredAt": "2024-12-19T07:48:32Z",
 			"stargazersCount": 48044,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 372629015,
@@ -2598,8 +2598,8 @@
 			"license": "MIT",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:bot",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:bot, description:bot, repo:bot, description:telegram-bot",
 			"classificationSource": "rules"
 		},
 		{
@@ -2622,11 +2622,11 @@
 			"starredAt": "2024-12-15T16:39:47Z",
 			"stargazersCount": 2,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 28671602,
@@ -2648,10 +2648,10 @@
 			"starredAt": "2024-12-13T06:36:08Z",
 			"stargazersCount": 8093,
 			"license": "Apache-2.0",
-			"category": "design",
-			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:template",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -2676,8 +2676,8 @@
 			"license": null,
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:template",
+			"classificationConfidence": 0.6,
+			"classificationReason": "description:template",
 			"classificationSource": "rules"
 		},
 		{
@@ -2702,8 +2702,8 @@
 			"license": "MIT",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:framework, keyword:framework",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:framework",
 			"classificationSource": "rules"
 		},
 		{
@@ -2728,8 +2728,8 @@
 			"license": null,
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:awesome, topic:awesome-list",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:awesome, name:awesome, description:awesome, repo:awesome, topic:awesome-list, topic:awesome list",
 			"classificationSource": "rules"
 		},
 		{
@@ -2774,8 +2774,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:ai-agents, topic:llm, topic:rag, topic:mcp, keyword:ai, keyword:agent, keyword:llm, keyword:rag, keyword:multimodal",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:ai, description:ai, topic:agents, topic:ai-agents, topic:llm, name:llm, repo:llm, topic:rag",
 			"classificationSource": "rules"
 		},
 		{
@@ -2807,8 +2807,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:react",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, name:react, description:react, homepage:react, repo:react, homepage:html, description:responsive",
 			"classificationSource": "rules"
 		},
 		{
@@ -2844,8 +2844,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:svelte, topic:tailwindcss, keyword:ui",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:svelte, topic:tailwindcss, description:tailwind, description:css",
 			"classificationSource": "rules"
 		},
 		{
@@ -2870,8 +2870,8 @@
 			"license": "Apache-2.0",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:library",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:library",
 			"classificationSource": "rules"
 		},
 		{
@@ -2894,10 +2894,10 @@
 			"starredAt": "2024-11-29T06:08:43Z",
 			"stargazersCount": 3259,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:nuxt, keyword:ux, language:Vue",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:devtools, name:devtools, homepage:devtools, repo:devtools, topic:dx, description:developer experience",
 			"classificationSource": "rules"
 		},
 		{
@@ -2936,8 +2936,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:nestjs, topic:microservices, keyword:server, keyword:service",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:nestjs, homepage:nestjs, owner:nestjs, repo:nestjs, description:server, topic:microservices",
 			"classificationSource": "rules"
 		},
 		{
@@ -2973,8 +2973,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:windows, topic:macos, topic:linux, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, topic:nwjs, topic:windows, topic:macos, topic:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -3006,8 +3006,8 @@
 			"license": "ISC",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:visualization, keyword:data, keyword:visualization",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:data, description:data, topic:visualization",
 			"classificationSource": "rules"
 		},
 		{
@@ -3039,10 +3039,10 @@
 			"starredAt": "2024-11-21T12:37:24Z",
 			"stargazersCount": 1235,
 			"license": "MIT",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:api, keyword:service",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:prettier, name:prettier, description:prettier, homepage:prettier, repo:prettier, topic:plugin, name:plugin, homepage:plugin",
 			"classificationSource": "rules"
 		},
 		{
@@ -3067,8 +3067,8 @@
 			"license": "0BSD",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:design, keyword:theme, keyword:template",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:design, topic:theme, name:theme, description:theme, homepage:theme, repo:theme, description:themes",
 			"classificationSource": "rules"
 		},
 		{
@@ -3098,10 +3098,10 @@
 			"starredAt": "2024-11-17T18:28:32Z",
 			"stargazersCount": 2272,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:browser, description:website",
 			"classificationSource": "rules"
 		},
 		{
@@ -3130,11 +3130,11 @@
 			"starredAt": "2024-11-17T17:53:36Z",
 			"stargazersCount": 4239,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 65816878,
@@ -3166,8 +3166,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:server",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:server, description:websocket",
 			"classificationSource": "rules"
 		},
 		{
@@ -3201,8 +3201,8 @@
 			"license": "Apache-2.0",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:editor",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:editor, name:editor, description:editor, repo:editor",
 			"classificationSource": "rules"
 		},
 		{
@@ -3233,8 +3233,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:inference, keyword:inference",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:inference, description:inference, language:TypeScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -3274,10 +3274,10 @@
 			"starredAt": "2024-11-17T17:12:58Z",
 			"stargazersCount": 48847,
 			"license": "MIT",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:graphql, keyword:server, keyword:rest, keyword:graphql",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, description:react, topic:vue, description:vue, topic:svelte, description:svelte, description:web",
 			"classificationSource": "rules"
 		}
 	]

@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-03-17T18:02:27.373Z",
+	"generatedAt": "2026-03-17T18:58:36.941Z",
 	"chunkIndex": 6,
 	"chunkCount": 8,
 	"items": [
@@ -27,8 +27,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:reactjs, topic:nextjs, keyword:website",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:reactjs, topic:nextjs, description:website",
 			"classificationSource": "rules"
 		},
 		{
@@ -63,7 +63,7 @@
 			"license": "NOASSERTION",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
+			"classificationConfidence": 0.93,
 			"classificationReason": "topic:windows, topic:macos, topic:linux",
 			"classificationSource": "rules"
 		},
@@ -98,8 +98,8 @@
 			"license": "MIT",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:icons, keyword:design, keyword:icons",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:icons, description:icons, topic:font",
 			"classificationSource": "rules"
 		},
 		{
@@ -122,11 +122,11 @@
 			"starredAt": "2024-03-19T19:00:48Z",
 			"stargazersCount": 5,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:Python",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 106020803,
@@ -157,8 +157,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -181,11 +181,11 @@
 			"starredAt": "2024-03-12T01:34:35Z",
 			"stargazersCount": 9,
 			"license": "GPL-3.0",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 597392804,
@@ -233,11 +233,11 @@
 			"starredAt": "2024-03-12T00:24:00Z",
 			"stargazersCount": 150,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 49912625,
@@ -261,8 +261,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:vscode, description:vscode, tokens:vscode-extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -306,8 +306,8 @@
 			"license": "AGPL-3.0",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:video, topic:music, topic:downloader, topic:youtube-downloader, keyword:video, keyword:music, keyword:downloader, keyword:youtube",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:video, topic:music, topic:downloader, topic:youtube-downloader, topic:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -345,8 +345,8 @@
 			"license": "NOASSERTION",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:pdf, topic:pdf-editor, topic:pdf-tools, keyword:pdf, keyword:ocr, keyword:converter",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:pdf, name:pdf, description:pdf, repo:pdf, topic:pdf-editor, topic:pdf-tools, topic:ocr, topic:converter",
 			"classificationSource": "rules"
 		},
 		{
@@ -369,10 +369,10 @@
 			"starredAt": "2024-03-02T22:17:18Z",
 			"stargazersCount": 9,
 			"license": "MIT",
-			"category": "developer-tools",
-			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:vscode",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.79,
+			"classificationReason": "description:html, description:css",
 			"classificationSource": "rules"
 		},
 		{
@@ -406,8 +406,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:visual studio code, keyword:extension, keyword:snippet",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, topic:vscode-extension, description:visual-studio-code, topic:extension, description:extension, description:visual studio code, topic:snippet, description:snippet",
 			"classificationSource": "rules"
 		},
 		{
@@ -438,10 +438,10 @@
 			"starredAt": "2024-02-29T17:26:36Z",
 			"stargazersCount": 1078,
 			"license": "MIT",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:api",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:lyrics, description:lyrics, homepage:lyrics",
 			"classificationSource": "rules"
 		},
 		{
@@ -464,11 +464,11 @@
 			"starredAt": "2024-02-20T18:39:04Z",
 			"stargazersCount": 3,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 92186044,
@@ -492,8 +492,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -516,10 +516,10 @@
 			"starredAt": "2024-02-09T18:32:00Z",
 			"stargazersCount": 1,
 			"license": null,
-			"category": "cloud",
-			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:vercel",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.71,
+			"classificationReason": "description:web, tokens:web app",
 			"classificationSource": "rules"
 		},
 		{
@@ -544,8 +544,8 @@
 			"license": null,
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:bot",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:bot, description:bot, repo:bot",
 			"classificationSource": "rules"
 		},
 		{
@@ -568,10 +568,10 @@
 			"starredAt": "2024-02-09T18:31:58Z",
 			"stargazersCount": 1,
 			"license": null,
-			"category": "cloud",
-			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:vercel",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.75,
+			"classificationReason": "description:web, tokens:web app",
 			"classificationSource": "rules"
 		},
 		{
@@ -596,8 +596,8 @@
 			"license": null,
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:website, language:CSS",
+			"classificationConfidence": 0.96,
+			"classificationReason": "description:web, name:website, repo:website, language:CSS",
 			"classificationSource": "rules"
 		},
 		{
@@ -628,11 +628,11 @@
 			"starredAt": "2024-02-08T10:11:10Z",
 			"stargazersCount": 292,
 			"license": "MIT",
-			"category": "devops",
-			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:ci",
-			"classificationSource": "rules"
+			"category": "misc",
+			"categoryTitle": "Misc",
+			"classificationConfidence": 0.2,
+			"classificationReason": "No deterministic signals matched.",
+			"classificationSource": "default"
 		},
 		{
 			"id": 311916226,
@@ -666,10 +666,10 @@
 			"starredAt": "2024-02-06T17:00:46Z",
 			"stargazersCount": 9843,
 			"license": "AGPL-3.0",
-			"category": "security",
-			"categoryTitle": "Security & Privacy",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:privacy, keyword:privacy",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.93,
+			"classificationReason": "homepage:video, topic:youtube, description:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -703,8 +703,8 @@
 			"license": "AGPL-3.0",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:video, keyword:video, keyword:youtube",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:video, topic:youtube, description:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -727,10 +727,10 @@
 			"starredAt": "2024-02-05T07:51:56Z",
 			"stargazersCount": 3544,
 			"license": "MIT",
-			"category": "data",
-			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:data",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.48,
+			"classificationReason": "language:TypeScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -753,10 +753,10 @@
 			"starredAt": "2024-02-05T07:50:51Z",
 			"stargazersCount": 38,
 			"license": null,
-			"category": "cloud",
-			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:vercel",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:web, homepage:web, repo:web, tokens:web app, language:MDX",
 			"classificationSource": "rules"
 		},
 		{
@@ -781,8 +781,8 @@
 			"license": "GPL-3.0",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:service",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:service",
 			"classificationSource": "rules"
 		},
 		{
@@ -815,8 +815,8 @@
 			"license": null,
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:frontend, topic:css, keyword:frontend, keyword:ui, language:HTML",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:frontend, topic:css, name:css, description:css, homepage:css, repo:css, topic:ui, language:HTML",
 			"classificationSource": "rules"
 		},
 		{
@@ -841,8 +841,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:css, keyword:website, language:CSS",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:css, name:css, description:css, repo:css, language:CSS",
 			"classificationSource": "rules"
 		},
 		{
@@ -875,8 +875,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:html, topic:css, language:MDX",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:html, description:html, topic:css, description:css, description:responsive, description:web, language:MDX",
 			"classificationSource": "rules"
 		},
 		{
@@ -914,8 +914,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:css, language:CSS",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:html, description:html, topic:css, description:css, language:CSS",
 			"classificationSource": "rules"
 		},
 		{
@@ -940,8 +940,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:vscode",
+			"classificationConfidence": 0.86,
+			"classificationReason": "name:vscode, repo:vscode",
 			"classificationSource": "rules"
 		},
 		{
@@ -971,11 +971,11 @@
 			"starredAt": "2024-02-02T09:51:42Z",
 			"stargazersCount": 67267,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 398471444,
@@ -1019,8 +1019,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:website, keyword:portfolio",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:react, topic:website, topic:portfolio, description:portfolio",
 			"classificationSource": "rules"
 		},
 		{
@@ -1052,8 +1052,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:html, topic:css, keyword:website, keyword:portfolio, language:HTML",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:html, topic:css, description:responsive, topic:website, description:website, topic:portfolio, name:portfolio, description:portfolio",
 			"classificationSource": "rules"
 		},
 		{
@@ -1078,7 +1078,7 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
+			"classificationConfidence": 0.86,
 			"classificationReason": "topic:react",
 			"classificationSource": "rules"
 		},
@@ -1104,8 +1104,8 @@
 			"license": "Apache-2.0",
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:kotlin, keyword:kotlin",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:kotlin",
 			"classificationSource": "rules"
 		},
 		{
@@ -1143,8 +1143,8 @@
 			"license": "GPL-3.0",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:rest-api, keyword:api, keyword:rest",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:api, topic:rest-api, topic:rest, topic:rest api",
 			"classificationSource": "rules"
 		},
 		{
@@ -1184,8 +1184,8 @@
 			"license": "GPL-3.0",
 			"category": "security",
 			"categoryTitle": "Security & Privacy",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:security, topic:privacy, keyword:security, keyword:privacy",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:security, topic:privacy, description:privacy",
 			"classificationSource": "rules"
 		},
 		{
@@ -1220,8 +1220,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:visual studio code, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, repo:vscode, topic:vscode-extension, description:visual-studio-code, topic:extension, description:visual studio code, tokens:code generator",
 			"classificationSource": "rules"
 		},
 		{
@@ -1253,8 +1253,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, repo:vscode, topic:vscode-extension, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -1284,10 +1284,10 @@
 			"starredAt": "2024-01-28T13:32:43Z",
 			"stargazersCount": 3398,
 			"license": null,
-			"category": "developer-tools",
-			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:visual studio code, keyword:extension",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:tailwindcss, name:tailwindcss, repo:tailwindcss, topic:tailwind, description:tailwind, topic:css, description:css",
 			"classificationSource": "rules"
 		},
 		{
@@ -1324,8 +1324,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -1359,8 +1359,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, description:vscode, topic:vscode-extension, description:prettier, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -1385,8 +1385,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, description:vscode, repo:vscode, tokens:vscode-extension, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -1411,8 +1411,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vscode, keyword:visual studio code, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:vscode, repo:vscode, tokens:vscode-extension, description:visual-studio-code, description:extension, description:visual studio code",
 			"classificationSource": "rules"
 		},
 		{
@@ -1445,8 +1445,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode-extension, keyword:vscode, keyword:extension, keyword:snippet",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -1482,8 +1482,8 @@
 			"license": null,
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:api",
+			"classificationConfidence": 0.65,
+			"classificationReason": "topic:api",
 			"classificationSource": "rules"
 		},
 		{
@@ -1522,8 +1522,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:desktop, topic:windows, topic:macos, topic:linux, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, name:electron, repo:electron, topic:desktop, description:desktop, topic:windows, description:windows, topic:macos",
 			"classificationSource": "rules"
 		},
 		{
@@ -1559,8 +1559,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:desktop app, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, description:electron, topic:desktop, description:desktop, description:cross-platform",
 			"classificationSource": "rules"
 		},
 		{
@@ -1597,8 +1597,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:windows, topic:macos, topic:linux, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, description:desktop, topic:windows, topic:macos, topic:linux, tokens:desktop client, tokens:desktop app, tokens:windows app",
 			"classificationSource": "rules"
 		},
 		{
@@ -1632,8 +1632,8 @@
 			"license": "GPL-3.0",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:desktop app, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:electron, description:desktop, description:desktop app",
 			"classificationSource": "rules"
 		},
 		{
@@ -1658,8 +1658,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, name:electron, description:electron, homepage:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -1694,8 +1694,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:windows, topic:linux, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, topic:windows, topic:linux, tokens:windows app, tokens:mac app",
 			"classificationSource": "rules"
 		},
 		{
@@ -1728,8 +1728,8 @@
 			"license": "Apache-2.0",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:selenium, keyword:automation, keyword:selenium",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:automation, topic:selenium, name:selenium, homepage:selenium, repo:selenium",
 			"classificationSource": "rules"
 		},
 		{
@@ -1765,8 +1765,8 @@
 			"license": "BSD-3-Clause",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:cross-platform, keyword:electron",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:electron, topic:cross-platform, description:cross-platform",
 			"classificationSource": "rules"
 		},
 		{
@@ -1801,8 +1801,8 @@
 			"license": "AGPL-3.0",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:downloader, keyword:video, keyword:downloader, keyword:youtube",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:video, topic:downloader, description:downloader, tokens:youtube-downloader, topic:youtube, name:youtube, description:youtube, homepage:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -1827,8 +1827,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:desktop, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, description:electron, owner:electron, repo:electron, topic:desktop",
 			"classificationSource": "rules"
 		},
 		{
@@ -1853,8 +1853,8 @@
 			"license": null,
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:electron, description:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -1900,8 +1900,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:macos, topic:linux, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, name:electron, description:electron, homepage:electron, repo:electron, topic:macos, topic:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -1926,8 +1926,8 @@
 			"license": "CC0-1.0",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:awesome, topic:awesome-list",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:awesome, name:awesome, repo:awesome, topic:awesome-list, topic:awesome list",
 			"classificationSource": "rules"
 		},
 		{
@@ -1966,8 +1966,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:windows, topic:macos, topic:linux, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, topic:windows, topic:macos, topic:linux, tokens:windows app, tokens:mac app",
 			"classificationSource": "rules"
 		},
 		{
@@ -1990,10 +1990,10 @@
 			"starredAt": "2024-01-26T13:20:39Z",
 			"stargazersCount": 8,
 			"license": null,
-			"category": "security",
-			"categoryTitle": "Security & Privacy",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:auth, keyword:auth",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:nextjs, name:nextjs, description:nextjs, homepage:nextjs, repo:nextjs",
 			"classificationSource": "rules"
 		},
 		{
@@ -2025,8 +2025,8 @@
 			"license": "GPL-3.0",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:nextjs, keyword:ui, keyword:web app, keyword:blog",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:nextjs, name:web, description:web, homepage:web, repo:web, name:web app, homepage:web app, repo:web app",
 			"classificationSource": "rules"
 		},
 		{
@@ -2063,8 +2063,8 @@
 			"license": "GPL-3.0",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:reactjs, topic:nextjs, keyword:ui, keyword:ux, keyword:website, keyword:blog",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, topic:reactjs, topic:nextjs, description:responsive, description:ui, description:website, topic:blog, name:blog",
 			"classificationSource": "rules"
 		},
 		{
@@ -2089,8 +2089,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.65,
-			"classificationReason": "language:CSS",
+			"classificationConfidence": 0.96,
+			"classificationReason": "description:html, description:css, description:web, language:CSS",
 			"classificationSource": "rules"
 		},
 		{
@@ -2129,10 +2129,10 @@
 			"starredAt": "2024-01-26T13:18:33Z",
 			"stargazersCount": 67,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
+			"category": "design",
+			"categoryTitle": "Design & Themes",
 			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:reactjs, keyword:ui, keyword:ux",
+			"classificationReason": "topic:template, name:template, description:template, homepage:template, repo:template",
 			"classificationSource": "rules"
 		},
 		{
@@ -2160,10 +2160,10 @@
 			"starredAt": "2024-01-26T13:15:21Z",
 			"stargazersCount": 2,
 			"license": null,
-			"category": "design",
-			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ux, keyword:template",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.89,
+			"classificationReason": "description:library, topic:toolkit",
 			"classificationSource": "rules"
 		},
 		{
@@ -2199,8 +2199,8 @@
 			"license": null,
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:electron, description:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -2232,11 +2232,11 @@
 			"starredAt": "2024-01-22T09:44:18Z",
 			"stargazersCount": 8672,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 384577989,
@@ -2260,8 +2260,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, description:developer experience",
 			"classificationSource": "rules"
 		},
 		{
@@ -2292,8 +2292,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, repo:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2326,8 +2326,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:tailwindcss, topic:css, keyword:ui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:tailwindcss, name:tailwindcss, homepage:tailwindcss, repo:tailwindcss, topic:css, description:css, topic:responsive, description:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -2358,8 +2358,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2384,8 +2384,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2417,8 +2417,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, topic:visual-studio-code, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, topic:vscode-extension, topic:visual-studio-code, topic:extension, topic:visual studio code",
 			"classificationSource": "rules"
 		},
 		{
@@ -2443,8 +2443,8 @@
 			"license": "NOASSERTION",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, tokens:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2469,8 +2469,8 @@
 			"license": null,
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:vscode, description:vscode, repo:vscode, description:vscode-extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2495,8 +2495,8 @@
 			"license": "GPL-3.0",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:visual studio code, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:visual-studio-code, description:visual-studio-code, topic:extension, description:extension, topic:visual studio code, description:visual studio code",
 			"classificationSource": "rules"
 		},
 		{
@@ -2535,8 +2535,8 @@
 			"license": "Apache-2.0",
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:swift, topic:kotlin, keyword:swift, keyword:kotlin",
+			"classificationConfidence": 0.77,
+			"classificationReason": "topic:swift, topic:kotlin",
 			"classificationSource": "rules"
 		},
 		{
@@ -2579,8 +2579,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:windows, keyword:electron, keyword:tray",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, topic:windows, description:windows, name:tray, description:tray, repo:tray, tokens:tray app, tokens:windows app",
 			"classificationSource": "rules"
 		},
 		{
@@ -2613,10 +2613,10 @@
 			"starredAt": "2024-01-20T11:49:28Z",
 			"stargazersCount": 34388,
 			"license": "Apache-2.0",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, keyword:ui",
+			"category": "mobile",
+			"categoryTitle": "Mobile",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:react-native, topic:react native",
 			"classificationSource": "rules"
 		},
 		{
@@ -2647,10 +2647,10 @@
 			"starredAt": "2024-01-20T10:13:49Z",
 			"stargazersCount": 3708,
 			"license": "NOASSERTION",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:api, topic:graphql, keyword:api, keyword:rest, keyword:graphql, keyword:rest api",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2675,8 +2675,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:language-server, keyword:vscode",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:vscode, repo:vscode, tokens:visual-studio-code, topic:language-server, tokens:visual studio code, topic:language server",
 			"classificationSource": "rules"
 		},
 		{
@@ -2701,8 +2701,8 @@
 			"license": "EPL-2.0",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vscode, keyword:visual studio code",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:vscode, repo:vscode, description:visual-studio-code, description:visual studio code",
 			"classificationSource": "rules"
 		},
 		{
@@ -2738,8 +2738,8 @@
 			"license": "NOASSERTION",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:visual-studio-code, keyword:vscode, keyword:visual studio code",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, topic:visual-studio-code, description:visual-studio-code, topic:visual studio code, description:visual studio code",
 			"classificationSource": "rules"
 		},
 		{
@@ -2764,8 +2764,8 @@
 			"license": "NOASSERTION",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:vscode, repo:vscode, tokens:vscode-extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2790,8 +2790,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.86,
+			"classificationReason": "name:vscode, repo:vscode",
 			"classificationSource": "rules"
 		},
 		{
@@ -2816,8 +2816,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2842,8 +2842,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vscode, keyword:visual studio code",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:vscode, repo:vscode, description:visual-studio-code, description:visual studio code",
 			"classificationSource": "rules"
 		},
 		{
@@ -2876,8 +2876,8 @@
 			"license": null,
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2909,8 +2909,8 @@
 			"license": null,
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, topic:vscode-extension, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2935,8 +2935,8 @@
 			"license": "CC-BY-4.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"classificationConfidence": 0.57,
+			"classificationReason": "description:ai",
 			"classificationSource": "rules"
 		},
 		{
@@ -2968,8 +2968,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, description:vscode, repo:vscode, topic:vscode-extension, description:vscode-extension, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2994,8 +2994,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:vscode, description:vscode, repo:vscode, description:vscode-extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -3020,8 +3020,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:vscode",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:vscode, description:vscode, homepage:vscode, repo:vscode",
 			"classificationSource": "rules"
 		},
 		{
@@ -3046,8 +3046,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:vscode, repo:vscode, tokens:vscode-extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -3070,11 +3070,11 @@
 			"starredAt": "2024-01-19T01:26:30Z",
 			"stargazersCount": 1116,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 576201,
@@ -3109,10 +3109,10 @@
 			"starredAt": "2024-01-18T10:31:08Z",
 			"stargazersCount": 111402,
 			"license": "MIT",
-			"category": "media",
-			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:audio",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:library",
 			"classificationSource": "rules"
 		},
 		{
@@ -3145,8 +3145,8 @@
 			"license": "GPL-2.0",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:framework, keyword:framework, language:C",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:framework, language:C",
 			"classificationSource": "rules"
 		},
 		{
@@ -3179,8 +3179,8 @@
 			"license": "GPL-2.0",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:windows",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:windows, description:windows",
 			"classificationSource": "rules"
 		}
 	]

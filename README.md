@@ -1,8 +1,8 @@
-# My Stars Atlas
+# My Stars
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-17T18:02:27.373Z`
+Last updated: `2026-03-17T18:58:36.941Z`
 
 ## About This Project
 

@@ -5,14 +5,14 @@
     "": {
       "name": "my-stars",
       "dependencies": {
-        "handlebars": "^4.7.8",
+        "handlebars": "latest",
       },
       "devDependencies": {
-        "@biomejs/biome": "2.4.7",
+        "@biomejs/biome": "latest",
         "@types/bun": "latest",
-        "@types/handlebars": "^4.1.0",
-        "bun-types": "^1.3.10",
-        "typescript": "^5.8.2",
+        "@types/handlebars": "latest",
+        "bun-types": "latest",
+        "typescript": "latest",
       },
     },
   },

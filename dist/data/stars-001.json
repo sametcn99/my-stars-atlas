@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-03-17T18:02:27.373Z",
+	"generatedAt": "2026-03-17T18:58:36.941Z",
 	"chunkIndex": 1,
 	"chunkCount": 8,
 	"items": [
@@ -25,10 +25,10 @@
 			"starredAt": "2026-03-17T09:38:46Z",
 			"stargazersCount": 672,
 			"license": null,
-			"category": "data",
-			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:data",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.48,
+			"classificationReason": "language:HTML",
 			"classificationSource": "rules"
 		},
 		{
@@ -53,8 +53,8 @@
 			"license": null,
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:api, keyword:rest, keyword:rest api",
+			"classificationConfidence": 0.9,
+			"classificationReason": "description:api, description:rest-api, description:rest, description:rest api",
 			"classificationSource": "rules"
 		},
 		{
@@ -79,8 +79,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode-extension, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, topic:vscode-extension, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -105,8 +105,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:nuxt, keyword:ux",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:nuxt, description:browser",
 			"classificationSource": "rules"
 		},
 		{
@@ -131,8 +131,8 @@
 			"license": null,
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:agent",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -168,8 +168,8 @@
 			"license": null,
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:agentic-workflows, keyword:ai, keyword:agent",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:ai, description:ai, tokens:agentic-ai, topic:agentic-workflows, language:JavaScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -200,10 +200,10 @@
 			"starredAt": "2026-03-12T18:35:53Z",
 			"stargazersCount": 7334,
 			"license": "NOASSERTION",
-			"category": "security",
-			"categoryTitle": "Security & Privacy",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:security, keyword:security",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:windows, name:windows, description:windows, repo:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -226,10 +226,10 @@
 			"starredAt": "2026-03-12T10:12:10Z",
 			"stargazersCount": 1872,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ui, keyword:website",
+			"category": "learning",
+			"categoryTitle": "Learning & Reference",
+			"classificationConfidence": 0.86,
+			"classificationReason": "description:sample, description:guide",
 			"classificationSource": "rules"
 		},
 		{
@@ -254,8 +254,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ai, keyword:agent",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:ai, description:agent, name:agents, repo:agents, tokens:ai-agents",
 			"classificationSource": "rules"
 		},
 		{
@@ -296,8 +296,8 @@
 			"license": null,
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ai, keyword:agent, keyword:copilot, keyword:claude",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:ai, description:ai, description:agents, tokens:ai-agents, topic:copilot, description:copilot, topic:claude, description:claude",
 			"classificationSource": "rules"
 		},
 		{
@@ -338,8 +338,8 @@
 			"license": "Apache-2.0",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:desktop, topic:windows, topic:linux, keyword:desktop",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:desktop, topic:windows, topic:linux, topic:desktop app, tokens:windows app",
 			"classificationSource": "rules"
 		},
 		{
@@ -371,8 +371,8 @@
 			"license": "NOASSERTION",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:csharp, topic:blazor, keyword:dotnet, keyword:blazor",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, topic:csharp, topic:blazor, name:blazor, description:blazor, homepage:blazor, repo:blazor",
 			"classificationSource": "rules"
 		},
 		{
@@ -395,10 +395,10 @@
 			"starredAt": "2026-03-07T09:26:49Z",
 			"stargazersCount": 12444,
 			"license": "GPL-3.0",
-			"category": "security",
-			"categoryTitle": "Security & Privacy",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:privacy, keyword:privacy",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:browser, description:browser, topic:web, description:web",
 			"classificationSource": "rules"
 		},
 		{
@@ -421,10 +421,10 @@
 			"starredAt": "2026-03-07T09:22:10Z",
 			"stargazersCount": 1,
 			"license": null,
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.86,
+			"classificationReason": "name:website, repo:website",
 			"classificationSource": "rules"
 		},
 		{
@@ -447,11 +447,11 @@
 			"starredAt": "2026-03-07T09:21:25Z",
 			"stargazersCount": 159,
 			"license": "Apache-2.0",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 513632900,
@@ -475,8 +475,8 @@
 			"license": "GPL-3.0",
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:android, keyword:android, language:Kotlin",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:android, description:android, language:Kotlin",
 			"classificationSource": "rules"
 		},
 		{
@@ -508,8 +508,8 @@
 			"license": "GPL-3.0",
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:android, keyword:android, language:Kotlin",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:android, description:android, tokens:android app, language:Kotlin",
 			"classificationSource": "rules"
 		},
 		{
@@ -532,11 +532,11 @@
 			"starredAt": "2026-03-07T01:08:44Z",
 			"stargazersCount": 1462,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.55,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 133814602,
@@ -560,8 +560,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:.net, keyword:dotnet, keyword:nuget, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:dotnet, repo:dotnet, description:nuget, description:.net, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -610,11 +610,11 @@
 			"starredAt": "2026-03-06T04:23:44Z",
 			"stargazersCount": 4,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 1034531513,
@@ -636,10 +636,10 @@
 			"starredAt": "2026-03-05T10:50:37Z",
 			"stargazersCount": 11,
 			"license": "MIT",
-			"category": "design",
-			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ux, keyword:theme",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:vitepress, description:vitepress, homepage:vitepress, repo:vitepress, language:Vue",
 			"classificationSource": "rules"
 		},
 		{
@@ -664,8 +664,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:llm, keyword:ai, keyword:llm, keyword:model",
+			"classificationConfidence": 0.8,
+			"classificationReason": "topic:llm",
 			"classificationSource": "rules"
 		},
 		{
@@ -688,11 +688,11 @@
 			"starredAt": "2026-03-05T01:57:45Z",
 			"stargazersCount": 6867,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 55626935,
@@ -714,10 +714,10 @@
 			"starredAt": "2026-03-04T03:16:00Z",
 			"stargazersCount": 31432,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ux",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.86,
+			"classificationReason": "description:windows, description:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -740,10 +740,10 @@
 			"starredAt": "2026-03-03T13:38:18Z",
 			"stargazersCount": 8532,
 			"license": null,
-			"category": "dotnet",
-			"categoryTitle": ".NET",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:.net",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.48,
+			"classificationReason": "language:JavaScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -787,10 +787,10 @@
 			"starredAt": "2026-03-03T04:56:35Z",
 			"stargazersCount": 6,
 			"license": "MIT",
-			"category": "design",
-			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:design, keyword:icons",
+			"category": "mobile",
+			"categoryTitle": "Mobile",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react-native, description:react-native, topic:expo, topic:react native, description:react native",
 			"classificationSource": "rules"
 		},
 		{
@@ -813,10 +813,10 @@
 			"starredAt": "2026-03-02T23:43:25Z",
 			"stargazersCount": 162,
 			"license": null,
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.65,
-			"classificationReason": "language:PowerShell",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -839,10 +839,10 @@
 			"starredAt": "2026-02-28T07:01:32Z",
 			"stargazersCount": 1,
 			"license": "MIT",
-			"category": "devops",
-			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ci",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:HTML",
 			"classificationSource": "rules"
 		},
 		{
@@ -872,10 +872,10 @@
 			"starredAt": "2026-02-28T05:34:56Z",
 			"stargazersCount": 3,
 			"license": "MIT",
-			"category": "automation",
-			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:scraper, keyword:scrape",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.59,
+			"classificationReason": "topic:browser",
 			"classificationSource": "rules"
 		},
 		{
@@ -907,8 +907,8 @@
 			"license": "GPL-3.0",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:windows",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:windows, name:windows, description:windows, repo:windows, description:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -941,8 +941,8 @@
 			"license": null,
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:copilot, keyword:agent, keyword:copilot",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:agent, topic:copilot, name:copilot, homepage:copilot, repo:copilot",
 			"classificationSource": "rules"
 		},
 		{
@@ -976,8 +976,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:ai, keyword:ai, keyword:agent",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:ai, description:ai, topic:agents, description:agents, tokens:ai-agents, topic:assistant, description:assistant, topic:artificial intelligence",
 			"classificationSource": "rules"
 		},
 		{
@@ -1002,8 +1002,8 @@
 			"license": "MIT",
 			"category": "cloud",
 			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:cloud, keyword:cloudflare",
+			"classificationConfidence": 0.8,
+			"classificationReason": "owner:cloudflare, repo:cloudflare",
 			"classificationSource": "rules"
 		},
 		{
@@ -1041,8 +1041,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:ai, topic:llm, topic:claude, keyword:ai, keyword:llm, keyword:gpt, keyword:claude",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:ai, topic:llm, topic:claude",
 			"classificationSource": "rules"
 		},
 		{
@@ -1083,8 +1083,8 @@
 			"license": "GPL-3.0",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:xaml, keyword:.net, keyword:dotnet, keyword:wpf, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, topic:xaml, description:.net, topic:wpf, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -1109,8 +1109,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:copilot",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:copilot, description:copilot, repo:copilot, description:mcp",
 			"classificationSource": "rules"
 		},
 		{
@@ -1149,8 +1149,8 @@
 			"license": "MIT",
 			"category": "cloud",
 			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:cloudflare, keyword:cloud, keyword:cloudflare",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:cloudflare",
 			"classificationSource": "rules"
 		},
 		{
@@ -1189,10 +1189,10 @@
 			"starredAt": "2026-02-22T02:44:19Z",
 			"stargazersCount": 333,
 			"license": "MIT",
-			"category": "cloud",
-			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:vercel",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:browser, description:browser",
 			"classificationSource": "rules"
 		},
 		{
@@ -1223,10 +1223,10 @@
 			"starredAt": "2026-02-22T02:44:16Z",
 			"stargazersCount": 23,
 			"license": "MIT",
-			"category": "libraries",
-			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:package, keyword:library, keyword:package",
+			"category": "mobile",
+			"categoryTitle": "Mobile",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:react-native, topic:react native",
 			"classificationSource": "rules"
 		},
 		{
@@ -1263,8 +1263,8 @@
 			"license": "MIT",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:self-hosted, keyword:self-hosted",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:self-hosted",
 			"classificationSource": "rules"
 		},
 		{
@@ -1289,8 +1289,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -1336,8 +1336,8 @@
 			"license": "AGPL-3.0",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:desktop, topic:windows, topic:macos, topic:cross-platform, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, topic:desktop, description:desktop, topic:windows, topic:macos, topic:cross-platform",
 			"classificationSource": "rules"
 		},
 		{
@@ -1360,10 +1360,10 @@
 			"starredAt": "2026-02-21T22:05:02Z",
 			"stargazersCount": 8,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:rag",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:vue, name:vitepress, description:vitepress, homepage:vitepress, repo:vitepress",
 			"classificationSource": "rules"
 		},
 		{
@@ -1396,10 +1396,10 @@
 			"starredAt": "2026-02-21T20:51:39Z",
 			"stargazersCount": 145,
 			"license": "AGPL-3.0",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:nextjs, keyword:ui",
+			"category": "data",
+			"categoryTitle": "Data & Analytics",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:analytics, description:analytics, topic:clickhouse, description:clickhouse",
 			"classificationSource": "rules"
 		},
 		{
@@ -1443,10 +1443,10 @@
 			"starredAt": "2026-02-21T18:48:10Z",
 			"stargazersCount": 35135,
 			"license": "GPL-3.0",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:gpt, keyword:gpt",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.83,
+			"classificationReason": "topic:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -1482,10 +1482,10 @@
 			"starredAt": "2026-02-20T22:36:01Z",
 			"stargazersCount": 7,
 			"license": "GPL-3.0",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:webhook, keyword:server, keyword:webhook",
+			"category": "devops",
+			"categoryTitle": "DevOps & Infra",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:self-hosted, description:self-hosted",
 			"classificationSource": "rules"
 		},
 		{
@@ -1508,10 +1508,10 @@
 			"starredAt": "2026-02-19T17:17:25Z",
 			"stargazersCount": 5824,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:agents, keyword:agent",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, name:react, description:react, homepage:react, repo:react",
 			"classificationSource": "rules"
 		},
 		{
@@ -1536,8 +1536,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:react",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:react, description:react",
 			"classificationSource": "rules"
 		},
 		{
@@ -1560,10 +1560,10 @@
 			"starredAt": "2026-02-19T16:54:36Z",
 			"stargazersCount": 49195,
 			"license": "MIT",
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.65,
-			"classificationReason": "language:PowerShell",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -1586,10 +1586,10 @@
 			"starredAt": "2026-02-19T06:36:29Z",
 			"stargazersCount": 1464,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.93,
+			"classificationReason": "description:browser, description:web, description:web app",
 			"classificationSource": "rules"
 		},
 		{
@@ -1612,10 +1612,10 @@
 			"starredAt": "2026-02-18T20:14:24Z",
 			"stargazersCount": 746,
 			"license": null,
-			"category": "devops",
-			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:ci",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:C++",
 			"classificationSource": "rules"
 		},
 		{
@@ -1640,8 +1640,8 @@
 			"license": "GPL-3.0",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:.net",
+			"classificationConfidence": 0.75,
+			"classificationReason": "description:.net, homepage:.net",
 			"classificationSource": "rules"
 		},
 		{
@@ -1683,8 +1683,8 @@
 			"license": "Apache-2.0",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:docker, topic:kubernetes, topic:k8s, keyword:docker, keyword:kubernetes, keyword:infrastructure",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:docker, topic:kubernetes, description:infrastructure, topic:k8s",
 			"classificationSource": "rules"
 		},
 		{
@@ -1716,10 +1716,10 @@
 			"starredAt": "2026-02-17T21:25:44Z",
 			"stargazersCount": 3,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:ai",
+			"category": "dotnet",
+			"categoryTitle": ".NET",
+			"classificationConfidence": 0.58,
+			"classificationReason": "topic:c#",
 			"classificationSource": "rules"
 		},
 		{
@@ -1754,8 +1754,8 @@
 			"license": "NOASSERTION",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:monitoring, keyword:infrastructure, keyword:monitoring",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:monitoring, description:monitoring, description:infrastructure",
 			"classificationSource": "rules"
 		},
 		{
@@ -1786,8 +1786,8 @@
 			"license": null,
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:visual-studio-code, keyword:vscode",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, description:vscode, repo:vscode, topic:visual-studio-code, topic:visual studio code",
 			"classificationSource": "rules"
 		},
 		{
@@ -1812,7 +1812,7 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.8,
+			"classificationConfidence": 0.86,
 			"classificationReason": "topic:json-schema",
 			"classificationSource": "rules"
 		},
@@ -1859,8 +1859,8 @@
 			"license": "NOASSERTION",
 			"category": "security",
 			"categoryTitle": "Security & Privacy",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:security, keyword:security",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:security, topic:secret-scanning, topic:secrets, description:secrets",
 			"classificationSource": "rules"
 		},
 		{
@@ -1885,8 +1885,8 @@
 			"license": "GPL-3.0",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:extension",
+			"classificationConfidence": 0.56,
+			"classificationReason": "description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -1909,11 +1909,11 @@
 			"starredAt": "2026-02-13T00:34:19Z",
 			"stargazersCount": 2,
 			"license": "GPL-3.0",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 1122062847,
@@ -1945,10 +1945,10 @@
 			"starredAt": "2026-02-08T17:56:48Z",
 			"stargazersCount": 1748,
 			"license": "GPL-3.0",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:web, keyword:ux",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:linux, description:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -1973,8 +1973,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:claude, keyword:ai, keyword:agent, keyword:claude",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:ai, description:agents, description:ai-agents, topic:claude, description:claude, language:JavaScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -1997,11 +1997,11 @@
 			"starredAt": "2026-02-07T22:00:12Z",
 			"stargazersCount": 1,
 			"license": "GPL-3.0",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:Python",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 1146934190,
@@ -2025,8 +2025,8 @@
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:claude",
+			"classificationConfidence": 0.82,
+			"classificationReason": "description:claude, language:TypeScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -2051,8 +2051,8 @@
 			"license": "GPL-3.0",
 			"category": "cli",
 			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:terminal, keyword:tui",
+			"classificationConfidence": 0.89,
+			"classificationReason": "description:terminal, topic:tui",
 			"classificationSource": "rules"
 		},
 		{
@@ -2091,8 +2091,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode-extension, topic:developer-tools, keyword:vscode, keyword:extension",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:vscode, topic:vscode-extension, topic:developer-tools, topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2117,8 +2117,8 @@
 			"license": "MIT",
 			"category": "cli",
 			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:tui, keyword:terminal, keyword:tui",
+			"classificationConfidence": 0.96,
+			"classificationReason": "description:terminal, topic:tui, name:tui, repo:tui",
 			"classificationSource": "rules"
 		},
 		{
@@ -2143,7 +2143,7 @@
 			"license": "GPL-3.0",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.8,
+			"classificationConfidence": 0.86,
 			"classificationReason": "topic:linux",
 			"classificationSource": "rules"
 		},
@@ -2174,10 +2174,10 @@
 			"starredAt": "2026-02-06T03:20:37Z",
 			"stargazersCount": 233,
 			"license": "CC0-1.0",
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:cli, topic:terminal, topic:tui, keyword:cli, keyword:terminal, keyword:tui",
+			"category": "learning",
+			"categoryTitle": "Learning & Reference",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:awesome, name:awesome, description:awesome, repo:awesome, topic:awesome-list, topic:awesome list",
 			"classificationSource": "rules"
 		},
 		{
@@ -2200,10 +2200,10 @@
 			"starredAt": "2026-02-05T18:36:57Z",
 			"stargazersCount": 12,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:ui, keyword:website",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.86,
+			"classificationReason": "description:framework, language:Go",
 			"classificationSource": "rules"
 		},
 		{
@@ -2234,8 +2234,8 @@
 			"license": "GPL-3.0",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, topic:visual-studio-code, keyword:vscode, keyword:visual studio code, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, repo:vscode, topic:vscode-extension, topic:visual-studio-code, description:visual-studio-code, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -2271,8 +2271,8 @@
 			"license": "GPL-2.0",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:video, keyword:video, keyword:audio",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:video, description:video, topic:video-editor, description:audio, topic:ffmpeg",
 			"classificationSource": "rules"
 		},
 		{
@@ -2305,8 +2305,8 @@
 			"license": "NOASSERTION",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:backend, keyword:api",
+			"classificationConfidence": 0.89,
+			"classificationReason": "description:backend, topic:api",
 			"classificationSource": "rules"
 		},
 		{
@@ -2329,10 +2329,10 @@
 			"starredAt": "2026-02-01T23:36:04Z",
 			"stargazersCount": 6,
 			"license": null,
-			"category": "cloud",
-			"categoryTitle": "Cloud & BaaS",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:vercel",
+			"category": "backend",
+			"categoryTitle": "Backend & APIs",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:api, description:api, homepage:api, repo:api",
 			"classificationSource": "rules"
 		},
 		{
@@ -2355,11 +2355,11 @@
 			"starredAt": "2026-02-01T23:31:41Z",
 			"stargazersCount": 3274,
 			"license": "GPL-2.0",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "automation",
+			"categoryTitle": "Automation & Bots",
+			"classificationConfidence": 0.6,
+			"classificationReason": "homepage:make",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 285092252,
@@ -2381,10 +2381,10 @@
 			"starredAt": "2026-02-01T02:39:02Z",
 			"stargazersCount": 25673,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ui",
+			"category": "devops",
+			"categoryTitle": "DevOps & Infra",
+			"classificationConfidence": 0.6,
+			"classificationReason": "description:infrastructure",
 			"classificationSource": "rules"
 		},
 		{
@@ -2414,8 +2414,8 @@
 			"license": "NOASSERTION",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:data, keyword:analytics, keyword:visualization",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:data, description:data, topic:analytics, topic:dbt, topic:visualization, topic:business-intelligence",
 			"classificationSource": "rules"
 		},
 		{
@@ -2451,10 +2451,10 @@
 			"starredAt": "2026-02-01T02:29:45Z",
 			"stargazersCount": 6861,
 			"license": "NOASSERTION",
-			"category": "security",
-			"categoryTitle": "Security & Privacy",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:oauth, keyword:auth, keyword:oauth",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.82,
+			"classificationReason": "topic:api client",
 			"classificationSource": "rules"
 		},
 		{
@@ -2486,8 +2486,8 @@
 			"license": "MIT",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:sdk, keyword:sdk",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:sdk, description:sdk",
 			"classificationSource": "rules"
 		},
 		{
@@ -2520,7 +2520,7 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
+			"classificationConfidence": 0.89,
 			"classificationReason": "topic:react, topic:nextjs",
 			"classificationSource": "rules"
 		},
@@ -2544,10 +2544,10 @@
 			"starredAt": "2026-02-01T02:28:38Z",
 			"stargazersCount": 11360,
 			"license": "NOASSERTION",
-			"category": "automation",
-			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:workflow",
+			"category": "devops",
+			"categoryTitle": "DevOps & Infra",
+			"classificationConfidence": 0.7,
+			"classificationReason": "description:github-actions",
 			"classificationSource": "rules"
 		},
 		{
@@ -2579,8 +2579,8 @@
 			"license": "GPL-3.0",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:themes, keyword:theme",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:themes",
 			"classificationSource": "rules"
 		},
 		{
@@ -2623,8 +2623,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:nextjs, topic:nuxt, topic:vue, topic:astro, keyword:ux",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, topic:react-router, topic:nextjs, topic:nuxt, topic:vue, topic:astro",
 			"classificationSource": "rules"
 		},
 		{
@@ -2647,10 +2647,10 @@
 			"starredAt": "2026-02-01T02:06:41Z",
 			"stargazersCount": 18196,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:react, description:react, homepage:react, repo:react",
 			"classificationSource": "rules"
 		},
 		{
@@ -2675,8 +2675,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:frontend, keyword:frontend, keyword:ui",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:frontend, description:frontend",
 			"classificationSource": "rules"
 		},
 		{
@@ -2718,8 +2718,8 @@
 			"license": "AGPL-3.0",
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:flutter, keyword:mobile, keyword:flutter",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:mobile, topic:flutter, topic:mobile app",
 			"classificationSource": "rules"
 		},
 		{
@@ -2756,8 +2756,8 @@
 			"license": "NOASSERTION",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:astro, keyword:ui, keyword:website, keyword:blog",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:astro, name:astro, homepage:astro, repo:astro, tokens:web-components, tokens:web components, topic:browser, description:web",
 			"classificationSource": "rules"
 		},
 		{
@@ -2802,8 +2802,8 @@
 			"license": "Apache-2.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:llm, topic:transformer, topic:machine-learning, topic:deep-learning, keyword:ai, keyword:llm, keyword:inference, keyword:model, keyword:machine learning, keyword:inference, keyword:multimodal",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:llm, topic:transformer, topic:transformers, name:transformers, description:transformers, homepage:transformers, repo:transformers, topic:machine-learning",
 			"classificationSource": "rules"
 		},
 		{
@@ -2836,8 +2836,8 @@
 			"license": "Unlicense",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:downloader, topic:youtube-downloader, keyword:video, keyword:audio, keyword:downloader, keyword:youtube",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:video, description:audio, topic:downloader, description:downloader, topic:youtube-downloader, topic:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -2862,8 +2862,8 @@
 			"license": "MIT",
 			"category": "cli",
 			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:cli, keyword:cli, keyword:command line",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:cli, name:cli, homepage:cli, owner:cli, repo:cli, description:command-line, description:command line",
 			"classificationSource": "rules"
 		},
 		{
@@ -2909,8 +2909,8 @@
 			"license": "NOASSERTION",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:ai, topic:agent, topic:llm, topic:rag, topic:genai, topic:gpt, topic:agentic-ai, topic:mcp, keyword:ai, keyword:agent, keyword:llm, keyword:rag, keyword:gpt",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:ai, homepage:ai, topic:agent, topic:llm, topic:rag, topic:genai, topic:gpt, tokens:agent-framework",
 			"classificationSource": "rules"
 		},
 		{
@@ -2950,8 +2950,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:rest-api, keyword:api, keyword:rest, keyword:graphql",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:api, description:api, topic:rest-api, topic:graphql, topic:openapi, topic:rest, topic:rest api",
 			"classificationSource": "rules"
 		},
 		{
@@ -2980,10 +2980,10 @@
 			"starredAt": "2026-02-01T02:02:36Z",
 			"stargazersCount": 108656,
 			"license": "MIT",
-			"category": "mobile",
-			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ios",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:browser",
 			"classificationSource": "rules"
 		},
 		{
@@ -3029,8 +3029,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:api, keyword:api, keyword:rest, keyword:fastapi",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:api, tokens:rest-api, topic:openapi, topic:swagger, topic:rest, topic:fastapi, name:fastapi, description:fastapi",
 			"classificationSource": "rules"
 		},
 		{
@@ -3066,8 +3066,8 @@
 			"license": "Apache-2.0",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:api, topic:rest-api, topic:graphql, keyword:api, keyword:rest, keyword:graphql, keyword:rest api",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:api, description:api, topic:rest-api, topic:graphql, description:graphql, topic:grpc, description:grpc, topic:rest",
 			"classificationSource": "rules"
 		},
 		{
@@ -3103,8 +3103,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:api, topic:rest-api, keyword:api, keyword:rest, keyword:rest api",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:api, description:api, topic:rest-api, description:rest-api, topic:openapi, description:openapi, topic:swagger, description:swagger",
 			"classificationSource": "rules"
 		},
 		{
@@ -3129,8 +3129,8 @@
 			"license": null,
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:website, language:MDX",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:website, repo:website, language:MDX",
 			"classificationSource": "rules"
 		},
 		{
@@ -3153,11 +3153,11 @@
 			"starredAt": "2026-01-31T16:20:05Z",
 			"stargazersCount": 1,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 1127785354,
@@ -3181,8 +3181,8 @@
 			"license": null,
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:api, keyword:fastapi",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:api, name:api, repo:api, description:fastapi",
 			"classificationSource": "rules"
 		}
 	]

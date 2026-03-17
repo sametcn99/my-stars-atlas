@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-03-17T18:02:27.373Z",
+	"generatedAt": "2026-03-17T18:58:36.941Z",
 	"chunkIndex": 5,
 	"chunkCount": 8,
 	"items": [
@@ -36,8 +36,8 @@
 			"license": "MIT",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:library",
+			"classificationConfidence": 0.89,
+			"classificationReason": "description:library, description:utility library",
 			"classificationSource": "rules"
 		},
 		{
@@ -71,8 +71,8 @@
 			"license": "Apache-2.0",
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:android, keyword:android, keyword:mobile",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:android, description:android",
 			"classificationSource": "rules"
 		},
 		{
@@ -116,8 +116,8 @@
 			"license": "Apache-2.0",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:database, topic:postgresql, topic:sql, keyword:data, keyword:database, keyword:sql",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:database, description:database, topic:postgresql, topic:sql, description:sql",
 			"classificationSource": "rules"
 		},
 		{
@@ -150,7 +150,7 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
+			"classificationConfidence": 0.89,
 			"classificationReason": "topic:windows, topic:linux",
 			"classificationSource": "rules"
 		},
@@ -186,8 +186,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:dotnet-maui, keyword:.net, keyword:dotnet, keyword:maui, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, topic:maui, description:maui, topic:dotnet-maui, description:.net, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -212,8 +212,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:electron",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:electron, description:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -259,8 +259,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:csharp, topic:blazor, topic:maui, topic:winui, topic:xaml, topic:dotnet-maui, keyword:.net, keyword:dotnet, keyword:blazor, keyword:maui, keyword:winui, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, name:dotnet, repo:dotnet, topic:csharp, topic:blazor, topic:maui, name:maui, description:maui",
 			"classificationSource": "rules"
 		},
 		{
@@ -298,8 +298,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:csharp, topic:blazor, topic:dotnet-maui, keyword:.net, keyword:dotnet, keyword:asp.net, keyword:blazor, keyword:maui, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, name:dotnet, repo:dotnet, topic:csharp, topic:blazor, description:blazor, topic:maui, description:maui",
 			"classificationSource": "rules"
 		},
 		{
@@ -339,8 +339,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:maui, keyword:.net, keyword:maui, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:maui, description:maui, topic:.net, description:.net, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -384,8 +384,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:blazor, topic:maui, topic:winui, keyword:.net, keyword:blazor, keyword:maui, keyword:winui, keyword:wpf, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:blazor, description:blazor, topic:maui, description:maui, topic:winui, description:winui, description:.net, topic:wpf",
 			"classificationSource": "rules"
 		},
 		{
@@ -410,8 +410,8 @@
 			"license": null,
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:maui, topic:dotnet-maui, keyword:.net, keyword:dotnet, keyword:maui",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, name:dotnet, repo:dotnet, topic:maui, name:maui, description:maui, repo:maui, topic:dotnet-maui",
 			"classificationSource": "rules"
 		},
 		{
@@ -449,8 +449,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:maui, topic:winui, topic:dotnet-maui, keyword:.net, keyword:dotnet, keyword:maui, keyword:winui, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, homepage:dotnet, topic:maui, name:maui, description:maui, homepage:maui, repo:maui, topic:winui",
 			"classificationSource": "rules"
 		},
 		{
@@ -486,8 +486,8 @@
 			"license": "NOASSERTION",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:csharp, topic:maui, keyword:.net, keyword:dotnet, keyword:maui, keyword:wpf, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, name:dotnet, homepage:dotnet, repo:dotnet, topic:csharp, topic:maui, tokens:dotnet-maui, description:.net",
 			"classificationSource": "rules"
 		},
 		{
@@ -512,8 +512,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:.net, keyword:maui, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:maui, description:maui, repo:maui, description:.net, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -538,8 +538,8 @@
 			"license": null,
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:maui, language:C#",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:maui, description:maui, repo:maui, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -564,8 +564,8 @@
 			"license": null,
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:android, topic:ios, keyword:android, keyword:ios",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:android, topic:ios, tokens:android app, tokens:ios app",
 			"classificationSource": "rules"
 		},
 		{
@@ -590,8 +590,8 @@
 			"license": "Apache-2.0",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:nuget, keyword:nuget, language:C#",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:nuget, topic:c#, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -624,8 +624,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:portfolio",
+			"classificationConfidence": 0.79,
+			"classificationReason": "topic:portfolio",
 			"classificationSource": "rules"
 		},
 		{
@@ -659,8 +659,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:css, keyword:ui",
+			"classificationConfidence": 0.92,
+			"classificationReason": "topic:css, description:web, topic:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -696,8 +696,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:dotnet-maui, keyword:.net, keyword:dotnet, keyword:maui, keyword:winui, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, owner:dotnet, repo:dotnet, topic:maui, name:maui, description:maui, homepage:maui, repo:maui",
 			"classificationSource": "rules"
 		},
 		{
@@ -737,10 +737,10 @@
 			"starredAt": "2024-05-31T08:18:54Z",
 			"stargazersCount": 169067,
 			"license": "GPL-3.0",
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.9,
-			"classificationReason": "keyword:shell, language:Batchfile",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:windows, description:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -765,8 +765,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:.net, keyword:dotnet, language:C#",
+			"classificationConfidence": 0.96,
+			"classificationReason": "owner:dotnet, repo:dotnet, description:.net, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -811,7 +811,7 @@
 			"license": "Apache-2.0",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.8,
+			"classificationConfidence": 0.86,
 			"classificationReason": "topic:windows",
 			"classificationSource": "rules"
 		},
@@ -851,8 +851,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:dotnet, topic:maui, topic:winui, keyword:.net, keyword:dotnet, keyword:maui, keyword:winui, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, owner:dotnet, repo:dotnet, topic:maui, name:maui, description:maui, homepage:maui, repo:maui",
 			"classificationSource": "rules"
 		},
 		{
@@ -887,8 +887,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:reactjs, topic:nextjs",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:react, description:react, topic:reactjs, topic:nextjs",
 			"classificationSource": "rules"
 		},
 		{
@@ -923,8 +923,8 @@
 			"license": "MIT",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:telegram-bot, keyword:bot",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:bot, description:bot, homepage:bot, topic:telegram-bot, description:telegram-bot",
 			"classificationSource": "rules"
 		},
 		{
@@ -949,8 +949,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:api, keyword:api",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:api, name:api, homepage:api, repo:api",
 			"classificationSource": "rules"
 		},
 		{
@@ -984,10 +984,10 @@
 			"starredAt": "2024-05-13T17:19:45Z",
 			"stargazersCount": 30192,
 			"license": "MIT",
-			"category": "automation",
-			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:scraper, keyword:scraper, keyword:scrape",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.89,
+			"classificationReason": "description:library, topic:parser",
 			"classificationSource": "rules"
 		},
 		{
@@ -1020,8 +1020,8 @@
 			"license": "BSD-2-Clause",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:html",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:html, topic:css, name:css, description:css, homepage:css, repo:css",
 			"classificationSource": "rules"
 		},
 		{
@@ -1054,8 +1054,8 @@
 			"license": "MIT",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:parser, keyword:parser",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:parser, description:parser",
 			"classificationSource": "rules"
 		},
 		{
@@ -1087,8 +1087,8 @@
 			"license": null,
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:electron, name:electron, description:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -1113,8 +1113,8 @@
 			"license": "MIT",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:devops, topic:github-actions, topic:ci, keyword:ci, keyword:devops",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:devops, topic:github-actions, description:github-actions, topic:ci",
 			"classificationSource": "rules"
 		},
 		{
@@ -1137,11 +1137,11 @@
 			"starredAt": "2024-05-08T14:56:31Z",
 			"stargazersCount": 10079,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.75,
+			"classificationReason": "topic:plugin",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 373518642,
@@ -1172,10 +1172,10 @@
 			"starredAt": "2024-05-08T14:18:00Z",
 			"stargazersCount": 36,
 			"license": "GPL-3.0",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.79,
+			"classificationReason": "topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -1211,8 +1211,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:windows, topic:macos, topic:linux, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, description:electron, owner:electron, repo:electron, topic:windows, topic:macos, topic:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -1235,10 +1235,10 @@
 			"starredAt": "2024-05-07T19:58:53Z",
 			"stargazersCount": 406,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.93,
+			"classificationReason": "description:electron, owner:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -1261,11 +1261,11 @@
 			"starredAt": "2024-05-05T16:06:46Z",
 			"stargazersCount": 834,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:TypeScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 378948267,
@@ -1297,8 +1297,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:frontend, keyword:frontend, keyword:ui, keyword:ux, keyword:design system",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:frontend, topic:web-components, topic:web components, topic:web, description:ui, description:ux, tokens:web app, topic:design system",
 			"classificationSource": "rules"
 		},
 		{
@@ -1327,11 +1327,11 @@
 			"starredAt": "2024-05-04T19:13:16Z",
 			"stargazersCount": 4073,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:ui",
-			"classificationSource": "rules"
+			"category": "misc",
+			"categoryTitle": "Misc",
+			"classificationConfidence": 0.2,
+			"classificationReason": "No deterministic signals matched.",
+			"classificationSource": "default"
 		},
 		{
 			"id": 28664298,
@@ -1355,7 +1355,7 @@
 			"license": "MIT",
 			"category": "mobile",
 			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.65,
+			"classificationConfidence": 0.63,
 			"classificationReason": "language:Kotlin",
 			"classificationSource": "rules"
 		},
@@ -1379,10 +1379,10 @@
 			"starredAt": "2024-05-03T15:01:28Z",
 			"stargazersCount": 13564,
 			"license": "MIT",
-			"category": "data",
-			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:data, keyword:database",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.52,
+			"classificationReason": "description:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -1413,10 +1413,10 @@
 			"starredAt": "2024-05-02T23:37:45Z",
 			"stargazersCount": 2683,
 			"license": "MIT",
-			"category": "libraries",
-			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:package",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:browser",
 			"classificationSource": "rules"
 		},
 		{
@@ -1449,10 +1449,10 @@
 			"starredAt": "2024-05-02T23:36:55Z",
 			"stargazersCount": 4250,
 			"license": "MIT",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ui",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.48,
+			"classificationReason": "language:JavaScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -1498,8 +1498,8 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:audio, keyword:video, keyword:audio, keyword:music",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:video, topic:audio, description:audio, name:music, repo:music",
 			"classificationSource": "rules"
 		},
 		{
@@ -1522,10 +1522,10 @@
 			"starredAt": "2024-05-02T02:38:44Z",
 			"stargazersCount": 69,
 			"license": "MIT",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:api",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:lyrics, name:lyrics, description:lyrics, homepage:lyrics, repo:lyrics",
 			"classificationSource": "rules"
 		},
 		{
@@ -1556,8 +1556,8 @@
 			"license": "NOASSERTION",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:windows, keyword:desktop, keyword:windows app",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:desktop, topic:windows, description:windows, tokens:desktop app, description:windows app",
 			"classificationSource": "rules"
 		},
 		{
@@ -1582,8 +1582,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -1617,8 +1617,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.8,
-			"classificationReason": "topic:react",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, name:react, description:react, homepage:react, repo:react",
 			"classificationSource": "rules"
 		},
 		{
@@ -1659,8 +1659,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:html, topic:css, topic:web, keyword:ui",
+			"classificationConfidence": 0.78,
+			"classificationReason": "topic:html, topic:css, topic:web",
 			"classificationSource": "rules"
 		},
 		{
@@ -1685,8 +1685,8 @@
 			"license": "NOASSERTION",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:html",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:html, description:html",
 			"classificationSource": "rules"
 		},
 		{
@@ -1711,8 +1711,8 @@
 			"license": "MIT",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:runtime, language:Rust",
+			"classificationConfidence": 0.84,
+			"classificationReason": "description:runtime, language:Rust",
 			"classificationSource": "rules"
 		},
 		{
@@ -1748,8 +1748,8 @@
 			"license": "MIT",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:bot, topic:telegram-bot, keyword:bot",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:bot, description:bot, topic:telegram-bot, description:telegram-bot",
 			"classificationSource": "rules"
 		},
 		{
@@ -1789,8 +1789,8 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:nextjs, topic:tailwindcss, keyword:website, keyword:portfolio, keyword:blog",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, topic:nextjs, topic:tailwindcss, description:tailwindcss, topic:tailwind, topic:website, description:website, topic:portfolio",
 			"classificationSource": "rules"
 		},
 		{
@@ -1822,8 +1822,8 @@
 			"license": "CC0-1.0",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:awesome, topic:awesome-list",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:awesome, name:awesome, repo:awesome, topic:awesome-list, topic:awesome list",
 			"classificationSource": "rules"
 		},
 		{
@@ -1859,8 +1859,8 @@
 			"license": null,
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:awesome, topic:awesome-list, topic:tutorial, keyword:tutorial",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:awesome, name:awesome, description:awesome, repo:awesome, topic:awesome-list, topic:tutorial, topic:awesome list",
 			"classificationSource": "rules"
 		},
 		{
@@ -1895,8 +1895,8 @@
 			"license": "MIT",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:awesome, topic:awesome-list",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:awesome, topic:awesome-list, topic:awesome list",
 			"classificationSource": "rules"
 		},
 		{
@@ -1938,8 +1938,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:rest-api, keyword:api, keyword:rest, keyword:rest api",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:api, description:api, topic:rest-api, description:rest-api, topic:rest, description:rest, topic:rest api, description:rest api",
 			"classificationSource": "rules"
 		},
 		{
@@ -1964,8 +1964,8 @@
 			"license": "MIT",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:library",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:library",
 			"classificationSource": "rules"
 		},
 		{
@@ -1996,8 +1996,8 @@
 			"license": "MIT",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:bot, topic:telegram-bot, keyword:bot",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:bot, description:bot, topic:telegram-bot, description:telegram-bot",
 			"classificationSource": "rules"
 		},
 		{
@@ -2028,10 +2028,10 @@
 			"starredAt": "2024-04-17T03:45:29Z",
 			"stargazersCount": 52993,
 			"license": "Apache-2.0",
-			"category": "mobile",
-			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:android, topic:ios, keyword:android, keyword:ios",
+			"category": "design",
+			"categoryTitle": "Design & Themes",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:design, name:design, description:design, homepage:design, repo:design, topic:icons, name:icons, description:icons",
 			"classificationSource": "rules"
 		},
 		{
@@ -2063,8 +2063,8 @@
 			"license": "NOASSERTION",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, keyword:ui, keyword:web app",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, description:react, homepage:react, description:web-components, description:web components, description:web, topic:ui, description:ui",
 			"classificationSource": "rules"
 		},
 		{
@@ -2098,8 +2098,8 @@
 			"license": "BSD-3-Clause",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:windows, topic:macos, topic:linux, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, description:electron, description:desktop, topic:windows, topic:macos, topic:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -2138,8 +2138,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:api, keyword:api",
+			"classificationConfidence": 0.8,
+			"classificationReason": "topic:api",
 			"classificationSource": "rules"
 		},
 		{
@@ -2164,8 +2164,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:api",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:api, description:api, repo:api",
 			"classificationSource": "rules"
 		},
 		{
@@ -2200,8 +2200,8 @@
 			"license": "MIT",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:api, topic:nestjs, keyword:api",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:api, description:api, homepage:api, topic:nestjs",
 			"classificationSource": "rules"
 		},
 		{
@@ -2233,10 +2233,10 @@
 			"starredAt": "2024-04-10T04:22:43Z",
 			"stargazersCount": 29933,
 			"license": "Apache-2.0",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:pwa, topic:web",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:developer-tools, topic:devtools",
 			"classificationSource": "rules"
 		},
 		{
@@ -2259,10 +2259,10 @@
 			"starredAt": "2024-04-10T04:22:34Z",
 			"stargazersCount": 17400,
 			"license": "Apache-2.0",
-			"category": "developer-tools",
-			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:extension",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
 			"classificationSource": "rules"
 		},
 		{
@@ -2285,10 +2285,10 @@
 			"starredAt": "2024-04-07T21:23:44Z",
 			"stargazersCount": 4380,
 			"license": "MIT",
-			"category": "desktop",
-			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:desktop",
+			"category": "automation",
+			"categoryTitle": "Automation & Bots",
+			"classificationConfidence": 0.78,
+			"classificationReason": "topic:monitor",
 			"classificationSource": "rules"
 		},
 		{
@@ -2328,8 +2328,8 @@
 			"license": "Unlicense",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:video, topic:downloader, keyword:video, keyword:downloader, keyword:youtube",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:video, topic:downloader, tokens:youtube-downloader, topic:youtube, name:youtube, description:youtube, repo:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -2364,10 +2364,10 @@
 			"starredAt": "2024-04-07T09:25:47Z",
 			"stargazersCount": 44005,
 			"license": "AGPL-3.0",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:ai, keyword:ai",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:electron, description:windows, description:macos, description:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -2396,10 +2396,10 @@
 			"starredAt": "2024-04-07T09:25:26Z",
 			"stargazersCount": 365,
 			"license": null,
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:video, name:video, description:video, homepage:video, repo:video",
 			"classificationSource": "rules"
 		},
 		{
@@ -2422,10 +2422,10 @@
 			"starredAt": "2024-04-07T04:51:43Z",
 			"stargazersCount": 681,
 			"license": null,
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:service",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.93,
+			"classificationReason": "description:electron, owner:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -2450,8 +2450,8 @@
 			"license": "NOASSERTION",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:library",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:library",
 			"classificationSource": "rules"
 		},
 		{
@@ -2486,8 +2486,8 @@
 			"license": "Apache-2.0",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:visualization, keyword:data, keyword:visualization",
+			"classificationConfidence": 0.77,
+			"classificationReason": "description:data, topic:visualization, description:visualization",
 			"classificationSource": "rules"
 		},
 		{
@@ -2517,10 +2517,10 @@
 			"starredAt": "2024-04-02T21:29:10Z",
 			"stargazersCount": 36029,
 			"license": "NOASSERTION",
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.7000000000000001,
-			"classificationReason": "keyword:cli",
+			"category": "dotnet",
+			"categoryTitle": ".NET",
+			"classificationConfidence": 0.47,
+			"classificationReason": "topic:c#",
 			"classificationSource": "rules"
 		},
 		{
@@ -2545,8 +2545,8 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:video, keyword:streaming",
+			"classificationConfidence": 0.82,
+			"classificationReason": "topic:video, topic:streaming",
 			"classificationSource": "rules"
 		},
 		{
@@ -2577,7 +2577,7 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.8,
+			"classificationConfidence": 0.86,
 			"classificationReason": "topic:cross-platform",
 			"classificationSource": "rules"
 		},
@@ -2609,10 +2609,10 @@
 			"starredAt": "2024-04-02T04:18:16Z",
 			"stargazersCount": 104241,
 			"license": "Apache-2.0",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:frontend, keyword:ui",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:tauri, homepage:tauri, repo:tauri, topic:desktop, description:desktop, topic:desktop app",
 			"classificationSource": "rules"
 		},
 		{
@@ -2647,8 +2647,8 @@
 			"license": "NOASSERTION",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:agent, topic:llm, topic:gpt, keyword:ai, keyword:agent, keyword:llm, keyword:gpt, keyword:claude",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:ai, description:ai, topic:agent, topic:llm, topic:claude, topic:gpt, topic:artificial intelligence, language:Python",
 			"classificationSource": "rules"
 		},
 		{
@@ -2673,8 +2673,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, topic:desktop, name:desktop, homepage:desktop, owner:desktop, repo:desktop",
 			"classificationSource": "rules"
 		},
 		{
@@ -2714,8 +2714,8 @@
 			"license": "Apache-2.0",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:data, keyword:sql, keyword:metrics",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:data, topic:sql, topic:metrics, description:metrics",
 			"classificationSource": "rules"
 		},
 		{
@@ -2738,11 +2738,11 @@
 			"starredAt": "2024-03-31T03:25:22Z",
 			"stargazersCount": 108183,
 			"license": "Apache-2.0",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "data",
+			"categoryTitle": "Data & Analytics",
+			"classificationConfidence": 0.6,
+			"classificationReason": "description:superset",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 3887375,
@@ -2764,10 +2764,10 @@
 			"starredAt": "2024-03-30T22:20:13Z",
 			"stargazersCount": 5692,
 			"license": "GPL-2.0",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.86,
+			"classificationReason": "description:desktop, description:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -2800,7 +2800,7 @@
 			"license": "MIT",
 			"category": "cli",
 			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.95,
+			"classificationConfidence": 0.86,
 			"classificationReason": "topic:productivity",
 			"classificationSource": "rules"
 		},
@@ -2832,11 +2832,11 @@
 			"starredAt": "2024-03-29T22:30:05Z",
 			"stargazersCount": 9623,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 379316177,
@@ -2870,7 +2870,7 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
+			"classificationConfidence": 0.93,
 			"classificationReason": "topic:windows, topic:macos, topic:linux",
 			"classificationSource": "rules"
 		},
@@ -2894,10 +2894,10 @@
 			"starredAt": "2024-03-27T01:36:35Z",
 			"stargazersCount": 679,
 			"license": "MIT",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:rest",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.93,
+			"classificationReason": "name:electron, description:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -2922,8 +2922,8 @@
 			"license": "Apache-2.0",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:library",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:library",
 			"classificationSource": "rules"
 		},
 		{
@@ -2946,11 +2946,11 @@
 			"starredAt": "2024-03-26T20:02:53Z",
 			"stargazersCount": 1414,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 59649430,
@@ -2983,8 +2983,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:electron, name:electron, description:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -3015,8 +3015,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:electron, name:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -3041,8 +3041,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:electron, name:electron, description:electron, repo:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -3079,10 +3079,10 @@
 			"starredAt": "2024-03-26T18:35:23Z",
 			"stargazersCount": 45028,
 			"license": "NOASSERTION",
-			"category": "mobile",
-			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:android, topic:flutter, keyword:android, keyword:mobile, keyword:flutter, language:Dart",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:desktop, description:desktop, topic:windows, topic:macos, topic:linux, topic:desktop client, tokens:desktop app, tokens:windows app",
 			"classificationSource": "rules"
 		},
 		{
@@ -3105,10 +3105,10 @@
 			"starredAt": "2024-03-25T21:04:00Z",
 			"stargazersCount": 336,
 			"license": "MIT",
-			"category": "developer-tools",
-			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:vscode",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.96,
+			"classificationReason": "name:html, description:html, homepage:html, repo:html",
 			"classificationSource": "rules"
 		},
 		{
@@ -3133,8 +3133,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:vscode, topic:vscode-extension, keyword:vscode, keyword:visual studio code, keyword:extension",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, topic:vscode-extension, description:visual-studio-code, topic:extension, description:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -3176,8 +3176,8 @@
 			"license": null,
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:react, topic:reactjs, topic:nextjs, keyword:ui, keyword:web app",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:react, topic:reactjs, topic:nextjs, description:nextjs, topic:tailwind, description:web, tokens:web app",
 			"classificationSource": "rules"
 		},
 		{
@@ -3218,8 +3218,8 @@
 			"license": "Apache-2.0",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:automation, topic:playwright, keyword:automation, keyword:playwright",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:automation, description:automation, topic:playwright, name:playwright, description:playwright, homepage:playwright, repo:playwright",
 			"classificationSource": "rules"
 		},
 		{
@@ -3254,8 +3254,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:desktop app, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, name:electron, description:electron, owner:electron, repo:electron, description:desktop, description:cross-platform",
 			"classificationSource": "rules"
 		},
 		{
@@ -3300,8 +3300,8 @@
 			"license": "GPL-3.0",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, topic:cross-platform, keyword:desktop, keyword:electron",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:electron, name:electron, homepage:electron, repo:electron, topic:desktop, topic:cross-platform, topic:desktop app",
 			"classificationSource": "rules"
 		},
 		{
@@ -3339,7 +3339,7 @@
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.95,
+			"classificationConfidence": 0.89,
 			"classificationReason": "topic:nextjs, topic:tailwindcss",
 			"classificationSource": "rules"
 		}

@@ -1,5 +1,5 @@
-const SHELL_CACHE = "stars-shell-v2";
-const DATA_CACHE = "stars-data-v2";
+const SHELL_CACHE = "stars-shell-v3";
+const DATA_CACHE = "stars-data-v3";
 const SHELL_ASSETS = [
 	"./",
 	"./index.html",
@@ -46,6 +46,21 @@ async function staleWhileRevalidate(request, cacheName) {
 	return cached ?? networkPromise;
 }
 
+async function networkFirst(request, cacheName, fallbackUrl) {
+	const cache = await caches.open(cacheName);
+
+	try {
+		const response = await fetch(request);
+		if (response.ok) {
+			cache.put(request, response.clone());
+		}
+
+		return response;
+	} catch {
+		return (await cache.match(request)) ?? caches.match(fallbackUrl);
+	}
+}
+
 self.addEventListener("fetch", (event) => {
 	if (event.request.method !== "GET") {
 		return;
@@ -57,9 +72,7 @@ self.addEventListener("fetch", (event) => {
 	}
 
 	if (event.request.mode === "navigate") {
-		event.respondWith(
-			fetch(event.request).catch(() => caches.match("./index.html")),
-		);
+		event.respondWith(networkFirst(event.request, SHELL_CACHE, "./index.html"));
 		return;
 	}
 
@@ -68,5 +81,5 @@ self.addEventListener("fetch", (event) => {
 		return;
 	}
 
-	event.respondWith(staleWhileRevalidate(event.request, SHELL_CACHE));
+	event.respondWith(networkFirst(event.request, SHELL_CACHE, "./index.html"));
 });

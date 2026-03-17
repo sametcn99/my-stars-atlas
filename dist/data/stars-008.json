@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-03-17T18:02:27.373Z",
+	"generatedAt": "2026-03-17T18:58:36.941Z",
 	"chunkIndex": 8,
 	"chunkCount": 8,
 	"items": [
@@ -27,8 +27,8 @@
 			"license": "BSD-3-Clause",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:.net, language:C#",
+			"classificationConfidence": 0.8,
+			"classificationReason": "description:.net, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -59,8 +59,8 @@
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:visual-studio-code, keyword:vscode, keyword:visual studio code, keyword:editor",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:vscode, repo:vscode, topic:visual-studio-code, description:visual-studio-code, tokens:code-editor, topic:visual studio code, description:visual studio code, topic:editor",
 			"classificationSource": "rules"
 		},
 		{
@@ -96,8 +96,8 @@
 			"license": "NOASSERTION",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:nuget, keyword:dotnet, keyword:c#, keyword:nuget, language:C#",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:dotnet, topic:nuget, topic:c#, description:c#, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -138,8 +138,8 @@
 			"license": null,
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:tauri, topic:windows, topic:macos, topic:linux, keyword:desktop app, keyword:desktop, keyword:tauri",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:tauri, topic:desktop, description:desktop, topic:windows, description:windows, topic:macos, topic:linux, description:linux",
 			"classificationSource": "rules"
 		},
 		{
@@ -162,10 +162,10 @@
 			"starredAt": "2022-12-29T16:17:05Z",
 			"stargazersCount": 1921,
 			"license": "MIT",
-			"category": "media",
-			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:music",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.47,
+			"classificationReason": "language:Python",
 			"classificationSource": "rules"
 		},
 		{
@@ -190,8 +190,8 @@
 			"license": null,
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:c#, language:C#",
+			"classificationConfidence": 0.76,
+			"classificationReason": "description:c#, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -223,10 +223,10 @@
 			"starredAt": "2022-11-25T16:33:52Z",
 			"stargazersCount": 3186,
 			"license": "GPL-2.0",
-			"category": "developer-tools",
-			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:extension",
+			"category": "backend",
+			"categoryTitle": "Backend & APIs",
+			"classificationConfidence": 0.57,
+			"classificationReason": "topic:api",
 			"classificationSource": "rules"
 		},
 		{
@@ -264,8 +264,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:desktop, topic:windows, keyword:desktop",
+			"classificationConfidence": 0.93,
+			"classificationReason": "topic:desktop, topic:windows, description:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -311,8 +311,8 @@
 			"license": "MIT",
 			"category": "security",
 			"categoryTitle": "Security & Privacy",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:security, topic:privacy, keyword:security, keyword:privacy",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:security, topic:privacy",
 			"classificationSource": "rules"
 		},
 		{
@@ -361,11 +361,11 @@
 			"starredAt": "2022-04-24T22:46:34Z",
 			"stargazersCount": 34,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 173650401,
@@ -398,8 +398,8 @@
 			"license": "MIT",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:automation, keyword:automation",
+			"classificationConfidence": 0.86,
+			"classificationReason": "topic:automation",
 			"classificationSource": "rules"
 		},
 		{
@@ -437,8 +437,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:windows, keyword:desktop",
+			"classificationConfidence": 0.96,
+			"classificationReason": "topic:desktop, description:desktop, topic:windows, topic:desktop client",
 			"classificationSource": "rules"
 		},
 		{
@@ -463,8 +463,8 @@
 			"license": null,
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:video, keyword:audio",
+			"classificationConfidence": 0.86,
+			"classificationReason": "description:video, description:audio",
 			"classificationSource": "rules"
 		},
 		{
@@ -499,10 +499,10 @@
 			"starredAt": "2022-04-14T11:39:20Z",
 			"stargazersCount": 22433,
 			"license": "LGPL-2.1",
-			"category": "desktop",
-			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:windows, topic:macos, topic:linux",
+			"category": "cli",
+			"categoryTitle": "CLI & Terminal",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:cli, name:cli, repo:cli, topic:command-line, description:command-line, topic:command line, description:command line",
 			"classificationSource": "rules"
 		},
 		{
@@ -535,8 +535,8 @@
 			"license": "GPL-3.0",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:extension",
+			"classificationConfidence": 0.7,
+			"classificationReason": "topic:extension",
 			"classificationSource": "rules"
 		},
 		{
@@ -580,8 +580,8 @@
 			"license": "AGPL-3.0",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:music, keyword:music, keyword:lyrics, keyword:youtube",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:music, topic:ffmpeg, topic:lyrics, description:lyrics, topic:youtube, description:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -614,8 +614,8 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:downloader, keyword:downloader, keyword:youtube",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:downloader, description:downloader, tokens:youtube-downloader, topic:youtube, description:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -660,8 +660,8 @@
 			"license": "GPL-3.0",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:music, topic:youtube-downloader, keyword:music, keyword:downloader, keyword:youtube",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:music, description:music, topic:downloader, description:downloader, topic:youtube-downloader, topic:youtube, description:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -692,10 +692,10 @@
 			"starredAt": "2022-01-09T19:20:58Z",
 			"stargazersCount": 1070,
 			"license": "MIT",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:api",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.59,
+			"classificationReason": "topic:music",
 			"classificationSource": "rules"
 		},
 		{
@@ -733,8 +733,8 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:music, keyword:music, keyword:downloader, keyword:lyrics, keyword:youtube",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:music, name:downloader, repo:downloader, tokens:youtube-downloader, topic:lyrics, topic:youtube, description:youtube",
 			"classificationSource": "rules"
 		},
 		{
@@ -757,10 +757,10 @@
 			"starredAt": "2021-10-06T13:01:42Z",
 			"stargazersCount": 1919,
 			"license": "MIT",
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.65,
-			"classificationReason": "language:Batchfile",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -783,11 +783,11 @@
 			"starredAt": "2021-08-29T02:42:34Z",
 			"stargazersCount": 1694,
 			"license": "BSD-3-Clause",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "No deterministic signals matched.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.63,
+			"classificationReason": "language:JavaScript",
+			"classificationSource": "rules"
 		},
 		{
 			"id": 77552707,
@@ -809,10 +809,10 @@
 			"starredAt": "2021-06-12T14:45:49Z",
 			"stargazersCount": 421,
 			"license": "BSD-3-Clause",
-			"category": "desktop",
-			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:screen-recorder, description:screen-recorder, repo:screen-recorder, name:screen recorder, description:screen recorder, repo:screen recorder",
 			"classificationSource": "rules"
 		},
 		{
@@ -843,8 +843,8 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:electron, keyword:electron",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:electron, description:electron",
 			"classificationSource": "rules"
 		},
 		{
@@ -867,10 +867,10 @@
 			"starredAt": "2021-04-29T19:24:43Z",
 			"stargazersCount": 476,
 			"license": null,
-			"category": "media",
-			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:ocr, keyword:ocr",
+			"category": "mobile",
+			"categoryTitle": "Mobile",
+			"classificationConfidence": 0.83,
+			"classificationReason": "topic:android, name:android, description:android, repo:android, tokens:android app",
 			"classificationSource": "rules"
 		},
 		{
@@ -903,8 +903,8 @@
 			"license": "Apache-2.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.95,
-			"classificationReason": "topic:machine-learning, keyword:ai",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:machine-learning, topic:machine learning",
 			"classificationSource": "rules"
 		},
 		{
@@ -953,10 +953,10 @@
 			"starredAt": "2021-04-09T20:06:21Z",
 			"stargazersCount": 1853,
 			"license": "GPL-3.0",
-			"category": "dotnet",
-			"categoryTitle": ".NET",
-			"classificationConfidence": 0.65,
-			"classificationReason": "language:C#",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.53,
+			"classificationReason": "description:windows",
 			"classificationSource": "rules"
 		},
 		{
@@ -981,8 +981,8 @@
 			"license": "MIT",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.8,
-			"classificationReason": "keyword:course",
+			"classificationConfidence": 0.75,
+			"classificationReason": "topic:course",
 			"classificationSource": "rules"
 		},
 		{
@@ -1017,10 +1017,10 @@
 			"starredAt": "2021-01-12T23:32:57Z",
 			"stargazersCount": 71,
 			"license": null,
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.65,
-			"classificationReason": "keyword:ai",
+			"category": "design",
+			"categoryTitle": "Design & Themes",
+			"classificationConfidence": 0.59,
+			"classificationReason": "topic:color",
 			"classificationSource": "rules"
 		},
 		{
@@ -1045,8 +1045,8 @@
 			"license": null,
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:c#, language:C#",
+			"classificationConfidence": 0.72,
+			"classificationReason": "description:c#, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -1071,8 +1071,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:.net, language:C#",
+			"classificationConfidence": 0.8,
+			"classificationReason": "description:.net, language:C#",
 			"classificationSource": "rules"
 		},
 		{
@@ -1097,8 +1097,8 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.95,
-			"classificationReason": "keyword:c#, language:C#",
+			"classificationConfidence": 0.72,
+			"classificationReason": "description:c#, language:C#",
 			"classificationSource": "rules"
 		}
 	]
