@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-03-17T20:18:38.699Z",
-	"total": 735,
+	"generatedAt": "2026-03-18T14:11:19.848Z",
+	"total": 742,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -14,7 +14,7 @@
 			"title": "AI & Agents",
 			"description": "LLM apps, agent frameworks, inference stacks, model tooling, prompting workflows, and AI-native products.",
 			"priority": 10,
-			"count": 95
+			"count": 97
 		},
 		{
 			"id": "editor-tooling",
@@ -35,7 +35,7 @@
 			"title": "Browser Extensions",
 			"description": "Chrome, Firefox, and WebExtension-based tools that primarily live inside the browser rather than the editor or terminal.",
 			"priority": 24,
-			"count": 15
+			"count": 16
 		},
 		{
 			"id": "design-systems",
@@ -49,7 +49,7 @@
 			"title": "Frontend & UI",
 			"description": "User interfaces, component systems, static sites, dashboards, design-system implementations, and browser-first applications.",
 			"priority": 30,
-			"count": 119
+			"count": 120
 		},
 		{
 			"id": "content-cms",
@@ -70,7 +70,7 @@
 			"title": "Backend & APIs",
 			"description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality.",
 			"priority": 40,
-			"count": 35
+			"count": 36
 		},
 		{
 			"id": "desktop",
@@ -98,7 +98,7 @@
 			"title": "Databases & Storage",
 			"description": "Databases, ORMs, query layers, caches, and storage systems used to persist, model, and retrieve application data.",
 			"priority": 68,
-			"count": 12
+			"count": 13
 		},
 		{
 			"id": "data",
@@ -175,7 +175,7 @@
 			"title": "Misc",
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"priority": 999,
-			"count": 5
+			"count": 6
 		}
 	]
 }
