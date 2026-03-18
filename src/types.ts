@@ -17,10 +17,21 @@ export type CategoryConfig = {
 	categories: CategoryDefinition[];
 };
 
+export type ClassificationConfigFile = {
+	enableReadmeFallback?: boolean;
+	readmeFallbackConfidenceThreshold?: number;
+};
+
+export type ClassificationConfig = {
+	enableReadmeFallback: boolean;
+	readmeFallbackConfidenceThreshold: number;
+};
+
 export type AppConfigFile = {
 	github: {
 		username: string;
 	};
+	classification?: ClassificationConfigFile;
 	readme?: {
 		title?: string;
 		description?: string;
@@ -91,6 +102,7 @@ export type AppConfig = {
 		profileUrl: string;
 		avatarUrl: string;
 	};
+	classification: ClassificationConfig;
 	readme: {
 		title: string;
 		description: string;
@@ -184,6 +196,7 @@ export type ClassifiedStarRecord = StarRecord & {
 	classificationConfidence: number;
 	classificationReason: string;
 	classificationSource: "override" | "rules" | "default";
+	classificationReadmeUsed: boolean;
 };
 
 export type StarsSnapshot = {
@@ -235,6 +248,7 @@ export type RuntimeConfig = {
 	dryRun: boolean;
 	stdout: boolean;
 	forceRefresh: boolean;
+	classification: ClassificationConfig;
 	title: string;
 	description: string;
 	githubToken?: string;

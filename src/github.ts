@@ -5,6 +5,9 @@ import type {
 	StarRecord,
 } from "./types.ts";
 
+const GITHUB_STARS_ACCEPT = "application/vnd.github.star+json";
+const GITHUB_README_ACCEPT = "application/vnd.github.raw+json";
+
 function normalizeRepo(entry: GitHubStarResponse): StarRecord {
 	const repo =
 		"repo" in entry && entry.repo ? entry.repo : (entry as GitHubRepo);
@@ -33,9 +36,9 @@ function normalizeRepo(entry: GitHubStarResponse): StarRecord {
 	};
 }
 
-function buildHeaders(token?: string): HeadersInit {
+function buildHeaders(token?: string, accept: string = GITHUB_STARS_ACCEPT): HeadersInit {
 	return {
-		Accept: "application/vnd.github.star+json",
+		Accept: accept,
 		"User-Agent": "my-stars-bun",
 		...(token ? { Authorization: `Bearer ${token}` } : {}),
 		"X-GitHub-Api-Version": "2022-11-28",
@@ -56,6 +59,18 @@ function buildStarredUrl(
 	url.searchParams.set("sort", "created");
 	url.searchParams.set("direction", "desc");
 	return url;
+}
+
+function buildReadmeUrl(config: RuntimeConfig, fullName: string): URL {
+	const [owner, name] = fullName.split("/");
+	if (!owner || !name) {
+		throw new Error(`Invalid repository full name '${fullName}'.`);
+	}
+
+	return new URL(
+		`/repos/${encodeURIComponent(owner)}/${encodeURIComponent(name)}/readme`,
+		config.githubApiBaseUrl,
+	);
 }
 
 async function ensureGitHubResponse(
@@ -143,4 +158,28 @@ export async function fetchStarredRepositories(
 	}
 
 	return items;
+}
+
+export async function fetchRepositoryReadme(
+	config: RuntimeConfig,
+	fullName: string,
+): Promise<string | null> {
+	const response = await fetch(buildReadmeUrl(config, fullName), {
+		headers: buildHeaders(config.githubToken, GITHUB_README_ACCEPT),
+	});
+
+	if (response.ok) {
+		const readme = (await response.text()).trim();
+		return readme || null;
+	}
+
+	if (response.status === 404) {
+		return null;
+	}
+
+	if (response.status === 403) {
+		await ensureGitHubResponse(response, config.username);
+	}
+
+	return null;
 }

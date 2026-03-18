@@ -9,6 +9,7 @@ import {
 } from "./config.ts";
 import { diffSnapshots } from "./diff.ts";
 import {
+	fetchRepositoryReadme,
 	fetchStarredRepositories,
 	fetchStarredRepositoryCount,
 } from "./github.ts";
@@ -23,8 +24,37 @@ import type {
 } from "./types.ts";
 
 const STAR_CHUNK_SIZE = 100;
+const README_FETCH_CONCURRENCY = 8;
+
 function getChunkFileName(index: number): string {
 	return `stars-${String(index + 1).padStart(3, "0")}.json`;
+}
+
+async function mapWithConcurrency<T, TResult>(
+	items: T[],
+	limit: number,
+	mapper: (item: T, index: number) => Promise<TResult>,
+): Promise<TResult[]> {
+	if (items.length === 0) {
+		return [];
+	}
+
+	const results = new Array<TResult>(items.length);
+	let nextIndex = 0;
+
+	async function worker(): Promise<void> {
+		while (nextIndex < items.length) {
+			const currentIndex = nextIndex;
+			nextIndex += 1;
+			results[currentIndex] = await mapper(items[currentIndex], currentIndex);
+		}
+	}
+
+	await Promise.all(
+		Array.from({ length: Math.min(limit, items.length) }, () => worker()),
+	);
+
+	return results;
 }
 
 async function listChunkFiles(directory: URL = paths.data): Promise<string[]> {
@@ -193,7 +223,49 @@ async function main(): Promise<void> {
 		: previousSnapshot.items;
 	const resolvedCurrentCount = shouldRefreshAll ? repos.length : currentCount;
 
-	const classified = categorizeRepositories(repos, categoryConfig, overrides);
+	const initiallyClassified = categorizeRepositories(
+		repos,
+		categoryConfig,
+		overrides,
+	);
+	let classified = initiallyClassified;
+
+	if (runtimeConfig.classification.enableReadmeFallback) {
+		const readmeCandidates = initiallyClassified
+			.filter(
+				(repo) =>
+					repo.classificationSource !== "override" &&
+					repo.classificationConfidence <
+						runtimeConfig.classification.readmeFallbackConfidenceThreshold,
+			)
+			.map((repo) => repo.fullName);
+
+		if (readmeCandidates.length > 0) {
+			const readmeResults = await mapWithConcurrency(
+				readmeCandidates,
+				README_FETCH_CONCURRENCY,
+				async (fullName) => ({
+					fullName,
+					readme: await fetchRepositoryReadme(runtimeConfig, fullName),
+				}),
+			);
+			const readmeByFullName = new Map(
+				readmeResults.flatMap(({ fullName, readme }) =>
+					readme ? [[fullName, readme] as const] : [],
+				),
+			);
+
+			if (readmeByFullName.size > 0) {
+				classified = categorizeRepositories(repos, categoryConfig, overrides, {
+					enableReadmeFallback: true,
+					readmeByFullName,
+					readmeFallbackConfidenceThreshold:
+						runtimeConfig.classification.readmeFallbackConfidenceThreshold,
+				});
+			}
+		}
+	}
+
 	const generatedAt = new Date().toISOString();
 	const snapshot: StarsSnapshot = {
 		version: 1,

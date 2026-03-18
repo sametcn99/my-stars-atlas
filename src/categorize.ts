@@ -15,10 +15,17 @@ type RepoSearchIndex = {
 	normalizedOwner: string;
 	normalizedDescription: string;
 	normalizedHomepage: string;
-	tokens: Set<string>;
+	normalizedReadme: string;
+	metadataTokens: Set<string>;
 	topicsExact: Set<string>;
 	topicsNormalized: string[];
 	language: string;
+};
+
+type RepoClassificationOptions = {
+	enableReadmeFallback?: boolean;
+	readmeByFullName?: ReadonlyMap<string, string>;
+	readmeFallbackConfidenceThreshold?: number;
 };
 
 type KeywordMatch = {
@@ -31,6 +38,37 @@ type CategoryEvaluation = {
 	signalCount: number;
 	reasons: string[];
 };
+
+type DeterministicClassificationResult = DeterministicClassification & {
+	score: number;
+	signalCount: number;
+};
+
+const README_GENERIC_KEYWORDS = new Set([
+	"awesome",
+	"awesome list",
+	"awesome-list",
+	"documentation",
+	"docs",
+	"docsite",
+	"docs site",
+	"docs-site",
+	"documentation site",
+	"documentation-site",
+	"guide",
+	"how to",
+	"how-to",
+	"tutorial",
+	"tutorials",
+	"examples",
+	"example",
+	"demo",
+	"demos",
+	"starter",
+	"starter template",
+	"starter-template",
+	"template",
+]);
 
 function categoryMap(config: CategoryConfig): Map<string, CategoryDefinition> {
 	return new Map(config.categories.map((category) => [category.id, category]));
@@ -131,19 +169,24 @@ function normalizeRepoUrl(url: string): string {
 	return normalizeRuleValue(url).replace(/\/+$/, "");
 }
 
-function buildSearchIndex(repo: StarRecord): RepoSearchIndex {
+function isReadmeKeywordEligible(normalizedKeyword: string): boolean {
+	return !README_GENERIC_KEYWORDS.has(normalizedKeyword);
+}
+
+function buildSearchIndex(repo: StarRecord, readmeText?: string): RepoSearchIndex {
 	const normalizedFullName = normalizeSearchText(repo.fullName);
 	const normalizedName = normalizeSearchText(repo.name);
 	const normalizedOwner = normalizeSearchText(repo.owner);
 	const normalizedDescription = normalizeSearchText(repo.description ?? "");
 	const normalizedHomepage = normalizeSearchText(repo.homepage ?? "");
+	const normalizedReadme = normalizeSearchText(readmeText ?? "");
 	const topicsExact = new Set(
 		repo.topics.map((topic) => normalizeRuleValue(topic)).filter(Boolean),
 	);
 	const topicsNormalized = repo.topics
 		.map((topic) => normalizeSearchText(topic))
 		.filter(Boolean);
-	const tokens = new Set(
+	const metadataTokens = new Set(
 		splitSearchTokens(
 			[
 				repo.fullName,
@@ -162,7 +205,8 @@ function buildSearchIndex(repo: StarRecord): RepoSearchIndex {
 		normalizedOwner,
 		normalizedDescription,
 		normalizedHomepage,
-		tokens,
+		normalizedReadme,
+		metadataTokens,
 		topicsExact,
 		topicsNormalized,
 		language: (repo.language ?? "").toLowerCase(),
@@ -221,6 +265,14 @@ function matchKeyword(
 		reasons.push(`homepage:${keyword}`);
 	}
 
+	if (
+		isReadmeKeywordEligible(normalizedKeyword) &&
+		containsNormalizedPhrase(index.normalizedReadme, normalizedKeyword)
+	) {
+		score += 2.75 * specificity;
+		reasons.push(`readme:${keyword}`);
+	}
+
 	if (index.normalizedOwner === normalizedKeyword) {
 		score += 2.5 * specificity;
 		reasons.push(`owner:${keyword}`);
@@ -234,7 +286,7 @@ function matchKeyword(
 	if (
 		reasons.length === 0 &&
 		keywordTokens.length > 1 &&
-		keywordTokens.every((token) => index.tokens.has(token))
+		keywordTokens.every((token) => index.metadataTokens.has(token))
 	) {
 		score += 1.75 * specificity;
 		reasons.push(`tokens:${keyword}`);
@@ -319,11 +371,32 @@ function findCategoryOverride(
 	return overrides.categories.find((entry) => matchesRepo(repo, entry.match));
 }
 
+function createDefaultClassification(
+	category: string,
+	reason: string,
+): DeterministicClassificationResult {
+	return {
+		category,
+		confidence: 0.2,
+		reason,
+		source: "default",
+		score: 0,
+		signalCount: 0,
+	};
+}
+
+function isStrongReadmeClassification(
+	classification: DeterministicClassificationResult,
+): boolean {
+	return classification.signalCount >= 2 && classification.score >= 6;
+}
+
 function deterministicClassify(
 	repo: StarRecord,
 	categoryConfig: CategoryConfig,
 	overrides: OverridesConfig,
-): DeterministicClassification {
+	readmeText?: string,
+): DeterministicClassificationResult {
 	const override = findCategoryOverride(repo, overrides);
 	if (override) {
 		return {
@@ -331,21 +404,22 @@ function deterministicClassify(
 			confidence: 1,
 			reason: "Pinned by manual override.",
 			source: "override",
+			score: Number.POSITIVE_INFINITY,
+			signalCount: 1,
 		};
 	}
 
 	const hasDescription = Boolean(repo.description?.trim());
 	const hasTopics = repo.topics.some((topic) => Boolean(topic.trim()));
-	if (!hasDescription && !hasTopics) {
-		return {
-			category: categoryConfig.defaultCategory,
-			confidence: 0.2,
-			reason: "Missing description and topics, resolved to default category.",
-			source: "default",
-		};
+	const hasReadme = Boolean(readmeText?.trim());
+	if (!hasDescription && !hasTopics && !hasReadme) {
+		return createDefaultClassification(
+			categoryConfig.defaultCategory,
+			"Missing description and topics, resolved to default category.",
+		);
 	}
 
-	const index = buildSearchIndex(repo);
+	const index = buildSearchIndex(repo, readmeText);
 	const evaluations = new Map<string, CategoryEvaluation>();
 	const categoriesById = categoryMap(categoryConfig);
 
@@ -371,12 +445,10 @@ function deterministicClassify(
 	});
 
 	if (ranked.length === 0) {
-		return {
-			category: categoryConfig.defaultCategory,
-			confidence: 0.2,
-			reason: "No deterministic signals matched.",
-			source: "default",
-		};
+		return createDefaultClassification(
+			categoryConfig.defaultCategory,
+			"No deterministic signals matched.",
+		);
 	}
 
 	const [winner, winnerEvaluation] = ranked[0];
@@ -394,13 +466,48 @@ function deterministicClassify(
 		confidence: roundScore(confidence),
 		reason: winnerEvaluation.reasons.join(", "),
 		source: "rules",
+		score: winnerEvaluation.score,
+		signalCount: winnerEvaluation.signalCount,
 	};
+}
+
+function shouldPreferReadmeClassification(
+	base: DeterministicClassificationResult,
+	readme: DeterministicClassificationResult,
+): boolean {
+	if (base.source === "default" && readme.source !== "default") {
+		return isStrongReadmeClassification(readme);
+	}
+
+	if (readme.source === "default" && base.source !== "default") {
+		return false;
+	}
+
+	if (readme.confidence > base.confidence) {
+		if (readme.category !== base.category && base.source !== "default") {
+			return false;
+		}
+
+		return true;
+	}
+
+	if (
+		readme.category === base.category &&
+		(readme.confidence > base.confidence ||
+			readme.signalCount >= base.signalCount ||
+			readme.score >= base.score)
+	) {
+		return true;
+	}
+
+	return false;
 }
 
 export function categorizeRepositories(
 	repos: StarRecord[],
 	categoryConfig: CategoryConfig,
 	overrides: OverridesConfig,
+	options: RepoClassificationOptions = {},
 ): ClassifiedStarRecord[] {
 	const categoriesById = categoryMap(categoryConfig);
 	const defaultCategory = getDefaultCategoryDefinition(
@@ -408,17 +515,41 @@ export function categorizeRepositories(
 		categoriesById,
 	);
 	const classified: ClassifiedStarRecord[] = [];
+	const readmeFallbackConfidenceThreshold =
+		options.readmeFallbackConfidenceThreshold ?? 0.6;
 
 	for (const repo of repos) {
 		if (isExcluded(repo, overrides)) {
 			continue;
 		}
 
-		const deterministic = deterministicClassify(
+		let deterministic = deterministicClassify(
 			repo,
 			categoryConfig,
 			overrides,
 		);
+		let classificationReadmeUsed = false;
+		const readmeText = options.readmeByFullName?.get(repo.fullName);
+		const shouldEvaluateReadme =
+			options.enableReadmeFallback === true &&
+			deterministic.source !== "override" &&
+			deterministic.confidence < readmeFallbackConfidenceThreshold &&
+			Boolean(readmeText?.trim());
+
+		if (shouldEvaluateReadme) {
+			classificationReadmeUsed = true;
+			const readmeDeterministic = deterministicClassify(
+				repo,
+				categoryConfig,
+				overrides,
+				readmeText,
+			);
+
+			if (shouldPreferReadmeClassification(deterministic, readmeDeterministic)) {
+				deterministic = readmeDeterministic;
+			}
+		}
+
 		const resolved = resolveConfiguredClassification(
 			deterministic,
 			defaultCategory,
@@ -442,6 +573,7 @@ export function categorizeRepositories(
 			classificationConfidence: confidence,
 			classificationReason: reason,
 			classificationSource: source,
+			classificationReadmeUsed,
 		});
 	}
 

@@ -1,6 +1,11 @@
 {
+	"$schema": "./config.schema.json",
 	"github": {
 		"username": "sametcn99"
+	},
+	"classification": {
+		"enableReadmeFallback": true,
+		"readmeFallbackConfidenceThreshold": 0.4
 	},
 	"readme": {
 		"title": "My Stars",

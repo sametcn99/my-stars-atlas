@@ -24,6 +24,7 @@ export const paths = {
 const DEFAULT_README_TITLE = "My Stars";
 const DEFAULT_README_DESCRIPTION =
 	"A generated catalog of starred GitHub repositories, grouped into stable categories.";
+const DEFAULT_README_FALLBACK_CONFIDENCE_THRESHOLD = 0.4;
 const DEFAULT_SITE_TITLE = "My Stars Atlas";
 const DEFAULT_HERO_DESCRIPTION =
 	"Explore starred repositories with progressive chunk loading, category-first browsing, debounced search, and a tailored dark interface.";
@@ -71,6 +72,31 @@ export async function loadAppConfig(): Promise<AppConfig> {
 
 	const profileUrl = `https://github.com/${username}`;
 	const avatarUrl = `${profileUrl}.png`;
+	const enableReadmeFallback =
+		fileConfig.classification?.enableReadmeFallback ?? false;
+	const configuredReadmeFallbackThreshold =
+		fileConfig.classification?.readmeFallbackConfidenceThreshold;
+	const readmeFallbackConfidenceThreshold =
+		configuredReadmeFallbackThreshold ??
+		DEFAULT_README_FALLBACK_CONFIDENCE_THRESHOLD;
+
+	if (typeof enableReadmeFallback !== "boolean") {
+		throw new Error(
+			"config/classification.enableReadmeFallback must be a boolean.",
+		);
+	}
+
+	if (
+		typeof readmeFallbackConfidenceThreshold !== "number" ||
+		!Number.isFinite(readmeFallbackConfidenceThreshold) ||
+		readmeFallbackConfidenceThreshold < 0 ||
+		readmeFallbackConfidenceThreshold > 1
+	) {
+		throw new Error(
+			"config/classification.readmeFallbackConfidenceThreshold must be a number between 0 and 1.",
+		);
+	}
+
 	const readmeTitle = fileConfig.readme?.title?.trim() || DEFAULT_README_TITLE;
 	const readmeDescription =
 		fileConfig.readme?.description?.trim() || DEFAULT_README_DESCRIPTION;
@@ -90,6 +116,10 @@ export async function loadAppConfig(): Promise<AppConfig> {
 			username,
 			profileUrl,
 			avatarUrl,
+		},
+		classification: {
+			enableReadmeFallback,
+			readmeFallbackConfidenceThreshold,
 		},
 		readme: {
 			title: readmeTitle,
@@ -154,6 +184,7 @@ export async function loadRuntimeConfig(): Promise<RuntimeConfig> {
 		dryRun: readFlag("--dry-run"),
 		stdout: readFlag("--stdout"),
 		forceRefresh: readFlag("--force") || readBooleanEnv("FORCE_REFRESH"),
+		classification: app.classification,
 		title: app.readme.title,
 		description: app.readme.description,
 		githubToken: Bun.env.GITHUB_TOKEN ?? Bun.env.GH_TOKEN,

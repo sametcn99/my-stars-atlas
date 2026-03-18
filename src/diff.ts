@@ -7,7 +7,10 @@ function comparableFields(record: ClassifiedStarRecord): string {
 		language: record.language,
 		topics: record.topics,
 		category: record.category,
+		confidence: record.classificationConfidence,
 		reason: record.classificationReason,
+		source: record.classificationSource,
+		readmeUsed: record.classificationReadmeUsed,
 	});
 }
 

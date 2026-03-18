@@ -1,0 +1,187 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Stars Atlas App Config",
+	"description": "Application, README, site, and classification settings for the generated stars atlas.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"$schema": {
+			"type": "string",
+			"const": "./config.schema.json",
+			"description": "Relative path to this schema file so editors can validate config/config.json.",
+			"examples": ["./config.schema.json"]
+		},
+		"github": {
+			"$ref": "#/$defs/githubConfig",
+			"description": "GitHub account settings used to fetch starred repositories and derive profile metadata."
+		},
+		"classification": {
+			"$ref": "#/$defs/classificationConfig",
+			"description": "Controls the optional README-assisted fallback categorization behavior.",
+			"default": {
+				"enableReadmeFallback": false,
+				"readmeFallbackConfidenceThreshold": 0.4
+			}
+		},
+		"readme": {
+			"$ref": "#/$defs/readmeConfig",
+			"description": "Content settings used when regenerating the repository README."
+		},
+		"site": {
+			"$ref": "#/$defs/siteConfig",
+			"description": "Frontend shell, SEO, and manifest settings for the generated static site."
+		}
+	},
+	"required": ["$schema", "github"],
+	"$defs": {
+		"trimmedString": {
+			"type": "string",
+			"minLength": 1,
+			"pattern": ".*\\S.*",
+			"description": "Non-empty string that should contain at least one non-whitespace character."
+		},
+		"githubUsername": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 39,
+			"pattern": "^(?!-)(?!.*--)[A-Za-z0-9-]+(?<!-)$",
+			"description": "GitHub username or organization login used for starred repository lookup.",
+			"examples": ["sametcn99", "vercel", "microsoft"]
+		},
+		"httpUrl": {
+			"type": "string",
+			"format": "uri",
+			"pattern": "^https?://[^\\s]+$",
+			"description": "Absolute HTTP or HTTPS URL.",
+			"examples": [
+				"https://github.com/sametcn99.png",
+				"https://example.com/social-card.png"
+			]
+		},
+		"confidenceThreshold": {
+			"type": "number",
+			"minimum": 0,
+			"maximum": 1,
+			"description": "Confidence cutoff below which README fallback categorization becomes eligible.",
+			"default": 0.4,
+			"examples": [0.4, 0.5, 0.6]
+		},
+		"githubConfig": {
+			"title": "GitHub Config",
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"username": {
+					"$ref": "#/$defs/githubUsername"
+				}
+			},
+			"required": ["username"]
+		},
+		"classificationConfig": {
+			"title": "Classification Config",
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"enableReadmeFallback": {
+					"type": "boolean",
+					"description": "When true, low-confidence repositories may fetch README content transiently to improve categorization.",
+					"default": false
+				},
+				"readmeFallbackConfidenceThreshold": {
+					"$ref": "#/$defs/confidenceThreshold"
+				}
+			}
+		},
+		"readmeConfig": {
+			"title": "README Config",
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"title": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Top-level title used in the generated README."
+				},
+				"description": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Short summary shown near the top of the generated README."
+				}
+			}
+		},
+		"siteSeoConfig": {
+			"title": "Site SEO Config",
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"description": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Default meta description for the generated site."
+				},
+				"ogDescription": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Open Graph description used for link previews."
+				},
+				"twitterDescription": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Twitter card description text."
+				},
+				"twitterCard": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Twitter card type, for example summary_large_image.",
+					"examples": ["summary_large_image", "summary"]
+				},
+				"socialImageUrl": {
+					"$ref": "#/$defs/httpUrl",
+					"description": "Absolute URL for the social preview image."
+				},
+				"iconUrl": {
+					"$ref": "#/$defs/httpUrl",
+					"description": "Absolute URL for the manifest/app icon source."
+				}
+			}
+		},
+		"siteManifestConfig": {
+			"title": "Site Manifest Overrides",
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"shortName": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Short application name used in the web manifest."
+				},
+				"description": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Manifest description shown by install surfaces."
+				}
+			}
+		},
+		"siteConfig": {
+			"title": "Site Config",
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"title": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Base site title used in the browser title and generated metadata."
+				},
+				"heroTitle": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Headline text used in the site hero section."
+				},
+				"heroDescription": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Supporting hero copy shown on the landing section."
+				},
+				"profileLinkLabel": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Label for the GitHub profile link shown in the site shell."
+				},
+				"seo": {
+					"$ref": "#/$defs/siteSeoConfig"
+				},
+				"manifest": {
+					"$ref": "#/$defs/siteManifestConfig"
+				}
+			}
+		}
+	}
+}
