@@ -20,6 +20,34 @@ export type CategoryDefinition = {
 	rules: CategoryRuleSet;
 };
 
+export type CompiledKeyword = {
+	raw: string;
+	rawNormalized: string;
+	normalized: string;
+	tokens: string[];
+	specificity: number;
+};
+
+export type CompiledCategory = {
+	definition: CategoryDefinition;
+	keywords: CompiledKeyword[];
+	strongKeywordSet: Set<string>;
+	singletonStrongKeywordSet: Set<string>;
+	readmeExcludedKeywordSet: Set<string>;
+	normalizedShapeHints: string[];
+	preferredFallbackSet: Set<string>;
+	languagesLower: string[];
+	minScore: number;
+};
+
+export type CompiledCategoryConfig = {
+	defaultCategory: string;
+	recentCount: number;
+	categories: CompiledCategory[];
+	categoriesById: Map<string, CompiledCategory>;
+	defaultCategoryDefinition: CategoryDefinition;
+};
+
 export type CategoryConfig = {
 	$schema?: string;
 	recentCount: number;

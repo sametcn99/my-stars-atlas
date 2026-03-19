@@ -47,9 +47,7 @@
 					"vector-db",
 					"text-embeddings-inference"
 				],
-				"languages": [
-					"Jupyter Notebook"
-				],
+				"languages": ["Jupyter Notebook"],
 				"strongKeywords": [
 					"ai-agents",
 					"ai-sdk",
@@ -469,10 +467,7 @@
 					"styleguides"
 				],
 				"readmeExcludedKeywords": [],
-				"preferredFallbackCategories": [
-					"frontend",
-					"learning"
-				],
+				"preferredFallbackCategories": ["frontend", "learning"],
 				"shapeHints": [
 					"dashboard",
 					"web app",
@@ -509,7 +504,6 @@
 					"htmx",
 					"alpinejs",
 					"lit",
-					"vitepress",
 					"storybook",
 					"web-components",
 					"web components",
@@ -518,25 +512,17 @@
 					"html",
 					"css",
 					"pwa",
-					"component-library",
-					"headless-ui",
 					"responsive",
 					"browser",
-					"design-systems",
 					"web",
-					"shadcn-ui",
 					"ui",
-					"ux",
 					"web app",
 					"website",
 					"landing page",
 					"dashboard",
-					"design system",
-					"component library",
 					"static site",
 					"portfolio",
 					"blog",
-					"documentation site",
 					"single-page-app",
 					"single page app",
 					"spa",
@@ -546,13 +532,7 @@
 					"styled-components",
 					"styled components"
 				],
-				"languages": [
-					"HTML",
-					"CSS",
-					"Vue",
-					"Svelte",
-					"MDX"
-				],
+				"languages": ["HTML", "CSS", "Vue", "Svelte"],
 				"strongKeywords": [
 					"react",
 					"nextjs",
@@ -655,10 +635,7 @@
 					"publishing",
 					"knowledge base"
 				],
-				"languages": [
-					"MDX",
-					"Markdown"
-				],
+				"languages": ["MDX", "Markdown"],
 				"strongKeywords": [
 					"cms",
 					"headless-cms",
@@ -688,10 +665,7 @@
 					"knowledge base"
 				],
 				"readmeExcludedKeywords": [],
-				"preferredFallbackCategories": [
-					"frontend",
-					"learning"
-				],
+				"preferredFallbackCategories": ["frontend", "learning"],
 				"shapeHints": [
 					"starter",
 					"starter template",
@@ -834,20 +808,14 @@
 					"api-gateway",
 					"worker",
 					"queue",
-					"serverless",
 					"microservices",
-					"auth",
-					"authentication",
 					"webhook",
 					"websocket",
 					"rest",
-					"authorization",
 					"service",
 					"endpoint",
 					"fastapi",
-					"rest api",
-					"oauth2",
-					"identity provider"
+					"rest api"
 				],
 				"languages": [],
 				"strongKeywords": [
@@ -900,13 +868,10 @@
 					"desktop app",
 					"windows app",
 					"mac app",
-					"winforms",
 					"gtk",
 					"qt"
 				],
-				"languages": [
-					"Objective-C"
-				],
+				"languages": ["Objective-C"],
 				"strongKeywords": [
 					"electron",
 					"tauri",
@@ -1036,7 +1001,6 @@
 					"k8s",
 					"containers",
 					"container",
-					"hosting",
 					"renovate",
 					"dependabot",
 					"sre"
@@ -1109,9 +1073,7 @@
 					"vector-database",
 					"vector database"
 				],
-				"languages": [
-					"SQL"
-				],
+				"languages": ["SQL"],
 				"strongKeywords": [
 					"postgresql",
 					"mysql",
@@ -1143,14 +1105,9 @@
 					"data",
 					"analytics",
 					"etl",
-					"database",
-					"postgresql",
-					"sql",
-					"duckdb",
 					"spark",
 					"pandas",
 					"polars",
-					"clickhouse",
 					"dbt",
 					"bigquery",
 					"jupyter",
@@ -1160,7 +1117,6 @@
 					"data-science",
 					"dataframe",
 					"dataframes",
-					"visualization",
 					"warehouse",
 					"business-intelligence",
 					"business intelligence",
@@ -1175,10 +1131,7 @@
 					"metrics",
 					"reporting"
 				],
-				"languages": [
-					"SQL",
-					"Jupyter Notebook"
-				],
+				"languages": ["Jupyter Notebook"],
 				"strongKeywords": [
 					"analytics",
 					"etl",
@@ -1290,9 +1243,7 @@
 					"nuget package",
 					"avalonia"
 				],
-				"languages": [
-					"C#"
-				],
+				"languages": ["C#"],
 				"strongKeywords": [
 					"dotnet",
 					"csharp",
@@ -1346,11 +1297,7 @@
 					"react native",
 					"jetpack compose"
 				],
-				"languages": [
-					"Swift",
-					"Kotlin",
-					"Dart"
-				],
+				"languages": ["Swift", "Kotlin", "Dart"],
 				"strongKeywords": [
 					"android",
 					"ios",
@@ -1409,9 +1356,7 @@
 					"workflow engine",
 					"robot"
 				],
-				"languages": [
-					"AutoHotkey"
-				],
+				"languages": ["AutoHotkey"],
 				"strongKeywords": [
 					"automation",
 					"workflow-automation",
@@ -1505,8 +1450,6 @@
 				"keywords": [
 					"design",
 					"figma",
-					"ux",
-					"ui-kit",
 					"icons",
 					"icon-pack",
 					"typography",
@@ -1528,7 +1471,6 @@
 					"palette",
 					"slides",
 					"presentation",
-					"ui kit",
 					"template",
 					"animation"
 				],
@@ -1582,12 +1524,7 @@
 					"package-manager",
 					"package manager"
 				],
-				"languages": [
-					"Rust",
-					"Go",
-					"C",
-					"C++"
-				],
+				"languages": ["Rust", "Go", "C", "C++"],
 				"strongKeywords": [
 					"library",
 					"sdk",
@@ -1638,11 +1575,7 @@
 					"shell tool",
 					"dotfile manager"
 				],
-				"languages": [
-					"Shell",
-					"PowerShell",
-					"Batchfile"
-				],
+				"languages": ["Shell", "PowerShell", "Batchfile"],
 				"strongKeywords": [
 					"cli",
 					"terminal",
@@ -1694,7 +1627,6 @@
 					"format",
 					"spec",
 					"cheat sheet",
-					"knowledge base",
 					"for beginners",
 					"awesome list",
 					"notes",
@@ -1733,10 +1665,7 @@
 					"walkthrough"
 				],
 				"readmeExcludedKeywords": [],
-				"preferredFallbackCategories": [
-					"content-cms",
-					"frontend"
-				],
+				"preferredFallbackCategories": ["content-cms", "frontend"],
 				"shapeHints": [
 					"markdown",
 					"mdx",

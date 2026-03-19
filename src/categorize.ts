@@ -3,6 +3,9 @@ import type {
 	CategoryDefinition,
 	CategoryOverrideRule,
 	ClassifiedStarRecord,
+	CompiledCategory,
+	CompiledCategoryConfig,
+	CompiledKeyword,
 	DeterministicClassification,
 	OverridesConfig,
 	RepoMatchRule,
@@ -16,9 +19,15 @@ type RepoSearchIndex = {
 	normalizedDescription: string;
 	normalizedHomepage: string;
 	normalizedReadme: string;
+	paddedFullName: string;
+	paddedName: string;
+	paddedDescription: string;
+	paddedHomepage: string;
+	paddedReadme: string;
 	metadataTokens: Set<string>;
 	topicsExact: Set<string>;
 	topicsNormalized: string[];
+	topicsPadded: string[];
 	language: string;
 };
 
@@ -73,41 +82,6 @@ const README_GENERIC_KEYWORDS = new Set([
 
 const MIN_NON_DEFAULT_CATEGORY_SCORE = 4.25;
 
-function categoryMap(config: CategoryConfig): Map<string, CategoryDefinition> {
-	return new Map(config.categories.map((category) => [category.id, category]));
-}
-
-function getDefaultCategoryDefinition(
-	categoryConfig: CategoryConfig,
-	categoriesById: Map<string, CategoryDefinition>,
-): CategoryDefinition {
-	const defaultCategory = categoriesById.get(categoryConfig.defaultCategory);
-	if (!defaultCategory) {
-		throw new Error(
-			`Unknown default category '${categoryConfig.defaultCategory}'.`,
-		);
-	}
-
-	return defaultCategory;
-}
-
-function resolveConfiguredClassification(
-	classification: DeterministicClassification,
-	defaultCategory: CategoryDefinition,
-	categoriesById: Map<string, CategoryDefinition>,
-): DeterministicClassification {
-	if (categoriesById.has(classification.category)) {
-		return classification;
-	}
-
-	return {
-		category: defaultCategory.id,
-		confidence: 0.2,
-		reason: `Unknown category '${classification.category}' resolved to default '${defaultCategory.id}'.`,
-		source: "default",
-	};
-}
-
 function normalizeRuleValue(value: string): string {
 	return value.trim().toLowerCase();
 }
@@ -125,16 +99,18 @@ function splitSearchTokens(value: string): string[] {
 	return normalized ? normalized.split(" ") : [];
 }
 
-function containsNormalizedPhrase(haystack: string, needle: string): boolean {
-	if (!haystack || !needle) {
+function padForSearch(value: string): string {
+	return value ? ` ${value} ` : "";
+}
+
+function containsNormalizedPhrase(
+	paddedHaystack: string,
+	paddedNeedle: string,
+): boolean {
+	if (!paddedHaystack || !paddedNeedle) {
 		return false;
 	}
-
-	if (haystack === needle) {
-		return true;
-	}
-
-	return ` ${haystack} `.includes(` ${needle} `);
+	return paddedHaystack.includes(paddedNeedle);
 }
 
 function keywordSpecificity(
@@ -172,30 +148,131 @@ function normalizeRepoUrl(url: string): string {
 	return normalizeRuleValue(url).replace(/\/+$/, "");
 }
 
-function normalizeRuleList(values: string[]): string[] {
-	return values.map((value) => normalizeSearchText(value)).filter(Boolean);
-}
-
-function isReadmeKeywordEligible(
-	category: CategoryDefinition,
-	normalizedKeyword: string,
-): boolean {
-	if (README_GENERIC_KEYWORDS.has(normalizedKeyword)) {
-		return false;
+function compileKeyword(
+	raw: string,
+	cache: Map<string, CompiledKeyword>,
+): CompiledKeyword | null {
+	const existing = cache.get(raw);
+	if (existing) {
+		return existing;
 	}
 
-	if (
-		normalizeRuleList(category.rules.readmeExcludedKeywords).includes(
-			normalizedKeyword,
-		)
-	) {
-		return false;
+	const rawNormalized = normalizeRuleValue(raw);
+	const normalized = normalizeSearchText(raw);
+	if (!rawNormalized || !normalized) {
+		return null;
 	}
 
-	return true;
+	const tokens = normalized.split(" ");
+	const specificity = keywordSpecificity(tokens, normalized);
+	const compiled: CompiledKeyword = {
+		raw,
+		rawNormalized,
+		normalized,
+		tokens,
+		specificity,
+	};
+	cache.set(raw, compiled);
+	return compiled;
 }
 
-function buildSearchIndex(repo: StarRecord, readmeText?: string): RepoSearchIndex {
+function normalizeStringSet(values: string[]): Set<string> {
+	const set = new Set<string>();
+	for (const value of values) {
+		const normalized = normalizeSearchText(value);
+		if (normalized) {
+			set.add(normalized);
+		}
+	}
+	return set;
+}
+
+function normalizeStringList(values: string[]): string[] {
+	const result: string[] = [];
+	for (const value of values) {
+		const normalized = normalizeSearchText(value);
+		if (normalized) {
+			result.push(normalized);
+		}
+	}
+	return result;
+}
+
+function compileCategory(
+	definition: CategoryDefinition,
+	keywordCache: Map<string, CompiledKeyword>,
+): CompiledCategory {
+	const keywords: CompiledKeyword[] = [];
+	for (const raw of definition.rules.keywords) {
+		const compiled = compileKeyword(raw, keywordCache);
+		if (compiled) {
+			keywords.push(compiled);
+		}
+	}
+
+	return {
+		definition,
+		keywords,
+		strongKeywordSet: normalizeStringSet(definition.rules.strongKeywords),
+		singletonStrongKeywordSet: normalizeStringSet(
+			definition.rules.singletonStrongKeywords,
+		),
+		readmeExcludedKeywordSet: normalizeStringSet(
+			definition.rules.readmeExcludedKeywords,
+		),
+		normalizedShapeHints: normalizeStringList(definition.rules.shapeHints),
+		preferredFallbackSet: new Set(definition.rules.preferredFallbackCategories),
+		languagesLower: definition.rules.languages.map((l) => l.toLowerCase()),
+		minScore: definition.rules.minScore || MIN_NON_DEFAULT_CATEGORY_SCORE,
+	};
+}
+
+export function compileCategories(
+	config: CategoryConfig,
+): CompiledCategoryConfig {
+	const keywordCache = new Map<string, CompiledKeyword>();
+	const categories = config.categories.map((def) =>
+		compileCategory(def, keywordCache),
+	);
+	const categoriesById = new Map<string, CompiledCategory>();
+	for (const compiled of categories) {
+		categoriesById.set(compiled.definition.id, compiled);
+	}
+
+	const defaultCat = categoriesById.get(config.defaultCategory);
+	if (!defaultCat) {
+		throw new Error(`Unknown default category '${config.defaultCategory}'.`);
+	}
+
+	return {
+		defaultCategory: config.defaultCategory,
+		recentCount: config.recentCount,
+		categories,
+		categoriesById,
+		defaultCategoryDefinition: defaultCat.definition,
+	};
+}
+
+function resolveConfiguredClassification(
+	classification: DeterministicClassification,
+	compiled: CompiledCategoryConfig,
+): DeterministicClassification {
+	if (compiled.categoriesById.has(classification.category)) {
+		return classification;
+	}
+
+	return {
+		category: compiled.defaultCategory,
+		confidence: 0.2,
+		reason: `Unknown category '${classification.category}' resolved to default '${compiled.defaultCategory}'.`,
+		source: "default",
+	};
+}
+
+function buildSearchIndex(
+	repo: StarRecord,
+	readmeText?: string,
+): RepoSearchIndex {
 	const normalizedFullName = normalizeSearchText(repo.fullName);
 	const normalizedName = normalizeSearchText(repo.name);
 	const normalizedOwner = normalizeSearchText(repo.owner);
@@ -228,91 +305,88 @@ function buildSearchIndex(repo: StarRecord, readmeText?: string): RepoSearchInde
 		normalizedDescription,
 		normalizedHomepage,
 		normalizedReadme,
+		paddedFullName: padForSearch(normalizedFullName),
+		paddedName: padForSearch(normalizedName),
+		paddedDescription: padForSearch(normalizedDescription),
+		paddedHomepage: padForSearch(normalizedHomepage),
+		paddedReadme: padForSearch(normalizedReadme),
 		metadataTokens,
 		topicsExact,
 		topicsNormalized,
+		topicsPadded: topicsNormalized.map(padForSearch),
 		language: (repo.language ?? "").toLowerCase(),
 	};
 }
 
 function matchKeyword(
 	index: RepoSearchIndex,
-	category: CategoryDefinition,
-	keyword: string,
+	compiled: CompiledCategory,
+	keyword: CompiledKeyword,
 ): KeywordMatch | null {
-	const rawKeyword = normalizeRuleValue(keyword);
-	const normalizedKeyword = normalizeSearchText(keyword);
-	if (!rawKeyword || !normalizedKeyword) {
-		return null;
-	}
-
-	const keywordTokens = normalizedKeyword.split(" ");
-	const specificity = keywordSpecificity(keywordTokens, normalizedKeyword);
+	const { rawNormalized, normalized, tokens, specificity, raw } = keyword;
+	const paddedNeedle = ` ${normalized} `;
 	let score = 0;
 	const reasons: string[] = [];
 
-	if (index.topicsExact.has(rawKeyword)) {
+	if (index.topicsExact.has(rawNormalized)) {
 		score += 9 * specificity;
-		reasons.push(`topic:${keyword}`);
-	} else if (index.topicsNormalized.includes(normalizedKeyword)) {
+		reasons.push(`topic:${raw}`);
+	} else if (index.topicsNormalized.includes(normalized)) {
 		score += 8 * specificity;
-		reasons.push(`topic:${keyword}`);
+		reasons.push(`topic:${raw}`);
 	} else if (
-		index.topicsNormalized.some((topic) =>
-			containsNormalizedPhrase(topic, normalizedKeyword),
+		index.topicsPadded.some((padded) =>
+			containsNormalizedPhrase(padded, paddedNeedle),
 		)
 	) {
 		score += 6.5 * specificity;
-		reasons.push(`topic:${keyword}`);
+		reasons.push(`topic:${raw}`);
 	}
 
-	if (index.normalizedName === normalizedKeyword) {
+	if (index.normalizedName === normalized) {
 		score += 6 * specificity;
-		reasons.push(`name:${keyword}`);
-	} else if (
-		containsNormalizedPhrase(index.normalizedName, normalizedKeyword)
-	) {
+		reasons.push(`name:${raw}`);
+	} else if (containsNormalizedPhrase(index.paddedName, paddedNeedle)) {
 		score += 4.5 * specificity;
-		reasons.push(`name:${keyword}`);
+		reasons.push(`name:${raw}`);
 	}
 
-	if (
-		containsNormalizedPhrase(index.normalizedDescription, normalizedKeyword)
-	) {
+	if (containsNormalizedPhrase(index.paddedDescription, paddedNeedle)) {
 		score += 4.25 * specificity;
-		reasons.push(`description:${keyword}`);
+		reasons.push(`description:${raw}`);
 	}
 
-	if (containsNormalizedPhrase(index.normalizedHomepage, normalizedKeyword)) {
+	if (containsNormalizedPhrase(index.paddedHomepage, paddedNeedle)) {
 		score += 3 * specificity;
-		reasons.push(`homepage:${keyword}`);
+		reasons.push(`homepage:${raw}`);
 	}
 
 	if (
-		isReadmeKeywordEligible(category, normalizedKeyword) &&
-		containsNormalizedPhrase(index.normalizedReadme, normalizedKeyword)
+		!README_GENERIC_KEYWORDS.has(normalized) &&
+		!compiled.readmeExcludedKeywordSet.has(normalized) &&
+		containsNormalizedPhrase(index.paddedReadme, paddedNeedle)
 	) {
 		score += 2.75 * specificity;
-		reasons.push(`readme:${keyword}`);
+		reasons.push(`readme:${raw}`);
 	}
 
-	if (index.normalizedOwner === normalizedKeyword) {
+	if (index.normalizedOwner === normalized) {
 		score += 2.5 * specificity;
-		reasons.push(`owner:${keyword}`);
+		reasons.push(`owner:${raw}`);
 	}
 
-	if (containsNormalizedPhrase(index.normalizedFullName, normalizedKeyword)) {
+	if (containsNormalizedPhrase(index.paddedFullName, paddedNeedle)) {
 		score += 2.5 * specificity;
-		reasons.push(`repo:${keyword}`);
+		reasons.push(`repo:${raw}`);
 	}
 
 	if (
 		reasons.length === 0 &&
-		keywordTokens.length > 1 &&
-		keywordTokens.every((token) => index.metadataTokens.has(token))
+		tokens.length > 1 &&
+		tokens.every((token) => index.metadataTokens.has(token))
 	) {
 		score += 1.75 * specificity;
-		reasons.push(`tokens:${keyword}`);
+		reasons.push(`tokens:${raw}`);
 	}
 
 	if (score === 0) {
@@ -327,27 +401,27 @@ function matchKeyword(
 
 function evaluateCategory(
 	index: RepoSearchIndex,
-	category: CategoryDefinition,
+	compiled: CompiledCategory,
 ): CategoryEvaluation | null {
 	let score = 0;
 	const reasons = new Set<string>();
 	const matchedKeywords = new Set<string>();
 
-	for (const keyword of category.rules.keywords) {
-		const match = matchKeyword(index, category, keyword);
+	for (const keyword of compiled.keywords) {
+		const match = matchKeyword(index, compiled, keyword);
 		if (!match) {
 			continue;
 		}
 
 		score += match.score;
-		matchedKeywords.add(normalizeSearchText(keyword));
+		matchedKeywords.add(keyword.normalized);
 		for (const reason of match.reasons) {
 			reasons.add(reason);
 		}
 	}
 
-	for (const language of category.rules.languages) {
-		if (index.language === language.toLowerCase()) {
+	for (const language of compiled.languagesLower) {
+		if (index.language === language) {
 			score += 3;
 			reasons.add(`language:${language}`);
 		}
@@ -365,32 +439,21 @@ function evaluateCategory(
 	};
 }
 
-function categoryMinimumScore(category: CategoryDefinition): number {
-	return category.rules.minScore || MIN_NON_DEFAULT_CATEGORY_SCORE;
-}
-
-function categoryKeywordSet(values: string[]): Set<string> {
-	return new Set(normalizeRuleList(values));
-}
-
 function countStrongSignals(
 	evaluation: CategoryEvaluation,
-	category: CategoryDefinition,
+	compiled: CompiledCategory,
 ): number {
-	const strongKeywords = categoryKeywordSet(category.rules.strongKeywords);
-	return evaluation.matchedKeywords.filter((keyword) => strongKeywords.has(keyword))
-		.length;
+	return evaluation.matchedKeywords.filter((keyword) =>
+		compiled.strongKeywordSet.has(keyword),
+	).length;
 }
 
 function hasSingletonStrongKeyword(
 	evaluation: CategoryEvaluation,
-	category: CategoryDefinition,
+	compiled: CompiledCategory,
 ): boolean {
-	const singletonStrongKeywords = categoryKeywordSet(
-		category.rules.singletonStrongKeywords,
-	);
 	return evaluation.matchedKeywords.some((keyword) =>
-		singletonStrongKeywords.has(keyword),
+		compiled.singletonStrongKeywordSet.has(keyword),
 	);
 }
 
@@ -400,81 +463,63 @@ function hasNonReadmeSignal(evaluation: CategoryEvaluation): boolean {
 
 function matchesShapeHints(
 	index: RepoSearchIndex,
-	category: CategoryDefinition,
+	compiled: CompiledCategory,
 ): boolean {
 	const searchableFields = [
-		index.normalizedName,
-		index.normalizedDescription,
-		index.normalizedReadme,
-		...index.topicsNormalized,
+		index.paddedName,
+		index.paddedDescription,
+		index.paddedReadme,
+		...index.topicsPadded,
 	];
 
-	return normalizeRuleList(category.rules.shapeHints).some((normalizedHint) => {
+	return compiled.normalizedShapeHints.some((normalizedHint) => {
+		const paddedHint = ` ${normalizedHint} `;
 		return searchableFields.some((field) =>
-			containsNormalizedPhrase(field, normalizedHint),
+			containsNormalizedPhrase(field, paddedHint),
 		);
 	});
 }
 
 function pickPreferredFallback(
-	winnerCategory: CategoryDefinition,
-	categoriesById: Map<string, CategoryDefinition>,
+	winnerCompiled: CompiledCategory,
+	compiledMap: Map<string, CompiledCategory>,
 	ranked: Array<[string, CategoryEvaluation]>,
 	winningScore: number,
 ): [string, CategoryEvaluation] | undefined {
-	const preferredFallbackCategories = new Set(
-		winnerCategory.rules.preferredFallbackCategories,
-	);
+	let bestAny: [string, CategoryEvaluation] | undefined;
 
 	for (const [categoryId, evaluation] of ranked.slice(1)) {
-		if (!preferredFallbackCategories.has(categoryId)) {
-			continue;
+		const compiled = compiledMap.get(categoryId);
+		if (!compiled) continue;
+		if (evaluation.score < compiled.minScore) continue;
+
+		if (
+			winnerCompiled.preferredFallbackSet.has(categoryId) &&
+			evaluation.score + 3 >= winningScore
+		) {
+			return [categoryId, evaluation];
 		}
 
-		const category = categoriesById.get(categoryId);
-		if (!category) {
-			continue;
+		if (!bestAny) {
+			bestAny = [categoryId, evaluation];
 		}
-
-		if (evaluation.score < categoryMinimumScore(category)) {
-			continue;
-		}
-
-		if (evaluation.score + 3 < winningScore) {
-			continue;
-		}
-
-		return [categoryId, evaluation];
 	}
 
-	for (const [categoryId, evaluation] of ranked.slice(1)) {
-		const category = categoriesById.get(categoryId);
-		if (!category) {
-			continue;
-		}
-
-		if (evaluation.score < categoryMinimumScore(category)) {
-			continue;
-		}
-
-		return [categoryId, evaluation];
-	}
-
-	return undefined;
+	return bestAny;
 }
 
 function shouldRejectWinner(
 	repo: StarRecord,
 	index: RepoSearchIndex,
-	category: CategoryDefinition,
+	compiled: CompiledCategory,
 	evaluation: CategoryEvaluation,
 ): boolean {
 	const hasDescription = Boolean(repo.description?.trim());
 	const hasTopics = repo.topics.some((topic) => Boolean(topic.trim()));
-	const strongSignalCount = countStrongSignals(evaluation, category);
-	const strongKeywords = category.rules.strongKeywords.length;
+	const strongSignalCount = countStrongSignals(evaluation, compiled);
+	const strongKeywords = compiled.definition.rules.strongKeywords.length;
 
-	if (evaluation.score < categoryMinimumScore(category)) {
+	if (evaluation.score < compiled.minScore) {
 		return true;
 	}
 
@@ -483,15 +528,15 @@ function shouldRejectWinner(
 	}
 
 	if (
-		category.rules.minStrongKeywordMatches > 0 &&
-		strongSignalCount < category.rules.minStrongKeywordMatches &&
-		!hasSingletonStrongKeyword(evaluation, category)
+		compiled.definition.rules.minStrongKeywordMatches > 0 &&
+		strongSignalCount < compiled.definition.rules.minStrongKeywordMatches &&
+		!hasSingletonStrongKeyword(evaluation, compiled)
 	) {
 		return true;
 	}
 
 	if (
-		category.rules.allowReadmeOnly === false &&
+		compiled.definition.rules.allowReadmeOnly === false &&
 		!hasDescription &&
 		!hasTopics &&
 		!hasNonReadmeSignal(evaluation)
@@ -500,9 +545,10 @@ function shouldRejectWinner(
 	}
 
 	if (
-		category.rules.shapeHintMinStrongKeywordMatches > 0 &&
-		matchesShapeHints(index, category) &&
-		strongSignalCount < category.rules.shapeHintMinStrongKeywordMatches
+		compiled.definition.rules.shapeHintMinStrongKeywordMatches > 0 &&
+		matchesShapeHints(index, compiled) &&
+		strongSignalCount <
+			compiled.definition.rules.shapeHintMinStrongKeywordMatches
 	) {
 		return true;
 	}
@@ -587,7 +633,7 @@ function isStrongReadmeClassification(
 
 function deterministicClassify(
 	repo: StarRecord,
-	categoryConfig: CategoryConfig,
+	compiled: CompiledCategoryConfig,
 	overrides: OverridesConfig,
 	readmeText?: string,
 ): DeterministicClassificationResult {
@@ -608,19 +654,18 @@ function deterministicClassify(
 	const hasReadme = Boolean(readmeText?.trim());
 	if (!hasDescription && !hasTopics && !hasReadme) {
 		return createDefaultClassification(
-			categoryConfig.defaultCategory,
+			compiled.defaultCategory,
 			"Missing description and topics, resolved to default category.",
 		);
 	}
 
 	const index = buildSearchIndex(repo, readmeText);
 	const evaluations = new Map<string, CategoryEvaluation>();
-	const categoriesById = categoryMap(categoryConfig);
 
-	for (const category of categoryConfig.categories) {
+	for (const category of compiled.categories) {
 		const evaluation = evaluateCategory(index, category);
 		if (evaluation) {
-			evaluations.set(category.id, evaluation);
+			evaluations.set(category.definition.id, evaluation);
 		}
 	}
 
@@ -633,44 +678,47 @@ function deterministicClassify(
 			return right[1].signalCount - left[1].signalCount;
 		}
 
-		const leftPriority = categoriesById.get(left[0])?.priority ?? 999;
-		const rightPriority = categoriesById.get(right[0])?.priority ?? 999;
+		const leftPriority =
+			compiled.categoriesById.get(left[0])?.definition.priority ?? 999;
+		const rightPriority =
+			compiled.categoriesById.get(right[0])?.definition.priority ?? 999;
 		return leftPriority - rightPriority;
 	});
 
 	if (ranked.length === 0) {
 		return createDefaultClassification(
-			categoryConfig.defaultCategory,
+			compiled.defaultCategory,
 			"No deterministic signals matched.",
 		);
 	}
 
 	const [winner, winnerEvaluation] = ranked[0];
-	const winnerCategory = categoriesById.get(winner);
-	if (!winnerCategory) {
+	const winnerCompiled = compiled.categoriesById.get(winner);
+	if (!winnerCompiled) {
 		throw new Error(`Unknown category '${winner}'.`);
 	}
 	if (
-		winner !== categoryConfig.defaultCategory &&
-		winnerEvaluation.score < categoryMinimumScore(winnerCategory)
+		winner !== compiled.defaultCategory &&
+		winnerEvaluation.score < winnerCompiled.minScore
 	) {
 		return createDefaultClassification(
-			categoryConfig.defaultCategory,
+			compiled.defaultCategory,
 			`Top score ${roundScore(winnerEvaluation.score)} stayed below the minimum category threshold.`,
 		);
 	}
 
-	if (shouldRejectWinner(repo, index, winnerCategory, winnerEvaluation)) {
+	if (shouldRejectWinner(repo, index, winnerCompiled, winnerEvaluation)) {
 		const fallback = pickPreferredFallback(
-			winnerCategory,
-			categoriesById,
+			winnerCompiled,
+			compiled.categoriesById,
 			ranked,
 			winnerEvaluation.score,
 		);
 		if (fallback) {
 			const [fallbackCategory, fallbackEvaluation] = fallback;
 			const fallbackSecondScore =
-				ranked.find(([categoryId]) => categoryId !== fallbackCategory)?.[1].score ?? 0;
+				ranked.find(([categoryId]) => categoryId !== fallbackCategory)?.[1]
+					.score ?? 0;
 
 			return buildRuleClassification(
 				fallbackCategory,
@@ -680,8 +728,8 @@ function deterministicClassify(
 		}
 
 		return createDefaultClassification(
-			categoryConfig.defaultCategory,
-			`${winnerCategory.title} signals were too generic to keep the winning category.`,
+			compiled.defaultCategory,
+			`${winnerCompiled.definition.title} signals were too generic to keep the winning category.`,
 		);
 	}
 
@@ -731,11 +779,7 @@ export function categorizeRepositories(
 	overrides: OverridesConfig,
 	options: RepoClassificationOptions = {},
 ): ClassifiedStarRecord[] {
-	const categoriesById = categoryMap(categoryConfig);
-	const defaultCategory = getDefaultCategoryDefinition(
-		categoryConfig,
-		categoriesById,
-	);
+	const compiled = compileCategories(categoryConfig);
 	const classified: ClassifiedStarRecord[] = [];
 	const readmeFallbackConfidenceThreshold =
 		options.readmeFallbackConfidenceThreshold ?? 0.6;
@@ -745,11 +789,7 @@ export function categorizeRepositories(
 			continue;
 		}
 
-		let deterministic = deterministicClassify(
-			repo,
-			categoryConfig,
-			overrides,
-		);
+		let deterministic = deterministicClassify(repo, compiled, overrides);
 		let classificationReadmeUsed = false;
 		const readmeText = options.readmeByFullName?.get(repo.fullName);
 		const shouldEvaluateReadme =
@@ -762,36 +802,34 @@ export function categorizeRepositories(
 			classificationReadmeUsed = true;
 			const readmeDeterministic = deterministicClassify(
 				repo,
-				categoryConfig,
+				compiled,
 				overrides,
 				readmeText,
 			);
 
-			if (shouldPreferReadmeClassification(deterministic, readmeDeterministic)) {
+			if (
+				shouldPreferReadmeClassification(deterministic, readmeDeterministic)
+			) {
 				deterministic = readmeDeterministic;
 			}
 		}
 
-		const resolved = resolveConfiguredClassification(
-			deterministic,
-			defaultCategory,
-			categoriesById,
-		);
+		const resolved = resolveConfiguredClassification(deterministic, compiled);
 		const category = resolved.category;
 		const confidence = resolved.confidence;
 		const reason = resolved.reason;
 		const source: ClassifiedStarRecord["classificationSource"] =
 			resolved.source;
 
-		const categoryDefinition = categoriesById.get(category);
-		if (!categoryDefinition) {
+		const compiledCategory = compiled.categoriesById.get(category);
+		if (!compiledCategory) {
 			throw new Error(`Unknown category '${category}'.`);
 		}
 
 		classified.push({
 			...repo,
-			category: categoryDefinition.id,
-			categoryTitle: categoryDefinition.title,
+			category: compiledCategory.definition.id,
+			categoryTitle: compiledCategory.definition.title,
 			classificationConfidence: confidence,
 			classificationReason: reason,
 			classificationSource: source,

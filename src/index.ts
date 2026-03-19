@@ -256,12 +256,27 @@ async function main(): Promise<void> {
 			);
 
 			if (readmeByFullName.size > 0) {
-				classified = categorizeRepositories(repos, categoryConfig, overrides, {
-					enableReadmeFallback: true,
-					readmeByFullName,
-					readmeFallbackConfidenceThreshold:
-						runtimeConfig.classification.readmeFallbackConfidenceThreshold,
-				});
+				const candidateSet = new Set(readmeCandidates);
+				const candidateRepos = repos.filter((repo) =>
+					candidateSet.has(repo.fullName),
+				);
+				const reclassified = categorizeRepositories(
+					candidateRepos,
+					categoryConfig,
+					overrides,
+					{
+						enableReadmeFallback: true,
+						readmeByFullName,
+						readmeFallbackConfidenceThreshold:
+							runtimeConfig.classification.readmeFallbackConfidenceThreshold,
+					},
+				);
+				const reclassifiedByFullName = new Map(
+					reclassified.map((repo) => [repo.fullName, repo]),
+				);
+				classified = initiallyClassified.map(
+					(repo) => reclassifiedByFullName.get(repo.fullName) ?? repo,
+				);
 			}
 		}
 	}

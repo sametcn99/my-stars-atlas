@@ -36,7 +36,10 @@ function normalizeRepo(entry: GitHubStarResponse): StarRecord {
 	};
 }
 
-function buildHeaders(token?: string, accept: string = GITHUB_STARS_ACCEPT): HeadersInit {
+function buildHeaders(
+	token?: string,
+	accept: string = GITHUB_STARS_ACCEPT,
+): HeadersInit {
 	return {
 		Accept: accept,
 		"User-Agent": "my-stars-bun",
