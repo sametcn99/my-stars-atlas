@@ -139,7 +139,7 @@
 				],
 				"minScore": 6.5,
 				"minStrongKeywordMatches": 2,
-				"shapeHintMinStrongKeywordMatches": 2,
+				"shapeHintMinStrongKeywordMatches": 3,
 				"allowReadmeOnly": false
 			}
 		},
@@ -432,15 +432,57 @@
 					"ui-kit",
 					"headless-ui",
 					"design-tokens",
-					"primitives"
+					"primitives",
+					"ui-components",
+					"base-ui",
+					"radix-ui",
+					"shadcn-ui",
+					"material-ui",
+					"nextui",
+					"heroui",
+					"fluent ui",
+					"ui-library",
+					"component-kit",
+					"accessible-components",
+					"styleguide",
+					"styleguides"
 				],
-				"singletonStrongKeywords": [],
+				"singletonStrongKeywords": [
+					"design-system",
+					"component-library",
+					"ui-kit",
+					"headless-ui",
+					"design-tokens",
+					"primitives",
+					"ui-components",
+					"base-ui",
+					"radix-ui",
+					"shadcn-ui",
+					"material-ui",
+					"nextui",
+					"heroui",
+					"fluent ui",
+					"ui-library",
+					"component-kit",
+					"accessible-components",
+					"styleguide",
+					"styleguides"
+				],
 				"readmeExcludedKeywords": [],
-				"preferredFallbackCategories": [],
-				"shapeHints": [],
+				"preferredFallbackCategories": [
+					"frontend",
+					"learning"
+				],
+				"shapeHints": [
+					"dashboard",
+					"web app",
+					"website",
+					"landing page",
+					"portfolio"
+				],
 				"minScore": 4.25,
-				"minStrongKeywordMatches": 0,
-				"shapeHintMinStrongKeywordMatches": 0,
+				"minStrongKeywordMatches": 1,
+				"shapeHintMinStrongKeywordMatches": 2,
 				"allowReadmeOnly": true
 			}
 		},
@@ -551,11 +593,24 @@
 					"documentation",
 					"docs",
 					"knowledge base",
-					"static site generator"
+					"static site generator",
+					"design-system",
+					"design system",
+					"component-library",
+					"component library",
+					"base-ui",
+					"radix-ui",
+					"shadcn-ui",
+					"ui-components",
+					"material-ui",
+					"ui-kit",
+					"ui kit",
+					"styleguide",
+					"primitives"
 				],
 				"minScore": 4.25,
 				"minStrongKeywordMatches": 1,
-				"shapeHintMinStrongKeywordMatches": 2,
+				"shapeHintMinStrongKeywordMatches": 4,
 				"allowReadmeOnly": true
 			}
 		},
@@ -1664,13 +1719,41 @@
 					"spec",
 					"walkthrough"
 				],
-				"singletonStrongKeywords": [],
+				"singletonStrongKeywords": [
+					"awesome",
+					"tutorial",
+					"course",
+					"cookbook",
+					"sample",
+					"collection",
+					"roadmap",
+					"examples",
+					"reference",
+					"spec",
+					"walkthrough"
+				],
 				"readmeExcludedKeywords": [],
-				"preferredFallbackCategories": [],
-				"shapeHints": [],
+				"preferredFallbackCategories": [
+					"content-cms",
+					"frontend"
+				],
+				"shapeHints": [
+					"markdown",
+					"mdx",
+					"docs",
+					"documentation",
+					"docsite",
+					"documentation site",
+					"static site generator",
+					"vitepress",
+					"docusaurus",
+					"nextra",
+					"mkdocs",
+					"mintlify"
+				],
 				"minScore": 4.25,
-				"minStrongKeywordMatches": 0,
-				"shapeHintMinStrongKeywordMatches": 0,
+				"minStrongKeywordMatches": 1,
+				"shapeHintMinStrongKeywordMatches": 2,
 				"allowReadmeOnly": true
 			}
 		},

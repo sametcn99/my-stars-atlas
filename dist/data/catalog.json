@@ -3,7 +3,7 @@
   "title": "My Stars",
   "description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
   "username": "sametcn99",
-  "generatedAt": "2026-03-19T16:07:23.716Z",
+  "generatedAt": "2026-03-19T16:37:45.610Z",
   "total": 746,
   "recentCount": 12,
   "chunkSize": 100,
@@ -14,21 +14,21 @@
       "title": "AI & Agents",
       "description": "LLM apps, agent frameworks, inference stacks, model tooling, prompting workflows, and AI-native products.",
       "priority": 10,
-      "count": 15
+      "count": 16
     },
     {
       "id": "editor-tooling",
       "title": "Editor Tooling",
       "description": "Editors, IDE extensions, language-server integrations, snippets, and code intelligence features built around the developer editing experience.",
       "priority": 18,
-      "count": 48
+      "count": 49
     },
     {
       "id": "developer-tools",
       "title": "Developer Tools",
       "description": "Editors, IDE extensions, language servers, linters, generators, and tools that improve day-to-day software development.",
       "priority": 20,
-      "count": 21
+      "count": 22
     },
     {
       "id": "browser-extensions",
@@ -42,21 +42,21 @@
       "title": "Design Systems & Components",
       "description": "Component libraries, UI kits, headless primitives, styleguides, and reusable systems for building interfaces.",
       "priority": 28,
-      "count": 10
+      "count": 28
     },
     {
       "id": "frontend",
       "title": "Frontend & UI",
       "description": "User interfaces, component systems, static sites, dashboards, design-system implementations, and browser-first applications.",
       "priority": 30,
-      "count": 119
+      "count": 89
     },
     {
       "id": "content-cms",
       "title": "Content, CMS & Docs",
       "description": "Static site generators, CMS stacks, documentation systems, markdown pipelines, and content-oriented web tooling.",
       "priority": 32,
-      "count": 24
+      "count": 28
     },
     {
       "id": "cloud",
@@ -70,7 +70,7 @@
       "title": "Backend & APIs",
       "description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality.",
       "priority": 40,
-      "count": 44
+      "count": 46
     },
     {
       "id": "desktop",
@@ -91,7 +91,7 @@
       "title": "DevOps & Infra",
       "description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
       "priority": 60,
-      "count": 22
+      "count": 23
     },
     {
       "id": "databases",
@@ -119,7 +119,7 @@
       "title": ".NET",
       "description": "C#, ASP.NET, Blazor, MAUI, WinUI, WPF, NuGet, and the broader .NET application and library ecosystem.",
       "priority": 80,
-      "count": 35
+      "count": 36
     },
     {
       "id": "mobile",
@@ -147,14 +147,14 @@
       "title": "Design & Themes",
       "description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools.",
       "priority": 120,
-      "count": 27
+      "count": 26
     },
     {
       "id": "libraries",
       "title": "Libraries & SDKs",
       "description": "Reusable packages, frameworks, SDKs, parsers, runtimes, and lower-level building blocks used across multiple products.",
       "priority": 130,
-      "count": 54
+      "count": 55
     },
     {
       "id": "cli",
@@ -168,14 +168,14 @@
       "title": "Learning & Reference",
       "description": "Tutorials, example projects, awesome-lists, notes, roadmaps, boilerplates, and repositories intended primarily for learning or reference.",
       "priority": 150,
-      "count": 44
+      "count": 43
     },
     {
       "id": "misc",
       "title": "Misc",
       "description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
       "priority": 999,
-      "count": 44
+      "count": 46
     }
   ]
 }

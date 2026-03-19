@@ -1,7 +1,7 @@
 {
   "version": 1,
   "username": "sametcn99",
-  "generatedAt": "2026-03-19T16:07:23.716Z",
+  "generatedAt": "2026-03-19T16:37:45.610Z",
   "chunkIndex": 6,
   "chunkCount": 8,
   "items": [
@@ -2589,10 +2589,10 @@
       "starredAt": "2024-01-26T13:20:20Z",
       "stargazersCount": 4,
       "license": "GPL-3.0",
-      "category": "frontend",
-      "categoryTitle": "Frontend & UI",
-      "classificationConfidence": 0.98,
-      "classificationReason": "topic:nextjs, name:web, description:web, homepage:web, repo:web, name:web app, homepage:web app, repo:web app",
+      "category": "content-cms",
+      "categoryTitle": "Content, CMS & Docs",
+      "classificationConfidence": 0.82,
+      "classificationReason": "topic:markdown, name:markdown, description:markdown, homepage:markdown, repo:markdown",
       "classificationSource": "rules",
       "classificationReadmeUsed": false
     },
@@ -2628,10 +2628,10 @@
       "starredAt": "2024-01-26T13:20:11Z",
       "stargazersCount": 12,
       "license": "GPL-3.0",
-      "category": "frontend",
-      "categoryTitle": "Frontend & UI",
-      "classificationConfidence": 0.98,
-      "classificationReason": "topic:react, topic:reactjs, topic:nextjs, description:responsive, description:ui, description:website, topic:blog, name:blog",
+      "category": "design-systems",
+      "categoryTitle": "Design Systems & Components",
+      "classificationConfidence": 0.82,
+      "classificationReason": "description:ui-components, description:ui components, topic:nextui, name:nextui, homepage:nextui, repo:nextui",
       "classificationSource": "rules",
       "classificationReadmeUsed": false
     },

@@ -406,6 +406,7 @@ function matchesShapeHints(
 		index.normalizedName,
 		index.normalizedDescription,
 		index.normalizedReadme,
+		...index.topicsNormalized,
 	];
 
 	return normalizeRuleList(category.rules.shapeHints).some((normalizedHint) => {

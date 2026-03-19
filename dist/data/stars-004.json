@@ -1,7 +1,7 @@
 {
   "version": 1,
   "username": "sametcn99",
-  "generatedAt": "2026-03-19T16:07:23.716Z",
+  "generatedAt": "2026-03-19T16:37:45.610Z",
   "chunkIndex": 4,
   "chunkCount": 8,
   "items": [
@@ -1066,10 +1066,10 @@
       "starredAt": "2024-10-30T12:39:28Z",
       "stargazersCount": 331,
       "license": "MIT",
-      "category": "frontend",
-      "categoryTitle": "Frontend & UI",
-      "classificationConfidence": 0.98,
-      "classificationReason": "topic:frontend, topic:react, topic:angular, tokens:web-components, tokens:web components, topic:web, topic:ui, topic:design system",
+      "category": "design-systems",
+      "categoryTitle": "Design Systems & Components",
+      "classificationConfidence": 0.82,
+      "classificationReason": "topic:design-system, description:design-system, topic:design system, description:design system, topic:ui-components, topic:ui components",
       "classificationSource": "rules",
       "classificationReadmeUsed": false
     },
