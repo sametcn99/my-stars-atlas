@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-03-18T14:21:24.519Z",
-	"total": 742,
+	"generatedAt": "2026-03-19T05:42:56.513Z",
+	"total": 745,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -14,63 +14,63 @@
 			"title": "AI & Agents",
 			"description": "LLM apps, agent frameworks, inference stacks, model tooling, prompting workflows, and AI-native products.",
 			"priority": 10,
-			"count": 83
+			"count": 44
 		},
 		{
 			"id": "editor-tooling",
 			"title": "Editor Tooling",
 			"description": "Editors, IDE extensions, language-server integrations, snippets, and code intelligence features built around the developer editing experience.",
 			"priority": 18,
-			"count": 19
+			"count": 22
 		},
 		{
 			"id": "developer-tools",
 			"title": "Developer Tools",
 			"description": "Editors, IDE extensions, language servers, linters, generators, and tools that improve day-to-day software development.",
 			"priority": 20,
-			"count": 53
+			"count": 57
 		},
 		{
 			"id": "browser-extensions",
 			"title": "Browser Extensions",
 			"description": "Chrome, Firefox, and WebExtension-based tools that primarily live inside the browser rather than the editor or terminal.",
 			"priority": 24,
-			"count": 16
+			"count": 17
 		},
 		{
 			"id": "design-systems",
 			"title": "Design Systems & Components",
 			"description": "Component libraries, UI kits, headless primitives, styleguides, and reusable systems for building interfaces.",
 			"priority": 28,
-			"count": 9
+			"count": 10
 		},
 		{
 			"id": "frontend",
 			"title": "Frontend & UI",
 			"description": "User interfaces, component systems, static sites, dashboards, design-system implementations, and browser-first applications.",
 			"priority": 30,
-			"count": 113
+			"count": 133
 		},
 		{
 			"id": "content-cms",
 			"title": "Content, CMS & Docs",
 			"description": "Static site generators, CMS stacks, documentation systems, markdown pipelines, and content-oriented web tooling.",
 			"priority": 32,
-			"count": 20
+			"count": 23
 		},
 		{
 			"id": "cloud",
 			"title": "Cloud & BaaS",
 			"description": "Cloud platforms, backend-as-a-service products, edge runtimes, hosting providers, and managed app platforms.",
 			"priority": 35,
-			"count": 5
+			"count": 6
 		},
 		{
 			"id": "backend",
 			"title": "Backend & APIs",
 			"description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality.",
 			"priority": 40,
-			"count": 35
+			"count": 38
 		},
 		{
 			"id": "desktop",
@@ -84,28 +84,28 @@
 			"title": "Media & Creator Tools",
 			"description": "PDF, audio, video, image, OCR, downloader, and creator-focused utilities for producing, transforming, or consuming media.",
 			"priority": 55,
-			"count": 39
+			"count": 45
 		},
 		{
 			"id": "devops",
 			"title": "DevOps & Infra",
 			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
 			"priority": 60,
-			"count": 19
+			"count": 22
 		},
 		{
 			"id": "databases",
 			"title": "Databases & Storage",
 			"description": "Databases, ORMs, query layers, caches, and storage systems used to persist, model, and retrieve application data.",
 			"priority": 68,
-			"count": 13
+			"count": 14
 		},
 		{
 			"id": "data",
 			"title": "Data & Analytics",
 			"description": "Databases, ETL, analytics stacks, warehouses, notebooks, metrics pipelines, and tools for structured data work.",
 			"priority": 70,
-			"count": 11
+			"count": 14
 		},
 		{
 			"id": "data-visualization",
@@ -119,21 +119,21 @@
 			"title": ".NET",
 			"description": "C#, ASP.NET, Blazor, MAUI, WinUI, WPF, NuGet, and the broader .NET application and library ecosystem.",
 			"priority": 80,
-			"count": 40
+			"count": 42
 		},
 		{
 			"id": "mobile",
 			"title": "Mobile",
 			"description": "Android, iOS, Flutter, React Native, Jetpack Compose, and app experiences designed primarily for phones or tablets.",
 			"priority": 90,
-			"count": 18
+			"count": 17
 		},
 		{
 			"id": "automation",
 			"title": "Automation & Bots",
 			"description": "Bots, scraping systems, browser automation, workflow runners, and software focused on repetitive task execution.",
 			"priority": 100,
-			"count": 17
+			"count": 18
 		},
 		{
 			"id": "security",
@@ -147,21 +147,21 @@
 			"title": "Design & Themes",
 			"description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools.",
 			"priority": 120,
-			"count": 20
+			"count": 21
 		},
 		{
 			"id": "libraries",
 			"title": "Libraries & SDKs",
 			"description": "Reusable packages, frameworks, SDKs, parsers, runtimes, and lower-level building blocks used across multiple products.",
 			"priority": 130,
-			"count": 27
+			"count": 28
 		},
 		{
 			"id": "cli",
 			"title": "CLI & Terminal",
 			"description": "Shell tools, terminal utilities, command-line workflows, text UIs, and scripts meant to be driven primarily from a console.",
 			"priority": 140,
-			"count": 11
+			"count": 17
 		},
 		{
 			"id": "learning",
@@ -175,7 +175,7 @@
 			"title": "Misc",
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"priority": 999,
-			"count": 37
+			"count": 20
 		}
 	]
 }

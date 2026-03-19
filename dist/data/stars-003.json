@@ -1,10 +1,116 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-03-18T14:21:24.519Z",
+	"generatedAt": "2026-03-19T05:42:56.513Z",
 	"chunkIndex": 3,
 	"chunkCount": 8,
 	"items": [
+		{
+			"id": 971239826,
+			"fullName": "sametcn99/mermaid-viewer",
+			"name": "mermaid-viewer",
+			"owner": "sametcn99",
+			"ownerType": "User",
+			"url": "https://github.com/sametcn99/mermaid-viewer",
+			"description": "A powerful, modern web application that transforms your ideas into stunning diagrams with live preview and instant sharing capabilities.",
+			"homepage": "https://mermaid.sametcc.me/home",
+			"language": "TypeScript",
+			"topics": [
+				"diagram",
+				"diagram-editor",
+				"diagram-generator",
+				"docker",
+				"mermaid",
+				"mermaid-viewer",
+				"mermaidjs",
+				"monaco-editor",
+				"mui",
+				"mui-material",
+				"nestjs",
+				"nestjs-backend",
+				"nginx",
+				"pako"
+			],
+			"archived": false,
+			"disabled": false,
+			"fork": false,
+			"createdAt": "2025-04-23T08:13:25Z",
+			"updatedAt": "2026-03-10T06:58:27Z",
+			"pushedAt": "2026-03-10T06:58:23Z",
+			"starredAt": "2025-06-19T08:08:19Z",
+			"stargazersCount": 8,
+			"license": "GPL-3.0",
+			"category": "data-visualization",
+			"categoryTitle": "Data Visualization",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:diagram, description:diagrams, topic:mermaid, name:mermaid, homepage:mermaid, repo:mermaid",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
+		},
+		{
+			"id": 1000144451,
+			"fullName": "sametcn99/sql-query-safety-checker",
+			"name": "sql-query-safety-checker",
+			"owner": "sametcn99",
+			"ownerType": "User",
+			"url": "https://github.com/sametcn99/sql-query-safety-checker",
+			"description": "A comprehensive TypeScript library for analyzing SQL queries and detecting potential security threats, including SQL injection patterns, dangerous operations, and data modification commands. Perfect for applications that need to validate user-provided SQL queries before execution.",
+			"homepage": "https://www.npmjs.com/package/sql-query-safety-checker",
+			"language": "TypeScript",
+			"topics": ["bunjs", "bunup", "npm-package", "sql-query-analysis"],
+			"archived": false,
+			"disabled": false,
+			"fork": false,
+			"createdAt": "2025-06-11T10:30:49Z",
+			"updatedAt": "2025-06-19T08:08:15Z",
+			"pushedAt": "2025-06-19T06:53:18Z",
+			"starredAt": "2025-06-19T08:08:14Z",
+			"stargazersCount": 1,
+			"license": "GPL-3.0",
+			"category": "data",
+			"categoryTitle": "Data & Analytics",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:data, topic:sql, name:sql, description:sql, homepage:sql, repo:sql, topic:query, name:query",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
+		},
+		{
+			"id": 671654508,
+			"fullName": "biomejs/biome",
+			"name": "biome",
+			"owner": "biomejs",
+			"ownerType": "Organization",
+			"url": "https://github.com/biomejs/biome",
+			"description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+			"homepage": "https://biomejs.dev",
+			"language": "Rust",
+			"topics": [
+				"css",
+				"formatter",
+				"javascript",
+				"json",
+				"jsx",
+				"linter",
+				"static-code-analysis",
+				"typescript",
+				"web"
+			],
+			"archived": false,
+			"disabled": false,
+			"fork": false,
+			"createdAt": "2023-07-27T20:30:22Z",
+			"updatedAt": "2026-03-19T01:59:51Z",
+			"pushedAt": "2026-03-18T23:26:20Z",
+			"starredAt": "2025-06-18T06:40:10Z",
+			"stargazersCount": 24082,
+			"license": "Apache-2.0",
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "description:lsp, topic:formatter, description:formatter, topic:linter, description:linter",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
+		},
 		{
 			"id": 795033875,
 			"fullName": "anilcanboga/react-kanca",
@@ -27,16 +133,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2024-05-02T13:03:25Z",
-			"updatedAt": "2026-02-02T18:41:33Z",
+			"updatedAt": "2026-03-18T20:22:19Z",
 			"pushedAt": "2026-02-02T18:41:29Z",
 			"starredAt": "2025-06-17T12:25:28Z",
-			"stargazersCount": 25,
+			"stargazersCount": 26,
 			"license": null,
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:react, name:react, description:react, homepage:react, repo:react",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 93960633,
@@ -62,7 +169,8 @@
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:vscode, name:vscode, repo:vscode, topic:vscode-extension, description:visual-studio-code, topic:extension, description:visual studio code",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 413918947,
@@ -85,16 +193,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2021-10-05T17:37:11Z",
-			"updatedAt": "2026-03-18T13:36:54Z",
-			"pushedAt": "2026-03-18T02:10:53Z",
+			"updatedAt": "2026-03-19T04:00:02Z",
+			"pushedAt": "2026-03-18T23:23:47Z",
 			"starredAt": "2025-06-12T10:15:34Z",
-			"stargazersCount": 30030,
+			"stargazersCount": 30036,
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:build-tool, topic:build tool, topic:monorepo",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 341139727,
@@ -126,16 +235,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2021-02-22T09:06:55Z",
-			"updatedAt": "2026-03-18T02:07:49Z",
-			"pushedAt": "2026-03-18T02:07:48Z",
+			"updatedAt": "2026-03-19T02:24:19Z",
+			"pushedAt": "2026-03-18T20:28:02Z",
 			"starredAt": "2025-06-11T12:03:17Z",
-			"stargazersCount": 13593,
+			"stargazersCount": 13595,
 			"license": "MIT",
 			"category": "databases",
 			"categoryTitle": "Databases & Storage",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:database, topic:postgresql, topic:mysql, topic:sqlite, topic:sql, description:sql, topic:sql-server, topic:query-builder",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 895129671,
@@ -169,7 +279,8 @@
 			"categoryTitle": "Automation & Bots",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:bot, description:bot, tokens:telegram-bot",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 950439133,
@@ -194,8 +305,9 @@
 			"category": "misc",
 			"categoryTitle": "Misc",
 			"classificationConfidence": 0.2,
-			"classificationReason": "Missing description and topics, resolved to default category.",
-			"classificationSource": "default"
+			"classificationReason": "No deterministic signals matched.",
+			"classificationSource": "default",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 839461889,
@@ -221,7 +333,8 @@
 			"categoryTitle": "Backend & APIs",
 			"classificationConfidence": 0.93,
 			"classificationReason": "name:api, description:api, repo:api",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 21515044,
@@ -249,16 +362,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2014-07-05T07:07:43Z",
-			"updatedAt": "2026-03-18T11:34:28Z",
+			"updatedAt": "2026-03-19T04:12:38Z",
 			"pushedAt": "2026-03-17T13:34:13Z",
 			"starredAt": "2025-05-28T12:31:57Z",
-			"stargazersCount": 28648,
+			"stargazersCount": 28653,
 			"license": "MIT",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:awesome, name:awesome, description:awesome, repo:awesome, topic:awesome-list, topic:learning, topic:awesome list",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 39464018,
@@ -294,16 +408,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2015-07-21T18:55:34Z",
-			"updatedAt": "2026-03-18T13:24:03Z",
-			"pushedAt": "2026-03-18T13:57:20Z",
+			"updatedAt": "2026-03-19T04:08:38Z",
+			"pushedAt": "2026-03-19T05:28:40Z",
 			"starredAt": "2025-05-28T12:19:48Z",
-			"stargazersCount": 71012,
+			"stargazersCount": 71015,
 			"license": "Apache-2.0",
 			"category": "data",
 			"categoryTitle": "Data & Analytics",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:data, description:data, topic:analytics, topic:sql, topic:data-science, topic:visualization, description:visualization, topic:business-intelligence",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 88523356,
@@ -336,8 +451,8 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2017-04-17T15:43:34Z",
-			"updatedAt": "2026-03-18T13:34:29Z",
-			"pushedAt": "2026-03-18T14:15:33Z",
+			"updatedAt": "2026-03-19T04:09:14Z",
+			"pushedAt": "2026-03-19T04:09:08Z",
 			"starredAt": "2025-05-27T13:40:36Z",
 			"stargazersCount": 1898,
 			"license": "NOASSERTION",
@@ -345,7 +460,8 @@
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "tokens:web-components, tokens:web components, topic:html, tokens:component-library, topic:responsive, description:responsive, description:web, topic:ui",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 705774575,
@@ -362,16 +478,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2023-10-16T17:02:23Z",
-			"updatedAt": "2026-03-18T11:15:52Z",
+			"updatedAt": "2026-03-19T03:14:37Z",
 			"pushedAt": "2026-03-03T20:38:31Z",
 			"starredAt": "2025-05-27T12:51:16Z",
-			"stargazersCount": 3330,
+			"stargazersCount": 3331,
 			"license": "OFL-1.1",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:font, name:font, homepage:font, repo:font",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 263794049,
@@ -397,7 +514,8 @@
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:react, name:react, description:react, homepage:react, repo:react, topic:ui, description:ui, homepage:ui",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 762289766,
@@ -420,16 +538,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2024-02-23T13:23:54Z",
-			"updatedAt": "2026-03-18T13:45:45Z",
-			"pushedAt": "2026-03-18T13:45:40Z",
+			"updatedAt": "2026-03-19T03:50:21Z",
+			"pushedAt": "2026-03-19T02:45:44Z",
 			"starredAt": "2025-05-27T10:31:27Z",
-			"stargazersCount": 8966,
+			"stargazersCount": 8973,
 			"license": "MIT",
 			"category": "design-systems",
 			"categoryTitle": "Design Systems & Components",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:design-system, description:design-systems, topic:design system, description:ui-components, description:ui components, name:base-ui, homepage:base-ui, repo:base-ui",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 257392587,
@@ -462,7 +581,8 @@
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "description:visual-studio-code, topic:formatter, tokens:code-editor, description:visual studio code, topic:editor, description:editor",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 574523116,
@@ -498,16 +618,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2022-12-05T13:54:13Z",
-			"updatedAt": "2026-03-18T14:03:29Z",
-			"pushedAt": "2026-03-18T12:24:18Z",
+			"updatedAt": "2026-03-19T05:37:56Z",
+			"pushedAt": "2026-03-19T03:54:48Z",
 			"starredAt": "2025-05-21T10:47:20Z",
-			"stargazersCount": 153165,
+			"stargazersCount": 153253,
 			"license": "CC0-1.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:ai, topic:llm, topic:machine-learning, topic:claude, topic:gpt, topic:prompt-engineering, topic:artificial intelligence, topic:machine learning",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 169250119,
@@ -532,16 +653,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2019-02-05T14:00:56Z",
-			"updatedAt": "2026-03-18T13:56:24Z",
+			"updatedAt": "2026-03-18T22:21:13Z",
 			"pushedAt": "2026-03-17T11:01:18Z",
 			"starredAt": "2025-05-20T08:48:52Z",
-			"stargazersCount": 7796,
+			"stargazersCount": 7800,
 			"license": "MIT",
-			"category": "libraries",
-			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:Go",
-			"classificationSource": "rules"
+			"category": "devops",
+			"categoryTitle": "DevOps & Infra",
+			"classificationConfidence": 0.85,
+			"classificationReason": "readme:docker, readme:containers, readme:container",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 983556490,
@@ -567,7 +689,8 @@
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.93,
 			"classificationReason": "name:react, description:react, repo:react",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 10187082,
@@ -595,16 +718,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2013-05-21T03:25:25Z",
-			"updatedAt": "2026-03-18T01:15:52Z",
+			"updatedAt": "2026-03-18T23:51:02Z",
 			"pushedAt": "2026-02-08T16:20:40Z",
 			"starredAt": "2025-05-16T11:46:42Z",
-			"stargazersCount": 42991,
+			"stargazersCount": 42995,
 			"license": "NOASSERTION",
 			"category": "cli",
 			"categoryTitle": "CLI & Terminal",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:command-line, topic:command line",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 515647260,
@@ -634,16 +758,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2022-07-19T15:44:52Z",
-			"updatedAt": "2026-03-18T13:42:36Z",
-			"pushedAt": "2026-03-18T10:47:17Z",
+			"updatedAt": "2026-03-19T05:24:02Z",
+			"pushedAt": "2026-03-19T03:17:05Z",
 			"starredAt": "2025-05-15T12:13:15Z",
-			"stargazersCount": 34414,
+			"stargazersCount": 34425,
 			"license": "GPL-3.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:agent, topic:ollama",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 664226598,
@@ -660,16 +785,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2023-07-09T10:02:41Z",
-			"updatedAt": "2026-03-18T14:16:00Z",
+			"updatedAt": "2026-03-19T05:24:54Z",
 			"pushedAt": "2026-03-17T14:59:30Z",
 			"starredAt": "2025-05-08T15:37:08Z",
-			"stargazersCount": 7024,
+			"stargazersCount": 7031,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.72,
-			"classificationReason": "description:ai, language:JavaScript",
-			"classificationSource": "rules"
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.69,
+			"classificationReason": "description:browser",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 724903617,
@@ -693,9 +819,10 @@
 			"license": "MIT",
 			"category": "editor-tooling",
 			"categoryTitle": "Editor Tooling",
-			"classificationConfidence": 0.49,
+			"classificationConfidence": 0.53,
 			"classificationReason": "description:vscode",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 952724225,
@@ -717,11 +844,12 @@
 			"starredAt": "2025-05-04T17:09:28Z",
 			"stargazersCount": 59,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "Missing description and topics, resolved to default category.",
-			"classificationSource": "default"
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:vscode, readme:vscode, repo:vscode, readme:extension, readme:editor",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 861130925,
@@ -753,7 +881,8 @@
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:tailwind, topic:css, topic:ui, description:ui, name:dashboard, description:dashboard, homepage:dashboard, repo:dashboard",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 264861225,
@@ -770,16 +899,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2020-05-18T07:26:06Z",
-			"updatedAt": "2026-03-18T06:13:47Z",
+			"updatedAt": "2026-03-19T02:31:09Z",
 			"pushedAt": "2025-11-24T07:02:19Z",
 			"starredAt": "2025-04-28T08:17:33Z",
-			"stargazersCount": 4278,
+			"stargazersCount": 4280,
 			"license": "MIT",
 			"category": "data-visualization",
 			"categoryTitle": "Data Visualization",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:diagrams, topic:mermaid, name:mermaid, description:mermaid, repo:mermaid",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 51769689,
@@ -804,16 +934,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2016-02-15T16:45:02Z",
-			"updatedAt": "2026-03-18T11:46:50Z",
-			"pushedAt": "2026-03-17T02:18:58Z",
+			"updatedAt": "2026-03-19T03:09:48Z",
+			"pushedAt": "2026-03-18T19:35:21Z",
 			"starredAt": "2025-04-27T07:39:57Z",
-			"stargazersCount": 30758,
+			"stargazersCount": 30761,
 			"license": "MIT",
 			"category": "browser-extensions",
 			"categoryTitle": "Browser Extensions",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:browser-extension, description:browser-extension, topic:chrome-extension, topic:firefox-addon, tokens:firefox-extension, topic:safari-extension, topic:userstyle",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 583860630,
@@ -845,7 +976,8 @@
 			"categoryTitle": "Data Visualization",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:diagram, topic:mermaid, name:mermaid, description:mermaid, repo:mermaid",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 779860690,
@@ -871,7 +1003,8 @@
 			"categoryTitle": "Data Visualization",
 			"classificationConfidence": 0.98,
 			"classificationReason": "description:diagram, topic:mermaid, name:mermaid, description:mermaid, homepage:mermaid, repo:mermaid",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 949071805,
@@ -903,7 +1036,8 @@
 			"categoryTitle": "Content, CMS & Docs",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:vitepress, name:vitepress, description:vitepress, homepage:vitepress, repo:vitepress, description:documentation",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 87092148,
@@ -929,7 +1063,8 @@
 			"categoryTitle": "Mobile",
 			"classificationConfidence": 0.86,
 			"classificationReason": "topic:android",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 702281939,
@@ -974,9 +1109,10 @@
 			"license": "GPL-3.0",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.87,
+			"classificationConfidence": 0.89,
 			"classificationReason": "topic:web, description:web",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 262255533,
@@ -1005,16 +1141,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2020-05-08T07:25:21Z",
-			"updatedAt": "2026-03-18T10:49:42Z",
+			"updatedAt": "2026-03-19T03:34:08Z",
 			"pushedAt": "2026-03-17T13:43:22Z",
 			"starredAt": "2025-04-12T12:22:18Z",
-			"stargazersCount": 6763,
+			"stargazersCount": 6766,
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:react, description:react, topic:reactjs, topic:vue, description:vue, topic:svelte, description:svelte, topic:solidjs",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 817010771,
@@ -1054,7 +1191,8 @@
 			"categoryTitle": "Data Visualization",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:visualization, topic:diagrams, description:diagrams",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 258080286,
@@ -1090,7 +1228,8 @@
 			"categoryTitle": "Content, CMS & Docs",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:markdown, description:markdown, topic:mdx, topic:docs",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 925360854,
@@ -1122,7 +1261,8 @@
 			"categoryTitle": "Backend & APIs",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:backend, topic:nestjs, topic:server, name:server, description:server, repo:server",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 26066727,
@@ -1148,16 +1288,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2014-11-01T23:52:32Z",
-			"updatedAt": "2026-03-18T12:17:30Z",
-			"pushedAt": "2026-03-18T14:02:35Z",
+			"updatedAt": "2026-03-19T05:30:55Z",
+			"pushedAt": "2026-03-19T04:45:02Z",
 			"starredAt": "2025-04-07T12:22:06Z",
-			"stargazersCount": 86730,
+			"stargazersCount": 86745,
 			"license": "MIT",
 			"category": "data-visualization",
 			"categoryTitle": "Data Visualization",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:diagrams, description:diagrams, topic:flowchart, name:mermaid, homepage:mermaid, repo:mermaid",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 223700078,
@@ -1192,7 +1333,8 @@
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:vscode, topic:vscode-extension, topic:extension, description:extension",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 637314631,
@@ -1214,11 +1356,12 @@
 			"starredAt": "2025-03-24T08:30:26Z",
 			"stargazersCount": 331,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:TypeScript",
-			"classificationSource": "rules"
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.93,
+			"classificationReason": "readme:library, readme:module, readme:middleware",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 658928958,
@@ -1251,16 +1394,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2023-06-26T19:39:32Z",
-			"updatedAt": "2026-03-18T14:07:59Z",
-			"pushedAt": "2026-03-18T03:48:05Z",
+			"updatedAt": "2026-03-19T05:37:13Z",
+			"pushedAt": "2026-03-19T00:09:53Z",
 			"starredAt": "2025-03-23T17:43:04Z",
-			"stargazersCount": 165438,
+			"stargazersCount": 165524,
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:llm, topic:llms, topic:gpt, description:gpt, topic:ollama, name:ollama, homepage:ollama, owner:ollama",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 729302588,
@@ -1277,16 +1421,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2023-12-08T21:10:42Z",
-			"updatedAt": "2026-03-17T19:27:30Z",
+			"updatedAt": "2026-03-19T00:14:36Z",
 			"pushedAt": "2026-03-17T01:59:39Z",
 			"starredAt": "2025-03-20T13:52:52Z",
-			"stargazersCount": 1926,
+			"stargazersCount": 1930,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "Missing description and topics, resolved to default category.",
-			"classificationSource": "default"
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:ai, readme:ai, repo:ai, readme:agent, readme:agents, readme:ai-agents, readme:machine-learning, readme:copilot",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 792861139,
@@ -1318,16 +1463,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2024-04-27T18:55:38Z",
-			"updatedAt": "2026-03-18T14:10:28Z",
+			"updatedAt": "2026-03-19T05:28:18Z",
 			"pushedAt": "2025-12-10T09:44:11Z",
 			"starredAt": "2025-03-18T06:27:05Z",
-			"stargazersCount": 32613,
+			"stargazersCount": 32627,
 			"license": "AGPL-3.0",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:docker, topic:monitoring, topic:homelab, topic:self-hosted, description:self-hosted",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 468141276,
@@ -1353,7 +1499,8 @@
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.77,
 			"classificationReason": "name:vitepress, description:vitepress, repo:vitepress",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 28457823,
@@ -1386,16 +1533,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2014-12-24T17:49:19Z",
-			"updatedAt": "2026-03-18T14:07:21Z",
-			"pushedAt": "2026-03-18T14:15:53Z",
+			"updatedAt": "2026-03-19T05:41:24Z",
+			"pushedAt": "2026-03-18T22:36:06Z",
 			"starredAt": "2025-03-10T08:40:36Z",
-			"stargazersCount": 438416,
+			"stargazersCount": 438451,
 			"license": "BSD-3-Clause",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:education, topic:curriculum, description:curriculum",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 108761645,
@@ -1427,16 +1575,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2017-10-29T18:51:48Z",
-			"updatedAt": "2026-03-18T14:20:35Z",
-			"pushedAt": "2026-03-18T14:12:34Z",
+			"updatedAt": "2026-03-19T04:43:52Z",
+			"pushedAt": "2026-03-18T19:34:36Z",
 			"starredAt": "2025-03-10T08:36:45Z",
-			"stargazersCount": 62467,
+			"stargazersCount": 62472,
 			"license": "NOASSERTION",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:api, topic:rest-api, topic:swagger, topic:rest, topic:rest api",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 90796663,
@@ -1463,16 +1612,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2017-05-09T22:16:13Z",
-			"updatedAt": "2026-03-18T13:56:27Z",
-			"pushedAt": "2026-03-18T13:14:02Z",
+			"updatedAt": "2026-03-19T01:09:47Z",
+			"pushedAt": "2026-03-18T17:12:10Z",
 			"starredAt": "2025-03-08T17:13:40Z",
-			"stargazersCount": 93863,
+			"stargazersCount": 93867,
 			"license": "Apache-2.0",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:automation, name:puppeteer, owner:puppeteer, repo:puppeteer",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 829640443,
@@ -1510,16 +1660,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2024-07-16T21:00:53Z",
-			"updatedAt": "2026-03-18T04:49:46Z",
-			"pushedAt": "2026-03-18T14:05:21Z",
+			"updatedAt": "2026-03-19T01:58:14Z",
+			"pushedAt": "2026-03-18T23:49:38Z",
 			"starredAt": "2025-03-08T12:37:51Z",
-			"stargazersCount": 11103,
+			"stargazersCount": 11104,
 			"license": "Apache-2.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:ai, topic:llm, description:llm, topic:llms, topic:machine-learning, topic:deep-learning, topic:genai, description:evaluation",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 20675636,
@@ -1545,7 +1696,8 @@
 			"categoryTitle": "Data & Analytics",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:parquet, name:parquet, description:parquet, homepage:parquet, repo:parquet",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 40446628,
@@ -1577,9 +1729,10 @@
 			"license": "MIT",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.9,
+			"classificationConfidence": 0.97,
 			"classificationReason": "topic:color, name:color, description:color, homepage:color, repo:color",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 937253475,
@@ -1596,16 +1749,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2025-02-22T17:41:21Z",
-			"updatedAt": "2026-03-18T14:20:42Z",
-			"pushedAt": "2026-03-17T23:42:54Z",
+			"updatedAt": "2026-03-19T05:40:27Z",
+			"pushedAt": "2026-03-18T22:29:36Z",
 			"starredAt": "2025-02-27T07:23:28Z",
-			"stargazersCount": 79539,
+			"stargazersCount": 79790,
 			"license": null,
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.98,
 			"classificationReason": "name:claude, description:claude, homepage:claude, repo:claude, tokens:agentic-workflows",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 53061045,
@@ -1627,11 +1781,12 @@
 			"starredAt": "2025-02-26T09:07:54Z",
 			"stargazersCount": 261,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:TypeScript",
-			"classificationSource": "rules"
+			"category": "misc",
+			"categoryTitle": "Misc",
+			"classificationConfidence": 0.2,
+			"classificationReason": "No deterministic signals matched.",
+			"classificationSource": "default",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 71839621,
@@ -1648,16 +1803,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2016-10-24T23:10:02Z",
-			"updatedAt": "2026-03-16T21:55:49Z",
+			"updatedAt": "2026-03-18T18:45:19Z",
 			"pushedAt": "2024-03-23T22:17:00Z",
 			"starredAt": "2025-02-26T08:35:26Z",
-			"stargazersCount": 389,
+			"stargazersCount": 390,
 			"license": "NOASSERTION",
 			"category": "editor-tooling",
 			"categoryTitle": "Editor Tooling",
 			"classificationConfidence": 0.77,
 			"classificationReason": "name:vscode, description:vscode, repo:vscode",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 49976795,
@@ -1683,7 +1839,8 @@
 			"categoryTitle": "Desktop Apps",
 			"classificationConfidence": 0.98,
 			"classificationReason": "description:electron, owner:electron, repo:electron, name:windows, description:windows, repo:windows",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 180328715,
@@ -1708,16 +1865,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2019-04-09T09:10:06Z",
-			"updatedAt": "2026-03-18T13:39:39Z",
+			"updatedAt": "2026-03-19T05:37:21Z",
 			"pushedAt": "2026-03-16T23:44:23Z",
 			"starredAt": "2025-02-20T12:42:23Z",
-			"stargazersCount": 57454,
+			"stargazersCount": 57469,
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:react, description:react, topic:reactjs",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 846999540,
@@ -1739,11 +1897,12 @@
 			"starredAt": "2025-02-19T08:18:17Z",
 			"stargazersCount": 74,
 			"license": null,
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:TypeScript",
-			"classificationSource": "rules"
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.93,
+			"classificationReason": "readme:devtools, readme:extension, readme:editor",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 262369966,
@@ -1769,7 +1928,8 @@
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:vscode, name:vscode, homepage:vscode, repo:vscode, topic:vscode-extension, topic:extension, description:extension",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 27786663,
@@ -1798,16 +1958,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2014-12-09T20:57:12Z",
-			"updatedAt": "2026-03-18T14:09:50Z",
+			"updatedAt": "2026-03-19T01:58:26Z",
 			"pushedAt": "2025-01-21T16:00:46Z",
 			"starredAt": "2025-02-12T07:28:22Z",
-			"stargazersCount": 15183,
+			"stargazersCount": 15187,
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.79,
+			"classificationConfidence": 0.85,
 			"classificationReason": "topic:streaming",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 113022549,
@@ -1833,16 +1994,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2017-12-04T09:29:15Z",
-			"updatedAt": "2026-03-18T08:46:20Z",
+			"updatedAt": "2026-03-18T14:41:11Z",
 			"pushedAt": "2026-03-14T03:19:39Z",
 			"starredAt": "2025-02-06T08:50:34Z",
-			"stargazersCount": 7068,
+			"stargazersCount": 7070,
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:image, name:image, description:image, repo:image",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 872925629,
@@ -1867,16 +2029,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2024-10-15T10:05:35Z",
-			"updatedAt": "2026-03-18T14:04:26Z",
+			"updatedAt": "2026-03-19T04:38:31Z",
 			"pushedAt": "2026-03-18T09:36:30Z",
 			"starredAt": "2025-02-05T12:55:04Z",
-			"stargazersCount": 9447,
+			"stargazersCount": 9457,
 			"license": "AGPL-3.0",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:react, topic:nextjs, topic:tailwindcss, topic:shadcn-ui, topic:ui",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 38982731,
@@ -1901,16 +2064,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2015-07-12T23:58:06Z",
-			"updatedAt": "2026-03-18T13:10:54Z",
-			"pushedAt": "2026-03-18T14:17:26Z",
+			"updatedAt": "2026-03-19T00:49:09Z",
+			"pushedAt": "2026-03-19T05:27:32Z",
 			"starredAt": "2025-02-04T08:36:28Z",
-			"stargazersCount": 5334,
+			"stargazersCount": 5336,
 			"license": "NOASSERTION",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:frontend, name:frontend, description:frontend, repo:frontend, topic:lit",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 197018189,
@@ -1939,16 +2103,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2019-07-15T14:47:30Z",
-			"updatedAt": "2026-03-18T14:16:29Z",
+			"updatedAt": "2026-03-19T05:05:57Z",
 			"pushedAt": "2026-03-10T12:42:53Z",
 			"starredAt": "2025-02-03T06:53:37Z",
-			"stargazersCount": 35689,
+			"stargazersCount": 35697,
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:react, description:react, topic:svelte, description:svelte, topic:ui",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 802599802,
@@ -1978,16 +2143,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2024-05-18T18:43:27Z",
-			"updatedAt": "2026-03-18T14:01:34Z",
+			"updatedAt": "2026-03-18T15:54:59Z",
 			"pushedAt": "2026-03-17T20:59:02Z",
 			"starredAt": "2025-02-01T09:54:17Z",
-			"stargazersCount": 250,
+			"stargazersCount": 251,
 			"license": "AGPL-3.0",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:json-schema, description:json-schema",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 599525166,
@@ -2021,7 +2187,8 @@
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:json-schema, description:json-schema",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 53809090,
@@ -2046,16 +2213,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2016-03-13T21:37:45Z",
-			"updatedAt": "2026-03-18T14:06:07Z",
+			"updatedAt": "2026-03-19T05:25:01Z",
 			"pushedAt": "2026-02-13T17:19:34Z",
 			"starredAt": "2025-01-31T15:41:28Z",
-			"stargazersCount": 66880,
+			"stargazersCount": 66888,
 			"license": "MIT",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:animation, description:animation",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 260338399,
@@ -2079,16 +2247,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2020-04-30T23:16:17Z",
-			"updatedAt": "2026-03-18T13:39:45Z",
+			"updatedAt": "2026-03-19T04:08:52Z",
 			"pushedAt": "2026-03-15T07:36:50Z",
 			"starredAt": "2025-01-30T12:26:01Z",
-			"stargazersCount": 17334,
+			"stargazersCount": 17340,
 			"license": "MIT",
 			"category": "content-cms",
 			"categoryTitle": "Content, CMS & Docs",
 			"classificationConfidence": 0.98,
 			"classificationReason": "description:static-site-generator, description:static site generator, description:static-site, description:static site, tokens:docs-site, tokens:docs site, topic:markdown, name:vitepress",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 85095608,
@@ -2123,7 +2292,8 @@
 			"categoryTitle": "Data Visualization",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:chart, topic:visualization, description:visualization, topic:data-visualization, topic:data visualization, topic:d3, topic:visx, name:visx",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 200334125,
@@ -2149,7 +2319,8 @@
 			"categoryTitle": "DevOps & Infra",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:docker, name:docker, description:docker, repo:docker, description:containers",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 714906290,
@@ -2175,7 +2346,8 @@
 			"categoryTitle": "Learning & Reference",
 			"classificationConfidence": 0.96,
 			"classificationReason": "name:awesome, repo:awesome, tokens:awesome-list, tokens:awesome list",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 741744308,
@@ -2192,16 +2364,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2024-01-11T02:43:17Z",
-			"updatedAt": "2026-03-18T14:19:14Z",
+			"updatedAt": "2026-03-19T04:37:23Z",
 			"pushedAt": "2026-02-23T16:27:47Z",
 			"starredAt": "2025-01-30T07:17:46Z",
-			"stargazersCount": 35955,
+			"stargazersCount": 35957,
 			"license": "CC0-1.0",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:awesome, name:awesome, repo:awesome",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 667510940,
@@ -2225,9 +2398,10 @@
 			"license": null,
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.85,
+			"classificationConfidence": 0.77,
 			"classificationReason": "description:docker, owner:docker, repo:docker",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 684737620,
@@ -2251,9 +2425,10 @@
 			"license": null,
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.93,
+			"classificationConfidence": 0.96,
 			"classificationReason": "name:sample, repo:sample, description:documentation, description:guide",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 240215314,
@@ -2270,16 +2445,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2020-02-13T08:51:42Z",
-			"updatedAt": "2026-03-18T14:03:12Z",
-			"pushedAt": "2026-03-14T18:49:17Z",
+			"updatedAt": "2026-03-19T05:37:49Z",
+			"pushedAt": "2026-03-19T01:01:15Z",
 			"starredAt": "2025-01-27T13:51:43Z",
-			"stargazersCount": 44426,
+			"stargazersCount": 44438,
 			"license": "CC0-1.0",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:docker, description:docker, homepage:docker, owner:docker, repo:docker, topic:docker-compose, description:docker-compose, topic:compose",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 564833963,
@@ -2313,7 +2489,8 @@
 			"categoryTitle": "Learning & Reference",
 			"classificationConfidence": 0.86,
 			"classificationReason": "topic:walkthrough",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 85344269,
@@ -2356,9 +2533,10 @@
 			"license": "MIT",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.87,
+			"classificationConfidence": 0.88,
 			"classificationReason": "topic:guide, description:guide, topic:walkthrough",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 231309416,
@@ -2393,7 +2571,8 @@
 			"categoryTitle": "Desktop Apps",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:electron, name:electron, description:electron, repo:electron",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 865326415,
@@ -2426,9 +2605,10 @@
 			"license": "MIT",
 			"category": "design-systems",
 			"categoryTitle": "Design Systems & Components",
-			"classificationConfidence": 0.94,
+			"classificationConfidence": 0.91,
 			"classificationReason": "topic:ui-components, topic:ui components, topic:shadcn-ui, description:shadcn-ui, topic:ui-library, topic:ui library",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 193215554,
@@ -2466,16 +2646,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2019-06-22T09:24:21Z",
-			"updatedAt": "2026-03-18T14:19:34Z",
-			"pushedAt": "2026-03-18T14:20:41Z",
+			"updatedAt": "2026-03-19T05:42:34Z",
+			"pushedAt": "2026-03-19T04:00:38Z",
 			"starredAt": "2025-01-16T06:03:48Z",
-			"stargazersCount": 179792,
+			"stargazersCount": 179911,
 			"license": "NOASSERTION",
 			"category": "automation",
 			"categoryTitle": "Automation & Bots",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:automation, description:automation, topic:workflow-automation, description:workflow-automation, topic:n8n, name:n8n, homepage:n8n, repo:n8n",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 881755123,
@@ -2506,7 +2687,8 @@
 			"categoryTitle": "Media & Creator Tools",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:image, description:image",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 5905330,
@@ -2529,16 +2711,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2012-09-21T18:03:25Z",
-			"updatedAt": "2026-03-18T13:34:39Z",
+			"updatedAt": "2026-03-19T04:03:42Z",
 			"pushedAt": "2025-12-12T21:03:38Z",
 			"starredAt": "2025-01-08T12:19:39Z",
-			"stargazersCount": 24046,
+			"stargazersCount": 24051,
 			"license": null,
 			"category": "design",
 			"categoryTitle": "Design & Themes",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:animation, description:animation",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 9185792,
@@ -2565,16 +2748,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2013-04-03T03:18:59Z",
-			"updatedAt": "2026-03-18T12:24:09Z",
+			"updatedAt": "2026-03-19T03:27:39Z",
 			"pushedAt": "2026-03-18T00:25:36Z",
 			"starredAt": "2025-01-08T08:45:25Z",
-			"stargazersCount": 65958,
+			"stargazersCount": 65960,
 			"license": "Apache-2.0",
 			"category": "data-visualization",
 			"categoryTitle": "Data Visualization",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:charts, topic:charting, description:charting, topic:visualization, description:visualization, topic:data-visualization, description:data-visualization, topic:data visualization",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 868820754,
@@ -2596,11 +2780,12 @@
 			"starredAt": "2024-12-31T14:20:18Z",
 			"stargazersCount": 24,
 			"license": "MIT",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "Missing description and topics, resolved to default category.",
-			"classificationSource": "default"
+			"category": "developer-tools",
+			"categoryTitle": "Developer Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "name:vscode, repo:vscode, readme:visual-studio-code, readme:extension, readme:visual studio code, readme:editor",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 436297812,
@@ -2631,16 +2816,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2021-12-08T15:30:18Z",
-			"updatedAt": "2026-03-18T14:14:14Z",
-			"pushedAt": "2026-03-18T10:53:10Z",
+			"updatedAt": "2026-03-19T05:29:50Z",
+			"pushedAt": "2026-03-19T01:18:31Z",
 			"starredAt": "2024-12-30T11:00:52Z",
-			"stargazersCount": 57998,
+			"stargazersCount": 58025,
 			"license": "MIT",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:docker, topic:self-hosted, description:self-hosted",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 52281283,
@@ -2667,16 +2853,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2016-02-22T15:01:25Z",
-			"updatedAt": "2026-03-18T13:36:58Z",
-			"pushedAt": "2026-03-18T14:02:01Z",
+			"updatedAt": "2026-03-19T02:51:45Z",
+			"pushedAt": "2026-03-19T04:58:25Z",
 			"starredAt": "2024-12-27T11:09:11Z",
-			"stargazersCount": 49759,
+			"stargazersCount": 49764,
 			"license": "AGPL-3.0",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:docker, description:self-hosted",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 10270250,
@@ -2700,16 +2887,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2013-05-24T16:15:54Z",
-			"updatedAt": "2026-03-18T14:11:41Z",
-			"pushedAt": "2026-03-18T14:17:44Z",
+			"updatedAt": "2026-03-19T05:16:26Z",
+			"pushedAt": "2026-03-18T20:35:20Z",
 			"starredAt": "2024-12-25T08:15:27Z",
-			"stargazersCount": 244021,
+			"stargazersCount": 244036,
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:frontend, topic:react, name:react, homepage:react, repo:react, description:web, topic:ui",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 208362715,
@@ -2733,8 +2921,8 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2019-09-13T23:32:51Z",
-			"updatedAt": "2026-03-18T08:47:45Z",
-			"pushedAt": "2026-03-18T07:23:15Z",
+			"updatedAt": "2026-03-19T00:39:31Z",
+			"pushedAt": "2026-03-19T03:02:42Z",
 			"starredAt": "2024-12-20T10:31:45Z",
 			"stargazersCount": 14908,
 			"license": "Apache-2.0",
@@ -2742,7 +2930,8 @@
 			"categoryTitle": "Design Systems & Components",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:design-systems, topic:ui-components, topic:ui components, tokens:accessible-components, tokens:accessible components",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 765352233,
@@ -2777,7 +2966,8 @@
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:react, description:react, topic:reactjs, topic:nextjs, topic:component-library, description:component-library, topic:component library, description:component library",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 249854308,
@@ -2794,16 +2984,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2020-03-25T01:01:53Z",
-			"updatedAt": "2026-03-16T23:10:50Z",
-			"pushedAt": "2026-03-06T07:07:37Z",
+			"updatedAt": "2026-03-18T18:18:03Z",
+			"pushedAt": "2026-03-18T21:12:11Z",
 			"starredAt": "2024-12-19T19:32:01Z",
-			"stargazersCount": 1090,
+			"stargazersCount": 1091,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:TypeScript",
-			"classificationSource": "rules"
+			"category": "databases",
+			"categoryTitle": "Databases & Storage",
+			"classificationConfidence": 0.82,
+			"classificationReason": "readme:database, readme:postgresql, readme:postgres, readme:redis",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 1424470,
@@ -2820,16 +3011,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2011-03-01T02:46:06Z",
-			"updatedAt": "2026-03-18T07:00:15Z",
+			"updatedAt": "2026-03-18T14:30:52Z",
 			"pushedAt": "2024-08-14T17:12:19Z",
 			"starredAt": "2024-12-19T07:48:32Z",
-			"stargazersCount": 48041,
+			"stargazersCount": 48040,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:JavaScript",
-			"classificationSource": "rules"
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.96,
+			"classificationReason": "readme:library, readme:package, readme:package-manager, readme:package manager",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 372629015,
@@ -2855,7 +3047,8 @@
 			"categoryTitle": "Automation & Bots",
 			"classificationConfidence": 0.96,
 			"classificationReason": "name:bot, description:bot, repo:bot, description:telegram-bot",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 900463405,
@@ -2877,11 +3070,12 @@
 			"starredAt": "2024-12-15T16:39:47Z",
 			"stargazersCount": 2,
 			"license": null,
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:JavaScript",
-			"classificationSource": "rules"
+			"category": "misc",
+			"categoryTitle": "Misc",
+			"classificationConfidence": 0.2,
+			"classificationReason": "No deterministic signals matched.",
+			"classificationSource": "default",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 28671602,
@@ -2903,11 +3097,12 @@
 			"starredAt": "2024-12-13T06:36:08Z",
 			"stargazersCount": 8093,
 			"license": "Apache-2.0",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:JavaScript",
-			"classificationSource": "rules"
+			"category": "editor-tooling",
+			"categoryTitle": "Editor Tooling",
+			"classificationConfidence": 0.98,
+			"classificationReason": "readme:vscode, readme:snippet, readme:ide, readme:syntax-highlighting, readme:syntax highlighting, readme:language-support, readme:language support",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 734934,
@@ -2931,9 +3126,10 @@
 			"license": null,
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.6,
+			"classificationConfidence": 0.72,
 			"classificationReason": "description:template",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 89513502,
@@ -2959,7 +3155,8 @@
 			"categoryTitle": "Libraries & SDKs",
 			"classificationConfidence": 0.86,
 			"classificationReason": "topic:framework",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 104957153,
@@ -2976,16 +3173,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2017-09-27T01:35:45Z",
-			"updatedAt": "2026-03-18T07:44:48Z",
+			"updatedAt": "2026-03-19T04:40:24Z",
 			"pushedAt": "2026-03-09T15:11:03Z",
 			"starredAt": "2024-12-09T07:23:23Z",
-			"stargazersCount": 12861,
+			"stargazersCount": 12864,
 			"license": null,
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:awesome, name:awesome, description:awesome, repo:awesome, topic:awesome-list, topic:awesome list",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 649170660,
@@ -3022,16 +3220,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2023-06-04T02:29:14Z",
-			"updatedAt": "2026-03-18T14:13:55Z",
-			"pushedAt": "2026-03-18T00:56:31Z",
+			"updatedAt": "2026-03-19T04:38:25Z",
+			"pushedAt": "2026-03-19T02:56:49Z",
 			"starredAt": "2024-12-06T12:05:12Z",
-			"stargazersCount": 56408,
+			"stargazersCount": 56437,
 			"license": "MIT",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:ai, description:ai, topic:agents, topic:ai-agents, topic:llm, name:llm, repo:llm, topic:rag",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 28538501,
@@ -3055,16 +3254,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2014-12-27T14:28:40Z",
-			"updatedAt": "2026-03-18T12:57:49Z",
+			"updatedAt": "2026-03-19T04:49:57Z",
 			"pushedAt": "2026-03-01T02:05:39Z",
 			"starredAt": "2024-12-02T12:39:26Z",
-			"stargazersCount": 22132,
+			"stargazersCount": 22136,
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:react, name:react, description:react, homepage:react, repo:react, homepage:html, description:responsive",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 448688478,
@@ -3092,16 +3292,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2022-01-16T22:27:26Z",
-			"updatedAt": "2026-03-18T14:19:55Z",
+			"updatedAt": "2026-03-19T05:31:32Z",
 			"pushedAt": "2026-03-17T23:51:39Z",
 			"starredAt": "2024-12-01T16:36:36Z",
-			"stargazersCount": 5635,
+			"stargazersCount": 5678,
 			"license": "MIT",
 			"category": "frontend",
 			"categoryTitle": "Frontend & UI",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:svelte, topic:tailwindcss, description:tailwind, description:css",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 32247847,
@@ -3118,16 +3319,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2015-03-15T06:17:10Z",
-			"updatedAt": "2026-03-18T10:04:52Z",
+			"updatedAt": "2026-03-18T15:58:51Z",
 			"pushedAt": "2025-02-23T20:54:32Z",
 			"starredAt": "2024-12-01T10:18:21Z",
-			"stargazersCount": 31653,
+			"stargazersCount": 31654,
 			"license": "Apache-2.0",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.53,
+			"classificationConfidence": 0.69,
 			"classificationReason": "description:library",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 420050565,
@@ -3144,126 +3346,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2021-10-22T10:05:53Z",
-			"updatedAt": "2026-03-18T12:42:30Z",
-			"pushedAt": "2026-03-18T09:47:51Z",
+			"updatedAt": "2026-03-19T01:24:25Z",
+			"pushedAt": "2026-03-18T21:21:23Z",
 			"starredAt": "2024-11-29T06:08:43Z",
-			"stargazersCount": 3258,
+			"stargazersCount": 3257,
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:devtools, name:devtools, homepage:devtools, repo:devtools, topic:dx, description:developer experience",
-			"classificationSource": "rules"
-		},
-		{
-			"id": 80945428,
-			"fullName": "nestjs/nest",
-			"name": "nest",
-			"owner": "nestjs",
-			"ownerType": "Organization",
-			"url": "https://github.com/nestjs/nest",
-			"description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
-			"homepage": "https://nestjs.com",
-			"language": "TypeScript",
-			"topics": [
-				"framework",
-				"hacktoberfest",
-				"javascript",
-				"javascript-framework",
-				"microservices",
-				"nest",
-				"nestjs",
-				"node",
-				"nodejs",
-				"nodejs-framework",
-				"typescript",
-				"typescript-framework",
-				"websockets"
-			],
-			"archived": false,
-			"disabled": false,
-			"fork": false,
-			"createdAt": "2017-02-04T20:12:52Z",
-			"updatedAt": "2026-03-18T13:51:48Z",
-			"pushedAt": "2026-03-18T08:43:16Z",
-			"starredAt": "2024-11-28T08:34:11Z",
-			"stargazersCount": 74943,
-			"license": "MIT",
-			"category": "backend",
-			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.98,
-			"classificationReason": "topic:nestjs, homepage:nestjs, owner:nestjs, repo:nestjs, description:server, topic:microservices",
-			"classificationSource": "rules"
-		},
-		{
-			"id": 76130102,
-			"fullName": "wilix-team/iohook",
-			"name": "iohook",
-			"owner": "wilix-team",
-			"ownerType": "Organization",
-			"url": "https://github.com/wilix-team/iohook",
-			"description": "Node.js global keyboard and mouse listener.",
-			"homepage": "https://wilix-team.github.io/iohook",
-			"language": "C",
-			"topics": [
-				"electron",
-				"hacktoberfest",
-				"iohook",
-				"keyboard-listeners",
-				"linux",
-				"macos",
-				"mouse-listener",
-				"nodejs",
-				"nwjs",
-				"windows"
-			],
-			"archived": false,
-			"disabled": false,
-			"fork": false,
-			"createdAt": "2016-12-10T18:28:53Z",
-			"updatedAt": "2026-03-17T08:05:46Z",
-			"pushedAt": "2025-02-21T04:04:41Z",
-			"starredAt": "2024-11-21T13:37:02Z",
-			"stargazersCount": 1268,
-			"license": "MIT",
-			"category": "desktop",
-			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.98,
-			"classificationReason": "topic:electron, topic:nwjs, topic:windows, topic:macos, topic:linux",
-			"classificationSource": "rules"
-		},
-		{
-			"id": 943149,
-			"fullName": "d3/d3",
-			"name": "d3",
-			"owner": "d3",
-			"ownerType": "Organization",
-			"url": "https://github.com/d3/d3",
-			"description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
-			"homepage": "https://d3js.org",
-			"language": "Shell",
-			"topics": [
-				"chart",
-				"charts",
-				"d3",
-				"data-visualization",
-				"svg",
-				"visualization"
-			],
-			"archived": false,
-			"disabled": false,
-			"fork": false,
-			"createdAt": "2010-09-27T17:22:42Z",
-			"updatedAt": "2026-03-18T14:09:57Z",
-			"pushedAt": "2025-12-02T17:48:19Z",
-			"starredAt": "2024-11-21T13:01:03Z",
-			"stargazersCount": 112558,
-			"license": "ISC",
-			"category": "data-visualization",
-			"categoryTitle": "Data Visualization",
-			"classificationConfidence": 0.98,
-			"classificationReason": "topic:chart, description:chart, topic:charts, topic:visualization, topic:data-visualization, topic:data visualization, topic:d3, name:d3",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		}
 	]
 }

@@ -1,10 +1,124 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-03-18T14:21:24.519Z",
+	"generatedAt": "2026-03-19T05:42:56.513Z",
 	"chunkIndex": 8,
 	"chunkCount": 8,
 	"items": [
+		{
+			"id": 90080868,
+			"fullName": "saadq/resumake.io",
+			"name": "resumake.io",
+			"owner": "saadq",
+			"ownerType": "User",
+			"url": "https://github.com/saadq/resumake.io",
+			"description": "📝 A website for automatically generating elegant LaTeX resumes.",
+			"homepage": "https://resumake.io",
+			"language": "TeX",
+			"topics": [
+				"generator",
+				"latex",
+				"nodejs",
+				"pdf",
+				"pdf-generation",
+				"pdf-generator",
+				"pdflatex",
+				"react",
+				"resume"
+			],
+			"archived": false,
+			"disabled": false,
+			"fork": false,
+			"createdAt": "2017-05-02T21:46:21Z",
+			"updatedAt": "2026-03-18T09:59:10Z",
+			"pushedAt": "2024-06-19T14:03:03Z",
+			"starredAt": "2023-02-09T01:51:46Z",
+			"stargazersCount": 3552,
+			"license": "MIT",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:react, description:website",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
+		},
+		{
+			"id": 581997910,
+			"fullName": "mertskaplan/multitv",
+			"name": "multitv",
+			"owner": "mertskaplan",
+			"ownerType": "User",
+			"url": "https://github.com/mertskaplan/multitv",
+			"description": "It allows to watch many television news channels at the same time via YouTube.",
+			"homepage": "https://lab.mertskaplan.com/multitv",
+			"language": "PHP",
+			"topics": [
+				"multiscreen",
+				"news",
+				"news-channels",
+				"television",
+				"tv",
+				"youtube"
+			],
+			"archived": false,
+			"disabled": false,
+			"fork": false,
+			"createdAt": "2022-12-25T08:23:56Z",
+			"updatedAt": "2026-02-25T15:02:27Z",
+			"pushedAt": "2024-08-13T14:56:27Z",
+			"starredAt": "2023-02-08T14:12:02Z",
+			"stargazersCount": 80,
+			"license": "MIT",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.89,
+			"classificationReason": "topic:youtube, description:youtube",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
+		},
+		{
+			"id": 1614410,
+			"fullName": "FFmpeg/FFmpeg",
+			"name": "FFmpeg",
+			"owner": "FFmpeg",
+			"ownerType": "Organization",
+			"url": "https://github.com/FFmpeg/FFmpeg",
+			"description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+			"homepage": "https://ffmpeg.org/",
+			"language": "C",
+			"topics": [
+				"audio",
+				"c",
+				"ffmpeg",
+				"fft",
+				"hevc",
+				"hls",
+				"matroska",
+				"mp4",
+				"mpeg",
+				"multimedia",
+				"rtmp",
+				"rtsp",
+				"streaming",
+				"video",
+				"webm"
+			],
+			"archived": false,
+			"disabled": false,
+			"fork": false,
+			"createdAt": "2011-04-14T14:12:38Z",
+			"updatedAt": "2026-03-19T04:27:07Z",
+			"pushedAt": "2026-03-19T00:20:54Z",
+			"starredAt": "2023-02-03T17:45:47Z",
+			"stargazersCount": 58031,
+			"license": "NOASSERTION",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.98,
+			"classificationReason": "topic:video, topic:audio, topic:ffmpeg, name:ffmpeg, description:ffmpeg, homepage:ffmpeg, owner:ffmpeg, repo:ffmpeg",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
+		},
 		{
 			"id": 506322529,
 			"fullName": "bipinkrish/File-Converter-Bot",
@@ -36,7 +150,8 @@
 			"categoryTitle": "Automation & Bots",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:bot, name:bot, description:bot, repo:bot, topic:telegram-bot, description:telegram-bot",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 142480903,
@@ -65,7 +180,7 @@
 			"fork": false,
 			"createdAt": "2018-07-26T18:45:29Z",
 			"updatedAt": "2026-03-18T12:15:27Z",
-			"pushedAt": "2026-03-18T10:08:58Z",
+			"pushedAt": "2026-03-18T23:05:10Z",
 			"starredAt": "2023-01-29T17:31:41Z",
 			"stargazersCount": 7347,
 			"license": "MIT",
@@ -73,7 +188,8 @@
 			"categoryTitle": ".NET",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:csharp, topic:winui, description:winui, topic:xaml, name:xaml, repo:xaml",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 155757874,
@@ -104,15 +220,16 @@
 			"fork": false,
 			"createdAt": "2018-11-01T18:24:11Z",
 			"updatedAt": "2026-03-18T09:59:52Z",
-			"pushedAt": "2026-03-18T09:59:47Z",
+			"pushedAt": "2026-03-18T17:31:52Z",
 			"starredAt": "2023-01-29T17:22:02Z",
 			"stargazersCount": 3427,
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.98,
+			"classificationConfidence": 0.91,
 			"classificationReason": "topic:winui, name:winui, description:winui, repo:winui, topic:xaml, language:C#",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 411493648,
@@ -149,16 +266,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2021-09-29T01:40:41Z",
-			"updatedAt": "2026-03-18T13:01:13Z",
+			"updatedAt": "2026-03-19T03:55:11Z",
 			"pushedAt": "2026-02-25T11:53:38Z",
 			"starredAt": "2023-01-29T17:15:25Z",
-			"stargazersCount": 31091,
+			"stargazersCount": 31093,
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:desktop-application, topic:desktop application, topic:desktop, topic:windows, topic:macos, topic:linux, topic:cross-platform, topic:desktop app",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 161012019,
@@ -175,16 +293,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2018-12-09T06:36:45Z",
-			"updatedAt": "2026-03-18T14:16:17Z",
+			"updatedAt": "2026-03-19T03:48:02Z",
 			"pushedAt": "2026-03-18T00:45:25Z",
 			"starredAt": "2023-01-29T17:14:34Z",
-			"stargazersCount": 49425,
+			"stargazersCount": 49438,
 			"license": "GPL-2.0",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:dotnet, topic:csharp, language:C#",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 3507455,
@@ -212,16 +331,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2012-02-21T19:46:55Z",
-			"updatedAt": "2026-03-18T13:43:09Z",
-			"pushedAt": "2026-03-18T12:08:54Z",
+			"updatedAt": "2026-03-18T21:28:09Z",
+			"pushedAt": "2026-03-19T02:53:37Z",
 			"starredAt": "2023-01-29T17:08:10Z",
-			"stargazersCount": 17931,
+			"stargazersCount": 17932,
 			"license": "AGPL-3.0",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.79,
+			"classificationConfidence": 0.85,
 			"classificationReason": "topic:framework",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 13233158,
@@ -250,16 +370,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2013-10-01T02:40:31Z",
-			"updatedAt": "2026-03-18T12:40:06Z",
+			"updatedAt": "2026-03-19T05:38:16Z",
 			"pushedAt": "2026-03-17T00:55:45Z",
 			"starredAt": "2023-01-28T01:26:39Z",
-			"stargazersCount": 71012,
+			"stargazersCount": 71026,
 			"license": "GPL-2.0",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:video, topic:ffmpeg, topic:youtube, topic:streaming, description:streaming, topic:screen-capture, topic:screen capture",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 574116196,
@@ -290,7 +411,8 @@
 			"categoryTitle": "Browser Extensions",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:browser-extension, topic:chrome-extension, topic:firefox-addon, tokens:firefox-extension",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 43630376,
@@ -316,7 +438,8 @@
 			"categoryTitle": ".NET",
 			"classificationConfidence": 0.93,
 			"classificationReason": "description:.net, description:winforms, language:C#",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 41881900,
@@ -339,16 +462,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2015-09-03T20:23:38Z",
-			"updatedAt": "2026-03-18T14:12:34Z",
-			"pushedAt": "2026-03-18T14:15:31Z",
+			"updatedAt": "2026-03-19T05:11:31Z",
+			"pushedAt": "2026-03-19T05:29:17Z",
 			"starredAt": "2022-12-31T03:52:57Z",
-			"stargazersCount": 182783,
+			"stargazersCount": 182813,
 			"license": "MIT",
 			"category": "developer-tools",
 			"categoryTitle": "Developer Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "name:vscode, repo:vscode, topic:visual-studio-code, description:visual-studio-code, tokens:code-editor, topic:visual studio code, description:visual studio code, topic:editor",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 326826023,
@@ -376,16 +500,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2021-01-04T22:47:16Z",
-			"updatedAt": "2026-03-18T11:55:29Z",
+			"updatedAt": "2026-03-18T17:50:26Z",
 			"pushedAt": "2026-03-18T11:55:25Z",
 			"starredAt": "2022-12-29T18:55:32Z",
-			"stargazersCount": 13909,
+			"stargazersCount": 13911,
 			"license": "NOASSERTION",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:dotnet, topic:nuget, topic:c#, description:c#, language:C#",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 575340621,
@@ -418,16 +543,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2022-12-07T09:43:02Z",
-			"updatedAt": "2026-03-18T12:53:41Z",
+			"updatedAt": "2026-03-19T03:38:08Z",
 			"pushedAt": "2024-08-29T17:58:11Z",
 			"starredAt": "2022-12-29T16:17:27Z",
-			"stargazersCount": 54363,
+			"stargazersCount": 54364,
 			"license": null,
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:tauri, description:desktop-application, description:desktop application, topic:desktop, description:desktop, topic:windows, description:windows, topic:macos",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 48707149,
@@ -444,16 +570,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2015-12-28T18:49:30Z",
-			"updatedAt": "2026-03-17T14:49:05Z",
+			"updatedAt": "2026-03-19T00:03:18Z",
 			"pushedAt": "2024-07-12T07:36:07Z",
 			"starredAt": "2022-12-29T16:17:05Z",
-			"stargazersCount": 1921,
+			"stargazersCount": 1923,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.47,
-			"classificationReason": "language:Python",
-			"classificationSource": "rules"
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.93,
+			"classificationReason": "homepage:music, readme:music, readme:youtube",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 511155911,
@@ -477,9 +604,10 @@
 			"license": null,
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.76,
+			"classificationConfidence": 0.78,
 			"classificationReason": "description:c#, language:C#",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 117669733,
@@ -505,16 +633,17 @@
 			"disabled": false,
 			"fork": true,
 			"createdAt": "2018-01-16T10:31:58Z",
-			"updatedAt": "2026-03-16T19:25:00Z",
+			"updatedAt": "2026-03-18T17:52:51Z",
 			"pushedAt": "2024-11-13T18:15:13Z",
 			"starredAt": "2022-11-25T16:33:52Z",
-			"stargazersCount": 3186,
+			"stargazersCount": 3185,
 			"license": "GPL-2.0",
 			"category": "backend",
 			"categoryTitle": "Backend & APIs",
-			"classificationConfidence": 0.57,
+			"classificationConfidence": 0.6,
 			"classificationReason": "topic:api",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 184456251,
@@ -544,16 +673,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2019-05-01T17:44:02Z",
-			"updatedAt": "2026-03-18T14:21:01Z",
-			"pushedAt": "2026-03-18T10:19:22Z",
+			"updatedAt": "2026-03-19T05:41:46Z",
+			"pushedAt": "2026-03-19T05:31:11Z",
 			"starredAt": "2022-07-09T23:57:12Z",
-			"stargazersCount": 130639,
+			"stargazersCount": 130677,
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
 			"classificationConfidence": 0.93,
 			"classificationReason": "topic:desktop, topic:windows, description:windows",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 254604988,
@@ -600,7 +730,8 @@
 			"categoryTitle": "Security & Privacy",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:security, topic:privacy, topic:adguard, name:adguard, description:adguard, repo:adguard",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 90413996,
@@ -626,7 +757,8 @@
 			"categoryTitle": "Browser Extensions",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:adblock, description:adblock, topic:ublock, name:ublock, repo:ublock, topic:ublock-origin",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 426610893,
@@ -648,11 +780,12 @@
 			"starredAt": "2022-04-24T22:46:34Z",
 			"stargazersCount": 34,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "Missing description and topics, resolved to default category.",
-			"classificationSource": "default"
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "readme:html, readme:css, readme:browser, readme:web, readme:ui, readme:website",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 173650401,
@@ -687,7 +820,8 @@
 			"categoryTitle": "Automation & Bots",
 			"classificationConfidence": 0.86,
 			"classificationReason": "topic:automation",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 395075992,
@@ -717,16 +851,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2021-08-11T18:01:20Z",
-			"updatedAt": "2026-03-18T13:54:21Z",
+			"updatedAt": "2026-03-19T04:19:56Z",
 			"pushedAt": "2026-03-17T03:01:58Z",
 			"starredAt": "2022-04-20T18:09:26Z",
-			"stargazersCount": 20179,
+			"stargazersCount": 20184,
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
 			"classificationConfidence": 0.96,
 			"classificationReason": "topic:desktop, description:desktop, topic:windows, topic:desktop client",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 184660676,
@@ -750,9 +885,10 @@
 			"license": null,
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.86,
+			"classificationConfidence": 0.89,
 			"classificationReason": "description:video, description:audio",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 159981830,
@@ -781,16 +917,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2018-12-01T19:55:18Z",
-			"updatedAt": "2026-03-18T13:06:43Z",
+			"updatedAt": "2026-03-18T23:00:05Z",
 			"pushedAt": "2026-03-14T15:50:54Z",
 			"starredAt": "2022-04-14T11:39:20Z",
-			"stargazersCount": 22448,
+			"stargazersCount": 22454,
 			"license": "LGPL-2.1",
 			"category": "cli",
 			"categoryTitle": "CLI & Terminal",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:cli, name:cli, repo:cli, topic:command-line, description:command-line, topic:command line, description:command line",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 33263118,
@@ -815,16 +952,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2015-04-01T17:51:11Z",
-			"updatedAt": "2026-03-18T14:12:11Z",
-			"pushedAt": "2026-03-16T19:07:40Z",
+			"updatedAt": "2026-03-19T04:34:49Z",
+			"pushedAt": "2026-03-18T22:24:31Z",
 			"starredAt": "2022-03-12T16:43:02Z",
-			"stargazersCount": 62156,
+			"stargazersCount": 62167,
 			"license": "GPL-3.0",
 			"category": "browser-extensions",
 			"categoryTitle": "Browser Extensions",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:browser-extension, tokens:chromium-extension, tokens:firefox-extension, topic:ublock, name:ublock, description:ublock, repo:ublock, topic:ublock-origin",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 64478737,
@@ -869,7 +1007,8 @@
 			"categoryTitle": "Desktop Apps",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:electron, topic:desktop-application, topic:desktop application, tokens:electron-app, tokens:electron app, topic:desktop, tokens:desktop app",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 185091285,
@@ -903,7 +1042,8 @@
 			"categoryTitle": "Media & Creator Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:downloader, description:downloader, tokens:youtube-downloader, topic:youtube, description:youtube",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 279966127,
@@ -940,16 +1080,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2020-07-15T20:05:01Z",
-			"updatedAt": "2026-03-18T12:28:42Z",
+			"updatedAt": "2026-03-18T22:19:38Z",
 			"pushedAt": "2024-10-06T22:16:49Z",
 			"starredAt": "2022-02-20T19:13:33Z",
-			"stargazersCount": 11099,
+			"stargazersCount": 11101,
 			"license": "GPL-3.0",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:music, description:music, topic:downloader, description:downloader, topic:youtube-downloader, topic:youtube, description:youtube",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 22952599,
@@ -981,9 +1122,10 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.59,
+			"classificationConfidence": 0.64,
 			"classificationReason": "topic:music",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 62743585,
@@ -1013,16 +1155,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2016-07-06T18:19:20Z",
-			"updatedAt": "2026-03-18T13:42:51Z",
+			"updatedAt": "2026-03-19T05:27:13Z",
 			"pushedAt": "2026-03-08T07:52:13Z",
 			"starredAt": "2022-01-09T12:21:55Z",
-			"stargazersCount": 24245,
+			"stargazersCount": 24255,
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "topic:music, name:downloader, repo:downloader, tokens:youtube-downloader, topic:lyrics, topic:youtube, description:youtube",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 282313429,
@@ -1046,9 +1189,10 @@
 			"license": "MIT",
 			"category": "desktop",
 			"categoryTitle": "Desktop Apps",
-			"classificationConfidence": 0.53,
+			"classificationConfidence": 0.63,
 			"classificationReason": "description:windows",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 7204315,
@@ -1070,11 +1214,12 @@
 			"starredAt": "2021-08-29T02:42:34Z",
 			"stargazersCount": 1694,
 			"license": "BSD-3-Clause",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.63,
-			"classificationReason": "language:JavaScript",
-			"classificationSource": "rules"
+			"category": "browser-extensions",
+			"categoryTitle": "Browser Extensions",
+			"classificationConfidence": 0.96,
+			"classificationReason": "readme:userscript, readme:greasemonkey, readme:tampermonkey, readme:violentmonkey",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 77552707,
@@ -1100,7 +1245,8 @@
 			"categoryTitle": "Media & Creator Tools",
 			"classificationConfidence": 0.98,
 			"classificationReason": "name:screen-recorder, description:screen-recorder, repo:screen-recorder, name:screen recorder, description:screen recorder, repo:screen recorder, topic:screen-capture, topic:screen capture",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 196795114,
@@ -1132,7 +1278,8 @@
 			"categoryTitle": "Desktop Apps",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:electron, description:electron",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 2682293,
@@ -1154,11 +1301,12 @@
 			"starredAt": "2021-04-29T19:24:43Z",
 			"stargazersCount": 476,
 			"license": null,
-			"category": "mobile",
-			"categoryTitle": "Mobile",
-			"classificationConfidence": 0.83,
-			"classificationReason": "topic:android, name:android, description:android, repo:android, tokens:android app",
-			"classificationSource": "rules"
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.85,
+			"classificationReason": "topic:ocr, name:ocr, description:ocr, repo:ocr, description:camera",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 22887094,
@@ -1183,16 +1331,17 @@
 			"disabled": false,
 			"fork": false,
 			"createdAt": "2014-08-12T18:04:59Z",
-			"updatedAt": "2026-03-18T14:17:15Z",
+			"updatedAt": "2026-03-19T05:07:27Z",
 			"pushedAt": "2026-03-18T08:58:35Z",
 			"starredAt": "2021-04-29T19:15:59Z",
-			"stargazersCount": 72975,
+			"stargazersCount": 72991,
 			"license": "Apache-2.0",
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.89,
 			"classificationReason": "topic:machine-learning, topic:machine learning",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 267002354,
@@ -1214,11 +1363,12 @@
 			"starredAt": "2021-04-29T15:32:37Z",
 			"stargazersCount": 1,
 			"license": null,
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "Missing description and topics, resolved to default category.",
-			"classificationSource": "default"
+			"category": "mobile",
+			"categoryTitle": "Mobile",
+			"classificationConfidence": 0.83,
+			"classificationReason": "readme:android, readme:android app",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
 		},
 		{
 			"id": 11438660,
@@ -1244,7 +1394,8 @@
 			"categoryTitle": "Browser Extensions",
 			"classificationConfidence": 0.96,
 			"classificationReason": "name:ad blocker, description:ad blocker, homepage:ad blocker, repo:ad blocker",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 105554090,
@@ -1268,9 +1419,10 @@
 			"license": "MIT",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.75,
+			"classificationConfidence": 0.8,
 			"classificationReason": "topic:course",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 64591555,
@@ -1306,9 +1458,10 @@
 			"license": null,
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.59,
+			"classificationConfidence": 0.64,
 			"classificationReason": "topic:color",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 46735073,
@@ -1332,9 +1485,10 @@
 			"license": null,
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.72,
+			"classificationConfidence": 0.71,
 			"classificationReason": "description:c#, language:C#",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 58233456,
@@ -1358,9 +1512,10 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.8,
+			"classificationConfidence": 0.83,
 			"classificationReason": "description:.net, language:C#",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		},
 		{
 			"id": 9798669,
@@ -1384,9 +1539,10 @@
 			"license": "MIT",
 			"category": "dotnet",
 			"categoryTitle": ".NET",
-			"classificationConfidence": 0.72,
+			"classificationConfidence": 0.71,
 			"classificationReason": "description:c#, language:C#",
-			"classificationSource": "rules"
+			"classificationSource": "rules",
+			"classificationReadmeUsed": false
 		}
 	]
 }
