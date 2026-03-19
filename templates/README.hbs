@@ -30,10 +30,49 @@ The project is useful if you want to:
 ## How It Works
 
 The generator fetches starred repositories for `@{{username}}`, classifies each repository with stable rule-based
-categories, writes the results into chunked files under `dist/data/`, and rebuilds this README together with the static site
+categories, writes the results into chunked files under `dist/data/`, and rebuilds this README together with the static
+site
 assets. The frontend then reads the generated catalog and chunk files to provide filtering, search, sorting, and
 progressive loading in the browser. The main project-level settings now live in `config/config.json`, while
 classification behavior stays in `config/categories.json` and `config/overrides.json`.
+
+## Detailed Architecture Diagrams
+
+The project is easiest to understand as six connected layers: orchestration, refresh decisions, classification,
+artifact generation, browser runtime, and automation. The diagrams below map each layer to the actual source files.
+
+### Deterministic Classification Engine
+
+```mermaid
+flowchart TD
+Repo["StarRecord"] --> Override{"Explicit override match?\nconfig/overrides.json"}
+Override -- Yes --> OverrideWin["Return override category\nsource=override"]
+Override -- No --> Prepare["Build normalized search index\nname, owner, description, homepage, topics, language"]
+
+Prepare --> Evaluate["Evaluate every category\nfrom config/categories.json"]
+Evaluate --> Signals["Score signals\nstrong keywords, keywords, language, shape hints"]
+Signals --> Rank["Rank candidates by score, signals, priority"]
+Rank --> Threshold{"Best category passes\nminimum score rules?"}
+
+Threshold -- No --> Default["Use defaultCategory\nsource=default"]
+Threshold -- Yes --> Winner["Use winning category\nsource=rules"]
+
+Winner --> Confidence["Compute confidence\nscore + signal count + margin over runner-up"]
+Default --> Confidence
+OverrideWin --> Final["ClassifiedStarRecord"]
+Confidence --> Final
+
+Final --> Fallback{"Confidence below threshold\nand README fallback enabled?"}
+Fallback -- No --> Persist["Keep current classification"]
+Fallback -- Yes --> ReadmeLookup["Fetch repository README"]
+ReadmeLookup --> Reindex["Augment index with README text"]
+Reindex --> Reevaluate["Re-run category evaluation\nfor low-confidence subset only"]
+Reevaluate --> Persist
+```
+
+Classification is intentionally deterministic. The taxonomy lives in configuration, not hardcoded per repository.
+Overrides win first, then rule-based scoring tries to find the strongest category. Only low-confidence items may trigger
+extra README fetches, which keeps the fallback precise and avoids paying that cost for the full dataset.
 
 ## Use This Project
 
@@ -52,63 +91,64 @@ UI, or deployment flow.
 
 ```bash
 git clone <your-fork-or-copy-url>
-cd my-stars-atlas
-bun install
-```
+    cd my-stars-atlas
+    bun install
+    ```
 
-The easiest setup flow is:
+    The easiest setup flow is:
 
-```bash
-bun run update
-```
+    ```bash
+    bun run update
+    ```
 
-Before your first run, update `config/config.json`:
+    Before your first run, update `config/config.json`:
 
-- `github.username`: the GitHub account whose stars will be indexed.
-- `readme.title` and `readme.description`: the generated README heading and intro text.
-- `site.title`, `site.heroDescription`, and `site.profileLinkLabel`: the visible site branding.
-- `site.seo.description`, `site.seo.ogDescription`, `site.seo.twitterDescription`: editable share text.
-- `site.manifest.shortName`, `site.manifest.description`: editable PWA labels.
+    - `github.username`: the GitHub account whose stars will be indexed.
+    - `readme.title` and `readme.description`: the generated README heading and intro text.
+    - `site.title`, `site.heroDescription`, and `site.profileLinkLabel`: the visible site branding.
+    - `site.seo.description`, `site.seo.ogDescription`, `site.seo.twitterDescription`: editable share text.
+    - `site.manifest.shortName`, `site.manifest.description`: editable PWA labels.
 
-Additional config files:
+    Additional config files:
 
-- `config/categories.json`: deterministic category definitions and priorities.
-- `config/overrides.json`: exclusions and manual category overrides.
+    - `config/categories.json`: deterministic category definitions and priorities.
+    - `config/overrides.json`: exclusions and manual category overrides.
 
-Optional environment variables:
+    Optional environment variables:
 
-- `GITHUB_TOKEN` or `GH_TOKEN`: recommended to avoid low unauthenticated API limits.
-- `FORCE_REFRESH=true`: forces a full refetch even if the cached count has not changed.
+    - `GITHUB_TOKEN` or `GH_TOKEN`: recommended to avoid low unauthenticated API limits.
+    - `FORCE_REFRESH=true`: forces a full refetch even if the cached count has not changed.
 
-If you want to preview the generated site locally after a run, use `bun run preview` and open `http://localhost:4173`.
+    If you want to preview the generated site locally after a run, use `bun run preview` and open
+    `http://localhost:4173`.
 
-### 3. Contribute To It
+    ### 3. Contribute To It
 
-If you want to improve the project itself, contributions are welcome. Useful contribution areas include:
+    If you want to improve the project itself, contributions are welcome. Useful contribution areas include:
 
-- better category definitions and override rules,
-- UI and accessibility improvements for the static site,
-- GitHub API efficiency and sync logic,
-- documentation, automation, and deployment workflows.
+    - better category definitions and override rules,
+    - UI and accessibility improvements for the static site,
+    - GitHub API efficiency and sync logic,
+    - documentation, automation, and deployment workflows.
 
-## Contributing
+    ## Contributing
 
-If you plan to contribute, use a normal fork-and-pull-request workflow:
+    If you plan to contribute, use a normal fork-and-pull-request workflow:
 
-1. Fork the repository.
-2. Create a feature branch for your change.
-3. Run the generator or relevant checks locally.
-4. Open a pull request with a clear explanation of the change and its impact.
+    1. Fork the repository.
+    2. Create a feature branch for your change.
+    3. Run the generator or relevant checks locally.
+    4. Open a pull request with a clear explanation of the change and its impact.
 
-Small fixes are fine, but detailed pull requests are especially helpful when they include rationale for taxonomy
-changes, UX adjustments, or sync behavior updates.
+    Small fixes are fine, but detailed pull requests are especially helpful when they include rationale for taxonomy
+    changes, UX adjustments, or sync behavior updates.
 
-## Recent Stars
+    ## Recent Stars
 
-{{#if recent.length}}
-{{#each recent}}
-- [{{fullName}}]({{url}}){{#if description}} - {{description}}{{/if}}
-{{/each}}
-{{else}}
-No recent stars available yet.
-{{/if}}
+    {{#if recent.length}}
+    {{#each recent}}
+    - [{{fullName}}]({{url}}){{#if description}} - {{description}}{{/if}}
+    {{/each}}
+    {{else}}
+    No recent stars available yet.
+    {{/if}}
