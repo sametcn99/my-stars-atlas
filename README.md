@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-22T05:40:05.436Z`
+Last updated: `2026-03-23T05:49:16.462Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **746**
+- Total starred repositories: **748**
 - Categories in use: **24**
-- Newly detected this run: **0**
+- Newly detected this run: **2**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **5**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [greensock/react](https://github.com/greensock/react) - Tools for using GSAP in React, like useGSAP() which is a drop-in replacement for useLayoutEffect()/useEffect()
+    - [greensock/gsap-skills](https://github.com/greensock/gsap-skills) - Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.
     - [dashersw/gea](https://github.com/dashersw/gea)
     - [Megabit/Blazorise](https://github.com/Megabit/Blazorise) - Blazorise is a component library built on top of Blazor with support for CSS frameworks like Bootstrap, Tailwind, Bulma, AntDesign, and Material.
     - [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) - Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility
@@ -153,5 +155,3 @@ git clone <your-fork-or-copy-url>
     - [Dokploy/mcp](https://github.com/Dokploy/mcp)
     - [Elagoht/cvgo](https://github.com/Elagoht/cvgo) - Create your CV with HTML templating with Go!
     - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
-    - [nitrojs/nitro](https://github.com/nitrojs/nitro) - Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
-    - [sametcn99/my-stars-atlas](https://github.com/sametcn99/my-stars-atlas) - A generated catalog of starred GitHub repositories, grouped into stable categories.
