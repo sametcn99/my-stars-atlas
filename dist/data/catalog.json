@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-03-24T05:43:06.067Z",
-	"total": 749,
+	"generatedAt": "2026-03-24T15:43:24.020Z",
+	"total": 750,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -70,7 +70,7 @@
 			"title": "Backend & APIs",
 			"description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality.",
 			"priority": 40,
-			"count": 41
+			"count": 42
 		},
 		{
 			"id": "desktop",
@@ -168,14 +168,14 @@
 			"title": "Learning & Reference",
 			"description": "Tutorials, example projects, awesome-lists, notes, roadmaps, boilerplates, and repositories intended primarily for learning or reference.",
 			"priority": 150,
-			"count": 45
+			"count": 44
 		},
 		{
 			"id": "misc",
 			"title": "Misc",
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"priority": 999,
-			"count": 50
+			"count": 51
 		}
 	]
 }

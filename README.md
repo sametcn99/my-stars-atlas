@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-24T05:43:06.067Z`
+Last updated: `2026-03-24T15:43:24.020Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **749**
+- Total starred repositories: **750**
 - Categories in use: **24**
 - Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **1**
+- Metadata/category updates: **4**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [nestjs/nestjs.com](https://github.com/nestjs/nestjs.com) - The official website https://nestjs.com 🏆
     - [k-eren-k/SBViewer](https://github.com/k-eren-k/SBViewer) - A high-performance, minimalist PDF viewer for smart boards.
     - [greensock/react](https://github.com/greensock/react) - Tools for using GSAP in React, like useGSAP() which is a drop-in replacement for useLayoutEffect()/useEffect()
     - [greensock/gsap-skills](https://github.com/greensock/gsap-skills) - Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [techwithanirudh/coolify-tweaks](https://github.com/techwithanirudh/coolify-tweaks) - A userstyle that enhances Coolify's UI by applying opinionated tweaks, spacing, colors, and layout fixes, to make the UI more polished and user-friendly.
     - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
     - [Dokploy/mcp](https://github.com/Dokploy/mcp)
-    - [Elagoht/cvgo](https://github.com/Elagoht/cvgo) - Create your CV with HTML templating with Go!
