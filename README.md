@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-26T05:50:28.462Z`
+Last updated: `2026-03-27T05:50:50.553Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **760**
+- Total starred repositories: **761**
 - Categories in use: **24**
-- Newly detected this run: **3**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [passbolt/passbolt_api](https://github.com/passbolt/passbolt_api) - Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams!
     - [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) - Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.
     - [plantuml/plantuml](https://github.com/plantuml/plantuml) - Generate diagrams from textual description
     - [sametcn99/gh-block-spam-accounts](https://github.com/sametcn99/gh-block-spam-accounts) - A browser-only React application that helps you detect suspicious GitHub accounts in your followers/following graph, review detection reasons, and block or unblock accounts in a controlled queue.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [uwaserver/uwas](https://github.com/uwaserver/uwas) - Unified Web Application Server — Apache+Nginx+Varnish+Caddy in a single Go binary. Auto HTTPS, built-in caching, PHP/FastCGI, reverse proxy, load balancing, WAF, web dashboard, and MCP server.
     - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
     - [nestjs/nestjs.com](https://github.com/nestjs/nestjs.com) - The official website https://nestjs.com 🏆
-    - [k-eren-k/SBViewer](https://github.com/k-eren-k/SBViewer) - A high-performance, minimalist PDF viewer for smart boards.
