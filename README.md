@@ -89,69 +89,69 @@ UI, or deployment flow.
 
 ```bash
 git clone <your-fork-or-copy-url>
-    cd my-stars-atlas
-    bun install
-    ```
+cd my-stars-atlas
+bun install
+```
 
-    The easiest setup flow is:
+The easiest setup flow is:
 
-    ```bash
-    bun run update
-    ```
+```bash
+bun run update
+```
 
-    Before your first run, update `config/config.json`:
+Before your first run, update `config/config.json`:
 
-    - `github.username`: the GitHub account whose stars will be indexed.
-    - `readme.title` and `readme.description`: the generated README heading and intro text.
-    - `site.title`, `site.heroDescription`, and `site.profileLinkLabel`: the visible site branding.
-    - `site.seo.description`, `site.seo.ogDescription`, `site.seo.twitterDescription`: editable share text.
-    - `site.manifest.shortName`, `site.manifest.description`: editable PWA labels.
+- `github.username`: the GitHub account whose stars will be indexed.
+- `readme.title` and `readme.description`: the generated README heading and intro text.
+- `site.title`, `site.heroDescription`, and `site.profileLinkLabel`: the visible site branding.
+- `site.seo.description`, `site.seo.ogDescription`, `site.seo.twitterDescription`: editable share text.
+- `site.manifest.shortName`, `site.manifest.description`: editable PWA labels.
 
-    Additional config files:
+Additional config files:
 
-    - `config/categories.json`: deterministic category definitions and priorities.
-    - `config/overrides.json`: exclusions and manual category overrides.
+- `config/categories.json`: deterministic category definitions and priorities.
+- `config/overrides.json`: exclusions and manual category overrides.
 
-    Optional environment variables:
+Optional environment variables:
 
-    - `GITHUB_TOKEN` or `GH_TOKEN`: recommended to avoid low unauthenticated API limits.
-    - `FORCE_REFRESH=true`: forces a full refetch even if the cached count has not changed.
+- `GITHUB_TOKEN` or `GH_TOKEN`: recommended to avoid low unauthenticated API limits.
+- `FORCE_REFRESH=true`: forces a full refetch even if the cached count has not changed.
 
-    If you want to preview the generated site locally after a run, use `bun run preview` and open
-    `http://localhost:4173`.
+If you want to preview the generated site locally after a run, use `bun run preview` and open
+`http://localhost:4173`.
 
-    ### 3. Contribute To It
+### 3. Contribute To It
 
-    If you want to improve the project itself, contributions are welcome. Useful contribution areas include:
+If you want to improve the project itself, contributions are welcome. Useful contribution areas include:
 
-    - better category definitions and override rules,
-    - UI and accessibility improvements for the static site,
-    - GitHub API efficiency and sync logic,
-    - documentation, automation, and deployment workflows.
+- better category definitions and override rules,
+- UI and accessibility improvements for the static site,
+- GitHub API efficiency and sync logic,
+- documentation, automation, and deployment workflows.
 
-    ## Contributing
+## Contributing
 
-    If you plan to contribute, use a normal fork-and-pull-request workflow:
+If you plan to contribute, use a normal fork-and-pull-request workflow:
 
-    1. Fork the repository.
-    2. Create a feature branch for your change.
-    3. Run the generator or relevant checks locally.
-    4. Open a pull request with a clear explanation of the change and its impact.
+1. Fork the repository.
+2. Create a feature branch for your change.
+3. Run the generator or relevant checks locally.
+4. Open a pull request with a clear explanation of the change and its impact.
 
-    Small fixes are fine, but detailed pull requests are especially helpful when they include rationale for taxonomy
-    changes, UX adjustments, or sync behavior updates.
+Small fixes are fine, but detailed pull requests are especially helpful when they include rationale for taxonomy
+changes, UX adjustments, or sync behavior updates.
 
-    ## Recent Stars
+## Recent Stars
 
-    - [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) - Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.
-    - [boltgolt/howdy](https://github.com/boltgolt/howdy) - 🛡️ Windows Hello™ style facial authentication for Linux
-    - [passbolt/passbolt_api](https://github.com/passbolt/passbolt_api) - Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams!
-    - [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) - Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.
-    - [plantuml/plantuml](https://github.com/plantuml/plantuml) - Generate diagrams from textual description
-    - [sametcn99/gh-block-spam-accounts](https://github.com/sametcn99/gh-block-spam-accounts) - A browser-only React application that helps you detect suspicious GitHub accounts in your followers/following graph, review detection reasons, and block or unblock accounts in a controlled queue.
-    - [badursun/terlik.js](https://github.com/badursun/terlik.js) - Ultra-fast multi-language profanity filter, designed Turkish-first and extensible to any language. Catches leet speak, agglutination & evasion patterns. Zero deps, TypeScript, 35 KB.
-    - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
-    - [directus/directus](https://github.com/directus/directus) - The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
-    - [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
-    - [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell for every system!
-    - [uwaserver/uwas](https://github.com/uwaserver/uwas) - Unified Web Application Server — Apache+Nginx+Varnish+Caddy in a single Go binary. Auto HTTPS, built-in caching, PHP/FastCGI, reverse proxy, load balancing, WAF, web dashboard, and MCP server.
+- [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) - Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.
+- [boltgolt/howdy](https://github.com/boltgolt/howdy) - 🛡️ Windows Hello™ style facial authentication for Linux
+- [passbolt/passbolt_api](https://github.com/passbolt/passbolt_api) - Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams!
+- [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) - Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.
+- [plantuml/plantuml](https://github.com/plantuml/plantuml) - Generate diagrams from textual description
+- [sametcn99/gh-block-spam-accounts](https://github.com/sametcn99/gh-block-spam-accounts) - A browser-only React application that helps you detect suspicious GitHub accounts in your followers/following graph, review detection reasons, and block or unblock accounts in a controlled queue.
+- [badursun/terlik.js](https://github.com/badursun/terlik.js) - Ultra-fast multi-language profanity filter, designed Turkish-first and extensible to any language. Catches leet speak, agglutination & evasion patterns. Zero deps, TypeScript, 35 KB.
+- [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
+- [directus/directus](https://github.com/directus/directus) - The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
+- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
+- [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell for every system!
+- [uwaserver/uwas](https://github.com/uwaserver/uwas) - Unified Web Application Server — Apache+Nginx+Varnish+Caddy in a single Go binary. Auto HTTPS, built-in caching, PHP/FastCGI, reverse proxy, load balancing, WAF, web dashboard, and MCP server.
