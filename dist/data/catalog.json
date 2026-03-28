@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-03-27T05:50:50.553Z",
-	"total": 761,
+	"generatedAt": "2026-03-28T05:41:35.888Z",
+	"total": 762,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -35,7 +35,7 @@
 			"title": "Browser Extensions",
 			"description": "Chrome, Firefox, and WebExtension-based tools that primarily live inside the browser rather than the editor or terminal.",
 			"priority": 24,
-			"count": 16
+			"count": 17
 		},
 		{
 			"id": "design-systems",
@@ -84,7 +84,7 @@
 			"title": "Media & Creator Tools",
 			"description": "PDF, audio, video, image, OCR, downloader, and creator-focused utilities for producing, transforming, or consuming media.",
 			"priority": 55,
-			"count": 16
+			"count": 17
 		},
 		{
 			"id": "devops",
@@ -147,7 +147,7 @@
 			"title": "Design & Themes",
 			"description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools.",
 			"priority": 120,
-			"count": 28
+			"count": 29
 		},
 		{
 			"id": "libraries",
@@ -161,7 +161,7 @@
 			"title": "CLI & Terminal",
 			"description": "Shell tools, terminal utilities, command-line workflows, text UIs, and scripts meant to be driven primarily from a console.",
 			"priority": 140,
-			"count": 32
+			"count": 31
 		},
 		{
 			"id": "learning",
@@ -175,7 +175,7 @@
 			"title": "Misc",
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"priority": 999,
-			"count": 50
+			"count": 49
 		}
 	]
 }

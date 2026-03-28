@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-27T05:50:50.553Z`
+Last updated: `2026-03-28T05:41:35.888Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **761**
+- Total starred repositories: **762**
 - Categories in use: **24**
-- Newly detected this run: **1**
-- Removed this run: **0**
-- Metadata/category updates: **2**
+- Newly detected this run: **2**
+- Removed this run: **1**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) - Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.
+    - [boltgolt/howdy](https://github.com/boltgolt/howdy) - 🛡️ Windows Hello™ style facial authentication for Linux
     - [passbolt/passbolt_api](https://github.com/passbolt/passbolt_api) - Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams!
     - [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) - Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.
     - [plantuml/plantuml](https://github.com/plantuml/plantuml) - Generate diagrams from textual description
@@ -153,5 +155,3 @@ git clone <your-fork-or-copy-url>
     - [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
     - [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell for every system!
     - [uwaserver/uwas](https://github.com/uwaserver/uwas) - Unified Web Application Server — Apache+Nginx+Varnish+Caddy in a single Go binary. Auto HTTPS, built-in caching, PHP/FastCGI, reverse proxy, load balancing, WAF, web dashboard, and MCP server.
-    - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
-    - [nestjs/nestjs.com](https://github.com/nestjs/nestjs.com) - The official website https://nestjs.com 🏆
