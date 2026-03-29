@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-03-28T05:41:35.888Z",
-	"total": 762,
+	"generatedAt": "2026-03-29T05:51:09.635Z",
+	"total": 767,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -28,7 +28,7 @@
 			"title": "Developer Tools",
 			"description": "Editors, IDE extensions, language servers, linters, generators, and tools that improve day-to-day software development.",
 			"priority": 20,
-			"count": 22
+			"count": 23
 		},
 		{
 			"id": "browser-extensions",
@@ -84,7 +84,7 @@
 			"title": "Media & Creator Tools",
 			"description": "PDF, audio, video, image, OCR, downloader, and creator-focused utilities for producing, transforming, or consuming media.",
 			"priority": 55,
-			"count": 17
+			"count": 18
 		},
 		{
 			"id": "devops",
@@ -98,7 +98,7 @@
 			"title": "Databases & Storage",
 			"description": "Databases, ORMs, query layers, caches, and storage systems used to persist, model, and retrieve application data.",
 			"priority": 68,
-			"count": 23
+			"count": 24
 		},
 		{
 			"id": "data",
@@ -168,14 +168,14 @@
 			"title": "Learning & Reference",
 			"description": "Tutorials, example projects, awesome-lists, notes, roadmaps, boilerplates, and repositories intended primarily for learning or reference.",
 			"priority": 150,
-			"count": 45
+			"count": 46
 		},
 		{
 			"id": "misc",
 			"title": "Misc",
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"priority": 999,
-			"count": 49
+			"count": 50
 		}
 	]
 }
