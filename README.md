@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-30T05:58:32.662Z`
+Last updated: `2026-03-31T05:52:36.598Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **772**
+- Total starred repositories: **776**
 - Categories in use: **24**
-- Newly detected this run: **5**
+- Newly detected this run: **4**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,10 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [needim/ned.im](https://github.com/needim/ned.im) - My personal website
+- [go-task/task](https://github.com/go-task/task) - A fast, cross-platform build tool inspired by Make, designed for modern workflows.
+- [umami-software/umami](https://github.com/umami-software/umami) - Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.
+- [anthropics/skills](https://github.com/anthropics/skills) - Public repository for Agent Skills
 - [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) - A maintained, feature-rich and performance oriented, neofetch like system information tool.
 - [anomalyco/models.dev](https://github.com/anomalyco/models.dev) - An open-source database of AI models.
 - [fal-ai/awesome](https://github.com/fal-ai/awesome) - List of awesome projects powered by fal.ai
@@ -151,7 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [vansh-nagar/ascii-studio](https://github.com/vansh-nagar/ascii-studio) - Turn Videos into ASCII Frames - real ascii frames (character-based frames that run smoothly in sequence)
 - [chenglou/pretext](https://github.com/chenglou/pretext)
 - [cobaltdb/cobaltdb](https://github.com/cobaltdb/cobaltdb) - The Modern Embedded Database for Go
-- [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) - A collection of essential TypeScript types
-- [sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) - More than 100 powerful ESLint rules
-- [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) - Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.
-- [boltgolt/howdy](https://github.com/boltgolt/howdy) - 🛡️ Windows Hello™ style facial authentication for Linux
