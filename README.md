@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-03T05:50:34.180Z`
+Last updated: `2026-04-04T05:41:38.641Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **783**
+- Total starred repositories: **788**
 - Categories in use: **24**
-- Newly detected this run: **8**
-- Removed this run: **1**
-- Metadata/category updates: **4**
+- Newly detected this run: **5**
+- Removed this run: **0**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [njbrake/agent-of-empires](https://github.com/njbrake/agent-of-empires) - Claude Code, OpenCode, Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding Agent Terminal Session manager via tmux and git Worktrees
+- [solidjs/vite-plugin-solid](https://github.com/solidjs/vite-plugin-solid) - A simple integration to run solid-js with vite
+- [solidjs/solid-docs](https://github.com/solidjs/solid-docs) - Official documentation for the Solid ecosystem
+- [solidjs/solid-router](https://github.com/solidjs/solid-router) - A universal router for Solid inspired by Ember and React Router
+- [solidjs/solid](https://github.com/solidjs/solid) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [github/copilot-sdk](https://github.com/github/copilot-sdk) - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
 - [containerd/containerd](https://github.com/containerd/containerd) - An open and reliable container runtime
 - [vadimdemedes/ink](https://github.com/vadimdemedes/ink) - 🌈 React for interactive command-line apps
 - [mjbvz/vscode-markdown-mermaid](https://github.com/mjbvz/vscode-markdown-mermaid) - Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview
 - [JuliaLang/julia](https://github.com/JuliaLang/julia) - The Julia Programming Language
 - [vim/vim](https://github.com/vim/vim) - The official Vim repository
-- [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) - [Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.
-- [needim/ned.im](https://github.com/needim/ned.im) - My personal website
-- [go-task/task](https://github.com/go-task/task) - A fast, cross-platform build tool inspired by Make, designed for modern workflows.
-- [umami-software/umami](https://github.com/umami-software/umami) - Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.
-- [anthropics/skills](https://github.com/anthropics/skills) - Public repository for Agent Skills
-- [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) - A maintained, feature-rich and performance oriented, neofetch like system information tool.
+- [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) - [Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.
