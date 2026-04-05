@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-04-04T05:41:38.641Z",
-	"total": 788,
+	"generatedAt": "2026-04-05T05:52:04.915Z",
+	"total": 791,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -49,7 +49,7 @@
 			"title": "Frontend & UI",
 			"description": "User interfaces, component systems, static sites, dashboards, design-system implementations, and browser-first applications.",
 			"priority": 30,
-			"count": 94
+			"count": 95
 		},
 		{
 			"id": "content-cms",
@@ -175,7 +175,7 @@
 			"title": "Misc",
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"priority": 999,
-			"count": 51
+			"count": 53
 		}
 	]
 }

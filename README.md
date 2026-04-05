@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-04T05:41:38.641Z`
+Last updated: `2026-04-05T05:52:04.915Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **788**
+- Total starred repositories: **791**
 - Categories in use: **24**
-- Newly detected this run: **5**
+- Newly detected this run: **3**
 - Removed this run: **0**
 - Metadata/category updates: **2**
 
@@ -143,6 +143,9 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [Ulauncher/Ulauncher](https://github.com/Ulauncher/Ulauncher) - Feature rich application Launcher for Linux
+- [linrunner/TLP](https://github.com/linrunner/TLP) - TLP - Optimize Linux Laptop Battery Life
+- [d4nj1/TLPUI](https://github.com/d4nj1/TLPUI) - A GTK user interface for TLP written in Python
 - [njbrake/agent-of-empires](https://github.com/njbrake/agent-of-empires) - Claude Code, OpenCode, Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding Agent Terminal Session manager via tmux and git Worktrees
 - [solidjs/vite-plugin-solid](https://github.com/solidjs/vite-plugin-solid) - A simple integration to run solid-js with vite
 - [solidjs/solid-docs](https://github.com/solidjs/solid-docs) - Official documentation for the Solid ecosystem
@@ -152,6 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [containerd/containerd](https://github.com/containerd/containerd) - An open and reliable container runtime
 - [vadimdemedes/ink](https://github.com/vadimdemedes/ink) - 🌈 React for interactive command-line apps
 - [mjbvz/vscode-markdown-mermaid](https://github.com/mjbvz/vscode-markdown-mermaid) - Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview
-- [JuliaLang/julia](https://github.com/JuliaLang/julia) - The Julia Programming Language
-- [vim/vim](https://github.com/vim/vim) - The official Vim repository
-- [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) - [Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.
