@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-05T05:52:04.915Z`
+Last updated: `2026-04-06T05:58:30.324Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **791**
+- Total starred repositories: **794**
 - Categories in use: **24**
 - Newly detected this run: **3**
 - Removed this run: **0**
-- Metadata/category updates: **2**
+- Metadata/category updates: **3**
 
 ## How It Works
 
@@ -143,6 +143,9 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
+- [containers/podman-tui](https://github.com/containers/podman-tui) - Podman Terminal UI
+- [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
 - [Ulauncher/Ulauncher](https://github.com/Ulauncher/Ulauncher) - Feature rich application Launcher for Linux
 - [linrunner/TLP](https://github.com/linrunner/TLP) - TLP - Optimize Linux Laptop Battery Life
 - [d4nj1/TLPUI](https://github.com/d4nj1/TLPUI) - A GTK user interface for TLP written in Python
@@ -152,6 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [solidjs/solid-router](https://github.com/solidjs/solid-router) - A universal router for Solid inspired by Ember and React Router
 - [solidjs/solid](https://github.com/solidjs/solid) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [github/copilot-sdk](https://github.com/github/copilot-sdk) - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
-- [containerd/containerd](https://github.com/containerd/containerd) - An open and reliable container runtime
-- [vadimdemedes/ink](https://github.com/vadimdemedes/ink) - 🌈 React for interactive command-line apps
-- [mjbvz/vscode-markdown-mermaid](https://github.com/mjbvz/vscode-markdown-mermaid) - Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview
