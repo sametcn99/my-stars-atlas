@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-06T05:58:30.324Z`
+Last updated: `2026-04-07T05:53:40.655Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **794**
+- Total starred repositories: **750**
 - Categories in use: **24**
-- Newly detected this run: **3**
-- Removed this run: **0**
-- Metadata/category updates: **3**
+- Newly detected this run: **5**
+- Removed this run: **49**
+- Metadata/category updates: **0**
 
 ## How It Works
 
@@ -143,6 +143,11 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [aygunbayirdev/ECommerceStock](https://github.com/aygunbayirdev/ECommerceStock) - E-Commerce & Inventory Management System
+- [eonpatapon/gnome-shell-extension-caffeine](https://github.com/eonpatapon/gnome-shell-extension-caffeine) - Disable screensaver and auto suspend
+- [chopratejas/headroom](https://github.com/chopratejas/headroom) - The Context Optimization Layer for LLM Applications
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- [GitFrog1111/badclaude](https://github.com/GitFrog1111/badclaude)
 - [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 - [containers/podman-tui](https://github.com/containers/podman-tui) - Podman Terminal UI
 - [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
@@ -150,8 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [linrunner/TLP](https://github.com/linrunner/TLP) - TLP - Optimize Linux Laptop Battery Life
 - [d4nj1/TLPUI](https://github.com/d4nj1/TLPUI) - A GTK user interface for TLP written in Python
 - [njbrake/agent-of-empires](https://github.com/njbrake/agent-of-empires) - Claude Code, OpenCode, Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding Agent Terminal Session manager via tmux and git Worktrees
-- [solidjs/vite-plugin-solid](https://github.com/solidjs/vite-plugin-solid) - A simple integration to run solid-js with vite
-- [solidjs/solid-docs](https://github.com/solidjs/solid-docs) - Official documentation for the Solid ecosystem
-- [solidjs/solid-router](https://github.com/solidjs/solid-router) - A universal router for Solid inspired by Ember and React Router
-- [solidjs/solid](https://github.com/solidjs/solid) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
-- [github/copilot-sdk](https://github.com/github/copilot-sdk) - Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
