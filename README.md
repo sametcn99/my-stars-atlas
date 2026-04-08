@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-07T05:53:40.655Z`
+Last updated: `2026-04-08T05:54:25.995Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **750**
+- Total starred repositories: **755**
 - Categories in use: **24**
 - Newly detected this run: **5**
-- Removed this run: **49**
-- Metadata/category updates: **0**
+- Removed this run: **0**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,6 +143,11 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [KDE/krunner](https://github.com/KDE/krunner) - Framework for providing different actions given a string query.
+- [vinceliuice/ChromeOS-kde](https://github.com/vinceliuice/ChromeOS-kde) - ChromeOS theme for kde plasma
+- [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
+- [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) - Custom GeForce Now Client Named OpenNOW
+- [ashley-ha/goodclaude](https://github.com/ashley-ha/goodclaude) - don't listen to badclaude, my son. you're an angel, you're perfect. you're doing your best
 - [aygunbayirdev/ECommerceStock](https://github.com/aygunbayirdev/ECommerceStock) - E-Commerce & Inventory Management System
 - [eonpatapon/gnome-shell-extension-caffeine](https://github.com/eonpatapon/gnome-shell-extension-caffeine) - Disable screensaver and auto suspend
 - [chopratejas/headroom](https://github.com/chopratejas/headroom) - The Context Optimization Layer for LLM Applications
@@ -150,8 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [GitFrog1111/badclaude](https://github.com/GitFrog1111/badclaude)
 - [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 - [containers/podman-tui](https://github.com/containers/podman-tui) - Podman Terminal UI
-- [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
-- [Ulauncher/Ulauncher](https://github.com/Ulauncher/Ulauncher) - Feature rich application Launcher for Linux
-- [linrunner/TLP](https://github.com/linrunner/TLP) - TLP - Optimize Linux Laptop Battery Life
-- [d4nj1/TLPUI](https://github.com/d4nj1/TLPUI) - A GTK user interface for TLP written in Python
-- [njbrake/agent-of-empires](https://github.com/njbrake/agent-of-empires) - Claude Code, OpenCode, Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding Agent Terminal Session manager via tmux and git Worktrees
