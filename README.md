@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-08T05:54:25.995Z`
+Last updated: `2026-04-09T05:55:04.058Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **755**
+- Total starred repositories: **756**
 - Categories in use: **24**
-- Newly detected this run: **5**
+- Newly detected this run: **1**
 - Removed this run: **0**
 - Metadata/category updates: **2**
 
@@ -143,6 +143,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [ersinkoc/project-architect](https://github.com/ersinkoc/project-architect) - Documentation-first project planning agent skill. Generates specs, implementation plans, tasks, and single-shot prompts for coding agents. Compatible with Claude Code, Cursor, Codex, and 40+ agents via agentskills.io.
 - [KDE/krunner](https://github.com/KDE/krunner) - Framework for providing different actions given a string query.
 - [vinceliuice/ChromeOS-kde](https://github.com/vinceliuice/ChromeOS-kde) - ChromeOS theme for kde plasma
 - [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
@@ -154,4 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 - [GitFrog1111/badclaude](https://github.com/GitFrog1111/badclaude)
 - [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
-- [containers/podman-tui](https://github.com/containers/podman-tui) - Podman Terminal UI
