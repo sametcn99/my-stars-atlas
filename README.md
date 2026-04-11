@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-10T05:58:14.722Z`
+Last updated: `2026-04-11T05:43:43.860Z`
 
 ## About This Project
 
@@ -19,10 +19,10 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **758**
+- Total starred repositories: **760**
 - Categories in use: **24**
-- Newly detected this run: **3**
-- Removed this run: **1**
+- Newly detected this run: **2**
+- Removed this run: **0**
 - Metadata/category updates: **2**
 
 ## How It Works
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [iptv-org/iptv](https://github.com/iptv-org/iptv) - Collection of publicly available IPTV channels from all over the world
+- [kodzamani/DevAtlas](https://github.com/kodzamani/DevAtlas) - Cross-platform developer tool built with Avalonia UI for discovering and organizing local projects on Windows and Linux.
 - [vivaxy/vscode-conventional-commits](https://github.com/vivaxy/vscode-conventional-commits) - 💬Conventional Commits for VSCode.
 - [ytmdesktop/ytmdesktop](https://github.com/ytmdesktop/ytmdesktop) - A Desktop App for YouTube Music
 - [ersinkoc/project-architect](https://github.com/ersinkoc/project-architect) - Documentation-first project planning agent skill. Generates specs, implementation plans, tasks, and single-shot prompts for coding agents. Compatible with Claude Code, Cursor, Codex, and 40+ agents via agentskills.io.
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [ashley-ha/goodclaude](https://github.com/ashley-ha/goodclaude) - don't listen to badclaude, my son. you're an angel, you're perfect. you're doing your best
 - [aygunbayirdev/ECommerceStock](https://github.com/aygunbayirdev/ECommerceStock) - E-Commerce & Inventory Management System
 - [eonpatapon/gnome-shell-extension-caffeine](https://github.com/eonpatapon/gnome-shell-extension-caffeine) - Disable screensaver and auto suspend
-- [chopratejas/headroom](https://github.com/chopratejas/headroom) - The Context Optimization Layer for LLM Applications
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies

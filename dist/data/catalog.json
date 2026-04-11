@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-04-10T05:58:14.722Z",
-	"total": 758,
+	"generatedAt": "2026-04-11T05:43:43.860Z",
+	"total": 760,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -28,7 +28,7 @@
 			"title": "Developer Tools",
 			"description": "Editors, IDE extensions, language servers, linters, generators, and tools that improve day-to-day software development.",
 			"priority": 20,
-			"count": 23
+			"count": 24
 		},
 		{
 			"id": "browser-extensions",
@@ -168,7 +168,7 @@
 			"title": "Learning & Reference",
 			"description": "Tutorials, example projects, awesome-lists, notes, roadmaps, boilerplates, and repositories intended primarily for learning or reference.",
 			"priority": 150,
-			"count": 45
+			"count": 46
 		},
 		{
 			"id": "misc",
