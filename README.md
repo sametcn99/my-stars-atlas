@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-11T05:43:43.860Z`
+Last updated: `2026-04-12T05:57:13.500Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **760**
+- Total starred repositories: **763**
 - Categories in use: **24**
-- Newly detected this run: **2**
+- Newly detected this run: **3**
 - Removed this run: **0**
-- Metadata/category updates: **2**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,9 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [cihann/juliterm](https://github.com/cihann/juliterm) - Web-based tmux client for monitoring and managing agentic coding sessions from any browser
+- [shenfurkan/Fezadan](https://github.com/shenfurkan/Fezadan) - PHP tabanlı özel bir MVC (Model-View-Controller) mimarisi üzerine inşa edilmiş, hafif, hızlı ve modern bir içerik yönetim sistemi (CMS) ve blog motoru
+- [robinebers/openusage](https://github.com/robinebers/openusage) - Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source.
 - [iptv-org/iptv](https://github.com/iptv-org/iptv) - Collection of publicly available IPTV channels from all over the world
 - [kodzamani/DevAtlas](https://github.com/kodzamani/DevAtlas) - Cross-platform developer tool built with Avalonia UI for discovering and organizing local projects on Windows and Linux.
 - [vivaxy/vscode-conventional-commits](https://github.com/vivaxy/vscode-conventional-commits) - 💬Conventional Commits for VSCode.
@@ -152,6 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [vinceliuice/ChromeOS-kde](https://github.com/vinceliuice/ChromeOS-kde) - ChromeOS theme for kde plasma
 - [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
 - [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) - Custom GeForce Now Client Named OpenNOW
-- [ashley-ha/goodclaude](https://github.com/ashley-ha/goodclaude) - don't listen to badclaude, my son. you're an angel, you're perfect. you're doing your best
-- [aygunbayirdev/ECommerceStock](https://github.com/aygunbayirdev/ECommerceStock) - E-Commerce & Inventory Management System
-- [eonpatapon/gnome-shell-extension-caffeine](https://github.com/eonpatapon/gnome-shell-extension-caffeine) - Disable screensaver and auto suspend
