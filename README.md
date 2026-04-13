@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-12T05:57:13.500Z`
+Last updated: `2026-04-13T06:04:19.483Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **763**
+- Total starred repositories: **764**
 - Categories in use: **24**
-- Newly detected this run: **3**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **1**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [RyanZim/EJS-Lint](https://github.com/RyanZim/EJS-Lint) - Linter/Syntax Checker for EJS Templates.
 - [cihann/juliterm](https://github.com/cihann/juliterm) - Web-based tmux client for monitoring and managing agentic coding sessions from any browser
 - [shenfurkan/Fezadan](https://github.com/shenfurkan/Fezadan) - PHP tabanlı özel bir MVC (Model-View-Controller) mimarisi üzerine inşa edilmiş, hafif, hızlı ve modern bir içerik yönetim sistemi (CMS) ve blog motoru
 - [robinebers/openusage](https://github.com/robinebers/openusage) - Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source.
@@ -154,4 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [KDE/krunner](https://github.com/KDE/krunner) - Framework for providing different actions given a string query.
 - [vinceliuice/ChromeOS-kde](https://github.com/vinceliuice/ChromeOS-kde) - ChromeOS theme for kde plasma
 - [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
-- [OpenCloudGaming/OpenNOW](https://github.com/OpenCloudGaming/OpenNOW) - Custom GeForce Now Client Named OpenNOW
