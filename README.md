@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-13T06:04:19.483Z`
+Last updated: `2026-04-14T05:58:48.070Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **764**
+- Total starred repositories: **768**
 - Categories in use: **24**
-- Newly detected this run: **1**
+- Newly detected this run: **4**
 - Removed this run: **0**
 - Metadata/category updates: **2**
 
@@ -143,6 +143,10 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) - A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai
+- [darrenhinde/OpenAgentsControl](https://github.com/darrenhinde/OpenAgentsControl) - AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode
+- [fomantic/Fomantic-UI](https://github.com/fomantic/Fomantic-UI) - Fomantic-UI is the official community fork of Semantic-UI
+- [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
 - [RyanZim/EJS-Lint](https://github.com/RyanZim/EJS-Lint) - Linter/Syntax Checker for EJS Templates.
 - [cihann/juliterm](https://github.com/cihann/juliterm) - Web-based tmux client for monitoring and managing agentic coding sessions from any browser
 - [shenfurkan/Fezadan](https://github.com/shenfurkan/Fezadan) - PHP tabanlı özel bir MVC (Model-View-Controller) mimarisi üzerine inşa edilmiş, hafif, hızlı ve modern bir içerik yönetim sistemi (CMS) ve blog motoru
@@ -151,7 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [kodzamani/DevAtlas](https://github.com/kodzamani/DevAtlas) - Cross-platform developer tool built with Avalonia UI for discovering and organizing local projects on Windows and Linux.
 - [vivaxy/vscode-conventional-commits](https://github.com/vivaxy/vscode-conventional-commits) - 💬Conventional Commits for VSCode.
 - [ytmdesktop/ytmdesktop](https://github.com/ytmdesktop/ytmdesktop) - A Desktop App for YouTube Music
-- [ersinkoc/project-architect](https://github.com/ersinkoc/project-architect) - Documentation-first project planning agent skill. Generates specs, implementation plans, tasks, and single-shot prompts for coding agents. Compatible with Claude Code, Cursor, Codex, and 40+ agents via agentskills.io.
-- [KDE/krunner](https://github.com/KDE/krunner) - Framework for providing different actions given a string query.
-- [vinceliuice/ChromeOS-kde](https://github.com/vinceliuice/ChromeOS-kde) - ChromeOS theme for kde plasma
-- [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
