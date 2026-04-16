@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-15T05:58:51.065Z`
+Last updated: `2026-04-16T05:59:09.283Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **770**
+- Total starred repositories: **772**
 - Categories in use: **24**
-- Newly detected this run: **3**
-- Removed this run: **1**
-- Metadata/category updates: **3**
+- Newly detected this run: **2**
+- Removed this run: **0**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [yusufipk/OpenFrame](https://github.com/yusufipk/OpenFrame) - OpenFrame is an open source video review and approval platform for teams that need clear feedback, version control, and client-friendly review links in one place. It supports collaborative review workflows out of the box.
+- [MuratDincc/interview-topics-turkish](https://github.com/MuratDincc/interview-topics-turkish) - Bu rehber, .NET backend geliştiricilerinin mülakat süreçlerinde karşılaşabilecekleri tüm konuları kapsamlı bir şekilde ele almaktadır.
 - [getsentry/sentry](https://github.com/getsentry/sentry) - Developer-first error tracking and performance monitoring
 - [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync)
 - [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) - A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [cihann/juliterm](https://github.com/cihann/juliterm) - Web-based tmux client for monitoring and managing agentic coding sessions from any browser
 - [shenfurkan/Fezadan](https://github.com/shenfurkan/Fezadan) - PHP tabanlı özel bir MVC (Model-View-Controller) mimarisi üzerine inşa edilmiş, hafif, hızlı ve modern bir içerik yönetim sistemi (CMS) ve blog motoru
 - [robinebers/openusage](https://github.com/robinebers/openusage) - Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source.
-- [iptv-org/iptv](https://github.com/iptv-org/iptv) - Collection of publicly available IPTV channels from all over the world
-- [kodzamani/DevAtlas](https://github.com/kodzamani/DevAtlas) - Cross-platform developer tool built with Avalonia UI for discovering and organizing local projects on Windows and Linux.
