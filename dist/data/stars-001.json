@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-04-17T05:59:20.971Z",
+	"generatedAt": "2026-04-18T05:50:17.576Z",
 	"chunkIndex": 1,
 	"chunkCount": 8,
 	"items": [
@@ -1766,10 +1766,10 @@
 			"starredAt": "2026-03-28T22:59:30Z",
 			"stargazersCount": 44089,
 			"license": "MIT",
-			"category": "media",
-			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.77,
-			"classificationReason": "readme:pdf, readme:image, readme:streaming",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
+			"classificationConfidence": 0.96,
+			"classificationReason": "readme:library, readme:package, readme:runtime, readme:compiler",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},

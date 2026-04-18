@@ -3,7 +3,7 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-04-17T05:59:20.971Z",
+	"generatedAt": "2026-04-18T05:50:17.576Z",
 	"total": 772,
 	"recentCount": 12,
 	"chunkSize": 100,
@@ -84,7 +84,7 @@
 			"title": "Media & Creator Tools",
 			"description": "PDF, audio, video, image, OCR, downloader, and creator-focused utilities for producing, transforming, or consuming media.",
 			"priority": 55,
-			"count": 21
+			"count": 20
 		},
 		{
 			"id": "devops",
@@ -154,7 +154,7 @@
 			"title": "Libraries & SDKs",
 			"description": "Reusable packages, frameworks, SDKs, parsers, runtimes, and lower-level building blocks used across multiple products.",
 			"priority": 130,
-			"count": 58
+			"count": 59
 		},
 		{
 			"id": "cli",
