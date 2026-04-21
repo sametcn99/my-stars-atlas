@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-20T06:04:13.623Z`
+Last updated: `2026-04-21T05:59:18.274Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **772**
+- Total starred repositories: **776**
 - Categories in use: **24**
-- Newly detected this run: **0**
+- Newly detected this run: **4**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **5**
 
 ## How It Works
 
@@ -143,6 +143,10 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [postgis/postgis](https://github.com/postgis/postgis) - PostGIS spatial database extension to PostgreSQL [mirror]
+- [hyperknot/openfreemap](https://github.com/hyperknot/openfreemap) - Free and open-source map hosting solution with custom styles for websites and apps, using OpenStreetMap data
+- [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) - MapLibre GL JS - Interactive vector tile maps in the browser
+- [AnInsomniacy/motrix-next](https://github.com/AnInsomniacy/motrix-next) - A full-featured download manager — rebuilt from the ground up
 - [yusufipk/OpenFrame](https://github.com/yusufipk/OpenFrame) - OpenFrame is an open source video review and approval platform for teams that need clear feedback, version control, and client-friendly review links in one place. It supports collaborative review workflows out of the box.
 - [MuratDincc/interview-topics-turkish](https://github.com/MuratDincc/interview-topics-turkish) - Bu rehber, .NET backend geliştiricilerinin mülakat süreçlerinde karşılaşabilecekleri tüm konuları kapsamlı bir şekilde ele almaktadır.
 - [getsentry/sentry](https://github.com/getsentry/sentry) - Developer-first error tracking and performance monitoring
@@ -151,7 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [darrenhinde/OpenAgentsControl](https://github.com/darrenhinde/OpenAgentsControl) - AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode
 - [fomantic/Fomantic-UI](https://github.com/fomantic/Fomantic-UI) - Fomantic-UI is the official community fork of Semantic-UI
 - [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
-- [RyanZim/EJS-Lint](https://github.com/RyanZim/EJS-Lint) - Linter/Syntax Checker for EJS Templates.
-- [cihann/juliterm](https://github.com/cihann/juliterm) - Web-based tmux client for monitoring and managing agentic coding sessions from any browser
-- [shenfurkan/Fezadan](https://github.com/shenfurkan/Fezadan) - PHP tabanlı özel bir MVC (Model-View-Controller) mimarisi üzerine inşa edilmiş, hafif, hızlı ve modern bir içerik yönetim sistemi (CMS) ve blog motoru
-- [robinebers/openusage](https://github.com/robinebers/openusage) - Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source.

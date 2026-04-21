@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-04-20T06:04:13.623Z",
-	"total": 772,
+	"generatedAt": "2026-04-21T05:59:18.274Z",
+	"total": 776,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -63,7 +63,7 @@
 			"title": "Cloud & BaaS",
 			"description": "Cloud platforms, backend-as-a-service products, edge runtimes, hosting providers, and managed app platforms.",
 			"priority": 35,
-			"count": 8
+			"count": 9
 		},
 		{
 			"id": "backend",
@@ -77,7 +77,7 @@
 			"title": "Desktop Apps",
 			"description": "Electron, Tauri, native desktop apps, tray utilities, and cross-platform desktop-first experiences.",
 			"priority": 50,
-			"count": 68
+			"count": 69
 		},
 		{
 			"id": "media",
@@ -98,7 +98,7 @@
 			"title": "Databases & Storage",
 			"description": "Databases, ORMs, query layers, caches, and storage systems used to persist, model, and retrieve application data.",
 			"priority": 68,
-			"count": 23
+			"count": 24
 		},
 		{
 			"id": "data",
@@ -154,7 +154,7 @@
 			"title": "Libraries & SDKs",
 			"description": "Reusable packages, frameworks, SDKs, parsers, runtimes, and lower-level building blocks used across multiple products.",
 			"priority": 130,
-			"count": 59
+			"count": 60
 		},
 		{
 			"id": "cli",
