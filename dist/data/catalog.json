@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-04-21T05:59:18.274Z",
-	"total": 776,
+	"generatedAt": "2026-04-22T05:58:50.521Z",
+	"total": 778,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -133,7 +133,7 @@
 			"title": "Automation & Bots",
 			"description": "Bots, scraping systems, browser automation, workflow runners, and software focused on repetitive task execution.",
 			"priority": 100,
-			"count": 18
+			"count": 19
 		},
 		{
 			"id": "security",
@@ -161,7 +161,7 @@
 			"title": "CLI & Terminal",
 			"description": "Shell tools, terminal utilities, command-line workflows, text UIs, and scripts meant to be driven primarily from a console.",
 			"priority": 140,
-			"count": 36
+			"count": 37
 		},
 		{
 			"id": "learning",
