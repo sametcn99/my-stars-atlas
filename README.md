@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-23T05:59:58.569Z`
+Last updated: `2026-04-24T06:00:52.100Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **780**
+- Total starred repositories: **782**
 - Categories in use: **24**
 - Newly detected this run: **2**
 - Removed this run: **0**
-- Metadata/category updates: **3**
+- Metadata/category updates: **0**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration) - Configuration for my NixOS setup
+- [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) - The mouse and trackpad utility for Mac.
 - [DucPhamNgoc08/CodeVisualizer](https://github.com/DucPhamNgoc08/CodeVisualizer) - CodeVisualizer is a powerful VS Code extension that provides two main visualization capabilities: function-level flowcharts for understanding code control flow, and codebase-level dependency graphs for analyzing project structure and module relationships.
 - [GitchatSH/gitchat_extension](https://github.com/GitchatSH/gitchat_extension)
 - [DavidoTek/ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) - Install and manage GE-Proton, Luxtorpeda & more for Steam and Wine-GE & more for Lutris with this graphical user interface.
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [AnInsomniacy/motrix-next](https://github.com/AnInsomniacy/motrix-next) - A full-featured download manager — rebuilt from the ground up
 - [yusufipk/OpenFrame](https://github.com/yusufipk/OpenFrame) - OpenFrame is a video review and approval platform for teams that need clear feedback, version control, and client-friendly review links in one place. It supports collaborative review workflows out of the box.
 - [MuratDincc/interview-topics-turkish](https://github.com/MuratDincc/interview-topics-turkish) - Bu rehber, .NET backend geliştiricilerinin mülakat süreçlerinde karşılaşabilecekleri tüm konuları kapsamlı bir şekilde ele almaktadır.
-- [getsentry/sentry](https://github.com/getsentry/sentry) - Developer-first error tracking and performance monitoring
-- [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync)
