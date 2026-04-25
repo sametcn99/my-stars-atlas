@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-04-24T06:00:52.100Z",
-	"total": 782,
+	"generatedAt": "2026-04-25T05:54:58.554Z",
+	"total": 796,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 8,
@@ -70,7 +70,7 @@
 			"title": "Backend & APIs",
 			"description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality.",
 			"priority": 40,
-			"count": 41
+			"count": 43
 		},
 		{
 			"id": "desktop",
@@ -91,7 +91,7 @@
 			"title": "DevOps & Infra",
 			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
 			"priority": 60,
-			"count": 27
+			"count": 30
 		},
 		{
 			"id": "databases",
@@ -105,7 +105,7 @@
 			"title": "Data & Analytics",
 			"description": "Databases, ETL, analytics stacks, warehouses, notebooks, metrics pipelines, and tools for structured data work.",
 			"priority": 70,
-			"count": 13
+			"count": 14
 		},
 		{
 			"id": "data-visualization",
@@ -133,14 +133,14 @@
 			"title": "Automation & Bots",
 			"description": "Bots, scraping systems, browser automation, workflow runners, and software focused on repetitive task execution.",
 			"priority": 100,
-			"count": 19
+			"count": 21
 		},
 		{
 			"id": "security",
 			"title": "Security & Privacy",
 			"description": "Authentication, vulnerabilities, privacy-focused tooling, cryptography, offensive research, and defensive security workflows.",
 			"priority": 110,
-			"count": 18
+			"count": 20
 		},
 		{
 			"id": "design",
@@ -168,7 +168,7 @@
 			"title": "Learning & Reference",
 			"description": "Tutorials, example projects, awesome-lists, notes, roadmaps, boilerplates, and repositories intended primarily for learning or reference.",
 			"priority": 150,
-			"count": 47
+			"count": 51
 		},
 		{
 			"id": "misc",
