@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-25T05:54:58.554Z`
+Last updated: `2026-04-26T06:00:17.115Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **796**
+- Total starred repositories: **798**
 - Categories in use: **24**
-- Newly detected this run: **14**
+- Newly detected this run: **2**
 - Removed this run: **0**
 - Metadata/category updates: **1**
 
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [openlayers/openlayers](https://github.com/openlayers/openlayers) - OpenLayers
+- [google/skills](https://github.com/google/skills) - Agent Skills for Google products and technologies
 - [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) - Jobs scraper library for LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter & more
 - [santifer/career-ops](https://github.com/santifer/career-ops) - AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
 - [dagger/dagger](https://github.com/dagger/dagger) - Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [google/osv-scanner](https://github.com/google/osv-scanner) - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
 - [github/explore](https://github.com/github/explore) - Community-curated topic and collection pages on GitHub
 - [github/codeql](https://github.com/github/codeql) - CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security
-- [github/roadmap](https://github.com/github/roadmap) - GitHub public roadmap
-- [github/spec-kit](https://github.com/github/spec-kit) - 💫 Toolkit to help you get started with Spec-Driven Development
