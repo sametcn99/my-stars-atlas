@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-28T06:16:40.141Z`
+Last updated: `2026-04-29T06:12:20.922Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **799**
+- Total starred repositories: **800**
 - Categories in use: **24**
-- Newly detected this run: **1**
-- Removed this run: **0**
-- Metadata/category updates: **5**
+- Newly detected this run: **2**
+- Removed this run: **1**
+- Metadata/category updates: **3**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [warpdotdev/warp](https://github.com/warpdotdev/warp) - Warp is an agentic development environment, born out of the terminal.
 - [gastownhall/beads](https://github.com/gastownhall/beads) - Beads - A memory upgrade for your coding agent
 - [openlayers/openlayers](https://github.com/openlayers/openlayers) - OpenLayers
 - [google/skills](https://github.com/google/skills) - Agent Skills for Google products and technologies
@@ -154,4 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [openai/openai-cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API
 - [PostHog/posthog](https://github.com/PostHog/posthog) - 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.
 - [google/osv-scanner](https://github.com/google/osv-scanner) - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-- [github/explore](https://github.com/github/explore) - Community-curated topic and collection pages on GitHub
