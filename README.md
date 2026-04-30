@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-29T06:12:20.922Z`
+Last updated: `2026-04-30T06:15:19.401Z`
 
 ## About This Project
 
@@ -19,10 +19,10 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **800**
+- Total starred repositories: **805**
 - Categories in use: **24**
-- Newly detected this run: **2**
-- Removed this run: **1**
+- Newly detected this run: **5**
+- Removed this run: **0**
 - Metadata/category updates: **3**
 
 ## How It Works
@@ -143,6 +143,11 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [sablierapp/sablier](https://github.com/sablierapp/sablier) - Start your containers on demand, shut them down automatically when there's no activity. Docker, Docker Swarm Mode and Kubernetes compatible.
+- [orhun/ratty](https://github.com/orhun/ratty) - A next-gen terminal emulator for all the terminal rats 🐁🐁🐁
+- [vbgate/opencode-mystatus](https://github.com/vbgate/opencode-mystatus) -  Check all your AI subscription quotas in one command. Supports OpenAI, Zhipu AI, and Google Antigravity. More platforms coming soon.
+- [openchamber/openchamber](https://github.com/openchamber/openchamber) - Desktop and web interface for OpenCode AI agent
+- [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) - omo; the best agent harness - previously oh-my-opencode
 - [warpdotdev/warp](https://github.com/warpdotdev/warp) - Warp is an agentic development environment, born out of the terminal.
 - [gastownhall/beads](https://github.com/gastownhall/beads) - Beads - A memory upgrade for your coding agent
 - [openlayers/openlayers](https://github.com/openlayers/openlayers) - OpenLayers
@@ -150,8 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) - Jobs scraper library for LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter & more
 - [santifer/career-ops](https://github.com/santifer/career-ops) - AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
 - [dagger/dagger](https://github.com/dagger/dagger) - Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud
-- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management
-- [nextcloud/server](https://github.com/nextcloud/server) - ☁️ Nextcloud server, a safe home for all your data
-- [openai/openai-cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API
-- [PostHog/posthog](https://github.com/PostHog/posthog) - 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.
-- [google/osv-scanner](https://github.com/google/osv-scanner) - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
