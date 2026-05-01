@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-04-30T06:15:19.401Z",
-	"total": 805,
+	"generatedAt": "2026-05-01T06:22:04.653Z",
+	"total": 807,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 9,
@@ -56,7 +56,7 @@
 			"title": "Content, CMS & Docs",
 			"description": "Static site generators, CMS stacks, documentation systems, markdown pipelines, and content-oriented web tooling.",
 			"priority": 32,
-			"count": 26
+			"count": 27
 		},
 		{
 			"id": "cloud",
@@ -91,7 +91,7 @@
 			"title": "DevOps & Infra",
 			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
 			"priority": 60,
-			"count": 33
+			"count": 34
 		},
 		{
 			"id": "databases",

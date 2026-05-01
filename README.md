@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-30T06:15:19.401Z`
+Last updated: `2026-05-01T06:22:04.653Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **805**
+- Total starred repositories: **807**
 - Categories in use: **24**
-- Newly detected this run: **5**
+- Newly detected this run: **2**
 - Removed this run: **0**
-- Metadata/category updates: **3**
+- Metadata/category updates: **0**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [loofiboss-bit/plasma-ai-usage-monitor](https://github.com/loofiboss-bit/plasma-ai-usage-monitor)
+- [nuxt/nuxt](https://github.com/nuxt/nuxt) - The Full-Stack Vue Framework.
 - [sablierapp/sablier](https://github.com/sablierapp/sablier) - Start your containers on demand, shut them down automatically when there's no activity. Docker, Docker Swarm Mode and Kubernetes compatible.
 - [orhun/ratty](https://github.com/orhun/ratty) - A next-gen terminal emulator for all the terminal rats 🐁🐁🐁
 - [vbgate/opencode-mystatus](https://github.com/vbgate/opencode-mystatus) -  Check all your AI subscription quotas in one command. Supports OpenAI, Zhipu AI, and Google Antigravity. More platforms coming soon.
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [openlayers/openlayers](https://github.com/openlayers/openlayers) - OpenLayers
 - [google/skills](https://github.com/google/skills) - Agent Skills for Google products and technologies
 - [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) - Jobs scraper library for LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter & more
-- [santifer/career-ops](https://github.com/santifer/career-ops) - AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
-- [dagger/dagger](https://github.com/dagger/dagger) - Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud
