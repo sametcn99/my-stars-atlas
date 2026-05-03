@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-02T06:00:03.170Z`
+Last updated: `2026-05-03T06:14:43.747Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **817**
+- Total starred repositories: **818**
 - Categories in use: **24**
-- Newly detected this run: **10**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [f/sign-ai-media](https://github.com/f/sign-ai-media) - Sign images and videos with C2PA provenance declaring AI-generated media.
 - [vercel/chat](https://github.com/vercel/chat) - A unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more.
 - [lsd-rs/lsd](https://github.com/lsd-rs/lsd) - The next gen ls command
 - [withfig/autocomplete](https://github.com/withfig/autocomplete) - IDE-style autocomplete for your existing terminal & shell
@@ -154,4 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [microsoft/terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host, all in the same place!
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) - Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents
 - [loofiboss-bit/plasma-ai-usage-monitor](https://github.com/loofiboss-bit/plasma-ai-usage-monitor)
-- [nuxt/nuxt](https://github.com/nuxt/nuxt) - The Full-Stack Vue Framework.
