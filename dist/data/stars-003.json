@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-05-03T06:14:43.747Z",
+	"generatedAt": "2026-05-04T06:21:00.050Z",
 	"chunkIndex": 3,
 	"chunkCount": 9,
 	"items": [
@@ -2505,11 +2505,11 @@
 			"starredAt": "2025-08-11T16:58:38Z",
 			"stargazersCount": 485,
 			"license": null,
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
-			"classificationConfidence": 0.98,
-			"classificationReason": "readme:frontend, readme:react, readme:nextjs, readme:tailwind, readme:css, readme:web, readme:ui, readme:website",
-			"classificationSource": "rules",
+			"category": "misc",
+			"categoryTitle": "Misc",
+			"classificationConfidence": 0.2,
+			"classificationReason": "Frontend & UI signals were too generic to keep the winning category.",
+			"classificationSource": "default",
 			"classificationReadmeUsed": true
 		},
 		{

@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-05-03T06:14:43.747Z",
+	"generatedAt": "2026-05-04T06:21:00.050Z",
 	"chunkIndex": 1,
 	"chunkCount": 9,
 	"items": [
@@ -2580,11 +2580,11 @@
 			"starredAt": "2026-04-04T13:08:15Z",
 			"stargazersCount": 3243,
 			"license": "GPL-2.0",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "Desktop Apps signals were too generic to keep the winning category.",
-			"classificationSource": "default",
+			"category": "backend",
+			"categoryTitle": "Backend & APIs",
+			"classificationConfidence": 0.74,
+			"classificationReason": "readme:backend, readme:api, readme:rest",
+			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
 		{
