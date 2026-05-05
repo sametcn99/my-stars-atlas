@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-05-04T06:21:00.050Z",
-	"total": 818,
+	"generatedAt": "2026-05-05T06:05:16.217Z",
+	"total": 824,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 9,
@@ -14,7 +14,7 @@
 			"title": "AI & Agents",
 			"description": "LLM apps, agent frameworks, inference stacks, model tooling, prompting workflows, and AI-native products.",
 			"priority": 10,
-			"count": 18
+			"count": 21
 		},
 		{
 			"id": "editor-tooling",
@@ -56,7 +56,7 @@
 			"title": "Content, CMS & Docs",
 			"description": "Static site generators, CMS stacks, documentation systems, markdown pipelines, and content-oriented web tooling.",
 			"priority": 32,
-			"count": 27
+			"count": 28
 		},
 		{
 			"id": "cloud",
@@ -91,7 +91,7 @@
 			"title": "DevOps & Infra",
 			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
 			"priority": 60,
-			"count": 34
+			"count": 35
 		},
 		{
 			"id": "databases",
@@ -126,7 +126,7 @@
 			"title": "Mobile",
 			"description": "Android, iOS, Flutter, React Native, Jetpack Compose, and app experiences designed primarily for phones or tablets.",
 			"priority": 90,
-			"count": 21
+			"count": 22
 		},
 		{
 			"id": "automation",
