@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-06T06:15:48.540Z`
+Last updated: `2026-05-07T06:19:29.123Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **831**
+- Total starred repositories: **838**
 - Categories in use: **24**
 - Newly detected this run: **7**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **3**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) - Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
+- [libredirect/instances](https://github.com/libredirect/instances) - Automated instances list for LibRedirect
+- [luisbocanegra/kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors) - Automatic color scheme generator from your wallpaper for KDE Plasma powered by Material You
+- [vercel/fun](https://github.com/vercel/fun) - ƒun - Local serverless function λ development runtime
+- [metabase/metabase](https://github.com/metabase/metabase) - The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:
+- [opencontainers/image-spec](https://github.com/opencontainers/image-spec) - OCI Image Format
+- [imputnet/helium-linux](https://github.com/imputnet/helium-linux) - Helium Browser for Linux
 - [servo/servo](https://github.com/servo/servo) - Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.
 - [golang/go](https://github.com/golang/go) - The Go programming language
 - [ghostery/adblocker](https://github.com/ghostery/adblocker) - Efficient embeddable adblocker library
 - [brave/brave-browser](https://github.com/brave/brave-browser) - Brave browser for Android, iOS, Linux, macOS, Windows.
 - [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
-- [fastlane/fastlane](https://github.com/fastlane/fastlane) - 🚀 The easiest way to automate building and releasing your iOS and Android apps
-- [uBlockOrigin/uAssets](https://github.com/uBlockOrigin/uAssets) - Filter lists for uBlock Origin & uBlock Origin Lite
-- [openai/gpt-oss](https://github.com/openai/gpt-oss) - gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI
-- [simonw/llm](https://github.com/simonw/llm) - Access large language models from the command-line
-- [karpathy/llm-council](https://github.com/karpathy/llm-council) - LLM Council works together to answer your hardest questions
-- [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) - Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.
-- [linuxserver/docker-obsidian](https://github.com/linuxserver/docker-obsidian)
