@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-07T06:19:29.123Z`
+Last updated: `2026-05-08T05:57:54.903Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **838**
+- Total starred repositories: **840**
 - Categories in use: **24**
-- Newly detected this run: **7**
+- Newly detected this run: **2**
 - Removed this run: **0**
 - Metadata/category updates: **3**
 
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [withoutboats/notty](https://github.com/withoutboats/notty) - A new kind of terminal
+- [minios-linux/minios-live](https://github.com/minios-linux/minios-live) - These scripts build a bootable MiniOS ISO image.
 - [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) - Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
 - [libredirect/instances](https://github.com/libredirect/instances) - Automated instances list for LibRedirect
 - [luisbocanegra/kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors) - Automatic color scheme generator from your wallpaper for KDE Plasma powered by Material You
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [servo/servo](https://github.com/servo/servo) - Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.
 - [golang/go](https://github.com/golang/go) - The Go programming language
 - [ghostery/adblocker](https://github.com/ghostery/adblocker) - Efficient embeddable adblocker library
-- [brave/brave-browser](https://github.com/brave/brave-browser) - Brave browser for Android, iOS, Linux, macOS, Windows.
-- [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
