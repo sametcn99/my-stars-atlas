@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-05-09T06:05:09.347Z",
-	"total": 840,
+	"generatedAt": "2026-05-10T06:19:31.136Z",
+	"total": 842,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 9,
@@ -70,14 +70,14 @@
 			"title": "Backend & APIs",
 			"description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality.",
 			"priority": 40,
-			"count": 45
+			"count": 46
 		},
 		{
 			"id": "desktop",
 			"title": "Desktop Apps",
 			"description": "Electron, Tauri, native desktop apps, tray utilities, and cross-platform desktop-first experiences.",
 			"priority": 50,
-			"count": 70
+			"count": 71
 		},
 		{
 			"id": "media",
@@ -91,7 +91,7 @@
 			"title": "DevOps & Infra",
 			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
 			"priority": 60,
-			"count": 35
+			"count": 36
 		},
 		{
 			"id": "databases",
@@ -175,7 +175,7 @@
 			"title": "Misc",
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"priority": 999,
-			"count": 54
+			"count": 53
 		}
 	]
 }

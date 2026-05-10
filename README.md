@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-09T06:05:09.347Z`
+Last updated: `2026-05-10T06:19:31.136Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **840**
+- Total starred repositories: **842**
 - Categories in use: **24**
-- Newly detected this run: **0**
+- Newly detected this run: **2**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **7**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [agama-project/agama](https://github.com/agama-project/agama) - A service-based Linux installer
+- [roadkell/ascii-logos](https://github.com/roadkell/ascii-logos) - ThinkPad ASCII logos for all your terminal needs
 - [withoutboats/notty](https://github.com/withoutboats/notty) - A new kind of terminal
 - [minios-linux/minios-live](https://github.com/minios-linux/minios-live) - These scripts build a bootable MiniOS ISO image.
 - [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) - Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [opencontainers/image-spec](https://github.com/opencontainers/image-spec) - OCI Image Format
 - [imputnet/helium-linux](https://github.com/imputnet/helium-linux) - Helium Browser for Linux
 - [servo/servo](https://github.com/servo/servo) - Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.
-- [golang/go](https://github.com/golang/go) - The Go programming language
-- [ghostery/adblocker](https://github.com/ghostery/adblocker) - Efficient embeddable adblocker library
