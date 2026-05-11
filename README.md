@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-10T06:19:31.136Z`
+Last updated: `2026-05-11T06:30:05.109Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **842**
+- Total starred repositories: **843**
 - Categories in use: **24**
-- Newly detected this run: **2**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **7**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) - OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
 - [agama-project/agama](https://github.com/agama-project/agama) - A service-based Linux installer
 - [roadkell/ascii-logos](https://github.com/roadkell/ascii-logos) - ThinkPad ASCII logos for all your terminal needs
 - [withoutboats/notty](https://github.com/withoutboats/notty) - A new kind of terminal
@@ -154,4 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [metabase/metabase](https://github.com/metabase/metabase) - The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:
 - [opencontainers/image-spec](https://github.com/opencontainers/image-spec) - OCI Image Format
 - [imputnet/helium-linux](https://github.com/imputnet/helium-linux) - Helium Browser for Linux
-- [servo/servo](https://github.com/servo/servo) - Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.
