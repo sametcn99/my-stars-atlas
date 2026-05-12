@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-05-11T06:30:05.109Z",
+	"generatedAt": "2026-05-12T06:20:57.819Z",
 	"chunkIndex": 1,
 	"chunkCount": 9,
 	"items": [
@@ -1505,10 +1505,10 @@
 			"starredAt": "2026-04-28T01:27:08Z",
 			"stargazersCount": 23496,
 			"license": "MIT",
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.8,
-			"classificationReason": "readme:cli, readme:terminal, readme:shell, readme:bash",
+			"category": "desktop",
+			"categoryTitle": "Desktop Apps",
+			"classificationConfidence": 0.77,
+			"classificationReason": "readme:windows, readme:macos, readme:linux",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
