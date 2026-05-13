@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-12T06:20:57.819Z`
+Last updated: `2026-05-13T06:27:50.537Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **843**
+- Total starred repositories: **847**
 - Categories in use: **24**
-- Newly detected this run: **0**
+- Newly detected this run: **4**
 - Removed this run: **0**
-- Metadata/category updates: **1**
+- Metadata/category updates: **3**
 
 ## How It Works
 
@@ -143,6 +143,10 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [manatools/dnfdragora](https://github.com/manatools/dnfdragora) - dnfdragora is a dnf frontend based on libyui abstraction
+- [gioui/gio](https://github.com/gioui/gio) - Mirror of the Gio main repository (https://git.sr.ht/~eliasnaur/gio)
+- [vugu/vugu](https://github.com/vugu/vugu) - Vugu: A modern UI library for Go+WebAssembly (experimental)
+- [H2Shami/opencode-helicone-session](https://github.com/H2Shami/opencode-helicone-session)
 - [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) - OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
 - [agama-project/agama](https://github.com/agama-project/agama) - A service-based Linux installer
 - [roadkell/ascii-logos](https://github.com/roadkell/ascii-logos) - ThinkPad ASCII logos for all your terminal needs
@@ -151,7 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) - Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
 - [libredirect/instances](https://github.com/libredirect/instances) - Automated instances list for LibRedirect
 - [luisbocanegra/kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors) - Automatic color scheme generator from your wallpaper for KDE Plasma powered by Material You
-- [vercel/fun](https://github.com/vercel/fun) - ƒun - Local serverless function λ development runtime
-- [metabase/metabase](https://github.com/metabase/metabase) - The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:
-- [opencontainers/image-spec](https://github.com/opencontainers/image-spec) - OCI Image Format
-- [imputnet/helium-linux](https://github.com/imputnet/helium-linux) - Helium Browser for Linux
