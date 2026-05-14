@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-05-13T06:27:50.537Z",
+	"generatedAt": "2026-05-14T06:27:08.555Z",
 	"chunkIndex": 3,
 	"chunkCount": 9,
 	"items": [
@@ -1829,8 +1829,8 @@
 			"license": "MIT",
 			"category": "learning",
 			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.98,
-			"classificationReason": "readme:sample, readme:reference, readme:format, readme:spec, readme:notes",
+			"classificationConfidence": 0.85,
+			"classificationReason": "readme:reference, readme:format, readme:spec, readme:notes",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
