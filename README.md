@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-14T06:27:08.555Z`
+Last updated: `2026-05-15T06:29:23.296Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **847**
+- Total starred repositories: **854**
 - Categories in use: **24**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **1**
+- Newly detected this run: **8**
+- Removed this run: **1**
+- Metadata/category updates: **4**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) - ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+- [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) - A free, self-hostable news aggregator…
+- [RSSNext/Folo](https://github.com/RSSNext/Folo) - 🧡 Folo is the AI RSS Reader
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Everything is RSSible
+- [pingdotgg/uploadthing](https://github.com/pingdotgg/uploadthing) - File uploads for modern web devs
+- [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+- [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 - [manatools/dnfdragora](https://github.com/manatools/dnfdragora) - dnfdragora is a dnf frontend based on libyui abstraction
 - [gioui/gio](https://github.com/gioui/gio) - Mirror of the Gio main repository (https://git.sr.ht/~eliasnaur/gio)
 - [vugu/vugu](https://github.com/vugu/vugu) - Vugu: A modern UI library for Go+WebAssembly (experimental)
 - [H2Shami/opencode-helicone-session](https://github.com/H2Shami/opencode-helicone-session)
 - [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) - OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
-- [agama-project/agama](https://github.com/agama-project/agama) - A service-based Linux installer
-- [roadkell/ascii-logos](https://github.com/roadkell/ascii-logos) - ThinkPad ASCII logos for all your terminal needs
-- [withoutboats/notty](https://github.com/withoutboats/notty) - A new kind of terminal
-- [minios-linux/minios-live](https://github.com/minios-linux/minios-live) - These scripts build a bootable MiniOS ISO image.
-- [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) - Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
-- [libredirect/instances](https://github.com/libredirect/instances) - Automated instances list for LibRedirect
-- [luisbocanegra/kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors) - Automatic color scheme generator from your wallpaper for KDE Plasma powered by Material You
