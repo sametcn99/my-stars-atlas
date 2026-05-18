@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-17T06:26:57.285Z`
+Last updated: `2026-05-18T06:39:10.274Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **859**
+- Total starred repositories: **860**
 - Categories in use: **24**
-- Newly detected this run: **3**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [Effect-TS/effect](https://github.com/Effect-TS/effect) - Build production-ready applications in TypeScript
 - [Dokploy/templates](https://github.com/Dokploy/templates) - All the open source templates integrated to dokploy 🚀
 - [BerriAI/litellm](https://github.com/BerriAI/litellm) - Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]
 - [f/pressmind](https://github.com/f/pressmind) - Prompt-powered Gutenberg composition for WordPress
@@ -154,4 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Everything is RSSible
 - [pingdotgg/uploadthing](https://github.com/pingdotgg/uploadthing) - File uploads for modern web devs
 - [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
-- [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
