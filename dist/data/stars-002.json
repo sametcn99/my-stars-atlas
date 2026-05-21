@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-05-20T06:35:28.428Z",
+	"generatedAt": "2026-05-21T06:36:29.911Z",
 	"chunkIndex": 2,
 	"chunkCount": 9,
 	"items": [
@@ -1648,10 +1648,10 @@
 			"starredAt": "2026-03-25T18:51:08Z",
 			"stargazersCount": 13002,
 			"license": "NOASSERTION",
-			"category": "design",
-			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.77,
-			"classificationReason": "readme:icons, readme:logo, readme:color",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.8,
+			"classificationReason": "readme:html, readme:browser, readme:ui, readme:website",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},

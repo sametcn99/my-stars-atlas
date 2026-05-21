@@ -3,7 +3,7 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-05-20T06:35:28.428Z",
+	"generatedAt": "2026-05-21T06:36:29.911Z",
 	"total": 860,
 	"recentCount": 12,
 	"chunkSize": 100,
@@ -49,7 +49,7 @@
 			"title": "Frontend & UI",
 			"description": "User interfaces, component systems, static sites, dashboards, design-system implementations, and browser-first applications.",
 			"priority": 30,
-			"count": 89
+			"count": 90
 		},
 		{
 			"id": "content-cms",
@@ -147,7 +147,7 @@
 			"title": "Design & Themes",
 			"description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools.",
 			"priority": 120,
-			"count": 34
+			"count": 33
 		},
 		{
 			"id": "libraries",
