@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-05-25T06:48:52.501Z",
+	"generatedAt": "2026-05-26T06:33:48.268Z",
 	"chunkIndex": 4,
 	"chunkCount": 9,
 	"items": [
@@ -2403,10 +2403,10 @@
 			"starredAt": "2025-03-20T13:52:52Z",
 			"stargazersCount": 2007,
 			"license": "MIT",
-			"category": "editor-tooling",
-			"categoryTitle": "Editor Tooling",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
 			"classificationConfidence": 0.82,
-			"classificationReason": "readme:vscode, readme:vscode-extension, readme:visual-studio-code, readme:visual studio code, readme:snippets",
+			"classificationReason": "readme:framework, name:toolkit, readme:toolkit, repo:toolkit, readme:package",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},

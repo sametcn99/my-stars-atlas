@@ -3,7 +3,7 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-05-25T06:48:52.501Z",
+	"generatedAt": "2026-05-26T06:33:48.268Z",
 	"total": 862,
 	"recentCount": 12,
 	"chunkSize": 100,
@@ -21,7 +21,7 @@
 			"title": "Editor Tooling",
 			"description": "Editors, IDE extensions, language-server integrations, snippets, and code intelligence features built around the developer editing experience.",
 			"priority": 18,
-			"count": 51
+			"count": 50
 		},
 		{
 			"id": "developer-tools",
@@ -154,7 +154,7 @@
 			"title": "Libraries & SDKs",
 			"description": "Reusable packages, frameworks, SDKs, parsers, runtimes, and lower-level building blocks used across multiple products.",
 			"priority": 130,
-			"count": 63
+			"count": 64
 		},
 		{
 			"id": "cli",
