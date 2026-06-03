@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-06-02T06:53:20.029Z",
-	"total": 873,
+	"generatedAt": "2026-06-03T06:57:18.746Z",
+	"total": 875,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 9,
@@ -98,7 +98,7 @@
 			"title": "Databases & Storage",
 			"description": "Databases, ORMs, query layers, caches, and storage systems used to persist, model, and retrieve application data.",
 			"priority": 68,
-			"count": 24
+			"count": 25
 		},
 		{
 			"id": "data",
@@ -140,7 +140,7 @@
 			"title": "Security & Privacy",
 			"description": "Authentication, vulnerabilities, privacy-focused tooling, cryptography, offensive research, and defensive security workflows.",
 			"priority": 110,
-			"count": 19
+			"count": 20
 		},
 		{
 			"id": "design",

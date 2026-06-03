@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-02T06:53:20.029Z`
+Last updated: `2026-06-03T06:57:18.746Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **873**
+- Total starred repositories: **875**
 - Categories in use: **24**
-- Newly detected this run: **7**
-- Removed this run: **1**
-- Metadata/category updates: **2**
+- Newly detected this run: **2**
+- Removed this run: **0**
+- Metadata/category updates: **4**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [render-oss/skills](https://github.com/render-oss/skills) - Render Agent Skills
+- [dmno-dev/varlock](https://github.com/dmno-dev/varlock) - AI-safe .env files: Schemas for agents, Secrets for humans.
 - [huggingface/chat-ui](https://github.com/huggingface/chat-ui) - The open source codebase powering HuggingChat
 - [huggingface/datasets](https://github.com/huggingface/datasets) - 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools
 - [huggingface/diffusers](https://github.com/huggingface/diffusers) - 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [sisyphos-ui/sisyphos-ui](https://github.com/sisyphos-ui/sisyphos-ui) - sisyphos-ui design system
 - [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) - Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.
 - [run-llama/liteparse](https://github.com/run-llama/liteparse) - A fast, helpful, and open-source document parser
-- [Fast-Editor/Lynkr](https://github.com/Fast-Editor/Lynkr) - Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code interactions using Claude Code CLI.
-- [mertskaplan/tweet2rss](https://github.com/mertskaplan/tweet2rss) - tweet2rss is a lightweight PHP tool that converts tweets from any public X account into a real-time RSS feed.
