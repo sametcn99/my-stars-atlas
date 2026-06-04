@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "sametcn99",
-	"generatedAt": "2026-06-03T06:57:18.746Z",
+	"generatedAt": "2026-06-04T06:53:38.998Z",
 	"chunkIndex": 3,
 	"chunkCount": 9,
 	"items": [
@@ -1109,10 +1109,10 @@
 			"starredAt": "2026-02-19T16:54:36Z",
 			"stargazersCount": 55452,
 			"license": "MIT",
-			"category": "design",
-			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.82,
-			"classificationReason": "readme:theme, readme:logo, readme:color",
+			"category": "cli",
+			"categoryTitle": "CLI & Terminal",
+			"classificationConfidence": 0.66,
+			"classificationReason": "readme:terminal, language:powershell",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
@@ -2521,7 +2521,7 @@
 			"license": "MIT",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.98,
+			"classificationConfidence": 0.82,
 			"classificationReason": "readme:library, readme:package, readme:parser, readme:module, readme:runtime, readme:package-manager, readme:package manager",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
