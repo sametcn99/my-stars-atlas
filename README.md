@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-07T06:45:06.318Z`
+Last updated: `2026-06-08T06:56:04.856Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **877**
+- Total starred repositories: **879**
 - Categories in use: **24**
 - Newly detected this run: **2**
 - Removed this run: **0**
-- Metadata/category updates: **4**
+- Metadata/category updates: **3**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - Command-line program to download videos from YouTube.com and other video sites
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
 - [webpro-nl/knip](https://github.com/webpro-nl/knip) - ✂️  Find unused files, dependencies and exports in your JavaScript and TypeScript projects. Knip it before you ship it!
 - [memstechtips/Winhance](https://github.com/memstechtips/Winhance) - Application designed to optimize, customize and enhance your Windows experience.
 - [render-oss/skills](https://github.com/render-oss/skills) - Render Agent Skills
@@ -153,5 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [unslothai/unsloth](https://github.com/unslothai/unsloth) - Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally.
 - [R6410418/Jackrong-llm-finetuning-guide](https://github.com/R6410418/Jackrong-llm-finetuning-guide)
 - [Pavelevich/llm-checker](https://github.com/Pavelevich/llm-checker) - Advanced CLI tool that scans your hardware and tells you exactly which LLM or sLLM models you can run locally, with full Ollama integration.
-- [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) - What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
-- [sisyphos-ui/sisyphos-ui](https://github.com/sisyphos-ui/sisyphos-ui) - sisyphos-ui design system
