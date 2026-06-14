@@ -3,8 +3,8 @@
 	"title": "My Stars",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "sametcn99",
-	"generatedAt": "2026-06-13T06:39:46.819Z",
-	"total": 891,
+	"generatedAt": "2026-06-14T06:54:30.106Z",
+	"total": 892,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 9,
@@ -91,7 +91,7 @@
 			"title": "DevOps & Infra",
 			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
 			"priority": 60,
-			"count": 41
+			"count": 42
 		},
 		{
 			"id": "databases",
