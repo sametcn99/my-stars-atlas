@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-14T06:54:30.106Z`
+Last updated: `2026-06-15T07:03:07.656Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **892**
+- Total starred repositories: **893**
 - Categories in use: **24**
 - Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **1**
+- Metadata/category updates: **0**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [devbugra/stellar_](https://github.com/devbugra/stellar_)
 - [community/community](https://github.com/community/community) - Public feedback discussions for: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues and more!
 - [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - Self-hosted AI workspace. 
 - [vercel/next-app-router-playground](https://github.com/vercel/next-app-router-playground) - A playground to explore Next.js features such as nested layouts, instant loading states, streaming, and component level data fetching.
@@ -154,4 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit) - :link: Some useful websites for programmers.
 - [godotengine/godot](https://github.com/godotengine/godot) - Godot Engine – Multi-platform 2D and 3D game engine
 - [microsoft/markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown.
-- [avelino/awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
