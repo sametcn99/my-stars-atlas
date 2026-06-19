@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-18T06:57:07.909Z`
+Last updated: `2026-06-19T06:59:17.514Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **896**
+- Total starred repositories: **899**
 - Categories in use: **24**
-- Newly detected this run: **0**
+- Newly detected this run: **3**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,6 +143,9 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [subzeroid/aiograpi](https://github.com/subzeroid/aiograpi) - ⚡ Asynchronous Python library for Instagram Private API 2026
+- [subzeroid/instagrapi](https://github.com/subzeroid/instagrapi) - 🔥 The fastest and powerful Python library for Instagram Private API 2026 with HikerAPI SaaS
+- [instaloader/instaloader](https://github.com/instaloader/instaloader) - Download pictures (or videos) along with their captions and other metadata from Instagram.
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 - [Automattic/pressship](https://github.com/Automattic/pressship) - Submit and release WordPress.org plugins from the command line.
@@ -152,6 +155,3 @@ changes, UX adjustments, or sync behavior updates.
 - [vercel/next-app-router-playground](https://github.com/vercel/next-app-router-playground) - A playground to explore Next.js features such as nested layouts, instant loading states, streaming, and component level data fetching.
 - [tuna4ll/narcOs](https://github.com/tuna4ll/narcOs) - 64-bit x86 hobby OS with custom boot, GUI, storage, and networking.
 - [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) - FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - TradingAgents: Multi-Agents LLM Financial Trading Framework
-- [better-auth/better-auth](https://github.com/better-auth/better-auth) - The most comprehensive authentication framework
-- [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - Network-wide ads & trackers blocking DNS server
