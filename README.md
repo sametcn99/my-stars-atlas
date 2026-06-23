@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-22T07:05:10.599Z`
+Last updated: `2026-06-23T06:34:49.430Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **899**
+- Total starred repositories: **906**
 - Categories in use: **24**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **0**
+- Newly detected this run: **9**
+- Removed this run: **2**
+- Metadata/category updates: **7**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [nicolargo/glances](https://github.com/nicolargo/glances) - Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems.
+- [nukeop/nuclear](https://github.com/nukeop/nuclear) - Streaming music player that finds free music for you
+- [notable/notable](https://github.com/notable/notable) - The Markdown-based note-taking app that doesn't suck.
+- [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) - A command-line installer for Windows.
+- [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI) - UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers
+- [microsoft/calculator](https://github.com/microsoft/calculator) - Windows Calculator: A simple yet powerful calculator that ships with Windows
+- [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) - Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The future of .NET UI
+- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with one command.
 - [subzeroid/aiograpi](https://github.com/subzeroid/aiograpi) - ⚡ Asynchronous Python library for Instagram Private API 2026
 - [subzeroid/instagrapi](https://github.com/subzeroid/instagrapi) - 🔥 The fastest and powerful Python library for Instagram Private API 2026 with HikerAPI SaaS
 - [instaloader/instaloader](https://github.com/instaloader/instaloader) - Download pictures (or videos) along with their captions and other metadata from Instagram.
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-- [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-- [Automattic/pressship](https://github.com/Automattic/pressship) - Submit and release WordPress.org plugins from the command line.
-- [devbugra/stellar_](https://github.com/devbugra/stellar_)
-- [community/community](https://github.com/community/community) - Public feedback discussions for: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues and more!
-- [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - Self-hosted AI workspace. 
-- [vercel/next-app-router-playground](https://github.com/vercel/next-app-router-playground) - A playground to explore Next.js features such as nested layouts, instant loading states, streaming, and component level data fetching.
-- [tuna4ll/narcOs](https://github.com/tuna4ll/narcOs) - 64-bit x86 hobby OS with custom boot, GUI, storage, and networking.
-- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) - FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
