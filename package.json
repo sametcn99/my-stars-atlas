@@ -4,19 +4,25 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"build": "bun run src/build-site.ts",
+		"dev": "vite --config vite.config.ts",
+		"build": "bun run update && vite build --config vite.config.ts",
 		"update": "bun run src/index.ts",
-		"preview": "bunx serve dist --listen 4173",
+		"preview": "vite preview --config vite.config.ts",
 		"typecheck": "bunx tsc --noEmit",
 		"check": "bun run typecheck && bunx --bun @biomejs/biome check --write ."
 	},
 	"dependencies": {
-		"handlebars": "^4.7.9"
+		"@tanstack/react-virtual": "^3.14.9",
+		"@vitejs/plugin-react": "latest",
+		"react": "latest",
+		"react-dom": "latest",
+		"zustand": "latest"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.2",
 		"@types/bun": "^1.3.14",
-		"@types/handlebars": "^4.1.0",
+		"@types/react": "latest",
+		"@types/react-dom": "latest",
 		"bun-types": "^1.3.14",
 		"typescript": "^6.0.3"
 	}

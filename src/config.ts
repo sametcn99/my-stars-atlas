@@ -10,7 +10,6 @@ const rootUrl = new URL("../", import.meta.url);
 
 export const paths = {
 	root: rootUrl,
-	siteShell: new URL("assets/site/", rootUrl),
 	publishRoot: new URL("dist/", rootUrl),
 	data: new URL("dist/data/", rootUrl),
 	catalog: new URL("dist/data/catalog.json", rootUrl),

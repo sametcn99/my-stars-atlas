@@ -4,13 +4,19 @@
 		"module": "ESNext",
 		"moduleResolution": "Bundler",
 		"moduleDetection": "force",
+		"jsx": "react-jsx",
 		"allowImportingTsExtensions": true,
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
 		"noEmit": true,
 		"skipLibCheck": true,
-		"types": ["bun-types"],
+		"types": ["bun-types", "vite/client"],
 		"lib": ["ESNext", "DOM"]
 	},
-	"include": ["src/**/*.ts"]
+	"include": [
+		"src/**/*.ts",
+		"frontend/**/*.ts",
+		"frontend/**/*.tsx",
+		"vite.config.ts"
+	]
 }

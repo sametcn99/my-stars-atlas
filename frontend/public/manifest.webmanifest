@@ -1,0 +1,18 @@
+{
+	"name": "My Stars Atlas",
+	"short_name": "Stars Atlas",
+	"description": "A searchable catalog of starred GitHub repositories.",
+	"start_url": "./",
+	"scope": "./",
+	"display": "standalone",
+	"background_color": "#101418",
+	"theme_color": "#101418",
+	"lang": "en",
+	"icons": [
+		{
+			"src": "https://github.com/sametcn99.png?size=192",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	]
+}

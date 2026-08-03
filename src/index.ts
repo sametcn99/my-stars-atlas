@@ -14,7 +14,6 @@ import {
 	fetchStarredRepositoryCount,
 } from "./github.ts";
 import { renderReadme } from "./render.ts";
-import { syncStaticSiteShell } from "./site-shell.ts";
 import type {
 	CatalogManifest,
 	CategoryConfig,
@@ -168,11 +167,9 @@ async function writeOutputs(payload: {
 	readme: string;
 	snapshot: StarsSnapshot;
 	catalog: CatalogManifest;
-	appConfig: Awaited<ReturnType<typeof loadRuntimeConfig>>["app"];
 }): Promise<void> {
 	await mkdir(paths.publishRoot, { recursive: true });
 	await mkdir(paths.data, { recursive: true });
-	await syncStaticSiteShell(payload.appConfig);
 
 	const chunks = chunkSnapshot(payload.snapshot);
 	const existingChunkFiles = await listChunkFiles(paths.data);
@@ -315,7 +312,6 @@ async function main(): Promise<void> {
 			readme,
 			snapshot,
 			catalog,
-			appConfig: runtimeConfig.app,
 		});
 	}
 
