@@ -68,6 +68,17 @@ export function App() {
 				</div>
 			)}
 
+			{!error && visibleRecords.length === 0 && isLoading && (
+				<div className="catalog-loading-grid" aria-hidden="true">
+					<span />
+					<span />
+					<span />
+					<span />
+					<span />
+					<span />
+				</div>
+			)}
+
 			{visibleRecords.length > 0 && (
 				<VirtualizedRepoGrid records={visibleRecords} />
 			)}

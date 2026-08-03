@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
-
 :root {
-	font-family: "DM Sans", sans-serif;
+	font-family: "Segoe UI", sans-serif;
 	color: #e9ece8;
 	background: #101418;
 	font-synthesis: none;
@@ -119,7 +117,7 @@ h1 {
 	max-width: 10ch;
 	margin: 0;
 	color: #f4f7ef;
-	font-family: "Space Grotesk", sans-serif;
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
 	font-size: clamp(3.2rem, 8vw, 7rem);
 	letter-spacing: -0.06em;
 	line-height: 0.88;
@@ -152,7 +150,7 @@ h1 {
 	display: block;
 	overflow: hidden;
 	color: #f4f7ef;
-	font-family: "Space Grotesk", sans-serif;
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
 	font-size: 1.35rem;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -245,12 +243,13 @@ select:focus {
 }
 .repo-card {
 	display: flex;
-	min-height: 265px;
+	height: 265px;
 	flex-direction: column;
 	gap: 0.8rem;
 	border: 1px solid var(--line);
 	padding: 1.1rem;
 	background: linear-gradient(145deg, var(--panel), #13191c);
+	overflow: hidden;
 	transition: border-color 0.2s ease;
 }
 .repo-card:hover {
@@ -269,7 +268,7 @@ select:focus {
 }
 .repo-name {
 	color: #f4f7ef;
-	font-family: "Space Grotesk", sans-serif;
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
 	font-size: 1.2rem;
 	font-weight: 700;
 	text-decoration: none;
@@ -280,14 +279,20 @@ select:focus {
 }
 .repo-card p {
 	flex: 1;
+	display: -webkit-box;
 	margin: 0;
 	color: var(--muted);
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
 	line-height: 1.5;
 }
 .tag-row {
 	display: flex;
+	min-height: 1.8rem;
 	flex-wrap: wrap;
 	gap: 0.35rem;
+	overflow: hidden;
 }
 .tag-row span {
 	border: 1px solid var(--line);
@@ -311,7 +316,7 @@ select:focus {
 }
 .state-card strong {
 	color: #f4f7ef;
-	font-family: "Space Grotesk", sans-serif;
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
 	font-size: 1.25rem;
 }
 .error-state button,
@@ -330,6 +335,17 @@ select:focus {
 }
 .virtual-grid-container {
 	width: 100%;
+}
+.catalog-loading-grid {
+	display: grid;
+	min-height: 545px;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 0.8rem;
+}
+.catalog-loading-grid span {
+	min-height: 265px;
+	border: 1px solid var(--line);
+	background: var(--panel);
 }
 .infinite-sentinel {
 	min-height: 3rem;
@@ -354,6 +370,9 @@ select:focus {
 	.repo-grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
+	.catalog-loading-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 }
 @media (max-width: 600px) {
 	.app-shell {
@@ -369,7 +388,8 @@ select:focus {
 	.hero-layout,
 	.controls,
 	.stats,
-	.repo-grid {
+	.repo-grid,
+	.catalog-loading-grid {
 		grid-template-columns: 1fr;
 	}
 	.stats {

@@ -53,7 +53,7 @@ export const useCatalogStore = create<CatalogState>((set, get) => ({
 		sort: "starred-desc",
 		visibility: "all",
 	},
-	isLoading: false,
+	isLoading: true,
 	isLoadingAll: false,
 	error: null,
 	loadManifest: async () => {
@@ -77,23 +77,29 @@ export const useCatalogStore = create<CatalogState>((set, get) => ({
 		if (!manifest) return;
 		set({ isLoading: true, error: null });
 		try {
-			for (let step = 0; step < count; step += 1) {
-				const nextIndex = Array.from(
-					{ length: manifest.chunkCount },
-					(_, index) => index + 1,
-				).find((index) => !get().loadedChunks.has(index));
-				if (!nextIndex) break;
-				const chunk = await fetchJson<{ items: ClassifiedStarRecord[] }>(
-					chunkPath(nextIndex),
-				);
-				const existingIds = new Set(get().records.map((record) => record.id));
-				const records = [
-					...get().records,
-					...chunk.items.filter((record) => !existingIds.has(record.id)),
-				];
-				const loadedChunks = new Set(get().loadedChunks).add(nextIndex);
-				set({ records, loadedChunks });
-			}
+			const nextIndexes = Array.from(
+				{ length: manifest.chunkCount },
+				(_, index) => index + 1,
+			)
+				.filter((index) => !get().loadedChunks.has(index))
+				.slice(0, count);
+			if (nextIndexes.length === 0) return;
+
+			const chunks = await Promise.all(
+				nextIndexes.map((index) =>
+					fetchJson<{ items: ClassifiedStarRecord[] }>(chunkPath(index)),
+				),
+			);
+			const existingIds = new Set(get().records.map((record) => record.id));
+			const records = [
+				...get().records,
+				...chunks
+					.flatMap((chunk) => chunk.items)
+					.filter((record) => !existingIds.has(record.id)),
+			];
+			const loadedChunks = new Set(get().loadedChunks);
+			for (const index of nextIndexes) loadedChunks.add(index);
+			set({ records, loadedChunks });
 		} catch (error) {
 			set({
 				error:
