@@ -7,6 +7,10 @@ interface VirtualizedRepoGridProps {
 	records: ClassifiedStarRecord[];
 }
 
+const CARD_HEIGHT = 265;
+const ROW_GAP = 12.8;
+const ROW_HEIGHT = CARD_HEIGHT + ROW_GAP;
+
 export function VirtualizedRepoGrid({ records }: VirtualizedRepoGridProps) {
 	const columns = useResponsiveColumns();
 
@@ -14,7 +18,7 @@ export function VirtualizedRepoGrid({ records }: VirtualizedRepoGridProps) {
 
 	const virtualizer = useWindowVirtualizer({
 		count: rowCount,
-		estimateSize: () => 265,
+		estimateSize: () => ROW_HEIGHT,
 		overscan: 2,
 	});
 
@@ -40,11 +44,12 @@ export function VirtualizedRepoGrid({ records }: VirtualizedRepoGridProps) {
 								top: 0,
 								left: 0,
 								width: "100%",
+								height: `${ROW_HEIGHT}px`,
 								transform: `translateY(${virtualRow.start}px)`,
 								display: "grid",
 								gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
 								gap: "0.8rem",
-								paddingBottom: "0.8rem",
+								alignContent: "start",
 							}}
 						>
 							{rowItems.map((record) => (
