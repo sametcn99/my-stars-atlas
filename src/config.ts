@@ -10,9 +10,9 @@ const rootUrl = new URL("../", import.meta.url);
 
 export const paths = {
 	root: rootUrl,
-	publishRoot: new URL("dist/", rootUrl),
-	data: new URL("dist/data/", rootUrl),
-	catalog: new URL("dist/data/catalog.json", rootUrl),
+	publishRoot: new URL("frontend/public/", rootUrl),
+	data: new URL("frontend/public/data/", rootUrl),
+	catalog: new URL("frontend/public/data/catalog.json", rootUrl),
 	appConfig: new URL("config/config.json", rootUrl),
 	categories: new URL("config/categories.json", rootUrl),
 	overrides: new URL("config/overrides.json", rootUrl),

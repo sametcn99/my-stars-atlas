@@ -1,5 +1,4 @@
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
-import { useEffect, useRef, useState } from "react";
 import { useResponsiveColumns } from "../hooks/useResponsiveColumns";
 import type { ClassifiedStarRecord } from "../types";
 import { RepositoryCard } from "./RepositoryCard";
@@ -9,28 +8,18 @@ interface VirtualizedRepoGridProps {
 }
 
 export function VirtualizedRepoGrid({ records }: VirtualizedRepoGridProps) {
-	const containerRef = useRef<HTMLDivElement>(null);
-	const [scrollMargin, setScrollMargin] = useState(0);
 	const columns = useResponsiveColumns();
 
 	const rowCount = Math.ceil(records.length / columns);
-
-	useEffect(() => {
-		const frame = requestAnimationFrame(() => {
-			setScrollMargin(containerRef.current?.offsetTop ?? 0);
-		});
-		return () => cancelAnimationFrame(frame);
-	}, []);
 
 	const virtualizer = useWindowVirtualizer({
 		count: rowCount,
 		estimateSize: () => 265,
 		overscan: 2,
-		scrollMargin,
 	});
 
 	return (
-		<div ref={containerRef} className="virtual-grid-container">
+		<div className="virtual-grid-container">
 			<div
 				style={{
 					height: `${virtualizer.getTotalSize()}px`,
@@ -51,7 +40,7 @@ export function VirtualizedRepoGrid({ records }: VirtualizedRepoGridProps) {
 								top: 0,
 								left: 0,
 								width: "100%",
-								transform: `translateY(${virtualRow.start - virtualizer.options.scrollMargin}px)`,
+								transform: `translateY(${virtualRow.start}px)`,
 								display: "grid",
 								gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
 								gap: "0.8rem",
