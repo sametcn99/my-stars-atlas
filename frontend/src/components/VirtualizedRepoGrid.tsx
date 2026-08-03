@@ -16,8 +16,8 @@ export function VirtualizedRepoGrid({ records }: VirtualizedRepoGridProps) {
 
 	const virtualizer = useWindowVirtualizer({
 		count: rowCount,
-		estimateSize: () => 280,
-		overscan: 3,
+		estimateSize: () => 265,
+		overscan: 2,
 		scrollMargin: containerRef.current?.offsetTop ?? 0,
 	});
 

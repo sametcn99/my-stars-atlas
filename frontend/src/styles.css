@@ -9,7 +9,7 @@
 	--panel: #171d21;
 	--panel-soft: #20282c;
 	--line: #344047;
-	--muted: #9aa6a5;
+	--muted: #a3b0af;
 	--accent: #d4f56a;
 	--accent-ink: #1b2417;
 }
@@ -103,7 +103,7 @@ button {
 .search-field span,
 .category-label {
 	color: var(--accent);
-	font-size: 0.72rem;
+	font-size: 0.75rem;
 	font-weight: 700;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
@@ -215,7 +215,7 @@ select:focus {
 	border-radius: 99px;
 	padding: 0.55rem 0.8rem;
 	background: transparent;
-	color: var(--muted);
+	color: #c5cfca;
 }
 .category-strip button.active,
 .category-strip button:hover {
@@ -337,6 +337,8 @@ select:focus {
 	align-items: center;
 	justify-content: center;
 	padding: 1rem 0;
+	contain-intrinsic-size: 0 48px;
+	content-visibility: auto;
 }
 @media (max-width: 900px) {
 	.hero-layout,
