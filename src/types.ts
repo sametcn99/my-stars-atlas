@@ -76,6 +76,7 @@ export type AppConfigFile = {
 	};
 	site?: {
 		title?: string;
+		url?: string;
 		heroTitle?: string;
 		heroDescription?: string;
 		profileLinkLabel?: string;
@@ -126,6 +127,7 @@ export type SiteSeoConfig = {
 
 export type SiteConfig = {
 	title: string;
+	url: string;
 	fullTitle: string;
 	heroTitle: string;
 	heroDescription: string;
@@ -261,10 +263,28 @@ export type CatalogCategorySummary = {
 	count: number;
 };
 
+export type CatalogManifestSeo = {
+	title: string;
+	description: string;
+	heroTitle: string;
+	heroDescription: string;
+	canonicalUrl: string;
+	ogType: string;
+	ogTitle: string;
+	ogDescription: string;
+	imageUrl: string;
+	siteName: string;
+	twitterCard: string;
+	twitterTitle: string;
+	twitterDescription: string;
+	profileUrl: string;
+};
+
 export type CatalogManifest = {
 	version: 1;
 	title: string;
 	description: string;
+	seo?: CatalogManifestSeo;
 	username: string;
 	generatedAt: string;
 	total: number;

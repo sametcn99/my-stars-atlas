@@ -13,6 +13,7 @@
 	},
 	"site": {
 		"title": "My Stars Atlas",
+		"url": "https://sametcn99.github.io/my-stars-atlas",
 		"heroDescription": "Explore starred repositories with progressive chunk loading, category-first browsing, debounced search, and a tailored dark interface.",
 		"profileLinkLabel": "GitHub Profile",
 		"seo": {

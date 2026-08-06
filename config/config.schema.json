@@ -163,6 +163,10 @@
 					"$ref": "#/$defs/trimmedString",
 					"description": "Base site title used in the browser title and generated metadata."
 				},
+				"url": {
+					"$ref": "#/$defs/httpUrl",
+					"description": "Canonical public URL of the deployed site, without a trailing slash."
+				},
 				"heroTitle": {
 					"$ref": "#/$defs/trimmedString",
 					"description": "Headline text used in the site hero section."

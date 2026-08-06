@@ -12,9 +12,12 @@ export function Hero({ manifest, categoryCount }: HeroProps) {
 			<div className="hero-kicker">CURATED GITHUB CATALOG</div>
 			<div className="hero-layout">
 				<div>
-					<h1>{manifest?.title ?? "My Stars Atlas"}</h1>
+					<h1>
+						{manifest?.seo?.heroTitle ?? manifest?.title ?? "My Stars Atlas"}
+					</h1>
 					<p>
-						{manifest?.description ??
+						{manifest?.seo?.heroDescription ??
+							manifest?.description ??
 							"Loading your starred repositories into a browsable atlas."}
 					</p>
 					<a

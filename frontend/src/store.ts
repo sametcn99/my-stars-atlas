@@ -60,7 +60,7 @@ export const useCatalogStore = create<CatalogState>((set, get) => ({
 		set({ isLoading: true, error: null });
 		try {
 			const manifest = await fetchJson<CatalogManifest>("./data/catalog.json");
-			document.title = manifest.title;
+			document.title = manifest.seo?.title ?? manifest.title;
 			set({ manifest });
 			await get().loadNextChunks(Math.min(INITIAL_CHUNKS, manifest.chunkCount));
 		} catch (error) {

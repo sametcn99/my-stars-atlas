@@ -1,7 +1,7 @@
 {
 	"name": "My Stars Atlas",
 	"short_name": "Stars Atlas",
-	"description": "A searchable catalog of starred GitHub repositories.",
+	"description": "A searchable, installable catalog of starred GitHub repositories with progressive loading and category-first browsing.",
 	"start_url": "./",
 	"scope": "./",
 	"display": "standalone",

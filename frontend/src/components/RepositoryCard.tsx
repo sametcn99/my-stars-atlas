@@ -12,14 +12,16 @@ export function RepositoryCard({ record }: RepositoryCardProps) {
 				<span className="category-label">{record.categoryTitle}</span>
 				{record.archived && <span className="status-label">Archived</span>}
 			</div>
-			<a
-				className="repo-name"
-				href={record.url}
-				target="_blank"
-				rel="noreferrer noopener"
-			>
-				{record.fullName}
-			</a>
+			<h3>
+				<a
+					className="repo-name"
+					href={record.url}
+					target="_blank"
+					rel="noreferrer noopener"
+				>
+					{record.fullName}
+				</a>
+			</h3>
 			<p>{record.description || "No description provided."}</p>
 			<div className="tag-row">
 				{record.language && <span>{record.language}</span>}
@@ -31,8 +33,12 @@ export function RepositoryCard({ record }: RepositoryCardProps) {
 			</div>
 			<footer>
 				<span>★ {formatNumber(record.stargazersCount)}</span>
-				<span>Starred {formatRelative(record.starredAt)}</span>
-				<span>Updated {formatRelative(record.updatedAt)}</span>
+				<time dateTime={record.starredAt ?? undefined}>
+					Starred {formatRelative(record.starredAt)}
+				</time>
+				<time
+					dateTime={record.updatedAt}
+				>{`Updated ${formatRelative(record.updatedAt)}`}</time>
 			</footer>
 		</article>
 	);

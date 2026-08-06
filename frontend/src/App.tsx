@@ -43,6 +43,7 @@ export function App() {
 			/>
 
 			<div className="catalog-toolbar">
+				<h2 id="catalog-heading">Repository catalog</h2>
 				<span>{formatNumber(visibleRecords.length)} repositories shown</span>
 				{isLoadingAll && (
 					<span className="loading-note">

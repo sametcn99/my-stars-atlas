@@ -233,6 +233,12 @@ select:focus {
 	color: var(--muted);
 	font-size: 0.9rem;
 }
+.catalog-toolbar h2 {
+	margin: 0;
+	color: #f4f7ef;
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+	font-size: 1.25rem;
+}
 .loading-note {
 	color: var(--accent);
 }
@@ -273,6 +279,9 @@ select:focus {
 	font-weight: 700;
 	text-decoration: none;
 	overflow-wrap: anywhere;
+}
+.repo-card h3 {
+	margin: 0;
 }
 .repo-name:hover {
 	color: var(--accent);

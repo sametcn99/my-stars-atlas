@@ -13,6 +13,9 @@ export const paths = {
 	publishRoot: new URL("frontend/public/", rootUrl),
 	data: new URL("frontend/public/data/", rootUrl),
 	catalog: new URL("frontend/public/data/catalog.json", rootUrl),
+	manifest: new URL("frontend/public/manifest.webmanifest", rootUrl),
+	robots: new URL("frontend/public/robots.txt", rootUrl),
+	sitemap: new URL("frontend/public/sitemap.xml", rootUrl),
 	appConfig: new URL("config/config.json", rootUrl),
 	categories: new URL("config/categories.json", rootUrl),
 	overrides: new URL("config/overrides.json", rootUrl),
@@ -25,6 +28,7 @@ const DEFAULT_README_DESCRIPTION =
 	"A generated catalog of starred GitHub repositories, grouped into stable categories.";
 const DEFAULT_README_FALLBACK_CONFIDENCE_THRESHOLD = 0.4;
 const DEFAULT_SITE_TITLE = "My Stars Atlas";
+const DEFAULT_SITE_URL = "https://sametcn99.github.io/my-stars-atlas";
 const DEFAULT_HERO_DESCRIPTION =
 	"Explore starred repositories with progressive chunk loading, category-first browsing, debounced search, and a tailored dark interface.";
 const DEFAULT_SEO_DESCRIPTION =
@@ -100,6 +104,16 @@ export async function loadAppConfig(): Promise<AppConfig> {
 	const readmeDescription =
 		fileConfig.readme?.description?.trim() || DEFAULT_README_DESCRIPTION;
 	const siteTitle = fileConfig.site?.title?.trim() || DEFAULT_SITE_TITLE;
+	const siteUrl = (fileConfig.site?.url?.trim() || DEFAULT_SITE_URL).replace(
+		/\/$/,
+		"",
+	);
+	try {
+		const parsedSiteUrl = new URL(siteUrl);
+		if (!/^https?:$/.test(parsedSiteUrl.protocol)) throw new Error();
+	} catch {
+		throw new Error("site.url must be an absolute HTTP(S) URL.");
+	}
 	const fullTitle = `${siteTitle} | @${username}`;
 	const seoDescription =
 		fileConfig.site?.seo?.description?.trim() || DEFAULT_SEO_DESCRIPTION;
@@ -126,6 +140,7 @@ export async function loadAppConfig(): Promise<AppConfig> {
 		},
 		site: {
 			title: siteTitle,
+			url: siteUrl,
 			fullTitle,
 			heroTitle: fileConfig.site?.heroTitle?.trim() || siteTitle,
 			heroDescription:

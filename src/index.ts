@@ -15,6 +15,7 @@ import {
 } from "./github.ts";
 import { renderReadme } from "./render.ts";
 import type {
+	AppConfig,
 	CatalogManifest,
 	CategoryConfig,
 	StarRecord,
@@ -125,6 +126,7 @@ function buildCatalogManifest(payload: {
 	description: string;
 	snapshot: StarsSnapshot;
 	categoryConfig: CategoryConfig;
+	app: AppConfig;
 }): CatalogManifest {
 	const counts = new Map<string, number>();
 	const configuredCategoryIds = new Set(
@@ -143,6 +145,22 @@ function buildCatalogManifest(payload: {
 		version: 1,
 		title: payload.title,
 		description: payload.description,
+		seo: {
+			title: payload.app.site.fullTitle,
+			description: payload.app.site.seo.description,
+			heroTitle: payload.app.site.heroTitle,
+			heroDescription: payload.app.site.heroDescription,
+			canonicalUrl: payload.app.site.url,
+			ogType: payload.app.site.seo.ogType,
+			ogTitle: payload.app.site.seo.ogTitle,
+			ogDescription: payload.app.site.seo.ogDescription,
+			imageUrl: payload.app.site.seo.imageUrl,
+			siteName: payload.app.site.seo.siteName,
+			twitterCard: payload.app.site.seo.twitterCard,
+			twitterTitle: payload.app.site.seo.twitterTitle,
+			twitterDescription: payload.app.site.seo.twitterDescription,
+			profileUrl: payload.app.github.profileUrl,
+		},
 		username: payload.snapshot.username,
 		generatedAt: payload.snapshot.generatedAt,
 		total: payload.snapshot.items.length,
@@ -167,6 +185,7 @@ async function writeOutputs(payload: {
 	readme: string;
 	snapshot: StarsSnapshot;
 	catalog: CatalogManifest;
+	app: AppConfig;
 }): Promise<void> {
 	await mkdir(paths.publishRoot, { recursive: true });
 	await mkdir(paths.data, { recursive: true });
@@ -176,11 +195,39 @@ async function writeOutputs(payload: {
 	const nextChunkFiles = new Set(
 		chunks.map((_, index) => getChunkFileName(index)),
 	);
+	const canonicalUrl =
+		payload.catalog.seo?.canonicalUrl ?? payload.app.site.url;
 
 	await Bun.write(paths.readme, payload.readme);
 	await Bun.write(
 		paths.catalog,
 		`${JSON.stringify(payload.catalog, null, 2)}\n`,
+	);
+	await Bun.write(
+		paths.manifest,
+		`${JSON.stringify(
+			{
+				name: payload.app.site.manifest.name,
+				short_name: payload.app.site.manifest.shortName,
+				description: payload.app.site.manifest.description,
+				start_url: payload.app.site.manifest.startUrl,
+				scope: payload.app.site.manifest.scope,
+				display: payload.app.site.manifest.display,
+				background_color: "#101418",
+				theme_color: payload.app.site.manifest.themeColor,
+				lang: payload.app.site.manifest.lang,
+				icons: payload.app.site.manifest.icons,
+			},
+			null,
+		)}\n`,
+	);
+	await Bun.write(
+		paths.robots,
+		`User-agent: *\nAllow: /\nSitemap: ${canonicalUrl}/sitemap.xml\n`,
+	);
+	await Bun.write(
+		paths.sitemap,
+		`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>${canonicalUrl}</loc>\n    <lastmod>${payload.snapshot.generatedAt}</lastmod>\n  </url>\n</urlset>\n`,
 	);
 	await Promise.all(
 		chunks.map((chunk, index) =>
@@ -292,6 +339,7 @@ async function main(): Promise<void> {
 		description: runtimeConfig.description,
 		snapshot,
 		categoryConfig,
+		app: runtimeConfig.app,
 	});
 	const readme = await renderReadme(paths.template, {
 		title: runtimeConfig.title,
@@ -312,6 +360,7 @@ async function main(): Promise<void> {
 			readme,
 			snapshot,
 			catalog,
+			app: runtimeConfig.app,
 		});
 	}
 
