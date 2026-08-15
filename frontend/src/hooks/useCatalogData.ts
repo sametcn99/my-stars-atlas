@@ -19,11 +19,13 @@ export function useCatalogData() {
 		void loadManifest();
 	}, [loadManifest]);
 
+	// Filtering and filter options must be based on the complete catalog. The
+	// first chunks are only a rendering/loading optimization, not a data limit.
 	useEffect(() => {
-		if (filters.query && manifest && loadedChunks.size < manifest.chunkCount) {
+		if (manifest && loadedChunks.size < manifest.chunkCount) {
 			void loadAllChunks();
 		}
-	}, [filters.query, manifest, loadedChunks.size, loadAllChunks]);
+	}, [manifest, loadedChunks.size, loadAllChunks]);
 
 	const visibleRecords = useMemo(
 		() =>
