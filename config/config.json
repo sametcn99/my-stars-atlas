@@ -4,8 +4,16 @@
 		"username": "sametcn99"
 	},
 	"classification": {
+		"model": "typesafe/jev-1.13",
+		"baseUrl": "https://openrouter.ai/api/alpha/decisions",
+		"concurrency": 12,
+		"minCategorySize": 5,
+		"minTopicCount": 8,
+		"maxDerivedCategories": 25,
+		"derivedCategoryMinScore": 2,
 		"enableReadmeFallback": true,
-		"readmeFallbackConfidenceThreshold": 0.4
+		"readmeFallbackConfidenceThreshold": 0.4,
+		"readmeCharacterLimit": 8000
 	},
 	"readme": {
 		"title": "My Stars",

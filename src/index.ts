@@ -1,15 +1,13 @@
 import { mkdir, readdir, rm } from "node:fs/promises";
-import { categorizeRepositories } from "./categorize.ts";
+import { classifyRepositories } from "./classify.ts";
 import {
 	loadCategoryConfig,
-	loadOverridesConfig,
 	loadRuntimeConfig,
 	paths,
 	readJsonFile,
 } from "./config.ts";
 import { diffSnapshots } from "./diff.ts";
 import {
-	fetchRepositoryReadme,
 	fetchStarredRepositories,
 	fetchStarredRepositoryCount,
 } from "./github.ts";
@@ -17,44 +15,16 @@ import { renderReadme } from "./render.ts";
 import type {
 	AppConfig,
 	CatalogManifest,
-	CategoryConfig,
+	ResolvedCategory,
 	StarRecord,
 	StarsSnapshot,
 	StarsSnapshotChunk,
 } from "./types.ts";
 
 const STAR_CHUNK_SIZE = 100;
-const README_FETCH_CONCURRENCY = 8;
 
 function getChunkFileName(index: number): string {
 	return `stars-${String(index + 1).padStart(3, "0")}.json`;
-}
-
-async function mapWithConcurrency<T, TResult>(
-	items: T[],
-	limit: number,
-	mapper: (item: T, index: number) => Promise<TResult>,
-): Promise<TResult[]> {
-	if (items.length === 0) {
-		return [];
-	}
-
-	const results = new Array<TResult>(items.length);
-	let nextIndex = 0;
-
-	async function worker(): Promise<void> {
-		while (nextIndex < items.length) {
-			const currentIndex = nextIndex;
-			nextIndex += 1;
-			results[currentIndex] = await mapper(items[currentIndex], currentIndex);
-		}
-	}
-
-	await Promise.all(
-		Array.from({ length: Math.min(limit, items.length) }, () => worker()),
-	);
-
-	return results;
 }
 
 async function listChunkFiles(directory: URL = paths.data): Promise<string[]> {
@@ -125,16 +95,17 @@ function buildCatalogManifest(payload: {
 	title: string;
 	description: string;
 	snapshot: StarsSnapshot;
-	categoryConfig: CategoryConfig;
+	categories: ResolvedCategory[];
+	recentCount: number;
 	app: AppConfig;
 }): CatalogManifest {
 	const counts = new Map<string, number>();
-	const configuredCategoryIds = new Set(
-		payload.categoryConfig.categories.map((category) => category.id),
+	const resolvedCategoryIds = new Set(
+		payload.categories.map((category) => category.id),
 	);
 
 	for (const item of payload.snapshot.items) {
-		if (!configuredCategoryIds.has(item.category)) {
+		if (!resolvedCategoryIds.has(item.category)) {
 			continue;
 		}
 
@@ -164,13 +135,13 @@ function buildCatalogManifest(payload: {
 		username: payload.snapshot.username,
 		generatedAt: payload.snapshot.generatedAt,
 		total: payload.snapshot.items.length,
-		recentCount: payload.categoryConfig.recentCount,
+		recentCount: payload.recentCount,
 		chunkSize: STAR_CHUNK_SIZE,
 		chunkCount: Math.max(
 			1,
 			Math.ceil(payload.snapshot.items.length / STAR_CHUNK_SIZE),
 		),
-		categories: payload.categoryConfig.categories
+		categories: payload.categories
 			.map((category) => ({
 				id: category.id,
 				title: category.title,
@@ -247,9 +218,8 @@ async function writeOutputs(payload: {
 
 async function main(): Promise<void> {
 	const runtimeConfig = await loadRuntimeConfig();
-	const [categoryConfig, overrides, previousSnapshot] = await Promise.all([
+	const [categoryConfig, previousSnapshot] = await Promise.all([
 		loadCategoryConfig(),
-		loadOverridesConfig(),
 		loadExistingSnapshot(),
 	]);
 
@@ -262,75 +232,25 @@ async function main(): Promise<void> {
 		previousSnapshot === undefined ||
 		previousCount !== currentCount;
 
-	const repos: StarRecord[] = shouldRefreshAll
+	const fetched: StarRecord[] = shouldRefreshAll
 		? await fetchStarredRepositories(runtimeConfig)
 		: previousSnapshot.items;
-	const resolvedCurrentCount = shouldRefreshAll ? repos.length : currentCount;
+	const resolvedCurrentCount = shouldRefreshAll ? fetched.length : currentCount;
+	const repos =
+		runtimeConfig.limit > 0 ? fetched.slice(0, runtimeConfig.limit) : fetched;
 
-	const initiallyClassified = categorizeRepositories(
+	const classification = await classifyRepositories(
 		repos,
 		categoryConfig,
-		overrides,
+		runtimeConfig,
 	);
-	let classified = initiallyClassified;
-
-	if (runtimeConfig.classification.enableReadmeFallback) {
-		const readmeCandidates = initiallyClassified
-			.filter(
-				(repo) =>
-					repo.classificationSource !== "override" &&
-					repo.classificationConfidence <
-						runtimeConfig.classification.readmeFallbackConfidenceThreshold,
-			)
-			.map((repo) => repo.fullName);
-
-		if (readmeCandidates.length > 0) {
-			const readmeResults = await mapWithConcurrency(
-				readmeCandidates,
-				README_FETCH_CONCURRENCY,
-				async (fullName) => ({
-					fullName,
-					readme: await fetchRepositoryReadme(runtimeConfig, fullName),
-				}),
-			);
-			const readmeByFullName = new Map(
-				readmeResults.flatMap(({ fullName, readme }) =>
-					readme ? [[fullName, readme] as const] : [],
-				),
-			);
-
-			if (readmeByFullName.size > 0) {
-				const candidateSet = new Set(readmeCandidates);
-				const candidateRepos = repos.filter((repo) =>
-					candidateSet.has(repo.fullName),
-				);
-				const reclassified = categorizeRepositories(
-					candidateRepos,
-					categoryConfig,
-					overrides,
-					{
-						enableReadmeFallback: true,
-						readmeByFullName,
-						readmeFallbackConfidenceThreshold:
-							runtimeConfig.classification.readmeFallbackConfidenceThreshold,
-					},
-				);
-				const reclassifiedByFullName = new Map(
-					reclassified.map((repo) => [repo.fullName, repo]),
-				);
-				classified = initiallyClassified.map(
-					(repo) => reclassifiedByFullName.get(repo.fullName) ?? repo,
-				);
-			}
-		}
-	}
 
 	const generatedAt = new Date().toISOString();
 	const snapshot: StarsSnapshot = {
 		version: 1,
 		username: runtimeConfig.username,
 		generatedAt,
-		items: classified,
+		items: classification.records,
 	};
 
 	const changes = diffSnapshots(previousSnapshot?.items, snapshot.items);
@@ -338,7 +258,8 @@ async function main(): Promise<void> {
 		title: runtimeConfig.title,
 		description: runtimeConfig.description,
 		snapshot,
-		categoryConfig,
+		categories: classification.categories,
+		recentCount: categoryConfig.recentCount,
 		app: runtimeConfig.app,
 	});
 	const readme = await renderReadme(paths.template, {
@@ -346,7 +267,8 @@ async function main(): Promise<void> {
 		description: runtimeConfig.description,
 		username: runtimeConfig.username,
 		generatedAt,
-		categoryConfig,
+		categories: classification.categories,
+		recentCount: categoryConfig.recentCount,
 		records: snapshot.items,
 		changes,
 	});
@@ -378,6 +300,13 @@ async function main(): Promise<void> {
 				removed: changes.removed,
 				updated: changes.updated,
 				dryRun: runtimeConfig.dryRun,
+				limit: runtimeConfig.limit,
+				cacheEnabled: runtimeConfig.useCache,
+				categories: classification.categories.length,
+				derivedCategories: classification.categories.filter(
+					(category) => category.derived,
+				).length,
+				classification: classification.stats,
 			},
 			null,
 			2,

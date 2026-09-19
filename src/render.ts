@@ -1,7 +1,7 @@
 import type {
-	CategoryConfig,
 	ClassifiedStarRecord,
 	DiffSummary,
+	ResolvedCategory,
 } from "./types.ts";
 
 function withTopicDisplay(
@@ -21,12 +21,13 @@ export async function renderReadme(
 		description: string;
 		username: string;
 		generatedAt: string;
-		categoryConfig: CategoryConfig;
+		categories: ResolvedCategory[];
+		recentCount: number;
 		records: ClassifiedStarRecord[];
 		changes: DiffSummary;
 	},
 ): Promise<string> {
-	const categories = options.categoryConfig.categories
+	const categories = options.categories
 		.map((category) => {
 			const items = options.records
 				.filter((record) => record.category === category.id)
@@ -47,7 +48,7 @@ export async function renderReadme(
 		.sort((left, right) =>
 			(right.starredAt ?? "").localeCompare(left.starredAt ?? ""),
 		)
-		.slice(0, options.categoryConfig.recentCount)
+		.slice(0, options.recentCount)
 		.map(withTopicDisplay);
 
 	const lines: string[] = [

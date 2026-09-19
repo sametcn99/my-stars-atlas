@@ -1,51 +1,7 @@
-export type CategoryRuleSet = {
-	keywords: string[];
-	languages: string[];
-	strongKeywords: string[];
-	singletonStrongKeywords: string[];
-	readmeExcludedKeywords: string[];
-	preferredFallbackCategories: string[];
-	shapeHints: string[];
-	minScore: number;
-	minStrongKeywordMatches: number;
-	shapeHintMinStrongKeywordMatches: number;
-	allowReadmeOnly: boolean;
-};
-
 export type CategoryDefinition = {
 	id: string;
 	title: string;
 	description: string;
-	priority: number;
-	rules: CategoryRuleSet;
-};
-
-export type CompiledKeyword = {
-	raw: string;
-	rawNormalized: string;
-	normalized: string;
-	tokens: string[];
-	specificity: number;
-};
-
-export type CompiledCategory = {
-	definition: CategoryDefinition;
-	keywords: CompiledKeyword[];
-	strongKeywordSet: Set<string>;
-	singletonStrongKeywordSet: Set<string>;
-	readmeExcludedKeywordSet: Set<string>;
-	normalizedShapeHints: string[];
-	preferredFallbackSet: Set<string>;
-	languagesLower: string[];
-	minScore: number;
-};
-
-export type CompiledCategoryConfig = {
-	defaultCategory: string;
-	recentCount: number;
-	categories: CompiledCategory[];
-	categoriesById: Map<string, CompiledCategory>;
-	defaultCategoryDefinition: CategoryDefinition;
 };
 
 export type CategoryConfig = {
@@ -55,14 +11,49 @@ export type CategoryConfig = {
 	categories: CategoryDefinition[];
 };
 
+/**
+ * A category that survived taxonomy resolution and is offered to Jev as a
+ * choice option. `derived` categories were mined from repository topics
+ * instead of the seed taxonomy in config/categories.json, and `priority` is
+ * assigned from the seed order rather than configured by hand.
+ */
+export type ResolvedCategory = CategoryDefinition & {
+	priority: number;
+	derived: boolean;
+};
+
+/** Jev's verdict on whether a mined topic deserves to be a category. */
+export type TopicScreening = {
+	/** Position on the topic-quality rubric, 0 (useless) to 3 (clear category). */
+	score: number;
+	/** Probability the label is merely a technology name. */
+	technologyName: number;
+};
+
 export type ClassificationConfigFile = {
+	model?: string;
+	baseUrl?: string;
+	concurrency?: number;
+	minCategorySize?: number;
+	minTopicCount?: number;
+	maxDerivedCategories?: number;
+	derivedCategoryMinScore?: number;
 	enableReadmeFallback?: boolean;
 	readmeFallbackConfidenceThreshold?: number;
+	readmeCharacterLimit?: number;
 };
 
 export type ClassificationConfig = {
+	model: string;
+	baseUrl: string;
+	concurrency: number;
+	minCategorySize: number;
+	minTopicCount: number;
+	maxDerivedCategories: number;
+	derivedCategoryMinScore: number;
 	enableReadmeFallback: boolean;
 	readmeFallbackConfidenceThreshold: number;
+	readmeCharacterLimit: number;
 };
 
 export type AppConfigFile = {
@@ -150,22 +141,6 @@ export type AppConfig = {
 	site: SiteConfig;
 };
 
-export type RepoMatchRule = {
-	fullName?: string;
-	name?: string;
-	url?: string;
-};
-
-export type CategoryOverrideRule = {
-	match: RepoMatchRule;
-	category: string;
-};
-
-export type OverridesConfig = {
-	exclude: RepoMatchRule[];
-	categories: CategoryOverrideRule[];
-};
-
 export type GitHubRepoOwner = {
 	login: string;
 	type: string;
@@ -223,20 +198,33 @@ export type StarRecord = {
 	license: string | null;
 };
 
-export type DeterministicClassification = {
+export type ClassificationSource = "jev" | "jev-readme" | "cache";
+
+export type JevClassification = {
 	category: string;
 	confidence: number;
-	reason: string;
-	source: "override" | "rules" | "default";
+	source: ClassificationSource;
+	readmeUsed: boolean;
 };
 
 export type ClassifiedStarRecord = StarRecord & {
 	category: string;
 	categoryTitle: string;
 	classificationConfidence: number;
-	classificationReason: string;
-	classificationSource: "override" | "rules" | "default";
+	classificationSource: ClassificationSource;
 	classificationReadmeUsed: boolean;
+};
+
+export type ClassificationStats = {
+	total: number;
+	topicsScreened: number;
+	topicsAccepted: number;
+	fromCache: number;
+	evaluated: number;
+	readmeEvaluated: number;
+	repromptedAfterPruning: number;
+	inputTokens: number;
+	estimatedCostUsd: number;
 };
 
 export type StarsSnapshot = {
@@ -306,9 +294,15 @@ export type RuntimeConfig = {
 	dryRun: boolean;
 	stdout: boolean;
 	forceRefresh: boolean;
+	useCache: boolean;
+	/** Log every individual decision instead of periodic progress. */
+	verbose: boolean;
+	limit: number;
 	classification: ClassificationConfig;
 	title: string;
 	description: string;
 	githubToken?: string;
 	githubApiBaseUrl: string;
+	/** OpenRouter key used for every Jev decision request. */
+	apiKey: string;
 };

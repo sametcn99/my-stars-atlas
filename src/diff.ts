@@ -7,9 +7,8 @@ function comparableFields(record: ClassifiedStarRecord): string {
 		language: record.language,
 		topics: record.topics,
 		category: record.category,
-		confidence: record.classificationConfidence,
-		reason: record.classificationReason,
-		source: record.classificationSource,
+		// Jev returns a probability, so compare coarsely to keep the diff quiet.
+		confidence: record.classificationConfidence.toFixed(2),
 		readmeUsed: record.classificationReadmeUsed,
 	});
 }

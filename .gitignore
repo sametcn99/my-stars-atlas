@@ -4,3 +4,4 @@ frontend/public/data/
 .DS_Store
 *.log
 .env
+.cache/

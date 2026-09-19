@@ -13,6 +13,11 @@ on:
         required: false
         default: false
         type: boolean
+      no_cache:
+        description: Ignore the Jev classification cache and reclassify every repository
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -40,10 +45,21 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
+      - name: Restore Jev classification cache
+        if: inputs.no_cache != true
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: jev-v1-${{ hashFiles('config/categories.json', 'config/config.json', 'src/classify.ts', 'src/taxonomy.ts', 'src/cache.ts') }}-${{ github.run_id }}
+          restore-keys: |
+            jev-v1-${{ hashFiles('config/categories.json', 'config/config.json', 'src/classify.ts', 'src/taxonomy.ts', 'src/cache.ts') }}-
+
       - name: Generate catalog data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           FORCE_REFRESH: ${{ inputs.force == true && 'true' || 'false' }}
+          NO_CACHE: ${{ inputs.no_cache == true && 'true' || 'false' }}
         run: bun run update
 
       - name: Validate source

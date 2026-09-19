@@ -17,8 +17,10 @@
 		},
 		"classification": {
 			"$ref": "#/$defs/classificationConfig",
-			"description": "Controls the optional README-assisted fallback categorization behavior.",
+			"description": "Controls how Jev classifies repositories: model, parallelism, taxonomy pruning, and the README-assisted second pass.",
 			"default": {
+				"model": "typesafe/jev-1.13",
+				"baseUrl": "https://openrouter.ai/api/alpha/decisions",
 				"enableReadmeFallback": false,
 				"readmeFallbackConfidenceThreshold": 0.4
 			}
@@ -82,13 +84,64 @@
 			"type": "object",
 			"additionalProperties": false,
 			"properties": {
+				"model": {
+					"type": "string",
+					"minLength": 1,
+					"description": "Decision model id on the configured decisions endpoint.",
+					"default": "typesafe/jev-1.13",
+					"examples": ["typesafe/jev-1.13", "~typesafe/jev-latest"]
+				},
+				"baseUrl": {
+					"type": "string",
+					"format": "uri",
+					"pattern": "^https?://[^\\s]+$",
+					"description": "Jev decisions endpoint. OpenRouter serves the TypeSafe wire format here.",
+					"default": "https://openrouter.ai/api/alpha/decisions"
+				},
+				"concurrency": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "How many Jev evaluations run in parallel.",
+					"default": 12
+				},
+				"minCategorySize": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "Categories holding fewer repositories than this are pruned, and their repositories are re-asked against the surviving options.",
+					"default": 5
+				},
+				"minTopicCount": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "How often a GitHub topic must appear before it becomes a candidate category.",
+					"default": 8
+				},
+				"maxDerivedCategories": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "Upper bound on topic-derived categories added to the seed taxonomy.",
+					"default": 25
+				},
+				"derivedCategoryMinScore": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 3,
+					"description": "Minimum position on Jev's topic-quality rubric (0 useless, 1 technology name, 2 narrow niche, 3 clear category) for a mined topic to become a category.",
+					"default": 2
+				},
 				"enableReadmeFallback": {
 					"type": "boolean",
-					"description": "When true, low-confidence repositories may fetch README content transiently to improve categorization.",
+					"description": "When true, repositories Jev was unsure about are re-evaluated with their README as extra evidence.",
 					"default": false
 				},
 				"readmeFallbackConfidenceThreshold": {
 					"$ref": "#/$defs/confidenceThreshold"
+				},
+				"readmeCharacterLimit": {
+					"type": "integer",
+					"minimum": 1,
+					"description": "How much README text is sent to Jev during the fallback pass.",
+					"default": 8000
 				}
 			}
 		},

@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Stars Atlas Categories",
-	"description": "Category taxonomy and rule tuning for deterministic repository classification.",
+	"description": "Seed category taxonomy offered to Jev as choice options during classification.",
 	"type": "object",
 	"additionalProperties": false,
 	"properties": {
@@ -24,7 +24,8 @@
 			"minItems": 1,
 			"items": {
 				"$ref": "#/$defs/categoryDefinition"
-			}
+			},
+			"description": "Seed categories in display order; the array position decides where a category appears in the generated outputs."
 		}
 	},
 	"required": ["$schema", "recentCount", "defaultCategory", "categories"],
@@ -63,78 +64,6 @@
 			"minLength": 1,
 			"pattern": ".*\\S.*"
 		},
-		"keywordList": {
-			"type": "array",
-			"items": {
-				"$ref": "#/$defs/trimmedString"
-			},
-			"uniqueItems": true,
-			"default": []
-		},
-		"categoryRuleSet": {
-			"type": "object",
-			"additionalProperties": false,
-			"properties": {
-				"keywords": {
-					"$ref": "#/$defs/keywordList"
-				},
-				"languages": {
-					"$ref": "#/$defs/keywordList"
-				},
-				"strongKeywords": {
-					"$ref": "#/$defs/keywordList"
-				},
-				"singletonStrongKeywords": {
-					"$ref": "#/$defs/keywordList"
-				},
-				"readmeExcludedKeywords": {
-					"$ref": "#/$defs/keywordList"
-				},
-				"preferredFallbackCategories": {
-					"type": "array",
-					"items": {
-						"$ref": "#/$defs/categoryId"
-					},
-					"uniqueItems": true,
-					"default": []
-				},
-				"shapeHints": {
-					"$ref": "#/$defs/keywordList"
-				},
-				"minScore": {
-					"type": "number",
-					"minimum": 0,
-					"default": 4.25
-				},
-				"minStrongKeywordMatches": {
-					"type": "integer",
-					"minimum": 0,
-					"default": 0
-				},
-				"shapeHintMinStrongKeywordMatches": {
-					"type": "integer",
-					"minimum": 0,
-					"default": 0
-				},
-				"allowReadmeOnly": {
-					"type": "boolean",
-					"default": true
-				}
-			},
-			"required": [
-				"keywords",
-				"languages",
-				"strongKeywords",
-				"singletonStrongKeywords",
-				"readmeExcludedKeywords",
-				"preferredFallbackCategories",
-				"shapeHints",
-				"minScore",
-				"minStrongKeywordMatches",
-				"shapeHintMinStrongKeywordMatches",
-				"allowReadmeOnly"
-			]
-		},
 		"categoryDefinition": {
 			"type": "object",
 			"additionalProperties": false,
@@ -145,18 +74,12 @@
 				"title": {
 					"$ref": "#/$defs/trimmedString"
 				},
-				"priority": {
-					"type": "integer",
-					"minimum": 0
-				},
 				"description": {
-					"$ref": "#/$defs/trimmedString"
-				},
-				"rules": {
-					"$ref": "#/$defs/categoryRuleSet"
+					"$ref": "#/$defs/trimmedString",
+					"description": "Sent to Jev verbatim as this option's criteria, so it should describe what belongs here."
 				}
 			},
-			"required": ["id", "title", "priority", "description", "rules"]
+			"required": ["id", "title", "description"]
 		}
 	}
 }
