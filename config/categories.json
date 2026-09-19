@@ -6,102 +6,102 @@
 		{
 			"id": "ai",
 			"title": "AI & Agents",
-			"description": "LLM apps, agent frameworks, inference stacks, model tooling, prompting workflows, and AI-native products."
+			"description": "Products and infrastructure whose core value is the machine-learning model itself: LLM-backed applications and chat interfaces, agent and RAG frameworks, inference and serving runtimes, training and fine-tuning tooling, embeddings and vector search, prompt engineering workflows, speech, vision and generative-media models, plus model registries, benchmarks and evaluation harnesses. Choose this when AI is the product or the platform; repositories that instead extend an existing coding agent belong in AI Harness, and the surrounding media pipeline belongs in Media & Creator Tools."
+		},
+		{
+			"id": "ai-harness",
+			"title": "AI Harness",
+			"description": "Coding agents and the harnesses around them: agent CLIs and IDE agents such as Claude Code, Codex, Cursor, Aider and Copilot-style assistants, MCP servers and clients, and the extension surfaces these harnesses expose - skills, plugins, hooks, slash commands, prompt and rules collections, subagent orchestration, session and context management, usage dashboards, and shared configuration or dotfiles targeting a specific harness. Choose this when the repository only makes sense alongside an agent harness; general LLM frameworks and applications belong in AI & Agents."
 		},
 		{
 			"id": "editor-tooling",
 			"title": "Editor Tooling",
-			"description": "Editors, IDE extensions, language-server integrations, snippets, and code intelligence features built around the developer editing experience."
+			"description": "Software that lives inside a code editor: VS Code, JetBrains, Neovim, Emacs, Vim, Zed and Sublime extensions, editor distributions and configuration frameworks, language servers and LSP clients, tree-sitter grammars and syntax highlighting, snippets, editor color themes, debug adapters, and in-editor refactoring or code-intelligence features. Choose this when the repository only makes sense within an editor; a standalone tool that merely ships an editor plugin belongs in Developer Tools."
 		},
 		{
 			"id": "developer-tools",
 			"title": "Developer Tools",
-			"description": "Editors, IDE extensions, language servers, linters, generators, and tools that improve day-to-day software development."
+			"description": "Standalone tools that improve day-to-day software development outside any single editor: linters and formatters, compilers, transpilers and build systems, bundlers, package managers and monorepo tooling, test runners and mocking servers, code generators and scaffolders, API clients and debugging proxies, git and code-review tooling, versioning, changelog and release automation, and local development environments. Prefer Editor Tooling for editor extensions, CLI & Terminal when being a terminal program is the identity, and Libraries & SDKs for packages you import rather than tools you run."
 		},
 		{
 			"id": "browser-extensions",
 			"title": "Browser Extensions",
-			"description": "Chrome, Firefox, and WebExtension-based tools that primarily live inside the browser rather than the editor or terminal."
+			"description": "Add-ons whose runtime is the web browser: Chrome, Firefox, Safari and WebExtension extensions, userscripts and userstyles, plus the tooling for building and shipping them such as extension frameworks, manifest and cross-browser polyfills, and store publishing pipelines. Typical examples are content blockers, page enhancers, tab and bookmark managers, privacy extensions and in-page developer tools. A web application that merely runs in a browser tab does not belong here."
 		},
 		{
 			"id": "design-systems",
 			"title": "Design Systems & Components",
-			"description": "Component libraries, UI kits, headless primitives, styleguides, and reusable systems for building interfaces."
+			"description": "The reusable interface layer, in both code and assets: component libraries and UI kits, headless or unstyled primitives, CSS frameworks and utility systems, design tokens and styleguides, plus theme packs, icon sets, typography and font tooling, illustration, animation and motion systems, and design-to-code, prototyping or presentation tools. Choose this when the repository supplies building blocks or visual material for interfaces rather than a finished application."
 		},
 		{
 			"id": "content-cms",
 			"title": "Content, CMS & Docs",
-			"description": "Static site generators, CMS stacks, documentation systems, markdown pipelines, and content-oriented web tooling."
+			"description": "Authoring, managing and publishing content: static site generators, headless and traditional CMS platforms, documentation frameworks and documentation sites, markdown and MDX pipelines, blogging engines, wikis, note-taking and knowledge-base systems, digital-garden publishing, content modelling, localisation and translation workflows, and editorial or content-delivery tooling. Choose this for the machinery around content; a repository that is itself the written material belongs in Learning & Reference."
 		},
 		{
 			"id": "cloud",
 			"title": "Cloud & BaaS",
-			"description": "Cloud platforms, backend-as-a-service products, edge runtimes, hosting providers, and managed app platforms."
+			"description": "Platforms you deploy onto and the clients for them: backend-as-a-service offerings covering auth, storage, realtime and functions, serverless and edge runtimes, platform-as-a-service hosting providers, managed application platforms, their SDKs, CLIs and provider integrations, and self-hostable open-source alternatives to those hosted products. Choose this when the repository is a managed platform or its client; infrastructure and pipelines you operate yourself belong in DevOps & Infra."
 		},
 		{
 			"id": "backend",
 			"title": "Backend & APIs",
-			"description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality."
+			"description": "Server-side application code and the frameworks behind it: HTTP, RPC and GraphQL frameworks, REST and gRPC API layers, API gateways, authentication and authorization services, session and permission systems, job queues, schedulers and message brokers consumed by applications, webhook handling, microservice runtimes, and complete backend starters or reference services. Choose this for code that exposes application functionality over a network; the data stores beneath it belong in Databases & Storage and the machines running it in DevOps & Infra."
 		},
 		{
 			"id": "media",
 			"title": "Media & Creator Tools",
-			"description": "PDF, audio, video, image, OCR, downloader, and creator-focused utilities for producing, transforming, or consuming media."
+			"description": "Producing, converting and consuming media: image processing and editors, video and audio encoding, playback and streaming, PDF generation, parsing and manipulation, OCR and document extraction, screen recording, screenshots and GIF tooling, downloaders and rippers, subtitles and transcription front ends, metadata and format converters, and creator-focused editing or publishing suites. Generative models themselves belong in AI & Agents; this covers the media pipeline around them."
 		},
 		{
 			"id": "devops",
 			"title": "DevOps & Infra",
-			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling."
+			"description": "Infrastructure you run and operate: containers and orchestration including Docker, Kubernetes, operators and Helm, CI/CD systems and pipeline definitions, infrastructure-as-code and provisioning, configuration management, self-hosting and homelab stacks, reverse proxies, networking and service meshes, secrets and certificate management, plus observability and operations work - metrics, logs, tracing, alerting, uptime monitoring and incident or on-call workflows."
 		},
 		{
 			"id": "databases",
 			"title": "Databases & Storage",
-			"description": "Databases, ORMs, query layers, caches, and storage systems used to persist, model, and retrieve application data."
+			"description": "How data is persisted, modelled and retrieved: relational, document, key-value, graph, time-series, vector and embedded database engines, ORMs and query builders, schema and migration tooling, caches, object and file storage, search indexes, replication, sharding and backup systems, and database clients, drivers or admin interfaces. Choose this for the storage layer itself; analysing and reporting on what it holds belongs in Data & Analytics."
 		},
 		{
 			"id": "data",
 			"title": "Data & Analytics",
-			"description": "Databases, ETL, analytics stacks, warehouses, notebooks, metrics pipelines, and tools for structured data work."
+			"description": "Treating data as an analytical asset: ETL and ELT pipelines, workflow and pipeline orchestration, data warehouses and lakehouses, stream and batch processing, dataframe and scientific-computing stacks, notebooks and exploratory environments, business intelligence and metrics platforms, product and web analytics, experimentation, data quality, cataloguing and governance tooling, and published datasets. Choose this for moving, transforming and analysing data; the engines that store it belong in Databases & Storage and charting libraries in Data Visualization."
 		},
 		{
 			"id": "data-visualization",
 			"title": "Data Visualization",
-			"description": "Charts, graphing libraries, dashboards, diagramming tools, and projects focused on making data or structure visible."
+			"description": "Making data or structure visible: charting and plotting libraries, statistical graphics APIs, dashboard builders, diagramming, flowchart and whiteboard tools, graph and network visualization, maps and geospatial rendering, timelines, terminal-based charts, and the canvas, SVG or WebGL rendering engines built for these purposes. Choose this when producing the visual representation is the point; an analytics platform that merely ships charts as one feature belongs in Data & Analytics."
 		},
 		{
 			"id": "automation",
 			"title": "Automation & Bots",
-			"description": "Bots, scraping systems, browser automation, workflow runners, and software focused on repetitive task execution."
+			"description": "Software that carries out repetitive work unattended: chat, social and messaging bots, browser automation and headless-browser drivers, scrapers and crawlers, workflow and no-code automation runners, task schedulers and cron systems, robotic process automation, notification and webhook relays, file and system watchers, and scripted integrations that glue services together. Choose this when unattended execution is the purpose; automation driven primarily by an LLM belongs in AI & Agents."
 		},
 		{
 			"id": "security",
 			"title": "Security & Privacy",
-			"description": "Authentication, vulnerabilities, privacy-focused tooling, cryptography, offensive research, and defensive security workflows."
-		},
-		{
-			"id": "design",
-			"title": "Design & Themes",
-			"description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools."
+			"description": "Offensive and defensive security plus privacy engineering: vulnerability research, exploits and proof-of-concepts, penetration-testing and red-team tooling, CTF challenges and writeups, fuzzers and security-oriented static analysis, malware analysis and reverse engineering, cryptography libraries and protocols, secrets scanning, dependency and supply-chain security, hardening and compliance guidance, and privacy software such as VPNs, anonymity tools, encrypted messaging and tracker blocking. Authentication shipped as an ordinary application service belongs in Backend & APIs."
 		},
 		{
 			"id": "libraries",
 			"title": "Libraries & SDKs",
-			"description": "Reusable packages, frameworks, SDKs, parsers, runtimes, and lower-level building blocks used across multiple products."
+			"description": "General-purpose code you depend on rather than run: packages, frameworks and SDKs you import, language runtimes, compilers-as-libraries and language bindings, parsers, serializers and format implementations, algorithm and data-structure collections, math, date, string and validation utilities, state management, concurrency primitives, and protocol or networking clients used across many kinds of products. Choose this only when the repository is a building block and no domain-specific category describes it better."
 		},
 		{
 			"id": "cli",
 			"title": "CLI & Terminal",
-			"description": "Shell tools, terminal utilities, command-line workflows, text UIs, and scripts meant to be driven primarily from a console."
+			"description": "Software whose identity is the command line: shell utilities and modern replacements for classic coreutils, shells themselves, prompts and dotfile frameworks, terminal emulators and multiplexers, TUI frameworks and full text-user-interface applications, argument parsing and output formatting libraries, and scripts meant to be driven from a console. Choose this when the terminal is the point; a tool that merely offers a CLI alongside its main purpose belongs in its own domain category."
 		},
 		{
 			"id": "learning",
 			"title": "Learning & Reference",
-			"description": "Tutorials, example projects, awesome-lists, notes, roadmaps, boilerplates, and repositories intended primarily for learning or reference."
+			"description": "Repositories whose value is the material itself rather than software to run: tutorials, courses and books, awesome-lists and curated link collections, interview preparation and coding-challenge solutions, roadmaps, cheat sheets and study notes, specifications and reference documentation, annotated example projects and demos, and boilerplates or starter templates meant to be copied and learned from. Choose this when a reader, not a runtime, is the intended consumer."
 		},
 		{
 			"id": "misc",
 			"title": "Misc",
-			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied."
+			"description": "Everything that still does not fit once every more specific bucket has been considered: personal or one-off projects, games and toys, hardware, embedded and IoT experiments, art and creative coding, forks and mirrors without a clear purpose, and repositories too vague or too unusual to classify. Use this only as a last resort, never as a shortcut when a specific category plausibly applies."
 		}
 	]
 }
