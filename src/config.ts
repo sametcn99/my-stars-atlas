@@ -20,12 +20,10 @@ export const paths = {
 	classificationCache: new URL(".cache/jev-classifications.json", rootUrl),
 	appConfig: new URL("config/config.json", rootUrl),
 	categories: new URL("config/categories.json", rootUrl),
-	template: new URL("templates/README.hbs", rootUrl),
-	readme: new URL("README.md", rootUrl),
 };
 
-const DEFAULT_README_TITLE = "My Stars";
-const DEFAULT_README_DESCRIPTION =
+const DEFAULT_CATALOG_TITLE = "My Stars";
+const DEFAULT_CATALOG_DESCRIPTION =
 	"A generated catalog of starred GitHub repositories, grouped into stable categories.";
 const DEFAULT_README_FALLBACK_CONFIDENCE_THRESHOLD = 0.4;
 const DEFAULT_CLASSIFICATION_MODEL = "typesafe/jev-1.13";
@@ -198,9 +196,10 @@ export async function loadAppConfig(): Promise<AppConfig> {
 	const avatarUrl = `${profileUrl}.png`;
 	const classification = buildClassificationConfig(fileConfig);
 
-	const readmeTitle = fileConfig.readme?.title?.trim() || DEFAULT_README_TITLE;
-	const readmeDescription =
-		fileConfig.readme?.description?.trim() || DEFAULT_README_DESCRIPTION;
+	const catalogTitle =
+		fileConfig.catalog?.title?.trim() || DEFAULT_CATALOG_TITLE;
+	const catalogDescription =
+		fileConfig.catalog?.description?.trim() || DEFAULT_CATALOG_DESCRIPTION;
 	const siteTitle = fileConfig.site?.title?.trim() || DEFAULT_SITE_TITLE;
 	const siteUrl = (fileConfig.site?.url?.trim() || DEFAULT_SITE_URL).replace(
 		/\/$/,
@@ -229,9 +228,9 @@ export async function loadAppConfig(): Promise<AppConfig> {
 			avatarUrl,
 		},
 		classification,
-		readme: {
-			title: readmeTitle,
-			description: readmeDescription,
+		catalog: {
+			title: catalogTitle,
+			description: catalogDescription,
 		},
 		site: {
 			title: siteTitle,
@@ -298,14 +297,13 @@ export async function loadRuntimeConfig(): Promise<RuntimeConfig> {
 		app,
 		username: app.github.username,
 		dryRun: readFlag("--dry-run"),
-		stdout: readFlag("--stdout"),
 		forceRefresh: readFlag("--force") || readBooleanEnv("FORCE_REFRESH"),
 		useCache: !readFlag("--no-cache") && !readBooleanEnv("NO_CACHE"),
 		verbose: readFlag("--verbose") || readBooleanEnv("VERBOSE"),
 		limit: readNumberFlag("--limit"),
 		classification: app.classification,
-		title: app.readme.title,
-		description: app.readme.description,
+		title: app.catalog.title,
+		description: app.catalog.description,
 		githubToken: Bun.env.GITHUB_TOKEN ?? Bun.env.GH_TOKEN,
 		githubApiBaseUrl: GITHUB_API_BASE_URL,
 		apiKey,

@@ -86,7 +86,7 @@ function formatAlternatives(alternatives: JevAlternative[]): string {
 		.join(", ")}`;
 }
 
-/** Decision logs go to stderr so --stdout keeps emitting only the README. */
+/** Decision logs go to stderr, so stdout stays reserved for the run summary. */
 function log(message: string): void {
 	console.error(message);
 }

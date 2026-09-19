@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Stars Atlas App Config",
-	"description": "Application, README, site, and classification settings for the generated stars atlas.",
+	"description": "Application, catalog, site, and classification settings for the stars atlas generator.",
 	"type": "object",
 	"additionalProperties": false,
 	"properties": {
@@ -25,9 +25,9 @@
 				"readmeFallbackConfidenceThreshold": 0.4
 			}
 		},
-		"readme": {
-			"$ref": "#/$defs/readmeConfig",
-			"description": "Content settings used when regenerating the repository README."
+		"catalog": {
+			"$ref": "#/$defs/catalogConfig",
+			"description": "Title and description written into the generated catalog manifest."
 		},
 		"site": {
 			"$ref": "#/$defs/siteConfig",
@@ -145,21 +145,6 @@
 				}
 			}
 		},
-		"readmeConfig": {
-			"title": "README Config",
-			"type": "object",
-			"additionalProperties": false,
-			"properties": {
-				"title": {
-					"$ref": "#/$defs/trimmedString",
-					"description": "Top-level title used in the generated README."
-				},
-				"description": {
-					"$ref": "#/$defs/trimmedString",
-					"description": "Short summary shown near the top of the generated README."
-				}
-			}
-		},
 		"siteSeoConfig": {
 			"title": "Site SEO Config",
 			"type": "object",
@@ -237,6 +222,21 @@
 				},
 				"manifest": {
 					"$ref": "#/$defs/siteManifestConfig"
+				}
+			}
+		},
+		"catalogConfig": {
+			"title": "Catalog Config",
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"title": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Catalog title written into data/catalog.json and used by the site."
+				},
+				"description": {
+					"$ref": "#/$defs/trimmedString",
+					"description": "Short catalog summary written into data/catalog.json."
 				}
 			}
 		}

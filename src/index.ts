@@ -11,7 +11,6 @@ import {
 	fetchStarredRepositories,
 	fetchStarredRepositoryCount,
 } from "./github.ts";
-import { renderReadme } from "./render.ts";
 import type {
 	AppConfig,
 	CatalogManifest,
@@ -153,7 +152,6 @@ function buildCatalogManifest(payload: {
 	};
 }
 async function writeOutputs(payload: {
-	readme: string;
 	snapshot: StarsSnapshot;
 	catalog: CatalogManifest;
 	app: AppConfig;
@@ -169,7 +167,6 @@ async function writeOutputs(payload: {
 	const canonicalUrl =
 		payload.catalog.seo?.canonicalUrl ?? payload.app.site.url;
 
-	await Bun.write(paths.readme, payload.readme);
 	await Bun.write(
 		paths.catalog,
 		`${JSON.stringify(payload.catalog, null, 2)}\n`,
@@ -262,24 +259,8 @@ async function main(): Promise<void> {
 		recentCount: categoryConfig.recentCount,
 		app: runtimeConfig.app,
 	});
-	const readme = await renderReadme(paths.template, {
-		title: runtimeConfig.title,
-		description: runtimeConfig.description,
-		username: runtimeConfig.username,
-		generatedAt,
-		categories: classification.categories,
-		recentCount: categoryConfig.recentCount,
-		records: snapshot.items,
-		changes,
-	});
-
-	if (runtimeConfig.stdout) {
-		console.log(readme);
-	}
-
 	if (!runtimeConfig.dryRun) {
 		await writeOutputs({
-			readme,
 			snapshot,
 			catalog,
 			app: runtimeConfig.app,

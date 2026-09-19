@@ -61,7 +61,7 @@ export type AppConfigFile = {
 		username: string;
 	};
 	classification?: ClassificationConfigFile;
-	readme?: {
+	catalog?: {
 		title?: string;
 		description?: string;
 	};
@@ -134,7 +134,7 @@ export type AppConfig = {
 		avatarUrl: string;
 	};
 	classification: ClassificationConfig;
-	readme: {
+	catalog: {
 		title: string;
 		description: string;
 	};
@@ -292,7 +292,6 @@ export type RuntimeConfig = {
 	app: AppConfig;
 	username: string;
 	dryRun: boolean;
-	stdout: boolean;
 	forceRefresh: boolean;
 	useCache: boolean;
 	/** Log every individual decision instead of periodic progress. */
